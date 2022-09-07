@@ -1,0 +1,862 @@
+#text = Уважаемый господин Генеральный секретарь ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Уважаемый	уважать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	start_char=4|end_char=13	
+2	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=22	
+3	Генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=23|end_char=34	
+4	секретарь	секретарь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=35|end_char=44	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=44|end_char=45	
+
+#text = Уважаемый господин Президент Олланд ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Уважаемый	уважать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	start_char=46|end_char=55	
+2	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=56|end_char=64	
+3	Президент	Президент	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=65|end_char=74	
+4	Олланд	Олланд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=75|end_char=81	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=81|end_char=82	
+
+#text = Главы государств и правительств ! 
+#par_id = 1
+#sent_id = 3
+#speaker = В.Путин
+1	Главы	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=83|end_char=88	
+2	государств	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	start_char=89|end_char=99	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=100|end_char=101	
+4	правительств	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	conj	_	start_char=102|end_char=114	
+5	!	!	PUNCT	_	_	1	punct	_	start_char=114|end_char=115	
+
+#text = Дамы и господа ! 
+#par_id = 1
+#sent_id = 4
+#speaker = В.Путин
+1	Дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=116|end_char=120	
+2	и	и	CCONJ	_	_	3	cc	_	start_char=121|end_char=122	
+3	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=123|end_char=130	
+4	!	!	PUNCT	_	_	1	punct	_	start_char=130|end_char=131	
+
+#text = Рад возможности выступить на столь представительной конференции . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Рад	рад	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=7	
+2	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	start_char=8|end_char=19	
+3	выступить	выступить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	obl	_	start_char=20|end_char=29	
+4	на	на	ADP	_	_	7	case	_	start_char=30|end_char=32	
+5	столь	столь	ADV	_	Degree=Pos	6	obl	_	start_char=33|end_char=38	
+6	представительной	представительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=39|end_char=55	
+7	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	start_char=56|end_char=67	
+8	.	.	PUNCT	_	_	1	punct	_	start_char=67|end_char=68	
+
+#text = Конечно , изменение климата стало одним из самых серьёзных вызовов , с которыми сталкивается человечество . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Конечно	конечно	ADV	_	Degree=Pos	5	parataxis	_	start_char=4|end_char=11	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=11|end_char=12	
+3	изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=13|end_char=22	
+4	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=23|end_char=30	
+5	стало	стать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=31|end_char=36	
+6	одним	один	NUM	_	Case=Ins|Gender=Masc	5	nummod	_	start_char=37|end_char=42	
+7	из	из	ADP	_	_	10	case	_	start_char=43|end_char=45	
+8	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	start_char=46|end_char=51	
+9	серьёзных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=52|end_char=61	
+10	вызовов	вызов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=62|end_char=69	
+11	,	,	PUNCT	_	_	14	punct	_	start_char=69|end_char=70	
+12	с	с	ADP	_	_	13	case	_	start_char=71|end_char=72	
+13	которыми	который	PRON	_	Case=Ins	14	obl	_	start_char=73|end_char=81	
+14	сталкивается	сталкиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	acl:relcl	_	start_char=82|end_char=94	
+15	человечество	человечество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	start_char=95|end_char=107	
+16	.	.	PUNCT	_	_	5	punct	_	start_char=107|end_char=108	
+
+#text = Вызванные глобальным потеплением ураганы , наводнения , засуха , другие аномальные явления наносят всё более ощутимый экономический ущерб , разрушают привычную , сложившуюся среду обитания человека . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Вызванные	вызвать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=109|end_char=118	
+2	глобальным	глобальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=119|end_char=129	
+3	потеплением	потепление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	start_char=130|end_char=141	
+4	ураганы	ураган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=142|end_char=149	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=149|end_char=150	
+6	наводнения	наводнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	conj	_	start_char=151|end_char=161	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=161|end_char=162	
+8	засуха	засух	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=163|end_char=169	
+9	,	,	PUNCT	_	_	12	punct	_	start_char=169|end_char=170	
+10	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	start_char=171|end_char=177	
+11	аномальные	аномальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	start_char=178|end_char=188	
+12	явления	явление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	conj	_	start_char=189|end_char=196	
+13	наносят	наносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=197|end_char=204	
+14	всё	все	PART	_	_	15	advmod	_	start_char=205|end_char=208	
+15	более	более	ADV	_	Degree=Cmp	16	obl	_	start_char=209|end_char=214	
+16	ощутимый	ощутимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=215|end_char=223	
+17	экономический	экономический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=224|end_char=237	
+18	ущерб	ущерб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=238|end_char=243	
+19	,	,	PUNCT	_	_	20	punct	_	start_char=243|end_char=244	
+20	разрушают	разрушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	start_char=245|end_char=254	
+21	привычную	привычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=255|end_char=264	
+22	,	,	PUNCT	_	_	23	punct	_	start_char=264|end_char=265	
+23	сложившуюся	сложиться	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	21	conj	_	start_char=266|end_char=277	
+24	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=278|end_char=283	
+25	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	start_char=284|end_char=292	
+26	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	start_char=293|end_char=301	
+27	.	.	PUNCT	_	_	13	punct	_	start_char=301|end_char=302	
+
+#text = От решения климатической проблемы зависят качество жизни всех людей на планете , экономический рост и устойчивое социальное развитие целых регионов Земли . 
+#par_id = 3
+#sent_id = 3
+#speaker = В.Путин
+1	От	от	ADP	_	_	2	case	_	start_char=303|end_char=305	
+2	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	start_char=306|end_char=313	
+3	климатической	климатический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=314|end_char=327	
+4	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=328|end_char=336	
+5	зависят	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=337|end_char=344	
+6	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=345|end_char=353	
+7	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=354|end_char=359	
+8	всех	весь	DET	_	Case=Gen|Number=Plur	9	det	_	start_char=360|end_char=364	
+9	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=365|end_char=370	
+10	на	на	ADP	_	_	11	case	_	start_char=371|end_char=373	
+11	планете	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	start_char=374|end_char=381	
+12	,	,	PUNCT	_	_	14	punct	_	start_char=381|end_char=382	
+13	экономический	экономический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=383|end_char=396	
+14	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	start_char=397|end_char=401	
+15	и	и	CCONJ	_	_	18	cc	_	start_char=402|end_char=403	
+16	устойчивое	устойчивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=404|end_char=414	
+17	социальное	социальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=415|end_char=425	
+18	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	start_char=426|end_char=434	
+19	целых	целый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=435|end_char=440	
+20	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=441|end_char=449	
+21	Земли	Земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=450|end_char=455	
+22	.	.	PUNCT	_	_	5	punct	_	start_char=455|end_char=456	
+
+#text = Россия предпринимает активные шаги по решению проблемы глобального потепления . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=4|end_char=10	
+2	предпринимает	предпринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=24	
+3	активные	активный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	start_char=25|end_char=33	
+4	шаги	шаг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=34|end_char=38	
+5	по	по	ADP	_	_	6	case	_	start_char=39|end_char=41	
+6	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=42|end_char=49	
+7	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=50|end_char=58	
+8	глобального	глобальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=59|end_char=70	
+9	потепления	потепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=71|end_char=81	
+10	.	.	PUNCT	_	_	2	punct	_	start_char=81|end_char=82	
+
+#text = Наша страна вышла на одно из первых мест в мире по темпам снижения энергоёмкости экономики – 33,4 процента за период с 2000 по 2012 годы , а по итогам реализации программы « Энергоэффективность и развитие энергетики » рассчитываем добиться сокращения к 2020 году ещё на 13,5 процента . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	start_char=83|end_char=87	
+2	страна	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=88|end_char=94	
+3	вышла	выйти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=95|end_char=100	
+4	на	на	ADP	_	_	5	case	_	start_char=101|end_char=103	
+5	одно	один	NUM	_	Case=Acc|Gender=Neut	3	nummod:gov	_	start_char=104|end_char=108	
+6	из	из	ADP	_	_	8	case	_	start_char=109|end_char=111	
+7	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=112|end_char=118	
+8	мест	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	start_char=119|end_char=123	
+9	в	в	ADP	_	_	10	case	_	start_char=124|end_char=125	
+10	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	start_char=126|end_char=130	
+11	по	по	ADP	_	_	12	case	_	start_char=131|end_char=133	
+12	темпам	темп	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	start_char=134|end_char=140	
+13	снижения	снижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=141|end_char=149	
+14	энергоёмкости	энергоемкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=150|end_char=163	
+15	экономики	экономика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=164|end_char=173	
+16	–	–	PUNCT	_	_	18	punct	_	start_char=174|end_char=175	
+17	33,4	33,4	NUM	_	_	18	nummod	_	start_char=176|end_char=180	
+18	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=181|end_char=189	
+19	за	за	ADP	_	_	20	case	_	start_char=190|end_char=192	
+20	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	start_char=193|end_char=199	
+21	с	с	ADP	_	_	22	case	_	start_char=200|end_char=201	
+22	2000	2000	NUM	_	_	20	nummod	_	start_char=202|end_char=206	
+23	по	по	ADP	_	_	25	case	_	start_char=207|end_char=209	
+24	2012	2012	NUM	_	_	25	nummod	_	start_char=210|end_char=214	
+25	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obl	_	start_char=215|end_char=219	
+26	,	,	PUNCT	_	_	38	punct	_	start_char=219|end_char=220	
+27	а	а	CCONJ	_	_	38	cc	_	start_char=221|end_char=222	
+28	по	по	ADP	_	_	29	case	_	start_char=223|end_char=225	
+29	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	38	obl	_	start_char=226|end_char=232	
+30	реализации	реализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	start_char=233|end_char=243	
+31	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	start_char=244|end_char=253	
+32	«	"	PUNCT	_	_	33	punct	_	start_char=254|end_char=255	
+33	Энергоэффективность	энергоэффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	appos	_	start_char=255|end_char=274	
+34	и	и	CCONJ	_	_	35	cc	_	start_char=275|end_char=276	
+35	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	conj	_	start_char=277|end_char=285	
+36	энергетики	энергетика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	start_char=286|end_char=296	
+37	»	"	PUNCT	_	_	33	punct	_	start_char=296|end_char=297	
+38	рассчитываем	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=298|end_char=310	
+39	добиться	добиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	38	xcomp	_	start_char=311|end_char=319	
+40	сокращения	сокращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	obl	_	start_char=320|end_char=330	
+41	к	к	ADP	_	_	43	case	_	start_char=331|end_char=332	
+42	2020	2020	NUM	_	_	43	nummod	_	start_char=333|end_char=337	
+43	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	40	nmod	_	start_char=338|end_char=342	
+44	ещё	еще	ADV	_	Degree=Pos	47	obl	_	start_char=343|end_char=346	
+45	на	на	ADP	_	_	47	case	_	start_char=347|end_char=349	
+46	13,5	13,5	NUM	_	_	47	nummod	_	start_char=350|end_char=354	
+47	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	obl	_	start_char=355|end_char=363	
+48	.	.	PUNCT	_	_	3	punct	_	start_char=363|end_char=364	
+
+#text = Мы перевыполнили свои обязательства по Киотскому протоколу : с 1991 года по 2012 год Россия не только не допустила роста выбросов парниковых газов , но значительно их уменьшила . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	перевыполнили	перевыполнить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=20	
+3	свои	свой	DET	_	Case=Acc|Number=Plur	4	det	_	start_char=21|end_char=25	
+4	обязательства	обязательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=26|end_char=39	
+5	по	по	ADP	_	_	7	case	_	start_char=40|end_char=42	
+6	Киотскому	киотский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=43|end_char=52	
+7	протоколу	протокол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=53|end_char=62	
+8	:	:	PUNCT	_	_	19	punct	_	start_char=62|end_char=63	
+9	с	с	ADP	_	_	11	case	_	start_char=64|end_char=65	
+10	1991	1991	NUM	_	_	11	nummod	_	start_char=66|end_char=70	
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	start_char=71|end_char=75	
+12	по	по	ADP	_	_	14	case	_	start_char=76|end_char=78	
+13	2012	2012	NUM	_	_	14	nummod	_	start_char=79|end_char=83	
+14	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	start_char=84|end_char=87	
+15	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=88|end_char=94	
+16	не	не	PART	_	_	17	advmod	_	start_char=95|end_char=97	
+17	только	только	PART	_	_	19	advmod	_	start_char=98|end_char=104	
+18	не	не	PART	_	_	19	advmod	_	start_char=105|end_char=107	
+19	допустила	допустить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=108|end_char=117	
+20	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	start_char=118|end_char=123	
+21	выбросов	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	start_char=124|end_char=132	
+22	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	start_char=133|end_char=143	
+23	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=144|end_char=149	
+24	,	,	PUNCT	_	_	28	punct	_	start_char=149|end_char=150	
+25	но	но	CCONJ	_	_	28	cc	_	start_char=151|end_char=153	
+26	значительно	значительно	ADV	_	Degree=Pos	28	advmod	_	start_char=154|end_char=165	
+27	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	28	obj	_	start_char=166|end_char=168	
+28	уменьшила	уменьшить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	start_char=169|end_char=178	
+29	.	.	PUNCT	_	_	2	punct	_	start_char=178|end_char=179	
+
+#text = Благодаря этому в атмосферу не попало около 40 миллиардов тонн эквивалента углекислого газа . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Благодаря	благодаря	ADP	_	_	2	case	_	start_char=180|end_char=189	
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=190|end_char=195	
+3	в	в	ADP	_	_	4	case	_	start_char=196|end_char=197	
+4	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=198|end_char=207	
+5	не	не	PART	_	_	6	advmod	_	start_char=208|end_char=210	
+6	попало	попасть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=211|end_char=217	
+7	около	около	ADP	_	_	9	case	_	start_char=218|end_char=223	
+8	40	40	NUM	_	_	9	nummod	_	start_char=224|end_char=226	
+9	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	start_char=227|end_char=237	
+10	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=238|end_char=242	
+11	эквивалента	эквивалент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=243|end_char=254	
+12	углекислого	углекислый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=255|end_char=266	
+13	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=267|end_char=271	
+14	.	.	PUNCT	_	_	6	punct	_	start_char=271|end_char=272	
+
+#text = Для сравнения скажу , уважаемые коллеги , что выбросы парниковых газов всех стран мира в 2012 году составили 46 миллиардов тонн , то есть можно сказать , что усилия России позволили затормозить глобальное потепление почти на год . 
+#par_id = 5
+#sent_id = 3
+#speaker = В.Путин
+1	Для	для	ADP	_	_	2	case	_	start_char=273|end_char=276	
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=277|end_char=286	
+3	скажу	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=287|end_char=292	
+4	,	,	PUNCT	_	_	6	punct	_	start_char=292|end_char=293	
+5	уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	start_char=294|end_char=303	
+6	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=304|end_char=311	
+7	,	,	PUNCT	_	_	18	punct	_	start_char=311|end_char=312	
+8	что	что	SCONJ	_	_	18	mark	_	start_char=313|end_char=316	
+9	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=317|end_char=324	
+10	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=325|end_char=335	
+11	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=336|end_char=341	
+12	всех	весь	DET	_	Case=Gen|Number=Plur	13	det	_	start_char=342|end_char=346	
+13	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=347|end_char=352	
+14	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=353|end_char=357	
+15	в	в	ADP	_	_	17	case	_	start_char=358|end_char=359	
+16	2012	2012	NUM	_	_	17	nummod	_	start_char=360|end_char=364	
+17	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	start_char=365|end_char=369	
+18	составили	составить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=370|end_char=379	
+19	46	46	NUM	_	_	20	nummod	_	start_char=380|end_char=382	
+20	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	start_char=383|end_char=393	
+21	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	start_char=394|end_char=398	
+22	,	,	PUNCT	_	_	25	punct	_	start_char=398|end_char=399	
+23	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	mark	_	start_char=400|end_char=402	
+24	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	fixed	_	start_char=403|end_char=407	
+25	можно	можно	ADV	_	Degree=Pos	18	parataxis	_	start_char=408|end_char=413	
+26	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	csubj	_	start_char=414|end_char=421	
+27	,	,	PUNCT	_	_	31	punct	_	start_char=421|end_char=422	
+28	что	что	SCONJ	_	_	31	mark	_	start_char=423|end_char=426	
+29	усилия	усилие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	31	nsubj	_	start_char=427|end_char=433	
+30	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	start_char=434|end_char=440	
+31	позволили	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	ccomp	_	start_char=441|end_char=450	
+32	затормозить	затормозить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	xcomp	_	start_char=451|end_char=462	
+33	глобальное	глобальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	start_char=463|end_char=473	
+34	потепление	потепление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	start_char=474|end_char=484	
+35	почти	почти	ADV	_	Degree=Pos	37	obl	_	start_char=485|end_char=490	
+36	на	на	ADP	_	_	37	case	_	start_char=491|end_char=493	
+37	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obl	_	start_char=494|end_char=497	
+38	.	.	PUNCT	_	_	3	punct	_	start_char=497|end_char=498	
+
+#text = C 1991 года по 2012 год Россия не только не допустила роста выбросов парниковых газов , но значительно их уменьшила . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	C	C	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=4|end_char=5	
+2	1991	1991	NUM	_	_	3	nummod	_	start_char=6|end_char=10	
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=15	
+4	по	по	ADP	_	_	6	case	_	start_char=16|end_char=18	
+5	2012	2012	NUM	_	_	6	nummod	_	start_char=19|end_char=23	
+6	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=24|end_char=27	
+7	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=28|end_char=34	
+8	не	не	PART	_	_	9	advmod	_	start_char=35|end_char=37	
+9	только	только	PART	_	_	10	advmod	_	start_char=38|end_char=44	
+10	не	не	PART	_	_	11	advmod	_	start_char=45|end_char=47	
+11	допустила	допустить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=48|end_char=57	
+12	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	start_char=58|end_char=63	
+13	выбросов	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=64|end_char=72	
+14	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=73|end_char=83	
+15	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=84|end_char=89	
+16	,	,	PUNCT	_	_	20	punct	_	start_char=89|end_char=90	
+17	но	но	CCONJ	_	_	20	cc	_	start_char=91|end_char=93	
+18	значительно	значительно	ADV	_	Degree=Pos	20	advmod	_	start_char=94|end_char=105	
+19	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	20	obj	_	start_char=106|end_char=108	
+20	уменьшила	уменьшить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	start_char=109|end_char=118	
+21	.	.	PUNCT	_	_	11	punct	_	start_char=118|end_char=119	
+
+#text = Это удалось за счёт модернизации экономики , внедрения экологически чистых и энергосберегающих технологий . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=120|end_char=123	
+2	удалось	удаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=124|end_char=131	
+3	за	за	ADP	_	_	4	case	_	start_char=132|end_char=134	
+4	счёт	счёт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=135|end_char=139	
+5	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=140|end_char=152	
+6	экономики	экономика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=153|end_char=162	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=162|end_char=163	
+8	внедрения	внедрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	start_char=164|end_char=173	
+9	экологически	экологически	ADV	_	Degree=Pos	10	obl	_	start_char=174|end_char=186	
+10	чистых	чистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=187|end_char=193	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=194|end_char=195	
+12	энергосберегающих	энергосберегающий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	conj	_	start_char=196|end_char=213	
+13	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=214|end_char=224	
+14	.	.	PUNCT	_	_	2	punct	_	start_char=224|end_char=225	
+
+#text = Заметно снизить парниковую эмиссию нам удалось за счёт модернизации экономики , внедрения экологически чистых и энергосберегающих технологий , причём одновременно мы смогли практически удвоить ВВП страны за то же время . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Заметно	заметно	ADV	_	Degree=Pos	2	advmod	_	start_char=4|end_char=11	
+2	снизить	снизить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	csubj	_	start_char=12|end_char=19	
+3	парниковую	парниковый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=20|end_char=30	
+4	эмиссию	эмиссия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=31|end_char=38	
+5	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	6	iobj	_	start_char=39|end_char=42	
+6	удалось	удаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=43|end_char=50	
+7	за	за	ADP	_	_	8	case	_	start_char=51|end_char=53	
+8	счёт	счёт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=54|end_char=58	
+9	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=59|end_char=71	
+10	экономики	экономика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=72|end_char=81	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=81|end_char=82	
+12	внедрения	внедрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	conj	_	start_char=83|end_char=92	
+13	экологически	экологически	ADV	_	Degree=Pos	14	obl	_	start_char=93|end_char=105	
+14	чистых	чистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=106|end_char=112	
+15	и	и	CCONJ	_	_	16	cc	_	start_char=113|end_char=114	
+16	энергосберегающих	энергосберегающий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	conj	_	start_char=115|end_char=132	
+17	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=133|end_char=143	
+18	,	,	PUNCT	_	_	22	punct	_	start_char=143|end_char=144	
+19	причём	причём	ADV	_	Degree=Pos	22	advmod	_	start_char=145|end_char=151	
+20	одновременно	одновременно	ADV	_	Degree=Pos	22	advmod	_	start_char=152|end_char=164	
+21	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	22	nsubj	_	start_char=165|end_char=167	
+22	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=168|end_char=174	
+23	практически	практически	ADV	_	Degree=Pos	24	advmod	_	start_char=175|end_char=186	
+24	удвоить	удвоить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	start_char=187|end_char=194	
+25	ВВП	ВВП	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=195|end_char=198	
+26	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	start_char=199|end_char=205	
+27	за	за	ADP	_	_	30	case	_	start_char=206|end_char=208	
+28	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	30	det	_	start_char=209|end_char=211	
+29	же	же	PART	_	_	28	advmod	_	start_char=212|end_char=214	
+30	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obl	_	start_char=215|end_char=220	
+31	.	.	PUNCT	_	_	6	punct	_	start_char=220|end_char=221	
+
+#text = Хочу сказать этим , что вполне возможно уделять необходимое внимание развитию , обеспечивать развитие и заботиться о природе . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=222|end_char=226	
+2	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=227|end_char=234	
+3	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	start_char=235|end_char=239	
+4	,	,	PUNCT	_	_	7	punct	_	start_char=239|end_char=240	
+5	что	что	SCONJ	_	_	7	mark	_	start_char=241|end_char=244	
+6	вполне	вполне	ADV	_	Degree=Pos	7	obl	_	start_char=245|end_char=251	
+7	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	ccomp	_	start_char=252|end_char=260	
+8	уделять	уделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	csubj	_	start_char=261|end_char=268	
+9	необходимое	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=269|end_char=280	
+10	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=281|end_char=289	
+11	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	iobj	_	start_char=290|end_char=298	
+12	,	,	PUNCT	_	_	13	punct	_	start_char=298|end_char=299	
+13	обеспечивать	обеспечивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	conj	_	start_char=300|end_char=312	
+14	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=313|end_char=321	
+15	и	и	CCONJ	_	_	16	cc	_	start_char=322|end_char=323	
+16	заботиться	заботиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	conj	_	start_char=324|end_char=334	
+17	о	о	ADP	_	_	18	case	_	start_char=335|end_char=336	
+18	природе	природа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	start_char=337|end_char=344	
+19	.	.	PUNCT	_	_	1	punct	_	start_char=344|end_char=345	
+
+#text = Считаем принципиально важным , чтобы новое климатическое соглашение основывалось на принципах Рамочной конвенции ООН об изменении климата и имело юридически обязывающий характер , а в его реализации участвовали и развитые , и развивающиеся экономики . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Считаем	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=11	
+2	принципиально	принципиально	ADV	_	Degree=Pos	3	obl	_	start_char=12|end_char=25	
+3	важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	1	obl	_	start_char=26|end_char=32	
+4	,	,	PUNCT	_	_	9	punct	_	start_char=32|end_char=33	
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	start_char=34|end_char=39	
+6	новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=40|end_char=45	
+7	климатическое	климатический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=46|end_char=59	
+8	соглашение	соглашение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=60|end_char=70	
+9	основывалось	основывать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	ccomp	_	start_char=71|end_char=83	
+10	на	на	ADP	_	_	11	case	_	start_char=84|end_char=86	
+11	принципах	принцип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	start_char=87|end_char=96	
+12	Рамочной	рамочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=97|end_char=105	
+13	конвенции	конвенция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=106|end_char=115	
+14	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=116|end_char=119	
+15	об	о	ADP	_	_	16	case	_	start_char=120|end_char=122	
+16	изменении	изменение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	start_char=123|end_char=132	
+17	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=133|end_char=140	
+18	и	и	CCONJ	_	_	19	cc	_	start_char=141|end_char=142	
+19	имело	иметь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=143|end_char=148	
+20	юридически	юридически	ADV	_	Degree=Pos	21	advmod	_	start_char=149|end_char=159	
+21	обязывающий	обязывать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	acl	_	start_char=160|end_char=171	
+22	характер	характер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=172|end_char=180	
+23	,	,	PUNCT	_	_	28	punct	_	start_char=180|end_char=181	
+24	а	а	CCONJ	_	_	28	cc	_	start_char=182|end_char=183	
+25	в	в	ADP	_	_	27	case	_	start_char=184|end_char=185	
+26	его	его	DET	_	_	27	det	_	start_char=186|end_char=189	
+27	реализации	реализация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	start_char=190|end_char=200	
+28	участвовали	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=201|end_char=212	
+29	и	и	PART	_	_	30	cc	_	start_char=213|end_char=214	
+30	развитые	развитый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	start_char=215|end_char=223	
+31	,	,	PUNCT	_	_	33	punct	_	start_char=223|end_char=224	
+32	и	и	CCONJ	_	_	33	cc	_	start_char=225|end_char=226	
+33	развивающиеся	развиваться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	30	conj	_	start_char=227|end_char=240	
+34	экономики	экономика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	start_char=241|end_char=250	
+35	.	.	PUNCT	_	_	1	punct	_	start_char=250|end_char=251	
+
+#text = Мы исходим из того , что оно должно быть всеобъемлющим , эффективным , равноправным . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=252|end_char=254	
+2	исходим	исходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=255|end_char=262	
+3	из	из	ADP	_	_	4	case	_	start_char=263|end_char=265	
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=266|end_char=270	
+5	,	,	PUNCT	_	_	8	punct	_	start_char=270|end_char=271	
+6	что	что	SCONJ	_	_	8	mark	_	start_char=272|end_char=275	
+7	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	8	nsubj	_	start_char=276|end_char=279	
+8	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	acl	_	start_char=280|end_char=286	
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	cop	_	start_char=287|end_char=291	
+10	всеобъемлющим	всеобъемлющий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	xcomp	_	start_char=292|end_char=305	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=305|end_char=306	
+12	эффективным	эффективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	start_char=307|end_char=318	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=318|end_char=319	
+14	равноправным	равноправный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	start_char=320|end_char=332	
+15	.	.	PUNCT	_	_	2	punct	_	start_char=332|end_char=333	
+
+#text = Поддерживаем долгосрочную цель нового соглашения – ограничить рост глобальной температуры к концу XXI века пределами в два градуса Цельсия . 
+#par_id = 8
+#sent_id = 3
+#speaker = В.Путин
+1	Поддерживаем	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=334|end_char=346	
+2	долгосрочную	долгосрочный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=347|end_char=359	
+3	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=360|end_char=364	
+4	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=365|end_char=371	
+5	соглашения	соглашение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=372|end_char=382	
+6	–	–	PUNCT	_	_	7	punct	_	start_char=383|end_char=384	
+7	ограничить	ограничить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	start_char=385|end_char=395	
+8	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=396|end_char=400	
+9	глобальной	глобальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=401|end_char=411	
+10	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=412|end_char=423	
+11	к	к	ADP	_	_	12	case	_	start_char=424|end_char=425	
+12	концу	конец	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=426|end_char=431	
+13	XXI	xxi	NUM	_	_	14	nummod	_	start_char=432|end_char=435	
+14	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=436|end_char=440	
+15	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	start_char=441|end_char=450	
+16	в	в	ADP	_	_	18	case	_	start_char=451|end_char=452	
+17	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	18	nummod:gov	_	start_char=453|end_char=456	
+18	градуса	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=457|end_char=464	
+19	Цельсия	Цельсия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=465|end_char=472	
+20	.	.	PUNCT	_	_	1	punct	_	start_char=472|end_char=473	
+
+#text = Россия продолжит вносить вклад в совместные усилия по предотвращению глобального потепления . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=4|end_char=10	
+2	продолжит	продолжить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=20	
+3	вносить	вносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=21|end_char=28	
+4	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=29|end_char=34	
+5	в	в	ADP	_	_	7	case	_	start_char=35|end_char=36	
+6	совместные	совместный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	start_char=37|end_char=47	
+7	усилия	усилие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=48|end_char=54	
+8	по	по	ADP	_	_	9	case	_	start_char=55|end_char=57	
+9	предотвращению	предотвращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=58|end_char=72	
+10	глобального	глобальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=73|end_char=84	
+11	потепления	потепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=85|end_char=95	
+12	.	.	PUNCT	_	_	2	punct	_	start_char=95|end_char=96	
+
+#text = К 2030 году рассчитываем уменьшить выбросы парниковых газов до 70 процентов от базового уровня 1990 года . 
+#par_id = 9
+#sent_id = 2
+#speaker = В.Путин
+1	К	к	ADP	_	_	3	case	_	start_char=97|end_char=98	
+2	2030	2030	NUM	_	_	3	nummod	_	start_char=99|end_char=103	
+3	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=104|end_char=108	
+4	рассчитываем	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=109|end_char=121	
+5	уменьшить	уменьшить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=122|end_char=131	
+6	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=132|end_char=139	
+7	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=140|end_char=150	
+8	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=151|end_char=156	
+9	до	до	ADP	_	_	11	case	_	start_char=157|end_char=159	
+10	70	70	NUM	_	_	11	nummod	_	start_char=160|end_char=162	
+11	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=163|end_char=172	
+12	от	от	ADP	_	_	14	case	_	start_char=173|end_char=175	
+13	базового	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=176|end_char=184	
+14	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=185|end_char=191	
+15	1990	1990	NUM	_	_	16	nummod	_	start_char=192|end_char=196	
+16	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=197|end_char=201	
+17	.	.	PUNCT	_	_	4	punct	_	start_char=201|end_char=202	
+
+#text = Будем добиваться этого в том числе за счёт прорывных решений в сфере энергосбережения , за счёт новых нанотехнологий . 
+#par_id = 9
+#sent_id = 3
+#speaker = В.Путин
+1	Будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=203|end_char=208	
+2	добиваться	добиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	start_char=209|end_char=219	
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=220|end_char=225	
+4	в	в	ADP	_	_	6	case	_	start_char=226|end_char=227	
+5	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	6	det	_	start_char=228|end_char=231	
+6	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	start_char=232|end_char=237	
+7	за	за	ADP	_	_	8	case	_	start_char=238|end_char=240	
+8	счёт	счёт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=241|end_char=245	
+9	прорывных	прорывный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=246|end_char=255	
+10	решений	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	start_char=256|end_char=263	
+11	в	в	ADP	_	_	12	case	_	start_char=264|end_char=265	
+12	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	start_char=266|end_char=271	
+13	энергосбережения	энергосбережение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=272|end_char=288	
+14	,	,	PUNCT	_	_	16	punct	_	start_char=288|end_char=289	
+15	за	за	ADP	_	_	16	case	_	start_char=290|end_char=292	
+16	счёт	счёт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	start_char=293|end_char=297	
+17	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	start_char=298|end_char=303	
+18	нанотехнологий	нанотехнология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=304|end_char=318	
+19	.	.	PUNCT	_	_	2	punct	_	start_char=318|end_char=319	
+
+#text = Например , Россией разработана технология использования добавок на основе углеродных нанотрубок . 
+#par_id = 9
+#sent_id = 4
+#speaker = В.Путин
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	start_char=320|end_char=328	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=328|end_char=329	
+3	Россией	Россия	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	start_char=330|end_char=337	
+4	разработана	разработать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=338|end_char=349	
+5	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=350|end_char=360	
+6	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=361|end_char=374	
+7	добавок	добавка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=375|end_char=382	
+8	на	на	ADP	_	_	9	case	_	start_char=383|end_char=385	
+9	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	start_char=386|end_char=392	
+10	углеродных	углеродный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=393|end_char=403	
+11	нанотрубок	нанотрубок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=404|end_char=414	
+12	.	.	PUNCT	_	_	4	punct	_	start_char=414|end_char=415	
+
+#text = По оценкам экспертов , применение этой технологии только в России снизит эмиссию углекислого газа к 2030 году на 160 – 180 миллионов тонн . 
+#par_id = 9
+#sent_id = 5
+#speaker = В.Путин
+1	По	по	ADP	_	_	2	case	_	start_char=416|end_char=418	
+2	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	parataxis	_	start_char=419|end_char=426	
+3	экспертов	эксперт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=427|end_char=436	
+4	,	,	PUNCT	_	_	2	punct	_	start_char=436|end_char=437	
+5	применение	применение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=438|end_char=448	
+6	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	det	_	start_char=449|end_char=453	
+7	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=454|end_char=464	
+8	только	только	PART	_	_	10	advmod	_	start_char=465|end_char=471	
+9	в	в	ADP	_	_	10	case	_	start_char=472|end_char=473	
+10	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=474|end_char=480	
+11	снизит	снизить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=481|end_char=487	
+12	эмиссию	эмиссия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=488|end_char=495	
+13	углекислого	углекислый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=496|end_char=507	
+14	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=508|end_char=512	
+15	к	к	ADP	_	_	17	case	_	start_char=513|end_char=514	
+16	2030	2030	NUM	_	_	17	nummod	_	start_char=515|end_char=519	
+17	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=520|end_char=524	
+18	на	на	ADP	_	_	22	case	_	start_char=525|end_char=527	
+19	160	160	NUM	_	_	22	nummod	_	start_char=528|end_char=531	
+20	–	–	PUNCT	_	_	21	punct	_	start_char=531|end_char=532	
+21	180	180	NUM	_	_	19	nummod	_	start_char=532|end_char=535	
+22	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	start_char=536|end_char=545	
+23	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	start_char=546|end_char=550	
+24	.	.	PUNCT	_	_	11	punct	_	start_char=550|end_char=551	
+
+#text = Конечно , мы готовы к взаимному обмену подобными разработками . 
+#par_id = 9
+#sent_id = 6
+#speaker = В.Путин
+1	Конечно	конечно	ADV	_	Degree=Pos	4	parataxis	_	start_char=552|end_char=559	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=559|end_char=560	
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	start_char=561|end_char=563	
+4	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=564|end_char=570	
+5	к	к	ADP	_	_	7	case	_	start_char=571|end_char=572	
+6	взаимному	взаимный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=573|end_char=582	
+7	обмену	обмен	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=583|end_char=589	
+8	подобными	подобный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	start_char=590|end_char=599	
+9	разработками	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	start_char=600|end_char=612	
+10	.	.	PUNCT	_	_	4	punct	_	start_char=612|end_char=613	
+
+#text = Далее . 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	Далее	далее	ADV	_	Degree=Pos	0	root	_	start_char=4|end_char=9	
+2	.	.	PUNCT	_	_	1	punct	_	start_char=9|end_char=10	
+
+#text = В новом соглашении должна быть зафиксирована важная роль лесов как основных поглотителей парниковых газов . 
+#par_id = 10
+#sent_id = 2
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=11|end_char=12	
+2	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=13|end_char=18	
+3	соглашении	соглашение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=19|end_char=29	
+4	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=30|end_char=36	
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	aux:pass	_	start_char=37|end_char=41	
+6	зафиксирована	фиксировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	xcomp	_	start_char=42|end_char=55	
+7	важная	важный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=56|end_char=62	
+8	роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=63|end_char=67	
+9	лесов	лес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=68|end_char=73	
+10	как	как	SCONJ	_	_	12	mark	_	start_char=74|end_char=77	
+11	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=78|end_char=86	
+12	поглотителей	поглотитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	acl	_	start_char=87|end_char=99	
+13	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=100|end_char=110	
+14	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=111|end_char=116	
+15	.	.	PUNCT	_	_	4	punct	_	start_char=116|end_char=117	
+
+#text = Для России , которая обладает колоссальными лесными ресурсами и многое делает для сохранения « лёгких » планеты , это особенно важно . 
+#par_id = 10
+#sent_id = 3
+#speaker = В.Путин
+1	Для	для	ADP	_	_	2	case	_	start_char=118|end_char=121	
+2	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	start_char=122|end_char=128	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=128|end_char=129	
+4	которая	который	PRON	_	Case=Nom	5	nsubj	_	start_char=130|end_char=137	
+5	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=138|end_char=146	
+6	колоссальными	колоссальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	start_char=147|end_char=160	
+7	лесными	лесной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	start_char=161|end_char=168	
+8	ресурсами	ресурс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	start_char=169|end_char=178	
+9	и	и	CCONJ	_	_	11	cc	_	start_char=179|end_char=180	
+10	многое	многое	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=181|end_char=187	
+11	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=188|end_char=194	
+12	для	для	ADP	_	_	13	case	_	start_char=195|end_char=198	
+13	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	start_char=199|end_char=209	
+14	«	"	PUNCT	_	_	15	punct	_	start_char=210|end_char=211	
+15	лёгких	легкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=211|end_char=217	
+16	»	"	PUNCT	_	_	15	punct	_	start_char=217|end_char=218	
+17	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=219|end_char=226	
+18	,	,	PUNCT	_	_	2	punct	_	start_char=226|end_char=227	
+19	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	start_char=228|end_char=231	
+20	особенно	особенно	ADV	_	Degree=Pos	21	obl	_	start_char=232|end_char=240	
+21	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=241|end_char=246	
+22	.	.	PUNCT	_	_	21	punct	_	start_char=246|end_char=247	
+
+#text = К 2030 году рассчитываем уменьшить выбросы парниковых газов до 70 процентов от базового уровня 1990 года . 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	К	к	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	2030	2030	NUM	_	_	3	nummod	_	start_char=6|end_char=10	
+3	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=11|end_char=15	
+4	рассчитываем	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=28	
+5	уменьшить	уменьшить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=29|end_char=38	
+6	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=39|end_char=46	
+7	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=47|end_char=57	
+8	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=58|end_char=63	
+9	до	до	ADP	_	_	11	case	_	start_char=64|end_char=66	
+10	70	70	NUM	_	_	11	nummod	_	start_char=67|end_char=69	
+11	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=70|end_char=79	
+12	от	от	ADP	_	_	14	case	_	start_char=80|end_char=82	
+13	базового	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=83|end_char=91	
+14	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=92|end_char=98	
+15	1990	1990	NUM	_	_	16	nummod	_	start_char=99|end_char=103	
+16	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=104|end_char=108	
+17	.	.	PUNCT	_	_	4	punct	_	start_char=108|end_char=109	
+
+#text = Принципиальное значение имеет поддержка усилий развивающихся государств по сокращению вредных выбросов . 
+#par_id = 12
+#sent_id = 1
+#speaker = В.Путин
+1	Принципиальное	принципиальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=4|end_char=18	
+2	значение	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=19|end_char=27	
+3	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=28|end_char=33	
+4	поддержка	поддержка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=34|end_char=43	
+5	усилий	усилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	start_char=44|end_char=50	
+6	развивающихся	развиваться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	start_char=51|end_char=64	
+7	государств	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	start_char=65|end_char=75	
+8	по	по	ADP	_	_	9	case	_	start_char=76|end_char=78	
+9	сокращению	сокращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=79|end_char=89	
+10	вредных	вредный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=90|end_char=97	
+11	выбросов	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=98|end_char=106	
+12	.	.	PUNCT	_	_	3	punct	_	start_char=106|end_char=107	
+
+#text = Россия также планирует оказывать финансовую и иную помощь этим странам , используя соответствующие механизмы Организации Объединённых Наций . 
+#par_id = 12
+#sent_id = 2
+#speaker = В.Путин
+1	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=108|end_char=114	
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=115|end_char=120	
+3	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=121|end_char=130	
+4	оказывать	оказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=131|end_char=140	
+5	финансовую	финансовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=141|end_char=151	
+6	и	и	CCONJ	_	_	7	cc	_	start_char=152|end_char=153	
+7	иную	иной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=154|end_char=158	
+8	помощь	помощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=159|end_char=165	
+9	этим	этот	DET	_	Case=Dat|Number=Plur	10	det	_	start_char=166|end_char=170	
+10	странам	страна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	iobj	_	start_char=171|end_char=178	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=178|end_char=179	
+12	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	start_char=180|end_char=189	
+13	соответствующие	соответствующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	start_char=190|end_char=205	
+14	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	start_char=206|end_char=215	
+15	Организации	Организация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=216|end_char=227	
+16	Объединённых	объединить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	start_char=228|end_char=240	
+17	Наций	Нация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	start_char=241|end_char=246	
+18	.	.	PUNCT	_	_	3	punct	_	start_char=246|end_char=247	
+
+#text = И ещё один важный момент . 
+#par_id = 13
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	5	cc	_	start_char=4|end_char=5	
+2	ещё	еще	ADV	_	Degree=Pos	3	advmod	_	start_char=6|end_char=9	
+3	один	один	NUM	_	Case=Nom|Gender=Masc	5	nummod:gov	_	start_char=10|end_char=14	
+4	важный	важный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=15|end_char=21	
+5	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=28	
+6	.	.	PUNCT	_	_	5	punct	_	start_char=28|end_char=29	
+
+#text = В своём выступлении на 70-й сессии Генеральной Ассамблеи ООН уже отмечал , что к климатической проблеме нужно подходить комплексно . 
+#par_id = 13
+#sent_id = 2
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=30|end_char=31	
+2	своём	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	3	det	_	start_char=32|end_char=37	
+3	выступлении	выступление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	start_char=38|end_char=49	
+4	на	на	ADP	_	_	6	case	_	start_char=50|end_char=52	
+5	70-й	70-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=53|end_char=57	
+6	сессии	сессия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	start_char=58|end_char=64	
+7	Генеральной	генеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=65|end_char=76	
+8	Ассамблеи	Ассамблея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=77|end_char=86	
+9	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=87|end_char=90	
+10	уже	уже	ADV	_	Degree=Pos	11	advmod	_	start_char=91|end_char=94	
+11	отмечал	отмечать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=95|end_char=102	
+12	,	,	PUNCT	_	_	17	punct	_	start_char=102|end_char=103	
+13	что	что	SCONJ	_	_	17	mark	_	start_char=104|end_char=107	
+14	к	к	ADP	_	_	16	case	_	start_char=108|end_char=109	
+15	климатической	климатический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=110|end_char=123	
+16	проблеме	проблема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	start_char=124|end_char=132	
+17	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	ccomp	_	start_char=133|end_char=138	
+18	подходить	подходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	csubj	_	start_char=139|end_char=148	
+19	комплексно	комплексно	ADV	_	Degree=Pos	18	advmod	_	start_char=149|end_char=159	
+20	.	.	PUNCT	_	_	11	punct	_	start_char=159|end_char=160	
+
+#text = В этой связи хотел бы подтвердить наше предложение провести под эгидой ООН научный форум , в ходе которого обсудить проблемы , связанные не только с изменением климата , но и исчерпанием природных ресурсов , деградацией среды обитания человека . 
+#par_id = 13
+#sent_id = 3
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=161|end_char=162	
+2	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	3	det	_	start_char=163|end_char=167	
+3	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=168|end_char=173	
+4	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=174|end_char=179	
+5	бы	бы	AUX	_	_	4	aux	_	start_char=180|end_char=182	
+6	подтвердить	подтвердить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=183|end_char=194	
+7	наше	наш	DET	_	Case=Acc|Gender=Neut|Number=Sing	8	det	_	start_char=195|end_char=199	
+8	предложение	предложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=200|end_char=211	
+9	провести	провести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	obl	_	start_char=212|end_char=220	
+10	под	под	ADP	_	_	11	case	_	start_char=221|end_char=224	
+11	эгидой	эгида	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	start_char=225|end_char=231	
+12	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=232|end_char=235	
+13	научный	научный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=236|end_char=243	
+14	форум	форум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=244|end_char=249	
+15	,	,	PUNCT	_	_	19	punct	_	start_char=249|end_char=250	
+16	в	в	ADP	_	_	18	case	_	start_char=251|end_char=252	
+17	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	fixed	_	start_char=253|end_char=257	
+18	которого	который	PRON	_	Case=Gen	19	obl	_	start_char=258|end_char=266	
+19	обсудить	обсудить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	acl:relcl	_	start_char=267|end_char=275	
+20	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=276|end_char=284	
+21	,	,	PUNCT	_	_	22	punct	_	start_char=284|end_char=285	
+22	связанные	связать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	start_char=286|end_char=295	
+23	не	не	PART	_	_	24	advmod	_	start_char=296|end_char=298	
+24	только	только	PART	_	_	26	advmod	_	start_char=299|end_char=305	
+25	с	с	ADP	_	_	26	case	_	start_char=306|end_char=307	
+26	изменением	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	start_char=308|end_char=318	
+27	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	start_char=319|end_char=326	
+28	,	,	PUNCT	_	_	31	punct	_	start_char=326|end_char=327	
+29	но	но	CCONJ	_	_	31	cc	_	start_char=328|end_char=330	
+30	и	и	PART	_	_	29	advmod	_	start_char=331|end_char=332	
+31	исчерпанием	исчерпание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	conj	_	start_char=333|end_char=344	
+32	природных	природный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	start_char=345|end_char=354	
+33	ресурсов	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	start_char=355|end_char=363	
+34	,	,	PUNCT	_	_	35	punct	_	start_char=363|end_char=364	
+35	деградацией	деградация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	conj	_	start_char=365|end_char=376	
+36	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	start_char=377|end_char=382	
+37	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	start_char=383|end_char=391	
+38	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	start_char=392|end_char=400	
+39	.	.	PUNCT	_	_	4	punct	_	start_char=400|end_char=401	
+
+#text = Уважаемые дамы и господа ! 
+#par_id = 14
+#sent_id = 1
+#speaker = В.Путин
+1	Уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=4|end_char=13	
+2	дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=14|end_char=18	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=19|end_char=20	
+4	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=21|end_char=28	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=28|end_char=29	
+
+#text = Рассчитываем , что совместными усилиями мы сможем добиться выработки нового климатического соглашения , которое придёт на смену Киотскому протоколу , будет служить интересам всех государств и народов после 2020 года . 
+#par_id = 14
+#sent_id = 2
+#speaker = В.Путин
+1	Рассчитываем	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=30|end_char=42	
+2	,	,	PUNCT	_	_	7	punct	_	start_char=42|end_char=43	
+3	что	что	SCONJ	_	_	7	mark	_	start_char=44|end_char=47	
+4	совместными	совместный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	start_char=48|end_char=59	
+5	усилиями	усилие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	obl	_	start_char=60|end_char=68	
+6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	start_char=69|end_char=71	
+7	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=72|end_char=78	
+8	добиться	добиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	start_char=79|end_char=87	
+9	выработки	выработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	start_char=88|end_char=97	
+10	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=98|end_char=104	
+11	климатического	климатический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=105|end_char=119	
+12	соглашения	соглашение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=120|end_char=130	
+13	,	,	PUNCT	_	_	15	punct	_	start_char=130|end_char=131	
+14	которое	который	PRON	_	Case=Nom	15	nsubj	_	start_char=132|end_char=139	
+15	придёт	прийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	start_char=140|end_char=146	
+16	на	на	ADP	_	_	17	case	_	start_char=147|end_char=149	
+17	смену	смена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=150|end_char=155	
+18	Киотскому	киотский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=156|end_char=165	
+19	протоколу	протокол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	start_char=166|end_char=175	
+20	,	,	PUNCT	_	_	22	punct	_	start_char=175|end_char=176	
+21	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	start_char=177|end_char=182	
+22	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	start_char=183|end_char=190	
+23	интересам	интерес	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	22	iobj	_	start_char=191|end_char=200	
+24	всех	весь	DET	_	Case=Gen|Number=Plur	25	det	_	start_char=201|end_char=205	
+25	государств	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	start_char=206|end_char=216	
+26	и	и	CCONJ	_	_	27	cc	_	start_char=217|end_char=218	
+27	народов	народ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	conj	_	start_char=219|end_char=226	
+28	после	после	ADP	_	_	30	case	_	start_char=227|end_char=232	
+29	2020	2020	NUM	_	_	30	nummod	_	start_char=233|end_char=237	
+30	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	start_char=238|end_char=242	
+31	.	.	PUNCT	_	_	1	punct	_	start_char=242|end_char=243	
+
+#text = Благодарю вас за внимание . 
+#par_id = 15
+#sent_id = 1
+#speaker = В.Путин
+1	Благодарю	благодать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=13	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	1	obj	_	start_char=14|end_char=17	
+3	за	за	ADP	_	_	4	case	_	start_char=18|end_char=20	
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=21|end_char=29	
+5	.	.	PUNCT	_	_	1	punct	_	start_char=29|end_char=30	
+

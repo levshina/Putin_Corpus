@@ -1,0 +1,239 @@
+#text = Дорогие юные спортсмены , любители шахмат ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=4|end_char=11	
+2	юные	юный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=12|end_char=16	
+3	спортсмены	спортсмен	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=17|end_char=27	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=27|end_char=28	
+5	любители	любитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	start_char=29|end_char=37	
+6	шахмат	шахматы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=38|end_char=44	
+7	!	!	PUNCT	_	_	3	punct	_	start_char=44|end_char=45	
+
+#text = Добрый день ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Добрый	добрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=46|end_char=52	
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=53|end_char=57	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=57|end_char=58	
+
+#text = Искренне рад поприветствовать всех участников финала « Белой ладьи » . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Искренне	искренне	ADV	_	Degree=Pos	2	advmod	_	start_char=4|end_char=12	
+2	рад	рад	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=13|end_char=16	
+3	поприветствовать	поприветствовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=17|end_char=33	
+4	всех	весь	DET	_	Case=Acc|Number=Plur	5	det	_	start_char=34|end_char=38	
+5	участников	участник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=39|end_char=49	
+6	финала	финал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=50|end_char=56	
+7	«	"	PUNCT	_	_	9	punct	_	start_char=57|end_char=58	
+8	Белой	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=58|end_char=63	
+9	ладьи	ладья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=64|end_char=69	
+10	»	"	PUNCT	_	_	9	punct	_	start_char=69|end_char=70	
+11	.	.	PUNCT	_	_	2	punct	_	start_char=70|end_char=71	
+
+#text = Её юбилейный , 45-й турнир проходит в олимпийском Сочи . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	Её	ее	DET	_	_	5	det	_	start_char=72|end_char=74	
+2	юбилейный	юбилейный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=75|end_char=84	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=84|end_char=85	
+4	45-й	45-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	start_char=86|end_char=90	
+5	турнир	турнир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=91|end_char=97	
+6	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=98|end_char=106	
+7	в	в	ADP	_	_	9	case	_	start_char=107|end_char=108	
+8	олимпийском	олимпийский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=109|end_char=120	
+9	Сочи	Сочи	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	start_char=121|end_char=125	
+10	.	.	PUNCT	_	_	6	punct	_	start_char=125|end_char=126	
+
+#text = Поздравляю вас с этим ! 
+#par_id = 2
+#sent_id = 3
+#speaker = В.Путин
+1	Поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=127|end_char=137	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	1	obj	_	start_char=138|end_char=141	
+3	с	с	ADP	_	_	4	case	_	start_char=142|end_char=143	
+4	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	start_char=144|end_char=148	
+5	!	!	PUNCT	_	_	1	punct	_	start_char=148|end_char=149	
+
+#text = У нас в своё время шахматами занимались в каждой школе , в каждом районе . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	У	у	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	7	obl	_	start_char=6|end_char=9	
+3	в	в	ADP	_	_	5	case	_	start_char=10|end_char=11	
+4	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	5	det	_	start_char=12|end_char=16	
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=17|end_char=22	
+6	шахматами	шахматы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl	_	start_char=23|end_char=32	
+7	занимались	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=33|end_char=43	
+8	в	в	ADP	_	_	10	case	_	start_char=44|end_char=45	
+9	каждой	каждый	DET	_	Case=Loc|Gender=Fem|Number=Sing	10	det	_	start_char=46|end_char=52	
+10	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=53|end_char=58	
+11	,	,	PUNCT	_	_	14	punct	_	start_char=58|end_char=59	
+12	в	в	ADP	_	_	14	case	_	start_char=60|end_char=61	
+13	каждом	каждый	DET	_	Case=Loc|Gender=Masc|Number=Sing	14	det	_	start_char=62|end_char=68	
+14	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	conj	_	start_char=69|end_char=75	
+15	.	.	PUNCT	_	_	7	punct	_	start_char=75|end_char=76	
+
+#text = Очень здорово , очень приятно , что сегодня эта традиция возрождается . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=77|end_char=82	
+2	здорово	здоровый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=83|end_char=90	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=90|end_char=91	
+4	очень	очень	ADV	_	Degree=Pos	5	obl	_	start_char=92|end_char=97	
+5	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	start_char=98|end_char=105	
+6	,	,	PUNCT	_	_	11	punct	_	start_char=105|end_char=106	
+7	что	что	SCONJ	_	_	11	mark	_	start_char=107|end_char=110	
+8	сегодня	сегодня	ADV	_	Degree=Pos	11	advmod	_	start_char=111|end_char=118	
+9	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	10	det	_	start_char=119|end_char=122	
+10	традиция	традиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=123|end_char=131	
+11	возрождается	возрождаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	ccomp	_	start_char=132|end_char=144	
+12	.	.	PUNCT	_	_	2	punct	_	start_char=144|end_char=145	
+
+#text = Уже проходит 45-й турнир – и всё активнее и активнее шахматы развиваются в нашей стране . 
+#par_id = 3
+#sent_id = 3
+#speaker = В.Путин
+1	Уже	уже	ADV	_	Degree=Pos	2	advmod	_	start_char=146|end_char=149	
+2	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=150|end_char=158	
+3	45-й	45-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=159|end_char=163	
+4	турнир	турнир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=164|end_char=170	
+5	–	–	PUNCT	_	_	8	punct	_	start_char=171|end_char=172	
+6	и	и	CCONJ	_	_	8	cc	_	start_char=173|end_char=174	
+7	всё	все	PART	_	_	8	advmod	_	start_char=175|end_char=178	
+8	активнее	активный	ADJ	_	Degree=Cmp	2	conj	_	start_char=179|end_char=187	
+9	и	и	CCONJ	_	_	12	cc	_	start_char=188|end_char=189	
+10	активнее	активно	ADV	_	Degree=Cmp	12	advmod	_	start_char=190|end_char=198	
+11	шахматы	шахматы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=199|end_char=206	
+12	развиваются	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=207|end_char=218	
+13	в	в	ADP	_	_	15	case	_	start_char=219|end_char=220	
+14	нашей	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	15	det	_	start_char=221|end_char=226	
+15	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	start_char=227|end_char=233	
+16	.	.	PUNCT	_	_	2	punct	_	start_char=233|end_char=234	
+
+#text = И – по праву . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=4|end_char=5	
+2	–	–	PUNCT	_	_	1	punct	_	start_char=6|end_char=7	
+3	по	по	ADP	_	_	4	case	_	start_char=8|end_char=10	
+4	праву	право	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=11|end_char=16	
+5	.	.	PUNCT	_	_	4	punct	_	start_char=16|end_char=17	
+
+#text = Потому что , во-первых , в России очень большая шахматная традиция . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Потому	потому	ADV	_	Degree=Pos	7	mark	_	start_char=18|end_char=24	
+2	что	что	SCONJ	_	_	1	fixed	_	start_char=25|end_char=28	
+3	,	,	PUNCT	_	_	1	punct	_	start_char=28|end_char=29	
+4	во-первых	во-первых	ADV	_	Degree=Pos	7	parataxis	_	start_char=30|end_char=39	
+5	,	,	PUNCT	_	_	4	punct	_	start_char=39|end_char=40	
+6	в	в	ADP	_	_	7	case	_	start_char=41|end_char=42	
+7	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=43|end_char=49	
+8	очень	очень	ADV	_	Degree=Pos	9	obl	_	start_char=50|end_char=55	
+9	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=56|end_char=63	
+10	шахматная	шахматный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=64|end_char=73	
+11	традиция	традиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=74|end_char=82	
+12	.	.	PUNCT	_	_	7	punct	_	start_char=82|end_char=83	
+
+#text = Во-вторых , шахматы – это , конечно , развивающий вид спорта , самый интеллектуальный вид спорта , мы всегда были в самых высоких международных рейтингах . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	10	parataxis	_	start_char=84|end_char=93	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=93|end_char=94	
+3	шахматы	шахматы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=95|end_char=102	
+4	–	–	PUNCT	_	_	3	punct	_	start_char=103|end_char=104	
+5	это	это	PRON	_	_	10	cop	_	start_char=105|end_char=108	
+6	,	,	PUNCT	_	_	5	punct	_	start_char=108|end_char=109	
+7	конечно	конечно	ADV	_	Degree=Pos	10	parataxis	_	start_char=110|end_char=117	
+8	,	,	PUNCT	_	_	7	punct	_	start_char=117|end_char=118	
+9	развивающий	развивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	start_char=119|end_char=130	
+10	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=131|end_char=134	
+11	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=135|end_char=141	
+12	,	,	PUNCT	_	_	15	punct	_	start_char=141|end_char=142	
+13	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=143|end_char=148	
+14	интеллектуальный	интеллектуальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=149|end_char=165	
+15	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	start_char=166|end_char=169	
+16	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=170|end_char=176	
+17	,	,	PUNCT	_	_	25	punct	_	start_char=176|end_char=177	
+18	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	25	nsubj	_	start_char=178|end_char=180	
+19	всегда	всегда	ADV	_	Degree=Pos	25	advmod	_	start_char=181|end_char=187	
+20	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	cop	_	start_char=188|end_char=192	
+21	в	в	ADP	_	_	25	case	_	start_char=193|end_char=194	
+22	самых	самый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	start_char=195|end_char=200	
+23	высоких	высокий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	start_char=201|end_char=208	
+24	международных	международный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	start_char=209|end_char=222	
+25	рейтингах	рейтинг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	conj	_	start_char=223|end_char=232	
+26	.	.	PUNCT	_	_	10	punct	_	start_char=232|end_char=233	
+
+#text = И мне очень приятно отметить , что возрождаются именно школьные шахматы . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=4|end_char=5	
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	4	iobj	_	start_char=6|end_char=9	
+3	очень	очень	ADV	_	Degree=Pos	4	obl	_	start_char=10|end_char=15	
+4	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=16|end_char=23	
+5	отметить	отметить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=24|end_char=32	
+6	,	,	PUNCT	_	_	8	punct	_	start_char=32|end_char=33	
+7	что	что	SCONJ	_	_	8	mark	_	start_char=34|end_char=37	
+8	возрождаются	возрождаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	ccomp	_	start_char=38|end_char=50	
+9	именно	именно	PART	_	_	10	advmod	_	start_char=51|end_char=57	
+10	школьные	школьный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	start_char=58|end_char=66	
+11	шахматы	шахматы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=67|end_char=74	
+12	.	.	PUNCT	_	_	4	punct	_	start_char=74|end_char=75	
+
+#text = Знаю , что всем участникам этого финала пришлось пройти достаточно большую , сложную отборочную борьбу – здесь собрались самые лучшие молодые шахматисты . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=76|end_char=80	
+2	,	,	PUNCT	_	_	8	punct	_	start_char=80|end_char=81	
+3	что	что	SCONJ	_	_	8	mark	_	start_char=82|end_char=85	
+4	всем	весь	DET	_	Case=Dat|Number=Plur	5	det	_	start_char=86|end_char=90	
+5	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	iobj	_	start_char=91|end_char=101	
+6	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	det	_	start_char=102|end_char=107	
+7	финала	финал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=108|end_char=114	
+8	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	ccomp	_	start_char=115|end_char=123	
+9	пройти	пройти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	start_char=124|end_char=130	
+10	достаточно	достаточно	ADV	_	Degree=Pos	11	obl	_	start_char=131|end_char=141	
+11	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=142|end_char=149	
+12	,	,	PUNCT	_	_	13	punct	_	start_char=149|end_char=150	
+13	сложную	сложный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	start_char=151|end_char=158	
+14	отборочную	отборочный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=159|end_char=169	
+15	борьбу	борьба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=170|end_char=176	
+16	–	–	PUNCT	_	_	18	punct	_	start_char=177|end_char=178	
+17	здесь	здесь	ADV	_	Degree=Pos	18	advmod	_	start_char=179|end_char=184	
+18	собрались	собраться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	8	parataxis	_	start_char=185|end_char=194	
+19	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	start_char=195|end_char=200	
+20	лучшие	лучший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	start_char=201|end_char=207	
+21	молодые	молодой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	start_char=208|end_char=215	
+22	шахматисты	шахматист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=216|end_char=226	
+23	.	.	PUNCT	_	_	1	punct	_	start_char=226|end_char=227	
+
+#text = Всех вас ещё раз сердечно поздравляю и всем вам желаю успеха ! 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	6	obj	_	start_char=4|end_char=8	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	6	obj	_	start_char=9|end_char=12	
+3	ещё	еще	ADV	_	Degree=Pos	4	obl	_	start_char=13|end_char=16	
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=17|end_char=20	
+5	сердечно	сердечно	ADV	_	Degree=Pos	6	advmod	_	start_char=21|end_char=29	
+6	поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=30|end_char=40	
+7	и	и	CCONJ	_	_	10	cc	_	start_char=41|end_char=42	
+8	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	10	iobj	_	start_char=43|end_char=47	
+9	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	10	iobj	_	start_char=48|end_char=51	
+10	желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=52|end_char=57	
+11	успеха	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	start_char=58|end_char=64	
+12	!	!	PUNCT	_	_	6	punct	_	start_char=64|end_char=65	
+

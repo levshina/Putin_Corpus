@@ -1,0 +1,511 @@
+#text = Уважаемый господин Генеральный секретарь ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Уважаемый	уважать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	start_char=4|end_char=13	
+2	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=22	
+3	Генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=23|end_char=34	
+4	секретарь	секретарь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=35|end_char=44	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=44|end_char=45	
+
+#text = Уважаемые делегаты Генеральной ассамблеи ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=46|end_char=55	
+2	делегаты	делегат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=56|end_char=64	
+3	Генеральной	генеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=65|end_char=76	
+4	ассамблеи	ассамблея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=77|end_char=86	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=86|end_char=87	
+
+#text = Дамы и господа ! 
+#par_id = 1
+#sent_id = 3
+#speaker = В.Путин
+1	Дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=88|end_char=92	
+2	и	и	CCONJ	_	_	3	cc	_	start_char=93|end_char=94	
+3	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=95|end_char=102	
+4	!	!	PUNCT	_	_	1	punct	_	start_char=102|end_char=103	
+
+#text = Приветствую вас и прежде всего хочу пожелать успехов в вашей важной работе , востребованной миллионами людей планеты . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Приветствую	приветствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=15	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	1	obj	_	start_char=16|end_char=19	
+3	и	и	CCONJ	_	_	6	cc	_	start_char=20|end_char=21	
+4	прежде	прежде	ADP	_	_	6	advmod	_	start_char=22|end_char=28	
+5	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	fixed	_	start_char=29|end_char=34	
+6	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=35|end_char=39	
+7	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=40|end_char=48	
+8	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=49|end_char=56	
+9	в	в	ADP	_	_	12	case	_	start_char=57|end_char=58	
+10	вашей	ваш	DET	_	Case=Loc|Gender=Fem|Number=Sing	12	det	_	start_char=59|end_char=64	
+11	важной	важный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=65|end_char=71	
+12	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	start_char=72|end_char=78	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=78|end_char=79	
+14	востребованной	востребованный	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	start_char=80|end_char=94	
+15	миллионами	миллион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	start_char=95|end_char=105	
+16	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=106|end_char=111	
+17	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=112|end_char=119	
+18	.	.	PUNCT	_	_	1	punct	_	start_char=119|end_char=120	
+
+#text = Способствуя развитию туризма , вы помогаете укреплять гуманитарные и экономические связи между государствами , открывать новые возможности для общения и дружбы между гражданами разных стран . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	Способствуя	способствовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	start_char=121|end_char=132	
+2	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	iobj	_	start_char=133|end_char=141	
+3	туризма	туризм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=142|end_char=149	
+4	,	,	PUNCT	_	_	1	punct	_	start_char=149|end_char=150	
+5	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	6	nsubj	_	start_char=151|end_char=153	
+6	помогаете	помочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=154|end_char=163	
+7	укреплять	укреплять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=164|end_char=173	
+8	гуманитарные	гуманитарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	start_char=174|end_char=186	
+9	и	и	CCONJ	_	_	10	cc	_	start_char=187|end_char=188	
+10	экономические	экономический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	conj	_	start_char=189|end_char=202	
+11	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=203|end_char=208	
+12	между	между	ADP	_	_	13	case	_	start_char=209|end_char=214	
+13	государствами	государство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	11	nmod	_	start_char=215|end_char=228	
+14	,	,	PUNCT	_	_	15	punct	_	start_char=228|end_char=229	
+15	открывать	открывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	start_char=230|end_char=239	
+16	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	start_char=240|end_char=245	
+17	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=246|end_char=257	
+18	для	для	ADP	_	_	19	case	_	start_char=258|end_char=261	
+19	общения	общение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	start_char=262|end_char=269	
+20	и	и	CCONJ	_	_	21	cc	_	start_char=270|end_char=271	
+21	дружбы	дружба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	_	start_char=272|end_char=278	
+22	между	между	ADP	_	_	23	case	_	start_char=279|end_char=284	
+23	гражданами	гражданин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	21	nmod	_	start_char=285|end_char=295	
+24	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	start_char=296|end_char=302	
+25	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=303|end_char=308	
+26	.	.	PUNCT	_	_	6	punct	_	start_char=308|end_char=309	
+
+#text = Сессия Генеральной ассамблеи впервые проходит в России . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Сессия	сессия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=4|end_char=10	
+2	Генеральной	генеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=11|end_char=22	
+3	ассамблеи	ассамблея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=23|end_char=32	
+4	впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	start_char=33|end_char=40	
+5	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=49	
+6	в	в	ADP	_	_	7	case	_	start_char=50|end_char=51	
+7	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=52|end_char=58	
+8	.	.	PUNCT	_	_	5	punct	_	start_char=58|end_char=59	
+
+#text = И символично , что местом её проведения стал Санкт-Петербург – город , в который стремятся приехать люди со всего света . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	2	cc	_	start_char=60|end_char=61	
+2	символично	символичный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=62|end_char=72	
+3	,	,	PUNCT	_	_	8	punct	_	start_char=72|end_char=73	
+4	что	что	SCONJ	_	_	8	mark	_	start_char=74|end_char=77	
+5	местом	место	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	start_char=78|end_char=84	
+6	её	ее	DET	_	_	7	det	_	start_char=85|end_char=87	
+7	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=88|end_char=98	
+8	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	ccomp	_	start_char=99|end_char=103	
+9	Санкт-Петербург	Санкт-Петербург	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=104|end_char=119	
+10	–	–	PUNCT	_	_	11	punct	_	start_char=120|end_char=121	
+11	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=122|end_char=127	
+12	,	,	PUNCT	_	_	15	punct	_	start_char=127|end_char=128	
+13	в	в	ADP	_	_	14	case	_	start_char=129|end_char=130	
+14	который	который	PRON	_	Case=Acc	16	obl	_	start_char=131|end_char=138	
+15	стремятся	стремиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	start_char=139|end_char=148	
+16	приехать	приехать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=149|end_char=157	
+17	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=158|end_char=162	
+18	со	с	ADP	_	_	20	case	_	start_char=163|end_char=165	
+19	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	20	det	_	start_char=166|end_char=171	
+20	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=172|end_char=177	
+21	.	.	PUNCT	_	_	2	punct	_	start_char=177|end_char=178	
+
+#text = Он , как и вся наша страна , всегда широко и радушно принимает гостей , по праву принадлежит к самым красивым и гостеприимным туристическим столицам мира . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	start_char=4|end_char=6	
+2	,	,	PUNCT	_	_	7	punct	_	start_char=6|end_char=7	
+3	как	как	SCONJ	_	_	7	mark	_	start_char=8|end_char=11	
+4	и	и	PART	_	_	7	advmod	_	start_char=12|end_char=13	
+5	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	det	_	start_char=14|end_char=17	
+6	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	det	_	start_char=18|end_char=22	
+7	страна	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	acl	_	start_char=23|end_char=29	
+8	,	,	PUNCT	_	_	1	punct	_	start_char=29|end_char=30	
+9	всегда	всегда	ADV	_	Degree=Pos	13	advmod	_	start_char=31|end_char=37	
+10	широко	широко	ADV	_	Degree=Pos	13	advmod	_	start_char=38|end_char=44	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=45|end_char=46	
+12	радушно	радушно	ADV	_	Degree=Pos	10	conj	_	start_char=47|end_char=54	
+13	принимает	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=55|end_char=64	
+14	гостей	гость	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	start_char=65|end_char=71	
+15	,	,	PUNCT	_	_	18	punct	_	start_char=71|end_char=72	
+16	по	по	ADP	_	_	17	case	_	start_char=73|end_char=75	
+17	праву	право	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	obl	_	start_char=76|end_char=81	
+18	принадлежит	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	start_char=82|end_char=93	
+19	к	к	ADP	_	_	25	case	_	start_char=94|end_char=95	
+20	самым	самый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	start_char=96|end_char=101	
+21	красивым	красивый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	25	amod	_	start_char=102|end_char=110	
+22	и	и	CCONJ	_	_	23	cc	_	start_char=111|end_char=112	
+23	гостеприимным	гостеприимный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	conj	_	start_char=113|end_char=126	
+24	туристическим	туристический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	25	amod	_	start_char=127|end_char=140	
+25	столицам	столица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	18	obl	_	start_char=141|end_char=149	
+26	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	start_char=150|end_char=154	
+27	.	.	PUNCT	_	_	13	punct	_	start_char=154|end_char=155	
+
+#text = Здесь исторически переплелись многие культуры и эпохи , жанры и направления искусства . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	start_char=156|end_char=161	
+2	исторически	исторически	ADV	_	Degree=Pos	3	advmod	_	start_char=162|end_char=173	
+3	переплелись	переплестись	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=174|end_char=185	
+4	многие	много	NUM	_	_	5	amod	_	start_char=186|end_char=192	
+5	культуры	культура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=193|end_char=201	
+6	и	и	CCONJ	_	_	7	cc	_	start_char=202|end_char=203	
+7	эпохи	эпоха	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	start_char=204|end_char=209	
+8	,	,	PUNCT	_	_	9	punct	_	start_char=209|end_char=210	
+9	жанры	жанр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	start_char=211|end_char=216	
+10	и	и	CCONJ	_	_	11	cc	_	start_char=217|end_char=218	
+11	направления	направление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	conj	_	start_char=219|end_char=230	
+12	искусства	искусство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=231|end_char=240	
+13	.	.	PUNCT	_	_	3	punct	_	start_char=240|end_char=241	
+
+#text = Россия обладает огромным туристическим потенциалом . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=4|end_char=10	
+2	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=19	
+3	огромным	огромный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=20|end_char=28	
+4	туристическим	туристический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=29|end_char=42	
+5	потенциалом	потенциал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	start_char=43|end_char=54	
+6	.	.	PUNCT	_	_	2	punct	_	start_char=54|end_char=55	
+
+#text = Хорошо известны природная красота наших регионов , их культурное многообразие . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Хорошо	хорошо	ADV	_	Degree=Pos	2	obl	_	start_char=56|end_char=62	
+2	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=63|end_char=71	
+3	природная	природный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=72|end_char=81	
+4	красота	красота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=82|end_char=89	
+5	наших	наш	DET	_	Case=Gen|Number=Plur	6	det	_	start_char=90|end_char=95	
+6	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=96|end_char=104	
+7	,	,	PUNCT	_	_	10	punct	_	start_char=104|end_char=105	
+8	их	их	DET	_	_	10	det	_	start_char=106|end_char=108	
+9	культурное	культурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=109|end_char=119	
+10	многообразие	многообразие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	start_char=120|end_char=132	
+11	.	.	PUNCT	_	_	2	punct	_	start_char=132|end_char=133	
+
+#text = Для нас важно многократно усилить социально - экономическую отдачу от туризма . 
+#par_id = 5
+#sent_id = 3
+#speaker = В.Путин
+1	Для	для	ADP	_	_	2	case	_	start_char=134|end_char=137	
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	3	obl	_	start_char=138|end_char=141	
+3	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=142|end_char=147	
+4	многократно	многократно	ADV	_	Degree=Pos	5	advmod	_	start_char=148|end_char=159	
+5	усилить	усилить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=160|end_char=167	
+6	социально	социальный	ADJ	_	Degree=Pos	8	compound	_	start_char=168|end_char=177	
+7	-	-	PUNCT	_	_	6	punct	_	start_char=177|end_char=178	
+8	экономическую	экономический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=178|end_char=191	
+9	отдачу	отдача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=192|end_char=198	
+10	от	от	ADP	_	_	11	case	_	start_char=199|end_char=201	
+11	туризма	туризм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=202|end_char=209	
+12	.	.	PUNCT	_	_	3	punct	_	start_char=209|end_char=210	
+
+#text = Это и налоговые поступления , и новые рабочие места , развитие образования и предпринимательства , решение экологических , инфраструктурных вопросов . 
+#par_id = 5
+#sent_id = 4
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=211|end_char=214	
+2	и	и	PART	_	_	4	cc	_	start_char=215|end_char=216	
+3	налоговые	налоговый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	start_char=217|end_char=226	
+4	поступления	поступление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=227|end_char=238	
+5	,	,	PUNCT	_	_	9	punct	_	start_char=238|end_char=239	
+6	и	и	CCONJ	_	_	9	cc	_	start_char=240|end_char=241	
+7	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=242|end_char=247	
+8	рабочие	рабочий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=248|end_char=255	
+9	места	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	conj	_	start_char=256|end_char=261	
+10	,	,	PUNCT	_	_	11	punct	_	start_char=261|end_char=262	
+11	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	start_char=263|end_char=271	
+12	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=272|end_char=283	
+13	и	и	CCONJ	_	_	14	cc	_	start_char=284|end_char=285	
+14	предпринимательства	предпринимательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	start_char=286|end_char=305	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=305|end_char=306	
+16	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	start_char=307|end_char=314	
+17	экологических	экологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=315|end_char=328	
+18	,	,	PUNCT	_	_	19	punct	_	start_char=328|end_char=329	
+19	инфраструктурных	инфраструктурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	conj	_	start_char=330|end_char=346	
+20	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=347|end_char=355	
+21	.	.	PUNCT	_	_	4	punct	_	start_char=355|end_char=356	
+
+#text = Нашу страну только за последние пять лет посетили более 125 миллионов иностранных туристов . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Нашу	наш	DET	_	Case=Acc|Gender=Fem|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	страну	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=9|end_char=15	
+3	только	только	PART	_	_	7	advmod	_	start_char=16|end_char=22	
+4	за	за	ADP	_	_	7	case	_	start_char=23|end_char=25	
+5	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=26|end_char=35	
+6	пять	пять	NUM	_	Case=Acc	7	nummod:gov	_	start_char=36|end_char=40	
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	start_char=41|end_char=44	
+8	посетили	посетить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=45|end_char=53	
+9	более	более	ADV	_	Degree=Cmp	8	nsubj	_	start_char=54|end_char=59	
+10	125	125	NUM	_	_	11	nummod	_	start_char=60|end_char=63	
+11	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	start_char=64|end_char=73	
+12	иностранных	иностранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=74|end_char=85	
+13	туристов	турист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=86|end_char=94	
+14	.	.	PUNCT	_	_	8	punct	_	start_char=94|end_char=95	
+
+#text = Это результат нашей последовательной работы по развитию туриндустрии . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=96|end_char=99	
+2	результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=100|end_char=109	
+3	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	det	_	start_char=110|end_char=115	
+4	последовательной	последовательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=116|end_char=132	
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=133|end_char=139	
+6	по	по	ADP	_	_	7	case	_	start_char=140|end_char=142	
+7	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=143|end_char=151	
+8	туриндустрии	туриндустрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=152|end_char=164	
+9	.	.	PUNCT	_	_	2	punct	_	start_char=164|end_char=165	
+
+#text = И конечно , важную роль здесь сыграли крупнейшие международные мероприятия : зимние Олимпийские игры , чемпионат мира по футболу , Фестиваль молодёжи и студентов , студенческие универсиады . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	7	cc	_	start_char=4|end_char=5	
+2	конечно	конечно	ADV	_	Degree=Pos	7	parataxis	_	start_char=6|end_char=13	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=13|end_char=14	
+4	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=15|end_char=21	
+5	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=22|end_char=26	
+6	здесь	здесь	ADV	_	Degree=Pos	7	advmod	_	start_char=27|end_char=32	
+7	сыграли	сыграть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=33|end_char=40	
+8	крупнейшие	крупный	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	10	amod	_	start_char=41|end_char=51	
+9	международные	международный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=52|end_char=65	
+10	мероприятия	мероприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=66|end_char=77	
+11	:	:	PUNCT	_	_	14	punct	_	start_char=77|end_char=78	
+12	зимние	зимний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=79|end_char=85	
+13	Олимпийские	олимпийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=86|end_char=97	
+14	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	parataxis	_	start_char=98|end_char=102	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=102|end_char=103	
+16	чемпионат	чемпионат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	start_char=104|end_char=113	
+17	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=114|end_char=118	
+18	по	по	ADP	_	_	19	case	_	start_char=119|end_char=121	
+19	футболу	футбол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	start_char=122|end_char=129	
+20	,	,	PUNCT	_	_	21	punct	_	start_char=129|end_char=130	
+21	Фестиваль	Фестиваль	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	start_char=131|end_char=140	
+22	молодёжи	молодежь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=141|end_char=149	
+23	и	и	CCONJ	_	_	24	cc	_	start_char=150|end_char=151	
+24	студентов	студент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	start_char=152|end_char=161	
+25	,	,	PUNCT	_	_	27	punct	_	start_char=161|end_char=162	
+26	студенческие	студенческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	start_char=163|end_char=175	
+27	универсиады	универсиада	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	_	start_char=176|end_char=187	
+28	.	.	PUNCT	_	_	7	punct	_	start_char=187|end_char=188	
+
+#text = Вы знаете , что все они прошли на самом высоком уровне , оставили у наших гостей прекрасные впечатления о России как об открытой , приветливой , дружелюбной , современной и комфортной стране . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	2	nsubj	_	start_char=4|end_char=6	
+2	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=13	
+3	,	,	PUNCT	_	_	7	punct	_	start_char=13|end_char=14	
+4	что	что	SCONJ	_	_	7	mark	_	start_char=15|end_char=18	
+5	все	весь	DET	_	Case=Nom|Number=Plur	6	det	_	start_char=19|end_char=22	
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	start_char=23|end_char=26	
+7	прошли	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=27|end_char=33	
+8	на	на	ADP	_	_	11	case	_	start_char=34|end_char=36	
+9	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=37|end_char=42	
+10	высоком	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=43|end_char=50	
+11	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=51|end_char=57	
+12	,	,	PUNCT	_	_	13	punct	_	start_char=57|end_char=58	
+13	оставили	оставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=59|end_char=67	
+14	у	у	ADP	_	_	16	case	_	start_char=68|end_char=69	
+15	наших	наш	DET	_	Case=Gen|Number=Plur	16	det	_	start_char=70|end_char=75	
+16	гостей	гость	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	start_char=76|end_char=82	
+17	прекрасные	прекрасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	start_char=83|end_char=93	
+18	впечатления	впечатление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=94|end_char=105	
+19	о	о	ADP	_	_	20	case	_	start_char=106|end_char=107	
+20	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	start_char=108|end_char=114	
+21	как	как	SCONJ	_	_	32	mark	_	start_char=115|end_char=118	
+22	об	о	ADP	_	_	32	case	_	start_char=119|end_char=121	
+23	открытой	открытый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=122|end_char=130	
+24	,	,	PUNCT	_	_	25	punct	_	start_char=130|end_char=131	
+25	приветливой	приветливый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	conj	_	start_char=132|end_char=143	
+26	,	,	PUNCT	_	_	27	punct	_	start_char=143|end_char=144	
+27	дружелюбной	дружелюбный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	conj	_	start_char=145|end_char=156	
+28	,	,	PUNCT	_	_	29	punct	_	start_char=156|end_char=157	
+29	современной	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	conj	_	start_char=158|end_char=169	
+30	и	и	CCONJ	_	_	31	cc	_	start_char=170|end_char=171	
+31	комфортной	комфортный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	conj	_	start_char=172|end_char=182	
+32	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	start_char=183|end_char=189	
+33	.	.	PUNCT	_	_	2	punct	_	start_char=189|end_char=190	
+
+#text = Мы будем ещё более эффективно оказывать этой отрасли государственную поддержку , укреплять конкурентоспособность туристического рынка , внедрять самые передовые сервисы , созвучные прорывной технологической цифровой эпохе . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	start_char=4|end_char=6	
+2	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=7|end_char=12	
+3	ещё	еще	ADV	_	Degree=Pos	4	advmod	_	start_char=13|end_char=16	
+4	более	более	ADV	_	Degree=Cmp	5	advmod	_	start_char=17|end_char=22	
+5	эффективно	эффективно	ADV	_	Degree=Pos	6	advmod	_	start_char=23|end_char=33	
+6	оказывать	оказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=34|end_char=43	
+7	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	8	det	_	start_char=44|end_char=48	
+8	отрасли	отрасль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	start_char=49|end_char=56	
+9	государственную	государственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=57|end_char=72	
+10	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=73|end_char=82	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=82|end_char=83	
+12	укреплять	укреплять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	start_char=84|end_char=93	
+13	конкурентоспособность	конкурентоспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=94|end_char=115	
+14	туристического	туристический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=116|end_char=130	
+15	рынка	рынок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=131|end_char=136	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=136|end_char=137	
+17	внедрять	внедрять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	start_char=138|end_char=146	
+18	самые	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	start_char=147|end_char=152	
+19	передовые	передовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	start_char=153|end_char=162	
+20	сервисы	сервис	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	start_char=163|end_char=170	
+21	,	,	PUNCT	_	_	22	punct	_	start_char=170|end_char=171	
+22	созвучные	созвучный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	start_char=172|end_char=181	
+23	прорывной	прорывной	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=182|end_char=191	
+24	технологической	технологический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=192|end_char=207	
+25	цифровой	цифровой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=208|end_char=216	
+26	эпохе	эпоха	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	iobj	_	start_char=217|end_char=222	
+27	.	.	PUNCT	_	_	6	punct	_	start_char=222|end_char=223	
+
+#text = Так , в России в числе первых активно внедряются электронные визы , оформить которые можно дистанционно , быстро и без лишних формальностей . 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	Так	так	ADV	_	Degree=Pos	9	parataxis	_	start_char=4|end_char=7	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=7|end_char=8	
+3	в	в	ADP	_	_	4	case	_	start_char=9|end_char=10	
+4	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=11|end_char=17	
+5	в	в	ADP	_	_	6	case	_	start_char=18|end_char=19	
+6	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	start_char=20|end_char=25	
+7	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	nmod	_	start_char=26|end_char=32	
+8	активно	активно	ADV	_	Degree=Pos	9	advmod	_	start_char=33|end_char=40	
+9	внедряются	внедрять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=41|end_char=51	
+10	электронные	электронный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	start_char=52|end_char=63	
+11	визы	виза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	start_char=64|end_char=68	
+12	,	,	PUNCT	_	_	15	punct	_	start_char=68|end_char=69	
+13	оформить	оформить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	csubj	_	start_char=70|end_char=78	
+14	которые	который	PRON	_	Case=Acc	13	obj	_	start_char=79|end_char=86	
+15	можно	можно	ADV	_	Degree=Pos	11	acl:relcl	_	start_char=87|end_char=92	
+16	дистанционно	дистанционно	ADV	_	Degree=Pos	13	advmod	_	start_char=93|end_char=105	
+17	,	,	PUNCT	_	_	18	punct	_	start_char=105|end_char=106	
+18	быстро	быстро	ADV	_	Degree=Pos	16	conj	_	start_char=107|end_char=113	
+19	и	и	CCONJ	_	_	22	cc	_	start_char=114|end_char=115	
+20	без	без	ADP	_	_	22	case	_	start_char=116|end_char=119	
+21	лишних	лишний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	start_char=120|end_char=126	
+22	формальностей	формальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	start_char=127|end_char=140	
+23	.	.	PUNCT	_	_	9	punct	_	start_char=140|end_char=141	
+
+#text = Мы открыты для обмена интересными идеями и предложениями , готовы и стремимся к взаимовыгодному сотрудничеству . 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj:pass	_	start_char=4|end_char=6	
+2	открыты	открыть	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=7|end_char=14	
+3	для	для	ADP	_	_	4	case	_	start_char=15|end_char=18	
+4	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=19|end_char=25	
+5	интересными	интересный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	start_char=26|end_char=37	
+6	идеями	идея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	start_char=38|end_char=44	
+7	и	и	CCONJ	_	_	8	cc	_	start_char=45|end_char=46	
+8	предложениями	предложение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	conj	_	start_char=47|end_char=60	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=60|end_char=61	
+10	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	start_char=62|end_char=68	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=69|end_char=70	
+12	стремимся	стремиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=71|end_char=80	
+13	к	к	ADP	_	_	15	case	_	start_char=81|end_char=82	
+14	взаимовыгодному	взаимовыгодный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=83|end_char=98	
+15	сотрудничеству	сотрудничество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=99|end_char=113	
+16	.	.	PUNCT	_	_	2	punct	_	start_char=113|end_char=114	
+
+#text = Вы это обязательно почувствуете здесь , на ассамблее , в процессе обстоятельного диалога , где делегаты , эксперты и специалисты поделятся своим видением перспектив российской и глобальной туристической отрасли . 
+#par_id = 11
+#sent_id = 2
+#speaker = В.Путин
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	4	nsubj	_	start_char=115|end_char=117	
+2	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=118|end_char=121	
+3	обязательно	обязательно	ADV	_	Degree=Pos	4	advmod	_	start_char=122|end_char=133	
+4	почувствуете	почувствовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=134|end_char=146	
+5	здесь	здесь	ADV	_	Degree=Pos	4	advmod	_	start_char=147|end_char=152	
+6	,	,	PUNCT	_	_	8	punct	_	start_char=152|end_char=153	
+7	на	на	ADP	_	_	8	case	_	start_char=154|end_char=156	
+8	ассамблее	ассамблея	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	conj	_	start_char=157|end_char=166	
+9	,	,	PUNCT	_	_	11	punct	_	start_char=166|end_char=167	
+10	в	в	ADP	_	_	11	case	_	start_char=168|end_char=169	
+11	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	start_char=170|end_char=178	
+12	обстоятельного	обстоятельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=179|end_char=193	
+13	диалога	диалог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=194|end_char=201	
+14	,	,	PUNCT	_	_	21	punct	_	start_char=201|end_char=202	
+15	где	где	ADV	_	Degree=Pos	21	advmod	_	start_char=203|end_char=206	
+16	делегаты	делегат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	start_char=207|end_char=215	
+17	,	,	PUNCT	_	_	18	punct	_	start_char=215|end_char=216	
+18	эксперты	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	conj	_	start_char=217|end_char=225	
+19	и	и	CCONJ	_	_	20	cc	_	start_char=226|end_char=227	
+20	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	conj	_	start_char=228|end_char=239	
+21	поделятся	делиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	start_char=240|end_char=249	
+22	своим	свой	DET	_	Case=Ins|Gender=Neut|Number=Sing	23	det	_	start_char=250|end_char=255	
+23	видением	видение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	start_char=256|end_char=264	
+24	перспектив	перспектива	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=265|end_char=275	
+25	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=276|end_char=286	
+26	и	и	CCONJ	_	_	27	cc	_	start_char=287|end_char=288	
+27	глобальной	глобальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	start_char=289|end_char=299	
+28	туристической	туристический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=300|end_char=313	
+29	отрасли	отрасль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=314|end_char=321	
+30	.	.	PUNCT	_	_	4	punct	_	start_char=321|end_char=322	
+
+#text = Рассчитываем , что вы поддержите заявку России на проведение Всемирного дня туризма в 2022 году , а также открытие у нас Международного центра туризма под эгидой Всемирной туристской организации . 
+#par_id = 12
+#sent_id = 1
+#speaker = В.Путин
+1	Рассчитываем	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=16	
+2	,	,	PUNCT	_	_	5	punct	_	start_char=16|end_char=17	
+3	что	что	SCONJ	_	_	5	mark	_	start_char=18|end_char=21	
+4	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	5	nsubj	_	start_char=22|end_char=24	
+5	поддержите	поддержать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=25|end_char=35	
+6	заявку	заявка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=36|end_char=42	
+7	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=43|end_char=49	
+8	на	на	ADP	_	_	9	case	_	start_char=50|end_char=52	
+9	проведение	проведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	start_char=53|end_char=63	
+10	Всемирного	всемирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=64|end_char=74	
+11	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=75|end_char=78	
+12	туризма	туризм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=79|end_char=86	
+13	в	в	ADP	_	_	15	case	_	start_char=87|end_char=88	
+14	2022	2022	NUM	_	_	15	nummod	_	start_char=89|end_char=93	
+15	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	start_char=94|end_char=98	
+16	,	,	PUNCT	_	_	19	punct	_	start_char=98|end_char=99	
+17	а	а	CCONJ	_	_	19	cc	_	start_char=100|end_char=101	
+18	также	также	PART	_	_	17	fixed	_	start_char=102|end_char=107	
+19	открытие	открытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	start_char=108|end_char=116	
+20	у	у	ADP	_	_	21	case	_	start_char=117|end_char=118	
+21	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	19	nmod	_	start_char=119|end_char=122	
+22	Международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=123|end_char=137	
+23	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=138|end_char=144	
+24	туризма	туризм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	start_char=145|end_char=152	
+25	под	под	ADP	_	_	26	case	_	start_char=153|end_char=156	
+26	эгидой	эгида	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	start_char=157|end_char=163	
+27	Всемирной	всемирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=164|end_char=173	
+28	туристской	туристский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=174|end_char=184	
+29	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	start_char=185|end_char=196	
+30	.	.	PUNCT	_	_	1	punct	_	start_char=196|end_char=197	
+
+#text = Желаю вам плодотворной работы и всего самого доброго ! 
+#par_id = 13
+#sent_id = 1
+#speaker = В.Путин
+1	Желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=9	
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	1	iobj	_	start_char=10|end_char=13	
+3	плодотворной	плодотворный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=14|end_char=26	
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	start_char=27|end_char=33	
+5	и	и	CCONJ	_	_	8	cc	_	start_char=34|end_char=35	
+6	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=36|end_char=41	
+7	самого	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=42|end_char=48	
+8	доброго	добрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	start_char=49|end_char=56	
+9	!	!	PUNCT	_	_	1	punct	_	start_char=56|end_char=57	
+

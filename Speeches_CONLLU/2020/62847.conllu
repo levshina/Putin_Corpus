@@ -1,0 +1,286 @@
+#text = Дорогие друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=4|end_char=11	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=12|end_char=18	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=18|end_char=19	
+
+#text = Самбо – самооборона без оружия . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Самбо	самбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4|end_char=9	
+2	–	–	PUNCT	_	_	3	punct	_	start_char=10|end_char=11	
+3	самооборона	самооборон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=12|end_char=23	
+4	без	без	ADP	_	_	5	case	_	start_char=24|end_char=27	
+5	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=28|end_char=34	
+6	.	.	PUNCT	_	_	1	punct	_	start_char=34|end_char=35	
+
+#text = Это единоборство , которое стало яркой , понятной для сотен тысяч людей , а может быть , и для миллионов людей визитной карточкой нашей национальной физической культуры и спорта . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	det	_	start_char=36|end_char=39	
+2	единоборство	единоборство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=40|end_char=52	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=52|end_char=53	
+4	которое	который	PRON	_	Case=Nom	5	nsubj	_	start_char=54|end_char=61	
+5	стало	стать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	start_char=62|end_char=67	
+6	яркой	яркий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	obl	_	start_char=68|end_char=73	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=73|end_char=74	
+8	понятной	понятный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	start_char=75|end_char=83	
+9	для	для	ADP	_	_	10	case	_	start_char=84|end_char=87	
+10	сотен	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	start_char=88|end_char=93	
+11	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	start_char=94|end_char=99	
+12	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=100|end_char=105	
+13	,	,	PUNCT	_	_	20	punct	_	start_char=105|end_char=106	
+14	а	а	CCONJ	_	_	20	cc	_	start_char=107|end_char=108	
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	start_char=109|end_char=114	
+16	быть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=115|end_char=119	
+17	,	,	PUNCT	_	_	15	punct	_	start_char=119|end_char=120	
+18	и	и	PART	_	_	20	advmod	_	start_char=121|end_char=122	
+19	для	для	ADP	_	_	20	case	_	start_char=123|end_char=126	
+20	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	start_char=127|end_char=136	
+21	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	start_char=137|end_char=142	
+22	визитной	визитный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=143|end_char=151	
+23	карточкой	карточка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	nmod	_	start_char=152|end_char=161	
+24	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	27	det	_	start_char=162|end_char=167	
+25	национальной	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=168|end_char=180	
+26	физической	физический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=181|end_char=191	
+27	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	start_char=192|end_char=200	
+28	и	и	CCONJ	_	_	29	cc	_	start_char=201|end_char=202	
+29	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	conj	_	start_char=203|end_char=209	
+30	.	.	PUNCT	_	_	2	punct	_	start_char=209|end_char=210	
+
+#text = Это национальный вид спорта – зрелищный , красивый , динамичный . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=4|end_char=7	
+2	национальный	национальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=8|end_char=20	
+3	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=21|end_char=24	
+4	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=25|end_char=31	
+5	–	–	PUNCT	_	_	6	punct	_	start_char=32|end_char=33	
+6	зрелищный	зрелищный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=34|end_char=43	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=43|end_char=44	
+8	красивый	красивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	start_char=45|end_char=53	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=53|end_char=54	
+10	динамичный	динамичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	start_char=55|end_char=65	
+11	.	.	PUNCT	_	_	3	punct	_	start_char=65|end_char=66	
+
+#text = И не случайно , специалисты знают , что он создан , соткан из самых лучших движений , бросков национальных видов борьбы народов Советского Союза . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	6	cc	_	start_char=67|end_char=68	
+2	не	не	PART	_	_	3	advmod	_	start_char=69|end_char=71	
+3	случайно	случайно	ADV	_	Degree=Pos	6	advmod	_	start_char=72|end_char=80	
+4	,	,	PUNCT	_	_	3	punct	_	start_char=80|end_char=81	
+5	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=82|end_char=93	
+6	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=94|end_char=99	
+7	,	,	PUNCT	_	_	10	punct	_	start_char=99|end_char=100	
+8	что	что	SCONJ	_	_	10	mark	_	start_char=101|end_char=104	
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj:pass	_	start_char=105|end_char=107	
+10	создан	создать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	ccomp	_	start_char=108|end_char=114	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=114|end_char=115	
+12	соткан	стканить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	conj	_	start_char=116|end_char=122	
+13	из	из	ADP	_	_	16	case	_	start_char=123|end_char=125	
+14	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=126|end_char=131	
+15	лучших	лучший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	start_char=132|end_char=138	
+16	движений	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	start_char=139|end_char=147	
+17	,	,	PUNCT	_	_	18	punct	_	start_char=147|end_char=148	
+18	бросков	бросок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	start_char=149|end_char=156	
+19	национальных	национальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=157|end_char=169	
+20	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=170|end_char=175	
+21	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=176|end_char=182	
+22	народов	народ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=183|end_char=190	
+23	Советского	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=191|end_char=201	
+24	Союза	Союз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=202|end_char=207	
+25	.	.	PUNCT	_	_	6	punct	_	start_char=207|end_char=208	
+
+#text = Сегодня самбо перешагнуло наши национальные границы , культивируется в 84 странах мира на всех континентах . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=4|end_char=11	
+2	самбо	самбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=12|end_char=17	
+3	перешагнуло	перешагнуть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=29	
+4	наши	наш	DET	_	Case=Acc|Number=Plur	6	det	_	start_char=30|end_char=34	
+5	национальные	национальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=35|end_char=47	
+6	границы	граница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=48|end_char=55	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=55|end_char=56	
+8	культивируется	культивировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	start_char=57|end_char=71	
+9	в	в	ADP	_	_	11	case	_	start_char=72|end_char=73	
+10	84	84	NUM	_	_	11	nummod	_	start_char=74|end_char=76	
+11	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	start_char=77|end_char=84	
+12	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=85|end_char=89	
+13	на	на	ADP	_	_	15	case	_	start_char=90|end_char=92	
+14	всех	весь	DET	_	Case=Loc|Number=Plur	15	det	_	start_char=93|end_char=97	
+15	континентах	континент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	start_char=98|end_char=109	
+16	.	.	PUNCT	_	_	3	punct	_	start_char=109|end_char=110	
+
+#text = Самбо всегда изначально состояло из двух разделов : спортивного и боевого . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Самбо	самбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=111|end_char=116	
+2	всегда	всегда	ADV	_	Degree=Pos	4	advmod	_	start_char=117|end_char=123	
+3	изначально	изначально	ADV	_	Degree=Pos	4	advmod	_	start_char=124|end_char=134	
+4	состояло	состоять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=135|end_char=143	
+5	из	из	ADP	_	_	7	case	_	start_char=144|end_char=146	
+6	двух	два	NUM	_	Case=Gen	7	nummod	_	start_char=147|end_char=151	
+7	разделов	раздел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=152|end_char=160	
+8	:	:	PUNCT	_	_	9	punct	_	start_char=160|end_char=161	
+9	спортивного	спортивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	parataxis	_	start_char=162|end_char=173	
+10	и	и	CCONJ	_	_	11	cc	_	start_char=174|end_char=175	
+11	боевого	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	start_char=176|end_char=183	
+12	.	.	PUNCT	_	_	4	punct	_	start_char=183|end_char=184	
+
+#text = Боевой раздел развивался незаметно , тихо , спокойно , как специальный вид подготовки спецподразделений разведки , контрразведки , Министерства обороны . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	Боевой	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=185|end_char=191	
+2	раздел	раздел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=192|end_char=198	
+3	развивался	развиваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=199|end_char=209	
+4	незаметно	незаметно	ADV	_	Degree=Pos	3	advmod	_	start_char=210|end_char=219	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=219|end_char=220	
+6	тихо	тихо	ADV	_	Degree=Pos	4	conj	_	start_char=221|end_char=225	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=225|end_char=226	
+8	спокойно	спокойно	ADV	_	Degree=Pos	4	conj	_	start_char=227|end_char=235	
+9	,	,	PUNCT	_	_	12	punct	_	start_char=235|end_char=236	
+10	как	как	SCONJ	_	_	12	mark	_	start_char=237|end_char=240	
+11	специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=241|end_char=252	
+12	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	start_char=253|end_char=256	
+13	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=257|end_char=267	
+14	спецподразделений	спецподразделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	start_char=268|end_char=285	
+15	разведки	разведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=286|end_char=294	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=294|end_char=295	
+17	контрразведки	контрразведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	start_char=296|end_char=309	
+18	,	,	PUNCT	_	_	19	punct	_	start_char=309|end_char=310	
+19	Министерства	Министерство	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	conj	_	start_char=311|end_char=323	
+20	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=324|end_char=331	
+21	.	.	PUNCT	_	_	3	punct	_	start_char=331|end_char=332	
+
+#text = Но сейчас мы видим , благодаря организаторам этого вида спорта , что он приобретает массовый характер . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Но	но	CCONJ	_	_	4	cc	_	start_char=4|end_char=6	
+2	сейчас	сейчас	ADV	_	Degree=Pos	4	advmod	_	start_char=7|end_char=13	
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	start_char=14|end_char=16	
+4	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=22	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=22|end_char=23	
+6	благодаря	благодаря	ADP	_	_	7	case	_	start_char=24|end_char=33	
+7	организаторам	организатор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=34|end_char=47	
+8	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	det	_	start_char=48|end_char=53	
+9	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=54|end_char=58	
+10	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=59|end_char=65	
+11	,	,	PUNCT	_	_	14	punct	_	start_char=65|end_char=66	
+12	что	что	SCONJ	_	_	14	mark	_	start_char=67|end_char=70	
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	start_char=71|end_char=73	
+14	приобретает	приобретать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=74|end_char=85	
+15	массовый	массовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=86|end_char=94	
+16	характер	характер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=95|end_char=103	
+17	.	.	PUNCT	_	_	4	punct	_	start_char=103|end_char=104	
+
+#text = Боевое самбо становится массовым видом спорта . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Боевое	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=105|end_char=111	
+2	самбо	самбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=112|end_char=117	
+3	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=118|end_char=128	
+4	массовым	массовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=129|end_char=137	
+5	видом	вид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	start_char=138|end_char=143	
+6	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=144|end_char=150	
+7	.	.	PUNCT	_	_	3	punct	_	start_char=150|end_char=151	
+
+#text = Уверен , что и боевой раздел будет не только заметен , но и любим тысячами людей в нашей стране и за границей . 
+#par_id = 5
+#sent_id = 3
+#speaker = В.Путин
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=152|end_char=158	
+2	,	,	PUNCT	_	_	10	punct	_	start_char=158|end_char=159	
+3	что	что	SCONJ	_	_	10	mark	_	start_char=160|end_char=163	
+4	и	и	PART	_	_	5	advmod	_	start_char=164|end_char=165	
+5	боевой	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=166|end_char=172	
+6	раздел	раздел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	start_char=173|end_char=179	
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	start_char=180|end_char=185	
+8	не	не	PART	_	_	9	advmod	_	start_char=186|end_char=188	
+9	только	только	PART	_	_	10	advmod	_	start_char=189|end_char=195	
+10	заметен	заметный	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	ccomp	_	start_char=196|end_char=203	
+11	,	,	PUNCT	_	_	14	punct	_	start_char=203|end_char=204	
+12	но	но	CCONJ	_	_	14	cc	_	start_char=205|end_char=207	
+13	и	и	PART	_	_	12	advmod	_	start_char=208|end_char=209	
+14	любим	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=210|end_char=215	
+15	тысячами	тысяча	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	14	obl	_	start_char=216|end_char=224	
+16	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=225|end_char=230	
+17	в	в	ADP	_	_	19	case	_	start_char=231|end_char=232	
+18	нашей	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	19	det	_	start_char=233|end_char=238	
+19	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	start_char=239|end_char=245	
+20	и	и	CCONJ	_	_	22	cc	_	start_char=246|end_char=247	
+21	за	за	ADP	_	_	22	case	_	start_char=248|end_char=250	
+22	границей	граница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	conj	_	start_char=251|end_char=259	
+23	.	.	PUNCT	_	_	1	punct	_	start_char=259|end_char=260	
+
+#text = Я от души хочу поблагодарить всех , кто организовал сегодняшнее мероприятие и , безусловно , спортсменов – ребят одарённых , мужественных , красивых , с мужским настоящим характером . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=4|end_char=5	
+2	от	от	ADP	_	_	3	case	_	start_char=6|end_char=8	
+3	души	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=9|end_char=13	
+4	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=14|end_char=18	
+5	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=19|end_char=32	
+6	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	5	obj	_	start_char=33|end_char=37	
+7	,	,	PUNCT	_	_	9	punct	_	start_char=37|end_char=38	
+8	кто	кто	PRON	_	Case=Nom	9	nsubj	_	start_char=39|end_char=42	
+9	организовал	организовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=43|end_char=54	
+10	сегодняшнее	сегодняшний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=55|end_char=66	
+11	мероприятие	мероприятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=67|end_char=78	
+12	и	и	CCONJ	_	_	16	cc	_	start_char=79|end_char=80	
+13	,	,	PUNCT	_	_	12	punct	_	start_char=80|end_char=81	
+14	безусловно	безусловно	ADV	_	Degree=Pos	16	parataxis	_	start_char=82|end_char=92	
+15	,	,	PUNCT	_	_	14	punct	_	start_char=92|end_char=93	
+16	спортсменов	спортсмен	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	conj	_	start_char=94|end_char=105	
+17	–	–	PUNCT	_	_	18	punct	_	start_char=106|end_char=107	
+18	ребят	ребята	NOUN	_	Animacy=Anim|Case=Acc|Gender=Neut|Number=Plur	11	conj	_	start_char=108|end_char=113	
+19	одарённых	одаренный	ADJ	_	Animacy=Anim|Case=Gen|Degree=Pos|Number=Plur	18	nmod	_	start_char=114|end_char=123	
+20	,	,	PUNCT	_	_	21	punct	_	start_char=123|end_char=124	
+21	мужественных	мужественный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	19	conj	_	start_char=125|end_char=137	
+22	,	,	PUNCT	_	_	23	punct	_	start_char=137|end_char=138	
+23	красивых	красивый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	19	conj	_	start_char=139|end_char=147	
+24	,	,	PUNCT	_	_	28	punct	_	start_char=147|end_char=148	
+25	с	с	ADP	_	_	28	case	_	start_char=149|end_char=150	
+26	мужским	мужской	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=151|end_char=158	
+27	настоящим	настоящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=159|end_char=168	
+28	характером	характер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	start_char=169|end_char=179	
+29	.	.	PUNCT	_	_	4	punct	_	start_char=179|end_char=180	
+
+#text = Сегодня здесь нет проигравших – они все на пьедестале почёта . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=4|end_char=11	
+2	здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	start_char=12|end_char=17	
+3	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=21	
+4	проигравших	проиграть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	nsubj	_	start_char=22|end_char=33	
+5	–	–	PUNCT	_	_	9	punct	_	start_char=34|end_char=35	
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	start_char=36|end_char=39	
+7	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=40|end_char=43	
+8	на	на	ADP	_	_	9	case	_	start_char=44|end_char=46	
+9	пьедестале	пьедестал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	start_char=47|end_char=57	
+10	почёта	почет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=58|end_char=64	
+11	.	.	PUNCT	_	_	3	punct	_	start_char=64|end_char=65	
+
+#text = Поздравляю вас , ребята ! 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	Поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=66|end_char=76	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	1	obj	_	start_char=77|end_char=80	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=80|end_char=81	
+4	ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	1	parataxis	_	start_char=82|end_char=88	
+5	!	!	PUNCT	_	_	1	punct	_	start_char=88|end_char=89	
+

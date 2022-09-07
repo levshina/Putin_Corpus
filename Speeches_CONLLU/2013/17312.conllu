@@ -1,0 +1,285 @@
+#text = Дорогие друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=4|end_char=11	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=12|end_char=18	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=18|end_char=19	
+
+#text = Мне очень приятно присутствовать при сегодняшнем мероприятии – присвоении имени Витуса Беринга новому судну российского гражданского флота . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	3	iobj	_	start_char=4|end_char=7	
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=8|end_char=13	
+3	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=14|end_char=21	
+4	присутствовать	присутствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=22|end_char=36	
+5	при	при	ADP	_	_	7	case	_	start_char=37|end_char=40	
+6	сегодняшнем	сегодняшний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=41|end_char=52	
+7	мероприятии	мероприятие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=53|end_char=64	
+8	–	–	PUNCT	_	_	9	punct	_	start_char=65|end_char=66	
+9	присвоении	присвоение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	conj	_	start_char=67|end_char=77	
+10	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=78|end_char=83	
+11	Витуса	Витус	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=84|end_char=90	
+12	Беринга	Беринг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	start_char=91|end_char=98	
+13	новому	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=99|end_char=105	
+14	судну	судно	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	iobj	_	start_char=106|end_char=111	
+15	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=112|end_char=123	
+16	гражданского	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=124|end_char=136	
+17	флота	флот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=137|end_char=142	
+18	.	.	PUNCT	_	_	3	punct	_	start_char=142|end_char=143	
+
+#text = Примечательно , что судно будет работать именно на Дальнем Востоке , где Витус Беринг и его экипаж выполняли планы Петра Великого , осваивали северные широты , просторы Тихого океана . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Примечательно	примечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=17	
+2	,	,	PUNCT	_	_	6	punct	_	start_char=17|end_char=18	
+3	что	что	SCONJ	_	_	6	mark	_	start_char=19|end_char=22	
+4	судно	судно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=23|end_char=28	
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=29|end_char=34	
+6	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	ccomp	_	start_char=35|end_char=43	
+7	именно	именно	PART	_	_	10	advmod	_	start_char=44|end_char=50	
+8	на	на	ADP	_	_	10	case	_	start_char=51|end_char=53	
+9	Дальнем	дальний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=54|end_char=61	
+10	Востоке	Восток	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=62|end_char=69	
+11	,	,	PUNCT	_	_	18	punct	_	start_char=69|end_char=70	
+12	где	где	ADV	_	Degree=Pos	18	advmod	_	start_char=71|end_char=74	
+13	Витус	Витус	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=75|end_char=80	
+14	Беринг	Беринг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	start_char=81|end_char=87	
+15	и	и	CCONJ	_	_	17	cc	_	start_char=88|end_char=89	
+16	его	его	DET	_	_	17	det	_	start_char=90|end_char=93	
+17	экипаж	экипаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	start_char=94|end_char=100	
+18	выполняли	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=101|end_char=110	
+19	планы	план	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=111|end_char=116	
+20	Петра	Петр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=117|end_char=122	
+21	Великого	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=123|end_char=131	
+22	,	,	PUNCT	_	_	23	punct	_	start_char=131|end_char=132	
+23	осваивали	осваивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	_	start_char=133|end_char=142	
+24	северные	северный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	start_char=143|end_char=151	
+25	широты	широта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	start_char=152|end_char=158	
+26	,	,	PUNCT	_	_	27	punct	_	start_char=158|end_char=159	
+27	просторы	простор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	conj	_	start_char=160|end_char=168	
+28	Тихого	тихий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=169|end_char=175	
+29	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	start_char=176|end_char=182	
+30	.	.	PUNCT	_	_	1	punct	_	start_char=182|end_char=183	
+
+#text = Это одно из самых высокотехнологичных судов в мире . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=4|end_char=7	
+2	одно	один	NUM	_	Case=Nom|Gender=Neut	0	root	_	start_char=8|end_char=12	
+3	из	из	ADP	_	_	6	case	_	start_char=13|end_char=15	
+4	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=16|end_char=21	
+5	высокотехнологичных	высокотехнологичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=22|end_char=41	
+6	судов	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=42|end_char=47	
+7	в	в	ADP	_	_	8	case	_	start_char=48|end_char=49	
+8	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=50|end_char=54	
+9	.	.	PUNCT	_	_	2	punct	_	start_char=54|end_char=55	
+
+#text = Уже сегодня Россия имеет самый большой в мире атомный ледокольный флот . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Уже	уже	ADV	_	Degree=Pos	2	advmod	_	start_char=56|end_char=59	
+2	сегодня	сегодня	ADV	_	Degree=Pos	4	advmod	_	start_char=60|end_char=67	
+3	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=68|end_char=74	
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=75|end_char=80	
+5	самый	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=81|end_char=86	
+6	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=87|end_char=94	
+7	в	в	ADP	_	_	8	case	_	start_char=95|end_char=96	
+8	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=97|end_char=101	
+9	атомный	атомный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=102|end_char=109	
+10	ледокольный	ледокольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=110|end_char=121	
+11	флот	флот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=122|end_char=126	
+12	.	.	PUNCT	_	_	4	punct	_	start_char=126|end_char=127	
+
+#text = И мы , безусловно , будем продолжать работать над тем , чтобы осваивать все суда , всю линейку специальных судов , в том числе и работающих в таких сложных условиях , в которых должно работать это судно . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	7	cc	_	start_char=128|end_char=129	
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	start_char=130|end_char=132	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=132|end_char=133	
+4	безусловно	безусловно	ADV	_	Degree=Pos	7	parataxis	_	start_char=134|end_char=144	
+5	,	,	PUNCT	_	_	4	punct	_	start_char=144|end_char=145	
+6	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=146|end_char=151	
+7	продолжать	продолжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=152|end_char=162	
+8	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=163|end_char=171	
+9	над	над	ADP	_	_	10	case	_	start_char=172|end_char=175	
+10	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	start_char=176|end_char=179	
+11	,	,	PUNCT	_	_	13	punct	_	start_char=179|end_char=180	
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	start_char=181|end_char=186	
+13	осваивать	осваивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=187|end_char=196	
+14	все	весь	DET	_	Case=Acc|Number=Plur	15	det	_	start_char=197|end_char=200	
+15	суда	суд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	start_char=201|end_char=205	
+16	,	,	PUNCT	_	_	18	punct	_	start_char=205|end_char=206	
+17	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	18	det	_	start_char=207|end_char=210	
+18	линейку	линейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	start_char=211|end_char=218	
+19	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=219|end_char=230	
+20	судов	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=231|end_char=236	
+21	,	,	PUNCT	_	_	26	punct	_	start_char=236|end_char=237	
+22	в	в	ADP	_	_	24	case	_	start_char=238|end_char=239	
+23	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	24	det	_	start_char=240|end_char=243	
+24	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	start_char=244|end_char=249	
+25	и	и	PART	_	_	26	advmod	_	start_char=250|end_char=251	
+26	работающих	работать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	acl	_	start_char=252|end_char=262	
+27	в	в	ADP	_	_	30	case	_	start_char=263|end_char=264	
+28	таких	такой	DET	_	Case=Loc|Number=Plur	30	det	_	start_char=265|end_char=270	
+29	сложных	сложный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	30	amod	_	start_char=271|end_char=278	
+30	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	26	obl	_	start_char=279|end_char=287	
+31	,	,	PUNCT	_	_	34	punct	_	start_char=287|end_char=288	
+32	в	в	ADP	_	_	33	case	_	start_char=289|end_char=290	
+33	которых	который	PRON	_	Case=Loc	34	obl	_	start_char=291|end_char=298	
+34	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	30	acl:relcl	_	start_char=299|end_char=305	
+35	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	34	xcomp	_	start_char=306|end_char=314	
+36	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	37	det	_	start_char=315|end_char=318	
+37	судно	судно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	start_char=319|end_char=324	
+38	.	.	PUNCT	_	_	7	punct	_	start_char=324|end_char=325	
+
+#text = Это , ещё раз хочу повторить , одно из самых высокотехнологичных судов в мире , способное работать во льдах толщиной 1,7 метра . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=4|end_char=7	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=7|end_char=8	
+3	ещё	еще	ADV	_	Degree=Pos	4	obl	_	start_char=9|end_char=12	
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=13|end_char=16	
+5	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	start_char=17|end_char=21	
+6	повторить	повторить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=22|end_char=31	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=31|end_char=32	
+8	одно	один	NUM	_	Case=Nom|Gender=Neut	0	root	_	start_char=33|end_char=37	
+9	из	из	ADP	_	_	12	case	_	start_char=38|end_char=40	
+10	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=41|end_char=46	
+11	высокотехнологичных	высокотехнологичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=47|end_char=66	
+12	судов	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=67|end_char=72	
+13	в	в	ADP	_	_	14	case	_	start_char=73|end_char=74	
+14	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	start_char=75|end_char=79	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=79|end_char=80	
+16	способное	способный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	acl	_	start_char=81|end_char=90	
+17	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=91|end_char=99	
+18	во	в	ADP	_	_	19	case	_	start_char=100|end_char=102	
+19	льдах	лед	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	start_char=103|end_char=108	
+20	толщиной	толщина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	start_char=109|end_char=117	
+21	1,7	1,7	NUM	_	_	22	nummod	_	start_char=118|end_char=121	
+22	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=122|end_char=127	
+23	.	.	PUNCT	_	_	8	punct	_	start_char=127|end_char=128	
+
+#text = Оно создано российскими корабелами совместно с финскими партнёрами , за что я хочу наших финских коллег поблагодарить . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj:pass	_	start_char=129|end_char=132	
+2	создано	создать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=133|end_char=140	
+3	российскими	российский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	start_char=141|end_char=152	
+4	корабелами	корабела	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	start_char=153|end_char=163	
+5	совместно	совместно	ADV	_	Degree=Pos	2	advmod	_	start_char=164|end_char=173	
+6	с	с	ADP	_	_	8	case	_	start_char=174|end_char=175	
+7	финскими	финский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	start_char=176|end_char=184	
+8	партнёрами	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	start_char=185|end_char=195	
+9	,	,	PUNCT	_	_	13	punct	_	start_char=195|end_char=196	
+10	за	за	ADP	_	_	11	case	_	start_char=197|end_char=199	
+11	что	что	PRON	_	Case=Acc	13	obl	_	start_char=200|end_char=203	
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj	_	start_char=204|end_char=205	
+13	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=206|end_char=210	
+14	наших	наш	DET	_	Case=Acc|Number=Plur	16	det	_	start_char=211|end_char=216	
+15	финских	финский	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	start_char=217|end_char=224	
+16	коллег	коллега	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	start_char=225|end_char=231	
+17	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=232|end_char=245	
+18	.	.	PUNCT	_	_	2	punct	_	start_char=245|end_char=246	
+
+#text = Но примечательно , что 90 процентов освоения пришлось именно на российские предприятия . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Но	но	CCONJ	_	_	2	cc	_	start_char=4|end_char=6	
+2	примечательно	примечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=7|end_char=20	
+3	,	,	PUNCT	_	_	8	punct	_	start_char=20|end_char=21	
+4	что	что	SCONJ	_	_	8	mark	_	start_char=22|end_char=25	
+5	90	90	NUM	_	_	6	nummod	_	start_char=26|end_char=28	
+6	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	start_char=29|end_char=38	
+7	освоения	освоение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=39|end_char=47	
+8	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	ccomp	_	start_char=48|end_char=56	
+9	именно	именно	PART	_	_	12	advmod	_	start_char=57|end_char=63	
+10	на	на	ADP	_	_	12	case	_	start_char=64|end_char=66	
+11	российские	российский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	start_char=67|end_char=77	
+12	предприятия	предприятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obl	_	start_char=78|end_char=89	
+13	.	.	PUNCT	_	_	2	punct	_	start_char=89|end_char=90	
+
+#text = Так и нужно работать в будущем . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Так	так	ADV	_	Degree=Pos	3	advmod	_	start_char=91|end_char=94	
+2	и	и	PART	_	_	3	advmod	_	start_char=95|end_char=96	
+3	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=97|end_char=102	
+4	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=103|end_char=111	
+5	в	в	ADP	_	_	6	case	_	start_char=112|end_char=113	
+6	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=114|end_char=121	
+7	.	.	PUNCT	_	_	3	punct	_	start_char=121|end_char=122	
+
+#text = У нас , повторяю , есть все шансы закрепиться по всей линейке именно специальных судов , судов высокотехнологичных . 
+#par_id = 6
+#sent_id = 3
+#speaker = В.Путин
+1	У	у	ADP	_	_	2	case	_	start_char=123|end_char=124	
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	6	obl	_	start_char=125|end_char=128	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=128|end_char=129	
+4	повторяю	повторять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=130|end_char=138	
+5	,	,	PUNCT	_	_	4	punct	_	start_char=138|end_char=139	
+6	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=140|end_char=144	
+7	все	весь	DET	_	Case=Nom|Number=Plur	8	det	_	start_char=145|end_char=148	
+8	шансы	шанс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=149|end_char=154	
+9	закрепиться	закрепиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	obl	_	start_char=155|end_char=166	
+10	по	по	ADP	_	_	12	case	_	start_char=167|end_char=169	
+11	всей	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing	12	det	_	start_char=170|end_char=174	
+12	линейке	линейка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=175|end_char=182	
+13	именно	именно	PART	_	_	14	advmod	_	start_char=183|end_char=189	
+14	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=190|end_char=201	
+15	судов	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=202|end_char=207	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=207|end_char=208	
+17	судов	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	start_char=209|end_char=214	
+18	высокотехнологичных	высокотехнологичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=215|end_char=234	
+19	.	.	PUNCT	_	_	6	punct	_	start_char=234|end_char=235	
+
+#text = Я искренне , от всей души желаю успехов экипажу и поздравляю вас с сегодняшним приятным событием . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	start_char=4|end_char=5	
+2	искренне	искренне	ADV	_	Degree=Pos	7	advmod	_	start_char=6|end_char=14	
+3	,	,	PUNCT	_	_	6	punct	_	start_char=14|end_char=15	
+4	от	от	ADP	_	_	6	case	_	start_char=16|end_char=18	
+5	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	6	det	_	start_char=19|end_char=23	
+6	души	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	start_char=24|end_char=28	
+7	желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=29|end_char=34	
+8	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=35|end_char=42	
+9	экипажу	экипаж	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	start_char=43|end_char=50	
+10	и	и	CCONJ	_	_	11	cc	_	start_char=51|end_char=52	
+11	поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=53|end_char=63	
+12	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	11	obj	_	start_char=64|end_char=67	
+13	с	с	ADP	_	_	16	case	_	start_char=68|end_char=69	
+14	сегодняшним	сегодняшний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=70|end_char=81	
+15	приятным	приятный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=82|end_char=90	
+16	событием	событие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	start_char=91|end_char=99	
+17	.	.	PUNCT	_	_	7	punct	_	start_char=99|end_char=100	
+
+#text = Всего доброго . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=4|end_char=9	
+2	доброго	добрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=17	
+3	.	.	PUNCT	_	_	2	punct	_	start_char=17|end_char=18	
+
+#text = Благодарю вас за внимание . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	Благодарю	благодать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=28	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	1	obj	_	start_char=29|end_char=32	
+3	за	за	ADP	_	_	4	case	_	start_char=33|end_char=35	
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=36|end_char=44	
+5	.	.	PUNCT	_	_	1	punct	_	start_char=44|end_char=45	
+

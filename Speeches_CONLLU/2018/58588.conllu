@@ -1,0 +1,669 @@
+#text = Добрый день , уважаемые коллеги ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Добрый	добрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=15|end_char=16	
+4	уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	start_char=17|end_char=26	
+5	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=27|end_char=34	
+6	!	!	PUNCT	_	_	2	punct	_	start_char=34|end_char=35	
+
+#text = Здесь сегодня присутствуют и люди опытные , и новые руководители , исполнявшие до сих пор обязанности глав субъектов Федерации . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	start_char=4|end_char=9	
+2	сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=10|end_char=17	
+3	присутствуют	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=30	
+4	и	и	PART	_	_	5	cc	_	start_char=31|end_char=32	
+5	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=33|end_char=37	
+6	опытные	опытный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=38|end_char=45	
+7	,	,	PUNCT	_	_	10	punct	_	start_char=45|end_char=46	
+8	и	и	CCONJ	_	_	9	cc	_	start_char=47|end_char=48	
+9	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	conj	_	start_char=49|end_char=54	
+10	руководители	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	start_char=55|end_char=67	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=67|end_char=68	
+12	исполнявшие	исполнять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=69|end_char=80	
+13	до	до	ADP	_	_	12	advmod	_	start_char=81|end_char=83	
+14	сих	сей	DET	_	Case=Gen|Number=Plur	13	fixed	_	start_char=84|end_char=87	
+15	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	fixed	_	start_char=88|end_char=91	
+16	обязанности	обязанность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=92|end_char=103	
+17	глав	глава	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=104|end_char=108	
+18	субъектов	субъект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=109|end_char=118	
+19	Федерации	Федерация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=119|end_char=128	
+20	.	.	PUNCT	_	_	3	punct	_	start_char=128|end_char=129	
+
+#text = Хочу поздравить всех вас с победой на выборах . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8	
+2	поздравить	поздравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=19	
+3	всех	весь	DET	_	Case=Acc|Number=Plur	4	det	_	start_char=20|end_char=24	
+4	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	2	obj	_	start_char=25|end_char=28	
+5	с	с	ADP	_	_	6	case	_	start_char=29|end_char=30	
+6	победой	победа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=31|end_char=38	
+7	на	на	ADP	_	_	8	case	_	start_char=39|end_char=41	
+8	выборах	выборы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	start_char=42|end_char=49	
+9	.	.	PUNCT	_	_	1	punct	_	start_char=49|end_char=50	
+
+#text = Вы уже в первом туре в ходе единого дня голосования 9 сентября получили мандат доверия от избирателей . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	13	nsubj	_	start_char=51|end_char=53	
+2	уже	уже	ADV	_	Degree=Pos	5	obl	_	start_char=54|end_char=57	
+3	в	в	ADP	_	_	5	case	_	start_char=58|end_char=59	
+4	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=60|end_char=66	
+5	туре	тур	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	start_char=67|end_char=71	
+6	в	в	ADP	_	_	9	case	_	start_char=72|end_char=73	
+7	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	fixed	_	start_char=74|end_char=78	
+8	единого	единый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=79|end_char=86	
+9	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	start_char=87|end_char=90	
+10	голосования	голосование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=91|end_char=102	
+11	9	9	NUM	_	_	13	nummod	_	start_char=103|end_char=104	
+12	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	flat	_	start_char=105|end_char=113	
+13	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=114|end_char=122	
+14	мандат	мандат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=123|end_char=129	
+15	доверия	доверие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=130|end_char=137	
+16	от	от	ADP	_	_	17	case	_	start_char=138|end_char=140	
+17	избирателей	избиратель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=141|end_char=152	
+18	.	.	PUNCT	_	_	13	punct	_	start_char=152|end_char=153	
+
+#text = Думаю , вы прекрасно при этом понимаете , что этот успех – лишь начало вашей серьёзной и большой работы : и вашей личной работы , и работы ваших команд . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	start_char=4|end_char=9	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=9|end_char=10	
+3	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	7	nsubj	_	start_char=11|end_char=13	
+4	прекрасно	прекрасно	ADV	_	Degree=Pos	7	advmod	_	start_char=14|end_char=23	
+5	при	при	ADP	_	_	6	case	_	start_char=24|end_char=27	
+6	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	start_char=28|end_char=32	
+7	понимаете	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=33|end_char=42	
+8	,	,	PUNCT	_	_	14	punct	_	start_char=42|end_char=43	
+9	что	что	SCONJ	_	_	14	mark	_	start_char=44|end_char=47	
+10	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	11	det	_	start_char=48|end_char=52	
+11	успех	успех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=53|end_char=58	
+12	–	–	PUNCT	_	_	11	punct	_	start_char=59|end_char=60	
+13	лишь	лишь	PART	_	_	14	advmod	_	start_char=61|end_char=65	
+14	начало	начало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	ccomp	_	start_char=66|end_char=72	
+15	вашей	ваш	DET	_	Case=Gen|Gender=Fem|Number=Sing	19	det	_	start_char=73|end_char=78	
+16	серьёзной	серьезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=79|end_char=88	
+17	и	и	CCONJ	_	_	18	cc	_	start_char=89|end_char=90	
+18	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	start_char=91|end_char=98	
+19	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=99|end_char=105	
+20	:	:	PUNCT	_	_	24	punct	_	start_char=105|end_char=106	
+21	и	и	CCONJ	_	_	24	cc	_	start_char=107|end_char=108	
+22	вашей	ваш	DET	_	Case=Gen|Gender=Fem|Number=Sing	24	det	_	start_char=109|end_char=114	
+23	личной	личный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=115|end_char=121	
+24	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	parataxis	_	start_char=122|end_char=128	
+25	,	,	PUNCT	_	_	27	punct	_	start_char=128|end_char=129	
+26	и	и	CCONJ	_	_	27	cc	_	start_char=130|end_char=131	
+27	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	conj	_	start_char=132|end_char=138	
+28	ваших	ваш	DET	_	Case=Gen|Number=Plur	29	det	_	start_char=139|end_char=144	
+29	команд	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	start_char=145|end_char=151	
+30	.	.	PUNCT	_	_	7	punct	_	start_char=151|end_char=152	
+
+#text = Прошу максимально быстро , насколько это возможно , включиться в работу – хотя , повторяю , многие уже работали в качестве исполняющих обязанности , а некоторые были и руководителями регионов , поэтому много времени на раскачку не потребуется . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Прошу	просить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=9	
+2	максимально	максимально	ADV	_	Degree=Pos	3	advmod	_	start_char=10|end_char=21	
+3	быстро	быстро	ADV	_	Degree=Pos	1	advmod	_	start_char=22|end_char=28	
+4	,	,	PUNCT	_	_	7	punct	_	start_char=28|end_char=29	
+5	насколько	насколько	ADV	_	Degree=Pos	7	obl	_	start_char=30|end_char=39	
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=40|end_char=43	
+7	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	parataxis	_	start_char=44|end_char=52	
+8	,	,	PUNCT	_	_	9	punct	_	start_char=52|end_char=53	
+9	включиться	включиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	1	xcomp	_	start_char=54|end_char=64	
+10	в	в	ADP	_	_	11	case	_	start_char=65|end_char=66	
+11	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=67|end_char=73	
+12	–	–	PUNCT	_	_	19	punct	_	start_char=74|end_char=75	
+13	хотя	хотя	SCONJ	_	_	19	mark	_	start_char=76|end_char=80	
+14	,	,	PUNCT	_	_	13	punct	_	start_char=80|end_char=81	
+15	повторяю	повторять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis	_	start_char=82|end_char=90	
+16	,	,	PUNCT	_	_	15	punct	_	start_char=90|end_char=91	
+17	многие	много	NUM	_	_	19	nsubj	_	start_char=92|end_char=98	
+18	уже	уже	ADV	_	Degree=Pos	19	advmod	_	start_char=99|end_char=102	
+19	работали	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=103|end_char=111	
+20	в	в	ADP	_	_	23	case	_	start_char=112|end_char=113	
+21	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	fixed	_	start_char=114|end_char=122	
+22	исполняющих	исполнять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	start_char=123|end_char=134	
+23	обязанности	обязанность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	start_char=135|end_char=146	
+24	,	,	PUNCT	_	_	29	punct	_	start_char=146|end_char=147	
+25	а	а	CCONJ	_	_	29	cc	_	start_char=148|end_char=149	
+26	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	29	nsubj	_	start_char=150|end_char=159	
+27	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	cop	_	start_char=160|end_char=164	
+28	и	и	PART	_	_	29	advmod	_	start_char=165|end_char=166	
+29	руководителями	руководитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	19	conj	_	start_char=167|end_char=181	
+30	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	start_char=182|end_char=190	
+31	,	,	PUNCT	_	_	38	punct	_	start_char=190|end_char=191	
+32	поэтому	поэтому	ADV	_	Degree=Pos	38	advmod	_	start_char=192|end_char=199	
+33	много	много	ADV	_	Degree=Pos	38	nsubj	_	start_char=200|end_char=205	
+34	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	obl	_	start_char=206|end_char=213	
+35	на	на	ADP	_	_	36	case	_	start_char=214|end_char=216	
+36	раскачку	раскачка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	obl	_	start_char=217|end_char=225	
+37	не	не	PART	_	_	38	advmod	_	start_char=226|end_char=228	
+38	потребуется	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	19	conj	_	start_char=229|end_char=240	
+39	.	.	PUNCT	_	_	1	punct	_	start_char=240|end_char=241	
+
+#text = Цели , которые стоят перед нами , в полном смысле слова общенациональные , единые для всех политических сил , которые готовы и хотят трудиться на благо нашей страны , на благо России . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Цели	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=4|end_char=8	
+2	,	,	PUNCT	_	_	4	punct	_	start_char=8|end_char=9	
+3	которые	который	PRON	_	Case=Nom	4	nsubj	_	start_char=10|end_char=17	
+4	стоят	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=18|end_char=23	
+5	перед	перед	ADP	_	_	6	case	_	start_char=24|end_char=29	
+6	нами	мы	PRON	_	Case=Ins|Number=Plur|Person=1	4	obl	_	start_char=30|end_char=34	
+7	,	,	PUNCT	_	_	1	punct	_	start_char=34|end_char=35	
+8	в	в	ADP	_	_	10	case	_	start_char=36|end_char=37	
+9	полном	полный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=38|end_char=44	
+10	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=45|end_char=51	
+11	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=52|end_char=57	
+12	общенациональные	общенациональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=58|end_char=74	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=74|end_char=75	
+14	единые	единый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	conj	_	start_char=76|end_char=82	
+15	для	для	ADP	_	_	18	case	_	start_char=83|end_char=86	
+16	всех	весь	DET	_	Case=Gen|Number=Plur	18	det	_	start_char=87|end_char=91	
+17	политических	политический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	start_char=92|end_char=104	
+18	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	start_char=105|end_char=108	
+19	,	,	PUNCT	_	_	21	punct	_	start_char=108|end_char=109	
+20	которые	который	PRON	_	Case=Nom	21	nsubj	_	start_char=110|end_char=117	
+21	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	18	acl:relcl	_	start_char=118|end_char=124	
+22	и	и	CCONJ	_	_	23	cc	_	start_char=125|end_char=126	
+23	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	start_char=127|end_char=132	
+24	трудиться	трудиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	23	xcomp	_	start_char=133|end_char=142	
+25	на	на	ADP	_	_	26	case	_	start_char=143|end_char=145	
+26	благо	благо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obl	_	start_char=146|end_char=151	
+27	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	28	det	_	start_char=152|end_char=157	
+28	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	start_char=158|end_char=164	
+29	,	,	PUNCT	_	_	31	punct	_	start_char=164|end_char=165	
+30	на	на	ADP	_	_	31	case	_	start_char=166|end_char=168	
+31	благо	благо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	conj	_	start_char=169|end_char=174	
+32	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	start_char=175|end_char=181	
+33	.	.	PUNCT	_	_	12	punct	_	start_char=181|end_char=182	
+
+#text = Это увеличение продолжительности жизни и численности населения страны , снижение уровня бедности , рост реальных доходов граждан . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	det	_	start_char=4|end_char=7	
+2	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=8|end_char=18	
+3	продолжительности	продолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=19|end_char=36	
+4	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=37|end_char=42	
+5	и	и	CCONJ	_	_	6	cc	_	start_char=43|end_char=44	
+6	численности	численность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	conj	_	start_char=45|end_char=56	
+7	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=57|end_char=66	
+8	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=67|end_char=73	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=73|end_char=74	
+10	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	start_char=75|end_char=83	
+11	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=84|end_char=90	
+12	бедности	бедность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=91|end_char=99	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=99|end_char=100	
+14	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=101|end_char=105	
+15	реальных	реальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	start_char=106|end_char=114	
+16	доходов	доход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=115|end_char=122	
+17	граждан	гражданин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=123|end_char=130	
+18	.	.	PUNCT	_	_	2	punct	_	start_char=130|end_char=131	
+
+#text = Чтобы достичь этих больших целей , нужно сделать так , чтобы у конкретного человека были и интересная работа , и достаток . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	start_char=132|end_char=137	
+2	достичь	достичь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=138|end_char=145	
+3	этих	этот	DET	_	Case=Gen|Number=Plur	5	det	_	start_char=146|end_char=150	
+4	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=151|end_char=158	
+5	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	start_char=159|end_char=164	
+6	,	,	PUNCT	_	_	2	punct	_	start_char=164|end_char=165	
+7	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=166|end_char=171	
+8	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	start_char=172|end_char=179	
+9	так	так	ADV	_	Degree=Pos	8	advmod	_	start_char=180|end_char=183	
+10	,	,	PUNCT	_	_	15	punct	_	start_char=183|end_char=184	
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	start_char=185|end_char=190	
+12	у	у	ADP	_	_	14	case	_	start_char=191|end_char=192	
+13	конкретного	конкретный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=193|end_char=204	
+14	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	start_char=205|end_char=213	
+15	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=214|end_char=218	
+16	и	и	PART	_	_	18	cc	_	start_char=219|end_char=220	
+17	интересная	интересный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=221|end_char=231	
+18	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=232|end_char=238	
+19	,	,	PUNCT	_	_	21	punct	_	start_char=238|end_char=239	
+20	и	и	CCONJ	_	_	21	cc	_	start_char=240|end_char=241	
+21	достаток	достаток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	start_char=242|end_char=250	
+22	.	.	PUNCT	_	_	7	punct	_	start_char=250|end_char=251	
+
+#text = Чтобы в крупных городах , в малых городах , на селе были комфортные условия для жизни : хорошие детские сады , школы , поликлиники , больницы , нормальные дороги , уютные улицы и парки , скверы . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	start_char=4|end_char=9	
+2	в	в	ADP	_	_	4	case	_	start_char=10|end_char=11	
+3	крупных	крупный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	start_char=12|end_char=19	
+4	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	start_char=20|end_char=27	
+5	,	,	PUNCT	_	_	8	punct	_	start_char=27|end_char=28	
+6	в	в	ADP	_	_	8	case	_	start_char=29|end_char=30	
+7	малых	малый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	start_char=31|end_char=36	
+8	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	conj	_	start_char=37|end_char=44	
+9	,	,	PUNCT	_	_	4	punct	_	start_char=44|end_char=45	
+10	на	на	ADP	_	_	11	case	_	start_char=46|end_char=48	
+11	селе	село	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	start_char=49|end_char=53	
+12	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=58	
+13	комфортные	комфортный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=59|end_char=69	
+14	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	start_char=70|end_char=77	
+15	для	для	ADP	_	_	16	case	_	start_char=78|end_char=81	
+16	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=82|end_char=87	
+17	:	:	PUNCT	_	_	20	punct	_	start_char=87|end_char=88	
+18	хорошие	хороший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	start_char=89|end_char=96	
+19	детские	детский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	start_char=97|end_char=104	
+20	сады	сад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	parataxis	_	start_char=105|end_char=109	
+21	,	,	PUNCT	_	_	22	punct	_	start_char=109|end_char=110	
+22	школы	школа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	conj	_	start_char=111|end_char=116	
+23	,	,	PUNCT	_	_	24	punct	_	start_char=116|end_char=117	
+24	поликлиники	поликлиника	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	conj	_	start_char=118|end_char=129	
+25	,	,	PUNCT	_	_	26	punct	_	start_char=129|end_char=130	
+26	больницы	больница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	conj	_	start_char=131|end_char=139	
+27	,	,	PUNCT	_	_	29	punct	_	start_char=139|end_char=140	
+28	нормальные	нормальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	start_char=141|end_char=151	
+29	дороги	дорога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	conj	_	start_char=152|end_char=158	
+30	,	,	PUNCT	_	_	32	punct	_	start_char=158|end_char=159	
+31	уютные	уютный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	start_char=160|end_char=166	
+32	улицы	улица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	conj	_	start_char=167|end_char=172	
+33	и	и	CCONJ	_	_	34	cc	_	start_char=173|end_char=174	
+34	парки	парк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	conj	_	start_char=175|end_char=180	
+35	,	,	PUNCT	_	_	36	punct	_	start_char=180|end_char=181	
+36	скверы	сквер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	conj	_	start_char=182|end_char=188	
+37	.	.	PUNCT	_	_	12	punct	_	start_char=188|end_char=189	
+
+#text = Все эти вопросы решаются , что называется , в конкретной работе , как у нас говорят часто , « на земле » , то есть от вас будет очень многое зависеть . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Все	весь	DET	_	Case=Nom|Number=Plur	3	det	_	start_char=4|end_char=7	
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	det	_	start_char=8|end_char=11	
+3	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=12|end_char=19	
+4	решаются	решаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=20|end_char=28	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=28|end_char=29	
+6	что	что	PRON	_	Case=Nom	7	nsubj	_	start_char=30|end_char=33	
+7	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	start_char=34|end_char=44	
+8	,	,	PUNCT	_	_	11	punct	_	start_char=44|end_char=45	
+9	в	в	ADP	_	_	11	case	_	start_char=46|end_char=47	
+10	конкретной	конкретный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=48|end_char=58	
+11	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=59|end_char=65	
+12	,	,	PUNCT	_	_	16	punct	_	start_char=65|end_char=66	
+13	как	как	SCONJ	_	_	16	mark	_	start_char=67|end_char=70	
+14	у	у	ADP	_	_	15	case	_	start_char=71|end_char=72	
+15	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	16	obl	_	start_char=73|end_char=76	
+16	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=77|end_char=84	
+17	часто	часто	ADV	_	Degree=Pos	16	advmod	_	start_char=85|end_char=90	
+18	,	,	PUNCT	_	_	21	punct	_	start_char=90|end_char=91	
+19	«	"	PUNCT	_	_	21	punct	_	start_char=92|end_char=93	
+20	на	на	ADP	_	_	21	case	_	start_char=93|end_char=95	
+21	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=96|end_char=101	
+22	»	"	PUNCT	_	_	21	punct	_	start_char=101|end_char=102	
+23	,	,	PUNCT	_	_	31	punct	_	start_char=102|end_char=103	
+24	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	mark	_	start_char=104|end_char=106	
+25	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	fixed	_	start_char=107|end_char=111	
+26	от	от	ADP	_	_	27	case	_	start_char=112|end_char=114	
+27	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	31	obl	_	start_char=115|end_char=118	
+28	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	start_char=119|end_char=124	
+29	очень	очень	ADV	_	Degree=Pos	31	advmod	_	start_char=125|end_char=130	
+30	многое	многое	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	start_char=131|end_char=137	
+31	зависеть	зависеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	parataxis	_	start_char=138|end_char=146	
+32	.	.	PUNCT	_	_	4	punct	_	start_char=146|end_char=147	
+
+#text = Подчеркну : вклад губернаторов в достижение общенациональных целей является решающим , и тот , кто действительно работает , добивается результата , всегда может рассчитывать на поддержку . 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	Подчеркну	подчеркнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=13	
+2	:	:	PUNCT	_	_	9	punct	_	start_char=13|end_char=14	
+3	вклад	вклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=15|end_char=20	
+4	губернаторов	губернатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=21|end_char=33	
+5	в	в	ADP	_	_	6	case	_	start_char=34|end_char=35	
+6	достижение	достижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	start_char=36|end_char=46	
+7	общенациональных	общенациональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=47|end_char=63	
+8	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=64|end_char=69	
+9	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	parataxis	_	start_char=70|end_char=78	
+10	решающим	решать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	xcomp	_	start_char=79|end_char=87	
+11	,	,	PUNCT	_	_	23	punct	_	start_char=87|end_char=88	
+12	и	и	CCONJ	_	_	23	cc	_	start_char=89|end_char=90	
+13	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	start_char=91|end_char=94	
+14	,	,	PUNCT	_	_	17	punct	_	start_char=94|end_char=95	
+15	кто	кто	PRON	_	Case=Nom	17	nsubj	_	start_char=96|end_char=99	
+16	действительно	действительно	ADV	_	Degree=Pos	17	advmod	_	start_char=100|end_char=113	
+17	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=114|end_char=122	
+18	,	,	PUNCT	_	_	13	punct	_	start_char=122|end_char=123	
+19	добивается	добиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	start_char=124|end_char=134	
+20	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	start_char=135|end_char=145	
+21	,	,	PUNCT	_	_	13	punct	_	start_char=145|end_char=146	
+22	всегда	всегда	ADV	_	Degree=Pos	23	advmod	_	start_char=147|end_char=153	
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	start_char=154|end_char=159	
+24	рассчитывать	рассчитывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	start_char=160|end_char=172	
+25	на	на	ADP	_	_	26	case	_	start_char=173|end_char=175	
+26	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	start_char=176|end_char=185	
+27	.	.	PUNCT	_	_	1	punct	_	start_char=185|end_char=186	
+
+#text = На что хотел бы обратить особое внимание . 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	На	на	ADP	_	_	2	case	_	start_char=4|end_char=6	
+2	что	что	PRON	_	Case=Acc	3	obl	_	start_char=7|end_char=10	
+3	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=16	
+4	бы	бы	AUX	_	_	3	aux	_	start_char=17|end_char=19	
+5	обратить	обратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=20|end_char=28	
+6	особое	особый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=29|end_char=35	
+7	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=36|end_char=44	
+8	.	.	PUNCT	_	_	3	punct	_	start_char=44|end_char=45	
+
+#text = Граждане не просто сделали выбор в пользу того или иного кандидата , в пользу той или иной партии . 
+#par_id = 11
+#sent_id = 2
+#speaker = В.Путин
+1	Граждане	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=46|end_char=54	
+2	не	не	PART	_	_	3	advmod	_	start_char=55|end_char=57	
+3	просто	просто	PART	_	_	4	advmod	_	start_char=58|end_char=64	
+4	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=65|end_char=72	
+5	выбор	выбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=73|end_char=78	
+6	в	в	ADP	_	_	7	case	_	start_char=79|end_char=80	
+7	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=81|end_char=87	
+8	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	11	det	_	start_char=88|end_char=92	
+9	или	или	CCONJ	_	_	10	cc	_	start_char=93|end_char=96	
+10	иного	иной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	start_char=97|end_char=102	
+11	кандидата	кандидат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=103|end_char=112	
+12	,	,	PUNCT	_	_	14	punct	_	start_char=112|end_char=113	
+13	в	в	ADP	_	_	14	case	_	start_char=114|end_char=115	
+14	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	start_char=116|end_char=122	
+15	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing	18	det	_	start_char=123|end_char=126	
+16	или	или	CCONJ	_	_	17	cc	_	start_char=127|end_char=130	
+17	иной	иной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	start_char=131|end_char=135	
+18	партии	партия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=136|end_char=142	
+19	.	.	PUNCT	_	_	4	punct	_	start_char=142|end_char=143	
+
+#text = Они показали , с чем они согласны , с чем не согласны , чего от власти ожидают . 
+#par_id = 11
+#sent_id = 3
+#speaker = В.Путин
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	start_char=144|end_char=147	
+2	показали	показать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=148|end_char=156	
+3	,	,	PUNCT	_	_	7	punct	_	start_char=156|end_char=157	
+4	с	с	ADP	_	_	5	case	_	start_char=158|end_char=159	
+5	чем	что	PRON	_	Case=Ins	7	obl	_	start_char=160|end_char=163	
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	start_char=164|end_char=167	
+7	согласны	согласный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	ccomp	_	start_char=168|end_char=176	
+8	,	,	PUNCT	_	_	12	punct	_	start_char=176|end_char=177	
+9	с	с	ADP	_	_	10	case	_	start_char=178|end_char=179	
+10	чем	что	PRON	_	Case=Ins	12	obl	_	start_char=180|end_char=183	
+11	не	не	PART	_	_	12	advmod	_	start_char=184|end_char=186	
+12	согласны	согласный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	conj	_	start_char=187|end_char=195	
+13	,	,	PUNCT	_	_	17	punct	_	start_char=195|end_char=196	
+14	чего	что	PRON	_	Case=Gen	17	obl	_	start_char=197|end_char=201	
+15	от	от	ADP	_	_	16	case	_	start_char=202|end_char=204	
+16	власти	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	start_char=205|end_char=211	
+17	ожидают	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj	_	start_char=212|end_char=219	
+18	.	.	PUNCT	_	_	2	punct	_	start_char=219|end_char=220	
+
+#text = И это очень важно . 
+#par_id = 11
+#sent_id = 4
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=221|end_char=222	
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=223|end_char=226	
+3	очень	очень	ADV	_	Degree=Pos	4	obl	_	start_char=227|end_char=232	
+4	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=233|end_char=238	
+5	.	.	PUNCT	_	_	4	punct	_	start_char=238|end_char=239	
+
+#text = Ваша задача как избранных глав субъектов Федерации – услышать эти сигналы , которые люди передали власти , разобраться в существующих проблемах , ещё глубже разобраться , понять их и ответить на запросы и ваших сторонников , и , что важно , граждан , которые поддержали других кандидатов . 
+#par_id = 12
+#sent_id = 1
+#speaker = В.Путин
+1	Ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=15	
+3	как	как	SCONJ	_	_	5	mark	_	start_char=16|end_char=19	
+4	избранных	избрать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	start_char=20|end_char=29	
+5	глав	глава	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=30|end_char=34	
+6	субъектов	субъект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=35|end_char=44	
+7	Федерации	Федерация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=45|end_char=54	
+8	–	–	PUNCT	_	_	9	punct	_	start_char=55|end_char=56	
+9	услышать	слышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=57|end_char=65	
+10	эти	этот	DET	_	Case=Acc|Number=Plur	11	det	_	start_char=66|end_char=69	
+11	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=70|end_char=77	
+12	,	,	PUNCT	_	_	15	punct	_	start_char=77|end_char=78	
+13	которые	который	PRON	_	Case=Nom	15	nsubj	_	start_char=79|end_char=86	
+14	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=87|end_char=91	
+15	передали	передать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=92|end_char=100	
+16	власти	власть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=101|end_char=107	
+17	,	,	PUNCT	_	_	18	punct	_	start_char=107|end_char=108	
+18	разобраться	разобраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	15	conj	_	start_char=109|end_char=120	
+19	в	в	ADP	_	_	21	case	_	start_char=121|end_char=122	
+20	существующих	существовать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	start_char=123|end_char=135	
+21	проблемах	проблема	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	start_char=136|end_char=145	
+22	,	,	PUNCT	_	_	25	punct	_	start_char=145|end_char=146	
+23	ещё	еще	ADV	_	Degree=Pos	24	advmod	_	start_char=147|end_char=150	
+24	глубже	глубоко	ADV	_	Degree=Cmp	25	advmod	_	start_char=151|end_char=157	
+25	разобраться	разобраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	conj	_	start_char=158|end_char=169	
+26	,	,	PUNCT	_	_	27	punct	_	start_char=169|end_char=170	
+27	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	start_char=171|end_char=177	
+28	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	27	obj	_	start_char=178|end_char=180	
+29	и	и	CCONJ	_	_	30	cc	_	start_char=181|end_char=182	
+30	ответить	ответить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	start_char=183|end_char=191	
+31	на	на	ADP	_	_	32	case	_	start_char=192|end_char=194	
+32	запросы	запрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obl	_	start_char=195|end_char=202	
+33	и	и	CCONJ	_	_	35	cc	_	start_char=203|end_char=204	
+34	ваших	ваш	DET	_	Case=Acc|Number=Plur	35	det	_	start_char=205|end_char=210	
+35	сторонников	сторонник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	32	conj	_	start_char=211|end_char=222	
+36	,	,	PUNCT	_	_	42	punct	_	start_char=222|end_char=223	
+37	и	и	CCONJ	_	_	42	cc	_	start_char=224|end_char=225	
+38	,	,	PUNCT	_	_	37	punct	_	start_char=225|end_char=226	
+39	что	что	PRON	_	Case=Nom	40	nsubj	_	start_char=227|end_char=230	
+40	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	42	parataxis	_	start_char=231|end_char=236	
+41	,	,	PUNCT	_	_	40	punct	_	start_char=236|end_char=237	
+42	граждан	гражданин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	32	conj	_	start_char=238|end_char=245	
+43	,	,	PUNCT	_	_	45	punct	_	start_char=245|end_char=246	
+44	которые	который	PRON	_	Case=Nom	45	nsubj	_	start_char=247|end_char=254	
+45	поддержали	поддержать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	42	acl:relcl	_	start_char=255|end_char=265	
+46	других	другой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	47	amod	_	start_char=266|end_char=272	
+47	кандидатов	кандидат	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	45	obj	_	start_char=273|end_char=283	
+48	.	.	PUNCT	_	_	2	punct	_	start_char=283|end_char=284	
+
+#text = Не закрываться от тех , кто имеет иную точку зрения , привлекать их к решению общих задач . 
+#par_id = 12
+#sent_id = 2
+#speaker = В.Путин
+1	Не	не	PART	_	_	2	advmod	_	start_char=285|end_char=287	
+2	закрываться	закрывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	start_char=288|end_char=299	
+3	от	от	ADP	_	_	4	case	_	start_char=300|end_char=302	
+4	тех	тот	DET	_	Case=Gen|Number=Plur	2	det	_	start_char=303|end_char=306	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=306|end_char=307	
+6	кто	кто	PRON	_	Case=Nom	7	nsubj	_	start_char=308|end_char=311	
+7	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=312|end_char=317	
+8	иную	иной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=318|end_char=322	
+9	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=323|end_char=328	
+10	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	compound	_	start_char=329|end_char=335	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=335|end_char=336	
+12	привлекать	привлекать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	start_char=337|end_char=347	
+13	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	12	obj	_	start_char=348|end_char=350	
+14	к	к	ADP	_	_	15	case	_	start_char=351|end_char=352	
+15	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=353|end_char=360	
+16	общих	общий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=361|end_char=366	
+17	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	start_char=367|end_char=372	
+18	.	.	PUNCT	_	_	2	punct	_	start_char=372|end_char=373	
+
+#text = Словом , нужно работать в интересах всех жителей ваших регионов . 
+#par_id = 12
+#sent_id = 3
+#speaker = В.Путин
+1	Словом	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	parataxis	_	start_char=374|end_char=380	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=380|end_char=381	
+3	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=382|end_char=387	
+4	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=388|end_char=396	
+5	в	в	ADP	_	_	6	case	_	start_char=397|end_char=398	
+6	интересах	интерес	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	start_char=399|end_char=408	
+7	всех	весь	DET	_	Case=Gen|Number=Plur	8	det	_	start_char=409|end_char=413	
+8	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=414|end_char=421	
+9	ваших	ваш	DET	_	Case=Gen|Number=Plur	10	det	_	start_char=422|end_char=427	
+10	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=428|end_char=436	
+11	.	.	PUNCT	_	_	3	punct	_	start_char=436|end_char=437	
+
+#text = Необходимо также выстраивать конструктивное сотрудничество с местным самоуправлением , оказывать содействие добровольцам . 
+#par_id = 13
+#sent_id = 1
+#speaker = В.Путин
+1	Необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=14	
+2	также	также	ADV	_	Degree=Pos	1	advmod	_	start_char=15|end_char=20	
+3	выстраивать	выстраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=21|end_char=32	
+4	конструктивное	конструктивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=33|end_char=47	
+5	сотрудничество	сотрудничество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=48|end_char=62	
+6	с	с	ADP	_	_	8	case	_	start_char=63|end_char=64	
+7	местным	местный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=65|end_char=72	
+8	самоуправлением	самоуправление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	start_char=73|end_char=88	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=88|end_char=89	
+10	оказывать	оказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	start_char=90|end_char=99	
+11	содействие	содействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=100|end_char=110	
+12	добровольцам	доброволец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	iobj	_	start_char=111|end_char=123	
+13	.	.	PUNCT	_	_	1	punct	_	start_char=123|end_char=124	
+
+#text = Следует создать работающие социальные лифты с использованием механизмов конкурса « Лидеры России » . 
+#par_id = 13
+#sent_id = 2
+#speaker = В.Путин
+1	Следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=125|end_char=132	
+2	создать	создать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=133|end_char=140	
+3	работающие	работать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	start_char=141|end_char=151	
+4	социальные	социальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=152|end_char=162	
+5	лифты	лифт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=163|end_char=168	
+6	с	с	ADP	_	_	7	case	_	start_char=169|end_char=170	
+7	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	start_char=171|end_char=185	
+8	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=186|end_char=196	
+9	конкурса	конкурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=197|end_char=205	
+10	«	"	PUNCT	_	_	11	punct	_	start_char=206|end_char=207	
+11	Лидеры	лидер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	appos	_	start_char=207|end_char=213	
+12	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=214|end_char=220	
+13	»	"	PUNCT	_	_	11	punct	_	start_char=220|end_char=221	
+14	.	.	PUNCT	_	_	1	punct	_	start_char=221|end_char=222	
+
+#text = Этот механизм у нас уже работает , прошу вас его поддержать . 
+#par_id = 13
+#sent_id = 3
+#speaker = В.Путин
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	start_char=223|end_char=227	
+2	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=228|end_char=236	
+3	у	у	ADP	_	_	4	case	_	start_char=237|end_char=238	
+4	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	6	obl	_	start_char=239|end_char=242	
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	start_char=243|end_char=246	
+6	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=247|end_char=255	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=255|end_char=256	
+8	прошу	просить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=257|end_char=262	
+9	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	11	obj	_	start_char=263|end_char=266	
+10	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obj	_	start_char=267|end_char=270	
+11	поддержать	поддержать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=271|end_char=281	
+12	.	.	PUNCT	_	_	6	punct	_	start_char=281|end_char=282	
+
+#text = Тем более что прошедшие выборы вновь показали : граждане поддерживают тенденции на обновление , и ваши команды должны формироваться прежде всего на основе общих ценностей и целей , а не политических взглядов или каких-то партийных преференций или партийной принадлежности . 
+#par_id = 14
+#sent_id = 1
+#speaker = В.Путин
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	start_char=4|end_char=7	
+2	более	более	ADV	_	Degree=Cmp	0	root	_	start_char=8|end_char=13	
+3	что	что	SCONJ	_	_	2	mark	_	start_char=14|end_char=17	
+4	прошедшие	пройти	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	amod	_	start_char=18|end_char=27	
+5	выборы	выборы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=28|end_char=34	
+6	вновь	вновь	ADV	_	Degree=Pos	2	advmod	_	start_char=35|end_char=40	
+7	показали	показать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	fixed	_	start_char=41|end_char=49	
+8	:	:	PUNCT	_	_	10	punct	_	start_char=49|end_char=50	
+9	граждане	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=51|end_char=59	
+10	поддерживают	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	start_char=60|end_char=72	
+11	тенденции	тенденция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=73|end_char=82	
+12	на	на	ADP	_	_	13	case	_	start_char=83|end_char=85	
+13	обновление	обновление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	start_char=86|end_char=96	
+14	,	,	PUNCT	_	_	18	punct	_	start_char=96|end_char=97	
+15	и	и	CCONJ	_	_	18	cc	_	start_char=98|end_char=99	
+16	ваши	ваш	DET	_	Case=Nom|Number=Plur	17	det	_	start_char=100|end_char=104	
+17	команды	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	start_char=105|end_char=112	
+18	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	conj	_	start_char=113|end_char=119	
+19	формироваться	формироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	xcomp	_	start_char=120|end_char=133	
+20	прежде	прежде	ADP	_	_	23	advmod	_	start_char=134|end_char=140	
+21	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	fixed	_	start_char=141|end_char=146	
+22	на	на	ADP	_	_	23	case	_	start_char=147|end_char=149	
+23	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	start_char=150|end_char=156	
+24	общих	общий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	start_char=157|end_char=162	
+25	ценностей	ценность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=163|end_char=172	
+26	и	и	CCONJ	_	_	27	cc	_	start_char=173|end_char=174	
+27	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	conj	_	start_char=175|end_char=180	
+28	,	,	PUNCT	_	_	32	punct	_	start_char=180|end_char=181	
+29	а	а	CCONJ	_	_	32	cc	_	start_char=182|end_char=183	
+30	не	не	PART	_	_	31	advmod	_	start_char=184|end_char=186	
+31	политических	политический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	start_char=187|end_char=199	
+32	взглядов	взгляд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	conj	_	start_char=200|end_char=208	
+33	или	или	CCONJ	_	_	36	cc	_	start_char=209|end_char=212	
+34	каких-то	какой-то	DET	_	Case=Gen|Number=Plur	36	det	_	start_char=213|end_char=221	
+35	партийных	партийный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	start_char=222|end_char=231	
+36	преференций	преференция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	conj	_	start_char=232|end_char=243	
+37	или	или	CCONJ	_	_	39	cc	_	start_char=244|end_char=247	
+38	партийной	партийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=248|end_char=257	
+39	принадлежности	принадлежность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	conj	_	start_char=258|end_char=272	
+40	.	.	PUNCT	_	_	2	punct	_	start_char=272|end_char=273	
+
+#text = Чтобы вашими соратниками , помощниками были люди профессиональные , энергичные , честные , способные эффективно работать над задачами развития регионов . 
+#par_id = 15
+#sent_id = 1
+#speaker = В.Путин
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	start_char=4|end_char=9	
+2	вашими	ваш	DET	_	Case=Ins|Number=Plur	3	det	_	start_char=10|end_char=16	
+3	соратниками	соратник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	0	root	_	start_char=17|end_char=28	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=28|end_char=29	
+5	помощниками	помощник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	conj	_	start_char=30|end_char=41	
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=42|end_char=46	
+7	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=47|end_char=51	
+8	профессиональные	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	start_char=52|end_char=68	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=68|end_char=69	
+10	энергичные	энергичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	conj	_	start_char=70|end_char=80	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=80|end_char=81	
+12	честные	честный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	conj	_	start_char=82|end_char=89	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=89|end_char=90	
+14	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	conj	_	start_char=91|end_char=100	
+15	эффективно	эффективно	ADV	_	Degree=Pos	16	advmod	_	start_char=101|end_char=111	
+16	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=112|end_char=120	
+17	над	над	ADP	_	_	18	case	_	start_char=121|end_char=124	
+18	задачами	задача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	start_char=125|end_char=133	
+19	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	start_char=134|end_char=142	
+20	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	start_char=143|end_char=151	
+21	.	.	PUNCT	_	_	3	punct	_	start_char=151|end_char=152	
+
+#text = Хочу выразить надежду на то , что именно так вы и будете работать . 
+#par_id = 16
+#sent_id = 1
+#speaker = В.Путин
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8	
+2	выразить	выразить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=17	
+3	надежду	надежда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=18|end_char=25	
+4	на	на	ADP	_	_	5	case	_	start_char=26|end_char=28	
+5	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	start_char=29|end_char=31	
+6	,	,	PUNCT	_	_	13	punct	_	start_char=31|end_char=32	
+7	что	что	SCONJ	_	_	13	mark	_	start_char=33|end_char=36	
+8	именно	именно	PART	_	_	9	advmod	_	start_char=37|end_char=43	
+9	так	так	ADV	_	Degree=Pos	13	advmod	_	start_char=44|end_char=47	
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	13	nsubj	_	start_char=48|end_char=50	
+11	и	и	PART	_	_	13	advmod	_	start_char=51|end_char=52	
+12	будете	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=53|end_char=59	
+13	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	acl	_	start_char=60|end_char=68	
+14	.	.	PUNCT	_	_	1	punct	_	start_char=68|end_char=69	
+
+#text = Я хочу пожелать вам всем успехов . 
+#par_id = 16
+#sent_id = 2
+#speaker = В.Путин
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=70|end_char=71	
+2	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=72|end_char=76	
+3	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=77|end_char=85	
+4	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	3	iobj	_	start_char=86|end_char=89	
+5	всем	весь	DET	_	Case=Dat|Number=Plur	6	det	_	start_char=90|end_char=94	
+6	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=95|end_char=102	
+7	.	.	PUNCT	_	_	2	punct	_	start_char=102|end_char=103	
+

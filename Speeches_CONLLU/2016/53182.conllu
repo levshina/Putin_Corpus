@@ -1,0 +1,283 @@
+#text = Уважаемые друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=4|end_char=13	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=14|end_char=20	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=20|end_char=21	
+
+#text = Поздравляю вас со знаменательной датой – 15-летием образования Федеральной службы по финансовому мониторингу . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=14	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	1	obj	_	start_char=15|end_char=18	
+3	со	с	ADP	_	_	5	case	_	start_char=19|end_char=21	
+4	знаменательной	знаменательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=22|end_char=36	
+5	датой	дата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	start_char=37|end_char=42	
+6	–	–	PUNCT	_	_	7	punct	_	start_char=43|end_char=44	
+7	15-летием	15-летие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	conj	_	start_char=45|end_char=54	
+8	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=55|end_char=66	
+9	Федеральной	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=67|end_char=78	
+10	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=79|end_char=85	
+11	по	по	ADP	_	_	13	case	_	start_char=86|end_char=88	
+12	финансовому	финансовый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=89|end_char=100	
+13	мониторингу	мониторинг	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	start_char=101|end_char=112	
+14	.	.	PUNCT	_	_	1	punct	_	start_char=112|end_char=113	
+
+#text = С момента создания перед вашим ведомством был поставлен целый комплекс ответственных задач : борьба с теневыми потоками капиталов , пресечение каналов подпитки террористических и криминальных структур , повышение прозрачности отечественной финансовой системы и внедрение передовых стандартов банковской отчётности . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	С	с	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	start_char=6|end_char=13	
+3	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=14|end_char=22	
+4	перед	перед	ADP	_	_	6	case	_	start_char=23|end_char=28	
+5	вашим	ваш	DET	_	Case=Ins|Gender=Neut|Number=Sing	6	det	_	start_char=29|end_char=34	
+6	ведомством	ведомство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	start_char=35|end_char=45	
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=46|end_char=49	
+8	поставлен	ставить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=50|end_char=59	
+9	целый	целый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=60|end_char=65	
+10	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=66|end_char=74	
+11	ответственных	ответственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=75|end_char=88	
+12	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	start_char=89|end_char=94	
+13	:	:	PUNCT	_	_	14	punct	_	start_char=94|end_char=95	
+14	борьба	борьба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	start_char=96|end_char=102	
+15	с	с	ADP	_	_	17	case	_	start_char=103|end_char=104	
+16	теневыми	теневой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	start_char=105|end_char=113	
+17	потоками	поток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	nmod	_	start_char=114|end_char=122	
+18	капиталов	капитал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=123|end_char=132	
+19	,	,	PUNCT	_	_	20	punct	_	start_char=132|end_char=133	
+20	пресечение	пресечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	start_char=134|end_char=144	
+21	каналов	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	start_char=145|end_char=152	
+22	подпитки	подпитка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=153|end_char=161	
+23	террористических	террористический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	start_char=162|end_char=178	
+24	и	и	CCONJ	_	_	25	cc	_	start_char=179|end_char=180	
+25	криминальных	криминальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	conj	_	start_char=181|end_char=193	
+26	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	start_char=194|end_char=202	
+27	,	,	PUNCT	_	_	28	punct	_	start_char=202|end_char=203	
+28	повышение	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	start_char=204|end_char=213	
+29	прозрачности	прозрачность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	start_char=214|end_char=226	
+30	отечественной	отечественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=227|end_char=240	
+31	финансовой	финансовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=241|end_char=251	
+32	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	start_char=252|end_char=259	
+33	и	и	CCONJ	_	_	34	cc	_	start_char=260|end_char=261	
+34	внедрение	внедрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	start_char=262|end_char=271	
+35	передовых	передовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	start_char=272|end_char=281	
+36	стандартов	стандарт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	start_char=282|end_char=292	
+37	банковской	банковский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=293|end_char=303	
+38	отчётности	отчетность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	start_char=304|end_char=314	
+39	.	.	PUNCT	_	_	8	punct	_	start_char=314|end_char=315	
+
+#text = Сегодня Росфинмониторинг – неотъемлемая часть системы национальной безопасности страны . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	5	advmod	_	start_char=4|end_char=11	
+2	Росфинмониторинг	Росфинмониторинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=12|end_char=28	
+3	–	–	PUNCT	_	_	2	punct	_	start_char=29|end_char=30	
+4	неотъемлемая	неотъемлемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=31|end_char=43	
+5	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=44|end_char=49	
+6	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=50|end_char=57	
+7	национальной	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=58|end_char=70	
+8	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=71|end_char=83	
+9	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=84|end_char=90	
+10	.	.	PUNCT	_	_	5	punct	_	start_char=90|end_char=91	
+
+#text = Отмечу , что благодаря вашей работе Россия в короткие сроки заняла лидирующие позиции в международной системе противодействия отмыванию преступных доходов . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Отмечу	отметить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=92|end_char=98	
+2	,	,	PUNCT	_	_	11	punct	_	start_char=98|end_char=99	
+3	что	что	SCONJ	_	_	11	mark	_	start_char=100|end_char=103	
+4	благодаря	благодаря	ADP	_	_	6	case	_	start_char=104|end_char=113	
+5	вашей	ваш	DET	_	Case=Dat|Gender=Fem|Number=Sing	6	det	_	start_char=114|end_char=119	
+6	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=120|end_char=126	
+7	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=127|end_char=133	
+8	в	в	ADP	_	_	10	case	_	start_char=134|end_char=135	
+9	короткие	короткий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=136|end_char=144	
+10	сроки	срок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	start_char=145|end_char=150	
+11	заняла	занять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=151|end_char=157	
+12	лидирующие	лидировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	start_char=158|end_char=168	
+13	позиции	позиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=169|end_char=176	
+14	в	в	ADP	_	_	16	case	_	start_char=177|end_char=178	
+15	международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=179|end_char=192	
+16	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	start_char=193|end_char=200	
+17	противодействия	противодействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	start_char=201|end_char=216	
+18	отмыванию	отмывание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	iobj	_	start_char=217|end_char=226	
+19	преступных	преступный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=227|end_char=237	
+20	доходов	доход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=238|end_char=245	
+21	.	.	PUNCT	_	_	1	punct	_	start_char=245|end_char=246	
+
+#text = Вместе с тем угрозы в этой сфере сохраняются , и потому ваша прямая обязанность – искать современные , более эффективные формы борьбы с легализацией незаконных средств . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Вместе	вместе	ADV	_	Degree=Pos	8	advmod	_	start_char=4|end_char=10	
+2	с	с	ADP	_	_	3	case	_	start_char=11|end_char=12	
+3	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	start_char=13|end_char=16	
+4	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=17|end_char=23	
+5	в	в	ADP	_	_	7	case	_	start_char=24|end_char=25	
+6	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	7	det	_	start_char=26|end_char=30	
+7	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	start_char=31|end_char=36	
+8	сохраняются	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=37|end_char=48	
+9	,	,	PUNCT	_	_	14	punct	_	start_char=48|end_char=49	
+10	и	и	CCONJ	_	_	14	cc	_	start_char=50|end_char=51	
+11	потому	потому	ADV	_	Degree=Pos	14	advmod	_	start_char=52|end_char=58	
+12	ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing	14	det	_	start_char=59|end_char=63	
+13	прямая	прямой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=64|end_char=70	
+14	обязанность	обязанность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	start_char=71|end_char=82	
+15	–	–	PUNCT	_	_	16	punct	_	start_char=83|end_char=84	
+16	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	csubj	_	start_char=85|end_char=91	
+17	современные	современный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	start_char=92|end_char=103	
+18	,	,	PUNCT	_	_	20	punct	_	start_char=103|end_char=104	
+19	более	более	ADV	_	Degree=Cmp	20	obl	_	start_char=105|end_char=110	
+20	эффективные	эффективный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	conj	_	start_char=111|end_char=122	
+21	формы	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=123|end_char=128	
+22	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=129|end_char=135	
+23	с	с	ADP	_	_	24	case	_	start_char=136|end_char=137	
+24	легализацией	легализация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	nmod	_	start_char=138|end_char=150	
+25	незаконных	незаконный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	start_char=151|end_char=161	
+26	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	start_char=162|end_char=169	
+27	.	.	PUNCT	_	_	8	punct	_	start_char=169|end_char=170	
+
+#text = Подчеркну , активная работа по этому направлению – важный вклад в противодействие терроризму и оргпреступности . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Подчеркну	подчеркнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	10	parataxis	_	start_char=4|end_char=13	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=13|end_char=14	
+3	активная	активный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=15|end_char=23	
+4	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=24|end_char=30	
+5	по	по	ADP	_	_	7	case	_	start_char=31|end_char=33	
+6	этому	этот	DET	_	Case=Dat|Gender=Neut|Number=Sing	7	det	_	start_char=34|end_char=39	
+7	направлению	направление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=40|end_char=51	
+8	–	–	PUNCT	_	_	4	punct	_	start_char=52|end_char=53	
+9	важный	важный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=54|end_char=60	
+10	вклад	вклад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=61|end_char=66	
+11	в	в	ADP	_	_	12	case	_	start_char=67|end_char=68	
+12	противодействие	противодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	start_char=69|end_char=84	
+13	терроризму	терроризм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	start_char=85|end_char=95	
+14	и	и	CCONJ	_	_	15	cc	_	start_char=96|end_char=97	
+15	оргпреступности	оргпреступность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	conj	_	start_char=98|end_char=113	
+16	.	.	PUNCT	_	_	10	punct	_	start_char=113|end_char=114	
+
+#text = Кроме того , необходимо повышать результативность мер по обеспечению прозрачности финансовых институтов . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Кроме	кроме	ADP	_	_	2	case	_	start_char=115|end_char=120	
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	start_char=121|end_char=125	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=125|end_char=126	
+4	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=127|end_char=137	
+5	повышать	повышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=138|end_char=146	
+6	результативность	результативность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=147|end_char=163	
+7	мер	мера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=164|end_char=167	
+8	по	по	ADP	_	_	9	case	_	start_char=168|end_char=170	
+9	обеспечению	обеспечение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=171|end_char=182	
+10	прозрачности	прозрачность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=183|end_char=195	
+11	финансовых	финансовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=196|end_char=206	
+12	институтов	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=207|end_char=217	
+13	.	.	PUNCT	_	_	4	punct	_	start_char=217|end_char=218	
+
+#text = В числе ваших приоритетных задач – и надёжный контроль за расходованием средств гособоронзаказа , обеспечение сохранности бюджетных ресурсов . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	start_char=6|end_char=11	
+3	ваших	ваш	DET	_	Case=Gen|Number=Plur	5	det	_	start_char=12|end_char=17	
+4	приоритетных	приоритетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=18|end_char=30	
+5	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=31|end_char=36	
+6	–	–	PUNCT	_	_	9	punct	_	start_char=37|end_char=38	
+7	и	и	CCONJ	_	_	9	cc	_	start_char=39|end_char=40	
+8	надёжный	надёжный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=41|end_char=49	
+9	контроль	контроль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=50|end_char=58	
+10	за	за	ADP	_	_	11	case	_	start_char=59|end_char=61	
+11	расходованием	расходование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	start_char=62|end_char=75	
+12	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	start_char=76|end_char=83	
+13	гособоронзаказа	гособоронзаказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=84|end_char=99	
+14	,	,	PUNCT	_	_	15	punct	_	start_char=99|end_char=100	
+15	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	conj	_	start_char=101|end_char=112	
+16	сохранности	сохранность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=113|end_char=124	
+17	бюджетных	бюджетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	start_char=125|end_char=134	
+18	ресурсов	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=135|end_char=143	
+19	.	.	PUNCT	_	_	2	punct	_	start_char=143|end_char=144	
+
+#text = Рассчитываю здесь на вашу тесную , эффективную координацию со всеми правоохранительными и контрольными органами , с Банком России и Счётной палатой . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	Рассчитываю	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=145|end_char=156	
+2	здесь	здесь	ADV	_	Degree=Pos	1	advmod	_	start_char=157|end_char=162	
+3	на	на	ADP	_	_	8	case	_	start_char=163|end_char=165	
+4	вашу	ваш	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	det	_	start_char=166|end_char=170	
+5	тесную	тесный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=171|end_char=177	
+6	,	,	PUNCT	_	_	7	punct	_	start_char=177|end_char=178	
+7	эффективную	эффективный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=179|end_char=190	
+8	координацию	координация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=191|end_char=202	
+9	со	с	ADP	_	_	14	case	_	start_char=203|end_char=205	
+10	всеми	весь	DET	_	Case=Ins|Number=Plur	14	det	_	start_char=206|end_char=211	
+11	правоохранительными	правоохранительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	start_char=212|end_char=231	
+12	и	и	CCONJ	_	_	13	cc	_	start_char=232|end_char=233	
+13	контрольными	контрольный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	conj	_	start_char=234|end_char=246	
+14	органами	орган	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	start_char=247|end_char=255	
+15	,	,	PUNCT	_	_	17	punct	_	start_char=255|end_char=256	
+16	с	с	ADP	_	_	17	case	_	start_char=257|end_char=258	
+17	Банком	Банк	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	conj	_	start_char=259|end_char=265	
+18	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=266|end_char=272	
+19	и	и	CCONJ	_	_	21	cc	_	start_char=273|end_char=274	
+20	Счётной	счётной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=275|end_char=282	
+21	палатой	палата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	conj	_	start_char=283|end_char=290	
+22	.	.	PUNCT	_	_	1	punct	_	start_char=290|end_char=291	
+
+#text = В завершение хочу поблагодарить сотрудников Росфинмониторинга за компетентность и высокую самоотдачу . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	завершение	завершение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=6|end_char=16	
+3	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=21	
+4	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=22|end_char=35	
+5	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=36|end_char=47	
+6	Росфинмониторинга	Росфинмониторинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=48|end_char=65	
+7	за	за	ADP	_	_	8	case	_	start_char=66|end_char=68	
+8	компетентность	компетентность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=69|end_char=83	
+9	и	и	CCONJ	_	_	11	cc	_	start_char=84|end_char=85	
+10	высокую	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=86|end_char=93	
+11	самоотдачу	самоотдача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	start_char=94|end_char=104	
+12	.	.	PUNCT	_	_	3	punct	_	start_char=104|end_char=105	
+
+#text = Ещё раз поздравляю вас с 15-летием Службы . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Ещё	еще	ADV	_	Degree=Pos	2	obl	_	start_char=4|end_char=7	
+2	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=8|end_char=11	
+3	поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=22	
+4	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	3	obj	_	start_char=23|end_char=26	
+5	с	с	ADP	_	_	6	case	_	start_char=27|end_char=28	
+6	15-летием	15-летие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	start_char=29|end_char=38	
+7	Службы	Служба	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=39|end_char=45	
+8	.	.	PUNCT	_	_	3	punct	_	start_char=45|end_char=46	
+
+#text = Желаю новых успехов в работе , здоровья и благополучия вам и вашим близким . 
+#par_id = 9
+#sent_id = 2
+#speaker = В.Путин
+1	Желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=47|end_char=52	
+2	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=53|end_char=58	
+3	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	start_char=59|end_char=66	
+4	в	в	ADP	_	_	5	case	_	start_char=67|end_char=68	
+5	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	start_char=69|end_char=75	
+6	,	,	PUNCT	_	_	7	punct	_	start_char=75|end_char=76	
+7	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	start_char=77|end_char=85	
+8	и	и	CCONJ	_	_	9	cc	_	start_char=86|end_char=87	
+9	благополучия	благополучие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	start_char=88|end_char=100	
+10	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	1	iobj	_	start_char=101|end_char=104	
+11	и	и	CCONJ	_	_	13	cc	_	start_char=105|end_char=106	
+12	вашим	ваш	DET	_	Case=Dat|Number=Plur	13	det	_	start_char=107|end_char=112	
+13	близким	близкий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	conj	_	start_char=113|end_char=120	
+14	.	.	PUNCT	_	_	1	punct	_	start_char=120|end_char=121	
+

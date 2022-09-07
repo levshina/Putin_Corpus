@@ -1,0 +1,514 @@
+#text = Добрый день , дамы и господа ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Добрый	добрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=15|end_char=16	
+4	дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=17|end_char=21	
+5	и	и	CCONJ	_	_	6	cc	_	start_char=22|end_char=23	
+6	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=24|end_char=31	
+7	!	!	PUNCT	_	_	2	punct	_	start_char=31|end_char=32	
+
+#text = В последние годы расширение торговых связей Азиатско - тихоокеанского региона сопровождалось заметным ростом экономики наших стран . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=6|end_char=15	
+3	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	start_char=16|end_char=20	
+4	расширение	расширение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=21|end_char=31	
+5	торговых	торговый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=32|end_char=40	
+6	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=41|end_char=47	
+7	Азиатско	азиатский	ADJ	_	Degree=Pos	9	compound	_	start_char=48|end_char=56	
+8	-	-	PUNCT	_	_	7	punct	_	start_char=56|end_char=57	
+9	тихоокеанского	тихоокеанский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=57|end_char=71	
+10	региона	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=72|end_char=79	
+11	сопровождалось	сопровождаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=80|end_char=94	
+12	заметным	заметный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=95|end_char=103	
+13	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	start_char=104|end_char=110	
+14	экономики	экономика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=111|end_char=120	
+15	наших	наш	DET	_	Case=Gen|Number=Plur	16	det	_	start_char=121|end_char=126	
+16	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	start_char=127|end_char=132	
+17	.	.	PUNCT	_	_	11	punct	_	start_char=132|end_char=133	
+
+#text = Сегодня на долю АТЭС приходится 37 процентов мировой торговли , значительно улучшились и условия жизни населения . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	5	advmod	_	start_char=134|end_char=141	
+2	на	на	ADP	_	_	3	case	_	start_char=142|end_char=144	
+3	долю	доля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=145|end_char=149	
+4	АТЭС	АТЭС	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=150|end_char=154	
+5	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=155|end_char=165	
+6	37	37	NUM	_	_	7	nummod	_	start_char=166|end_char=168	
+7	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	start_char=169|end_char=178	
+8	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=179|end_char=186	
+9	торговли	торговля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=187|end_char=195	
+10	,	,	PUNCT	_	_	12	punct	_	start_char=195|end_char=196	
+11	значительно	значительно	ADV	_	Degree=Pos	12	advmod	_	start_char=197|end_char=208	
+12	улучшились	улучшиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	start_char=209|end_char=219	
+13	и	и	PART	_	_	14	advmod	_	start_char=220|end_char=221	
+14	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	start_char=222|end_char=229	
+15	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=230|end_char=235	
+16	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=236|end_char=245	
+17	.	.	PUNCT	_	_	5	punct	_	start_char=245|end_char=246	
+
+#text = Это тоже факт , который является объективным . 
+#par_id = 2
+#sent_id = 3
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=247|end_char=250	
+2	тоже	тоже	PART	_	_	3	advmod	_	start_char=251|end_char=255	
+3	факт	факт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=256|end_char=260	
+4	,	,	PUNCT	_	_	6	punct	_	start_char=260|end_char=261	
+5	который	который	PRON	_	Case=Nom	6	nsubj	_	start_char=262|end_char=269	
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	start_char=270|end_char=278	
+7	объективным	объективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	start_char=279|end_char=290	
+8	.	.	PUNCT	_	_	3	punct	_	start_char=290|end_char=291	
+
+#text = Во многом это результат развивающейся в АТР экономической интеграции . 
+#par_id = 2
+#sent_id = 4
+#speaker = В.Путин
+1	Во	в	ADP	_	_	2	case	_	start_char=292|end_char=294	
+2	многом	многое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	start_char=295|end_char=301	
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=302|end_char=305	
+4	результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=306|end_char=315	
+5	развивающейся	развиваться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	acl	_	start_char=316|end_char=329	
+6	в	в	ADP	_	_	7	case	_	start_char=330|end_char=331	
+7	АТР	АТР	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=332|end_char=335	
+8	экономической	экономический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=336|end_char=349	
+9	интеграции	интеграция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=350|end_char=360	
+10	.	.	PUNCT	_	_	4	punct	_	start_char=360|end_char=361	
+
+#text = В прошлом году в АТЭС достигнут качественный рубеж : впервые объёмы торговли внутри нашего объединения превысили размеры экспортно- импортных операций с внерегиональными странами . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=6|end_char=13	
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=14|end_char=18	
+4	в	в	ADP	_	_	5	case	_	start_char=19|end_char=20	
+5	АТЭС	АТЭС	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=21|end_char=25	
+6	достигнут	достичь	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=26|end_char=35	
+7	качественный	качественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=36|end_char=48	
+8	рубеж	рубеж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	start_char=49|end_char=54	
+9	:	:	PUNCT	_	_	16	punct	_	start_char=54|end_char=55	
+10	впервые	впервые	ADV	_	Degree=Pos	16	advmod	_	start_char=56|end_char=63	
+11	объёмы	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=64|end_char=70	
+12	торговли	торговля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=71|end_char=79	
+13	внутри	внутри	ADV	_	Degree=Pos	15	advmod	_	start_char=80|end_char=86	
+14	нашего	наш	DET	_	Case=Gen|Gender=Neut|Number=Sing	15	det	_	start_char=87|end_char=93	
+15	объединения	объединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=94|end_char=105	
+16	превысили	превысить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	start_char=106|end_char=115	
+17	размеры	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=116|end_char=123	
+18	экспортно-	экспортно-	ADV	_	Degree=Pos	19	obl	_	start_char=124|end_char=134	
+19	импортных	импортный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=134|end_char=143	
+20	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	start_char=144|end_char=152	
+21	с	с	ADP	_	_	23	case	_	start_char=153|end_char=154	
+22	внерегиональными	внерегиональный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	start_char=155|end_char=171	
+23	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	nmod	_	start_char=172|end_char=180	
+24	.	.	PUNCT	_	_	6	punct	_	start_char=180|end_char=181	
+
+#text = Для сохранения такой позитивной динамики необходимо и дальше углублять торгово - инвестиционное сотрудничество между нашими странами , активнее устранять избыточные административные барьеры , о которых мы постоянно говорим , улучшать доступ на рынке . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Для	для	ADP	_	_	2	case	_	start_char=182|end_char=185	
+2	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	start_char=186|end_char=196	
+3	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	det	_	start_char=197|end_char=202	
+4	позитивной	позитивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=203|end_char=213	
+5	динамики	динамика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=214|end_char=222	
+6	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=223|end_char=233	
+7	и	и	CCONJ	_	_	8	advmod	_	start_char=234|end_char=235	
+8	дальше	далеко	ADV	_	Degree=Cmp	9	advmod	_	start_char=236|end_char=242	
+9	углублять	углублять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	start_char=243|end_char=252	
+10	торгово	торговый	ADJ	_	Degree=Pos	12	compound	_	start_char=253|end_char=260	
+11	-	-	PUNCT	_	_	10	punct	_	start_char=260|end_char=261	
+12	инвестиционное	инвестиционный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=261|end_char=275	
+13	сотрудничество	сотрудничество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=276|end_char=290	
+14	между	между	ADP	_	_	16	case	_	start_char=291|end_char=296	
+15	нашими	наш	DET	_	Case=Ins|Number=Plur	16	det	_	start_char=297|end_char=303	
+16	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	start_char=304|end_char=312	
+17	,	,	PUNCT	_	_	18	punct	_	start_char=312|end_char=313	
+18	активнее	активный	ADJ	_	Degree=Cmp	6	conj	_	start_char=314|end_char=322	
+19	устранять	устранять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	csubj	_	start_char=323|end_char=332	
+20	избыточные	избыточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	start_char=333|end_char=343	
+21	административные	административный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	start_char=344|end_char=360	
+22	барьеры	барьер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	start_char=361|end_char=368	
+23	,	,	PUNCT	_	_	28	punct	_	start_char=368|end_char=369	
+24	о	о	ADP	_	_	25	case	_	start_char=370|end_char=371	
+25	которых	который	PRON	_	Case=Loc	28	obl	_	start_char=372|end_char=379	
+26	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	28	nsubj	_	start_char=380|end_char=382	
+27	постоянно	постоянно	ADV	_	Degree=Pos	28	advmod	_	start_char=383|end_char=392	
+28	говорим	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	start_char=393|end_char=400	
+29	,	,	PUNCT	_	_	30	punct	_	start_char=400|end_char=401	
+30	улучшать	улучшать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	start_char=402|end_char=410	
+31	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	start_char=411|end_char=417	
+32	на	на	ADP	_	_	33	case	_	start_char=418|end_char=420	
+33	рынке	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	nmod	_	start_char=421|end_char=426	
+34	.	.	PUNCT	_	_	6	punct	_	start_char=426|end_char=427	
+
+#text = В этом контексте хотел бы высоко оценить подготовленную китайским председательством пекинскую дорожную карту по содействию в продвижении к Азиатско-Тихоокеанской зоне свободной торговли . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	det	_	start_char=6|end_char=10	
+3	контексте	контекст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=11|end_char=20	
+4	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=26	
+5	бы	бы	AUX	_	_	4	aux	_	start_char=27|end_char=29	
+6	высоко	высоко	ADV	_	Degree=Pos	7	advmod	_	start_char=30|end_char=36	
+7	оценить	оценить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=37|end_char=44	
+8	подготовленную	подготовить	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	start_char=45|end_char=59	
+9	китайским	китайский	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=60|end_char=69	
+10	председательством	председательство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	start_char=70|end_char=87	
+11	пекинскую	пекинский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=88|end_char=97	
+12	дорожную	дорожный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=98|end_char=106	
+13	карту	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=107|end_char=112	
+14	по	по	ADP	_	_	15	case	_	start_char=113|end_char=115	
+15	содействию	содействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	start_char=116|end_char=126	
+16	в	в	ADP	_	_	17	case	_	start_char=127|end_char=128	
+17	продвижении	продвижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	start_char=129|end_char=140	
+18	к	к	ADP	_	_	20	case	_	start_char=141|end_char=142	
+19	Азиатско-Тихоокеанской	азиатско-тихоокеанский	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=143|end_char=165	
+20	зоне	зона	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	start_char=166|end_char=170	
+21	свободной	свободный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=171|end_char=180	
+22	торговли	торговля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=181|end_char=189	
+23	.	.	PUNCT	_	_	4	punct	_	start_char=189|end_char=190	
+
+#text = Предусмотренные в ней меры помогут гармонизировать реализуемые на пространстве АТЭС интеграционные инициативы . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Предусмотренные	предусмотреть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=191|end_char=206	
+2	в	в	ADP	_	_	3	case	_	start_char=207|end_char=208	
+3	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	1	obl	_	start_char=209|end_char=212	
+4	меры	мера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=213|end_char=217	
+5	помогут	помочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=218|end_char=225	
+6	гармонизировать	гармонизировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=226|end_char=241	
+7	реализуемые	реализовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	12	acl	_	start_char=242|end_char=253	
+8	на	на	ADP	_	_	9	case	_	start_char=254|end_char=256	
+9	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	start_char=257|end_char=269	
+10	АТЭС	АТЭС	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=270|end_char=274	
+11	интеграционные	интеграционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	start_char=275|end_char=289	
+12	инициативы	инициатива	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=290|end_char=300	
+13	.	.	PUNCT	_	_	5	punct	_	start_char=300|end_char=301	
+
+#text = Тем более что в АТР действует большое количество торговых соглашений , различающихся как по глубине либерализации , так и по количеству участников . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	start_char=302|end_char=305	
+2	более	более	ADV	_	Degree=Cmp	0	root	_	start_char=306|end_char=311	
+3	что	что	SCONJ	_	_	2	mark	_	start_char=312|end_char=315	
+4	в	в	ADP	_	_	5	case	_	start_char=316|end_char=317	
+5	АТР	АТР	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=318|end_char=321	
+6	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	fixed	_	start_char=322|end_char=331	
+7	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=332|end_char=339	
+8	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=340|end_char=350	
+9	торговых	торговый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=351|end_char=359	
+10	соглашений	соглашение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	start_char=360|end_char=370	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=370|end_char=371	
+12	различающихся	различаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	acl	_	start_char=372|end_char=385	
+13	как	как	SCONJ	_	_	15	mark	_	start_char=386|end_char=389	
+14	по	по	ADP	_	_	15	case	_	start_char=390|end_char=392	
+15	глубине	глубина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=393|end_char=400	
+16	либерализации	либерализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=401|end_char=414	
+17	,	,	PUNCT	_	_	21	punct	_	start_char=414|end_char=415	
+18	так	так	ADV	_	Degree=Pos	21	cc	_	start_char=416|end_char=419	
+19	и	и	PART	_	_	18	fixed	_	start_char=420|end_char=421	
+20	по	по	ADP	_	_	21	case	_	start_char=422|end_char=424	
+21	количеству	количество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	conj	_	start_char=425|end_char=435	
+22	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=436|end_char=446	
+23	.	.	PUNCT	_	_	2	punct	_	start_char=446|end_char=447	
+
+#text = Конечно , это создает и потенциальную опасность разделения общего региона на отдельные конкурирующие между собой объединения . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Конечно	конечно	ADV	_	Degree=Pos	4	parataxis	_	start_char=4|end_char=11	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=11|end_char=12	
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=13|end_char=16	
+4	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=24	
+5	и	и	PART	_	_	6	advmod	_	start_char=25|end_char=26	
+6	потенциальную	потенциальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=27|end_char=40	
+7	опасность	опасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=41|end_char=50	
+8	разделения	разделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=51|end_char=61	
+9	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=62|end_char=68	
+10	региона	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=69|end_char=76	
+11	на	на	ADP	_	_	16	case	_	start_char=77|end_char=79	
+12	отдельные	отдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	start_char=80|end_char=89	
+13	конкурирующие	конкурировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	start_char=90|end_char=103	
+14	между	между	ADP	_	_	15	case	_	start_char=104|end_char=109	
+15	собой	себя	PRON	_	Case=Ins	13	obl	_	start_char=110|end_char=115	
+16	объединения	объединение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	nmod	_	start_char=116|end_char=127	
+17	.	.	PUNCT	_	_	4	punct	_	start_char=127|end_char=128	
+
+#text = Нам , наоборот , необходимо действовать на основе принципов прозрачности и открытости , о чём здесь коллеги только что тоже говорили , при взаимном учете интересов и возможностей сторон . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	5	iobj	_	start_char=129|end_char=132	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=132|end_char=133	
+3	наоборот	наоборот	ADV	_	Degree=Pos	5	parataxis	_	start_char=134|end_char=142	
+4	,	,	PUNCT	_	_	3	punct	_	start_char=142|end_char=143	
+5	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=144|end_char=154	
+6	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	csubj	_	start_char=155|end_char=166	
+7	на	на	ADP	_	_	8	case	_	start_char=167|end_char=169	
+8	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=170|end_char=176	
+9	принципов	принцип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=177|end_char=186	
+10	прозрачности	прозрачность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=187|end_char=199	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=200|end_char=201	
+12	открытости	открытость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	start_char=202|end_char=212	
+13	,	,	PUNCT	_	_	21	punct	_	start_char=212|end_char=213	
+14	о	о	ADP	_	_	15	case	_	start_char=214|end_char=215	
+15	чём	что	PRON	_	Case=Loc	21	obl	_	start_char=216|end_char=219	
+16	здесь	здесь	ADV	_	Degree=Pos	21	advmod	_	start_char=220|end_char=225	
+17	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	start_char=226|end_char=233	
+18	только	только	PART	_	_	21	advmod	_	start_char=234|end_char=240	
+19	что	что	SCONJ	_	_	18	fixed	_	start_char=241|end_char=244	
+20	тоже	тоже	PART	_	_	21	advmod	_	start_char=245|end_char=249	
+21	говорили	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	start_char=250|end_char=258	
+22	,	,	PUNCT	_	_	25	punct	_	start_char=258|end_char=259	
+23	при	при	ADP	_	_	25	case	_	start_char=260|end_char=263	
+24	взаимном	взаимный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=264|end_char=272	
+25	учете	учет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	start_char=273|end_char=278	
+26	интересов	интерес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	start_char=279|end_char=288	
+27	и	и	CCONJ	_	_	28	cc	_	start_char=289|end_char=290	
+28	возможностей	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	conj	_	start_char=291|end_char=303	
+29	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	start_char=304|end_char=310	
+30	.	.	PUNCT	_	_	5	punct	_	start_char=310|end_char=311	
+
+#text = Исходим также из того , что любые новые договорённости не должны наносить ущерба многосторонней торговой системе ВТО . 
+#par_id = 5
+#sent_id = 3
+#speaker = В.Путин
+1	Исходим	исходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=312|end_char=319	
+2	также	также	ADV	_	Degree=Pos	1	advmod	_	start_char=320|end_char=325	
+3	из	из	ADP	_	_	4	case	_	start_char=326|end_char=328	
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	start_char=329|end_char=333	
+5	,	,	PUNCT	_	_	11	punct	_	start_char=333|end_char=334	
+6	что	что	SCONJ	_	_	11	mark	_	start_char=335|end_char=338	
+7	любые	любой	DET	_	Case=Nom|Number=Plur	9	det	_	start_char=339|end_char=344	
+8	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=345|end_char=350	
+9	договорённости	договоренность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=351|end_char=365	
+10	не	не	PART	_	_	11	advmod	_	start_char=366|end_char=368	
+11	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	acl	_	start_char=369|end_char=375	
+12	наносить	наносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=376|end_char=384	
+13	ущерба	ущерб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	start_char=385|end_char=391	
+14	многосторонней	многосторонний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=392|end_char=406	
+15	торговой	торговый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=407|end_char=415	
+16	системе	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	iobj	_	start_char=416|end_char=423	
+17	ВТО	ВТО	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=424|end_char=427	
+18	.	.	PUNCT	_	_	1	punct	_	start_char=427|end_char=428	
+
+#text = В ходе российского председательства в АТЭС в 2012 году мы предложили модельную главу по транспарентности для включения в будущее соглашение о свободной торговле . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	4	case	_	start_char=4|end_char=5	
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	start_char=6|end_char=10	
+3	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=11|end_char=22	
+4	председательства	председательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	start_char=23|end_char=39	
+5	в	в	ADP	_	_	6	case	_	start_char=40|end_char=41	
+6	АТЭС	АТЭС	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=42|end_char=46	
+7	в	в	ADP	_	_	9	case	_	start_char=47|end_char=48	
+8	2012	2012	NUM	_	_	9	nummod	_	start_char=49|end_char=53	
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=54|end_char=58	
+10	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	11	nsubj	_	start_char=59|end_char=61	
+11	предложили	предложить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=62|end_char=72	
+12	модельную	модельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=73|end_char=82	
+13	главу	глава	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=83|end_char=88	
+14	по	по	ADP	_	_	15	case	_	start_char=89|end_char=91	
+15	транспарентности	транспарентность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	start_char=92|end_char=108	
+16	для	для	ADP	_	_	17	case	_	start_char=109|end_char=112	
+17	включения	включение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	start_char=113|end_char=122	
+18	в	в	ADP	_	_	19	case	_	start_char=123|end_char=124	
+19	будущее	будущее	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	start_char=125|end_char=132	
+20	соглашение	соглашение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=133|end_char=143	
+21	о	о	ADP	_	_	23	case	_	start_char=144|end_char=145	
+22	свободной	свободный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=146|end_char=155	
+23	торговле	торговля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	start_char=156|end_char=164	
+24	.	.	PUNCT	_	_	11	punct	_	start_char=164|end_char=165	
+
+#text = Наша инициатива была воспринята всеми партнёрами , и теперь важно обеспечить максимально широкое применение этой модельной главы на практике . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	start_char=166|end_char=170	
+2	инициатива	инициатива	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=171|end_char=181	
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	start_char=182|end_char=186	
+4	воспринята	воспринять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=187|end_char=197	
+5	всеми	весь	DET	_	Case=Ins|Number=Plur	6	det	_	start_char=198|end_char=203	
+6	партнёрами	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	start_char=204|end_char=214	
+7	,	,	PUNCT	_	_	10	punct	_	start_char=214|end_char=215	
+8	и	и	CCONJ	_	_	10	cc	_	start_char=216|end_char=217	
+9	теперь	теперь	ADV	_	Degree=Pos	10	advmod	_	start_char=218|end_char=224	
+10	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	start_char=225|end_char=230	
+11	обеспечить	обеспечить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	csubj	_	start_char=231|end_char=241	
+12	максимально	максимально	ADV	_	Degree=Pos	13	obl	_	start_char=242|end_char=253	
+13	широкое	широкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=254|end_char=261	
+14	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=262|end_char=272	
+15	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	17	det	_	start_char=273|end_char=277	
+16	модельной	модельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=278|end_char=287	
+17	главы	глава	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=288|end_char=293	
+18	на	на	ADP	_	_	19	case	_	start_char=294|end_char=296	
+19	практике	практика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	start_char=297|end_char=305	
+20	.	.	PUNCT	_	_	4	punct	_	start_char=305|end_char=306	
+
+#text = Хотел бы также отметить и напомнить , что именно на принципах открытости , транспарентности и в полном соответствии с нормами ВТО Россия вместе с Казахстаном и Белоруссией , присоединяющейся Арменией создает Евразийский экономический союз , и с 1 января 2015 года на территории наших государств начнёт функционировать единый рынок . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=9	
+2	бы	бы	AUX	_	_	1	aux	_	start_char=10|end_char=12	
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	start_char=13|end_char=18	
+4	отметить	отметить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=19|end_char=27	
+5	и	и	CCONJ	_	_	6	cc	_	start_char=28|end_char=29	
+6	напомнить	напомнить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	conj	_	start_char=30|end_char=39	
+7	,	,	PUNCT	_	_	31	punct	_	start_char=39|end_char=40	
+8	что	что	SCONJ	_	_	31	mark	_	start_char=41|end_char=44	
+9	именно	именно	PART	_	_	11	advmod	_	start_char=45|end_char=51	
+10	на	на	ADP	_	_	11	case	_	start_char=52|end_char=54	
+11	принципах	принцип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	obl	_	start_char=55|end_char=64	
+12	открытости	открытость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=65|end_char=75	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=75|end_char=76	
+14	транспарентности	транспарентность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	start_char=77|end_char=93	
+15	и	и	CCONJ	_	_	18	cc	_	start_char=94|end_char=95	
+16	в	в	ADP	_	_	18	case	_	start_char=96|end_char=97	
+17	полном	полный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=98|end_char=104	
+18	соответствии	соответствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	conj	_	start_char=105|end_char=117	
+19	с	с	ADP	_	_	20	case	_	start_char=118|end_char=119	
+20	нормами	норма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	18	nmod	_	start_char=120|end_char=127	
+21	ВТО	ВТО	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=128|end_char=131	
+22	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	start_char=132|end_char=138	
+23	вместе	вместе	ADV	_	Degree=Pos	31	advmod	_	start_char=139|end_char=145	
+24	с	с	ADP	_	_	25	case	_	start_char=146|end_char=147	
+25	Казахстаном	Казахстан	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	start_char=148|end_char=159	
+26	и	и	CCONJ	_	_	27	cc	_	start_char=160|end_char=161	
+27	Белоруссией	Белоруссия	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	conj	_	start_char=162|end_char=173	
+28	,	,	PUNCT	_	_	29	punct	_	start_char=173|end_char=174	
+29	присоединяющейся	присоединяться	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl	_	start_char=175|end_char=191	
+30	Арменией	Армения	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	start_char=192|end_char=200	
+31	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=201|end_char=208	
+32	Евразийский	Евразийский	PROPN	_	_	34	amod	_	start_char=209|end_char=220	
+33	экономический	экономический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=221|end_char=234	
+34	союз	союз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	start_char=235|end_char=239	
+35	,	,	PUNCT	_	_	46	punct	_	start_char=240|end_char=241	
+36	и	и	CCONJ	_	_	46	cc	_	start_char=242|end_char=243	
+37	с	с	ADP	_	_	38	case	_	start_char=244|end_char=245	
+38	1	1	NUM	_	_	46	nummod	_	start_char=246|end_char=247	
+39	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	flat	_	start_char=248|end_char=254	
+40	2015	2015	NUM	_	_	41	nummod	_	start_char=255|end_char=259	
+41	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	start_char=260|end_char=264	
+42	на	на	ADP	_	_	43	case	_	start_char=265|end_char=267	
+43	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	46	obl	_	start_char=268|end_char=278	
+44	наших	наш	DET	_	Case=Gen|Number=Plur	45	det	_	start_char=279|end_char=284	
+45	государств	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	43	nmod	_	start_char=285|end_char=295	
+46	начнёт	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	31	conj	_	start_char=296|end_char=302	
+47	функционировать	функционировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	46	xcomp	_	start_char=303|end_char=318	
+48	единый	единый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	start_char=319|end_char=325	
+49	рынок	рынок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	46	nsubj	_	start_char=326|end_char=331	
+50	.	.	PUNCT	_	_	1	punct	_	start_char=331|end_char=332	
+
+#text = Значительный объем торговли приходится как раз на зону Азиатско-Тихоокеанского региона , эта доля в нашем торговом обороте в 2013 году превысила 26 процентов . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	Значительный	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=333|end_char=345	
+2	объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=346|end_char=351	
+3	торговли	торговля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=352|end_char=360	
+4	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=361|end_char=371	
+5	как	как	SCONJ	_	_	8	advmod	_	start_char=372|end_char=375	
+6	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	fixed	_	start_char=376|end_char=379	
+7	на	на	ADP	_	_	8	case	_	start_char=380|end_char=382	
+8	зону	зона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=383|end_char=387	
+9	Азиатско-Тихоокеанского	азиатско-тихоокеанский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=388|end_char=411	
+10	региона	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=412|end_char=419	
+11	,	,	PUNCT	_	_	21	punct	_	start_char=419|end_char=420	
+12	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	13	det	_	start_char=421|end_char=424	
+13	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	start_char=425|end_char=429	
+14	в	в	ADP	_	_	17	case	_	start_char=430|end_char=431	
+15	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing	17	det	_	start_char=432|end_char=437	
+16	торговом	торговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=438|end_char=446	
+17	обороте	оборот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	start_char=447|end_char=454	
+18	в	в	ADP	_	_	20	case	_	start_char=455|end_char=456	
+19	2013	2013	NUM	_	_	20	nummod	_	start_char=457|end_char=461	
+20	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	start_char=462|end_char=466	
+21	превысила	превысить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=467|end_char=476	
+22	26	26	NUM	_	_	23	nummod	_	start_char=477|end_char=479	
+23	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	start_char=480|end_char=489	
+24	.	.	PUNCT	_	_	4	punct	_	start_char=489|end_char=490	
+
+#text = Мы ведём переговоры по соглашению о зоне свободной торговли с Вьетнамом , открыты для диалога с другими партнёрами , в том числе с существующими и создающимися интеграционными объединениями . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	ведём	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=12	
+3	переговоры	переговоры	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=13|end_char=23	
+4	по	по	ADP	_	_	5	case	_	start_char=24|end_char=26	
+5	соглашению	соглашение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=27|end_char=37	
+6	о	о	ADP	_	_	7	case	_	start_char=38|end_char=39	
+7	зоне	зона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	start_char=40|end_char=44	
+8	свободной	свободный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=45|end_char=54	
+9	торговли	торговля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=55|end_char=63	
+10	с	с	ADP	_	_	11	case	_	start_char=64|end_char=65	
+11	Вьетнамом	Вьетнам	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	start_char=66|end_char=75	
+12	,	,	PUNCT	_	_	13	punct	_	start_char=75|end_char=76	
+13	открыты	открыть	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	start_char=77|end_char=84	
+14	для	для	ADP	_	_	15	case	_	start_char=85|end_char=88	
+15	диалога	диалог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	start_char=89|end_char=96	
+16	с	с	ADP	_	_	18	case	_	start_char=97|end_char=98	
+17	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	start_char=99|end_char=106	
+18	партнёрами	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	start_char=107|end_char=117	
+19	,	,	PUNCT	_	_	28	punct	_	start_char=117|end_char=118	
+20	в	в	ADP	_	_	22	case	_	start_char=119|end_char=120	
+21	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	22	det	_	start_char=121|end_char=124	
+22	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	start_char=125|end_char=130	
+23	с	с	ADP	_	_	28	case	_	start_char=131|end_char=132	
+24	существующими	существовать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	28	acl	_	start_char=133|end_char=146	
+25	и	и	CCONJ	_	_	26	cc	_	start_char=147|end_char=148	
+26	создающимися	создавать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	24	conj	_	start_char=149|end_char=161	
+27	интеграционными	интеграционный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	start_char=162|end_char=177	
+28	объединениями	объединение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	15	conj	_	start_char=178|end_char=191	
+29	.	.	PUNCT	_	_	2	punct	_	start_char=191|end_char=192	
+
+#text = Уверен , сопряжение интеграционных процессов в АТР , Евразии будет способствовать всеобъемлющему и устойчивому росту на благо народов наших стран . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	parataxis	_	start_char=193|end_char=199	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=199|end_char=200	
+3	сопряжение	сопряжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=201|end_char=211	
+4	интеграционных	интеграционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=212|end_char=226	
+5	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=227|end_char=236	
+6	в	в	ADP	_	_	7	case	_	start_char=237|end_char=238	
+7	АТР	АТР	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	start_char=239|end_char=242	
+8	,	,	PUNCT	_	_	9	punct	_	start_char=242|end_char=243	
+9	Евразии	Евразия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	start_char=244|end_char=251	
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=252|end_char=257	
+11	способствовать	способствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=258|end_char=272	
+12	всеобъемлющему	всеобъемлющий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=273|end_char=287	
+13	и	и	CCONJ	_	_	14	cc	_	start_char=288|end_char=289	
+14	устойчивому	устойчивый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	start_char=290|end_char=301	
+15	росту	рост	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	iobj	_	start_char=302|end_char=307	
+16	на	на	ADP	_	_	17	case	_	start_char=308|end_char=310	
+17	благо	благо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	start_char=311|end_char=316	
+18	народов	народ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=317|end_char=324	
+19	наших	наш	DET	_	Case=Gen|Number=Plur	20	det	_	start_char=325|end_char=330	
+20	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	start_char=331|end_char=336	
+21	.	.	PUNCT	_	_	11	punct	_	start_char=336|end_char=337	
+
+#text = Большое спасибо за внимание . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=4|end_char=11	
+2	спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=12|end_char=19	
+3	за	за	ADP	_	_	4	case	_	start_char=20|end_char=22	
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	start_char=23|end_char=31	
+5	.	.	PUNCT	_	_	2	punct	_	start_char=31|end_char=32	
+

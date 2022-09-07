@@ -1,0 +1,371 @@
+#text = Дорогие друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=4|end_char=11	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=12|end_char=18	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=18|end_char=19	
+
+#text = Дамы и господа ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=20|end_char=24	
+2	и	и	CCONJ	_	_	3	cc	_	start_char=25|end_char=26	
+3	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=27|end_char=34	
+4	!	!	PUNCT	_	_	1	punct	_	start_char=34|end_char=35	
+
+#text = Сегодня в Москве , здесь , в сто­лице России , стартует XIV чемпионат мира по лёгкой атлетике . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	11	advmod	_	start_char=4|end_char=11	
+2	в	в	ADP	_	_	3	case	_	start_char=12|end_char=13	
+3	Москве	Москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=14|end_char=20	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=20|end_char=21	
+5	здесь	здесь	ADV	_	Degree=Pos	11	advmod	_	start_char=22|end_char=27	
+6	,	,	PUNCT	_	_	8	punct	_	start_char=27|end_char=28	
+7	в	в	ADP	_	_	8	case	_	start_char=29|end_char=30	
+8	сто­лице	сто­лице	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	conj	_	start_char=31|end_char=39	
+9	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=40|end_char=46	
+10	,	,	PUNCT	_	_	5	punct	_	start_char=46|end_char=47	
+11	стартует	стартовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=48|end_char=56	
+12	XIV	xiv	NUM	_	_	13	nummod	_	start_char=57|end_char=60	
+13	чемпионат	чемпионат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=61|end_char=70	
+14	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=71|end_char=75	
+15	по	по	ADP	_	_	17	case	_	start_char=76|end_char=78	
+16	лёгкой	легкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=79|end_char=85	
+17	атлетике	атлетика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	start_char=86|end_char=94	
+18	.	.	PUNCT	_	_	11	punct	_	start_char=94|end_char=95	
+
+#text = От всей души приветст­вую вас на этой замеча­тельной церемонии , на этом прекрасном празднике спорта , молодости и дружбы . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	От	от	ADP	_	_	3	case	_	start_char=96|end_char=98	
+2	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	det	_	start_char=99|end_char=103	
+3	души	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=104|end_char=108	
+4	приветст­вую	приветст­вую	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=109|end_char=121	
+5	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	4	obj	_	start_char=122|end_char=125	
+6	на	на	ADP	_	_	9	case	_	start_char=126|end_char=128	
+7	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	9	det	_	start_char=129|end_char=133	
+8	замеча­тельной	замеча­тельной	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=134|end_char=148	
+9	церемонии	церемония	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=149|end_char=158	
+10	,	,	PUNCT	_	_	14	punct	_	start_char=158|end_char=159	
+11	на	на	ADP	_	_	14	case	_	start_char=160|end_char=162	
+12	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	14	det	_	start_char=163|end_char=167	
+13	прекрасном	прекрасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=168|end_char=178	
+14	празднике	праздник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	conj	_	start_char=179|end_char=188	
+15	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=189|end_char=195	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=195|end_char=196	
+17	молодости	молодость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	start_char=197|end_char=206	
+18	и	и	CCONJ	_	_	19	cc	_	start_char=207|end_char=208	
+19	дружбы	дружба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	start_char=209|end_char=215	
+20	.	.	PUNCT	_	_	3	punct	_	start_char=215|end_char=216	
+
+#text = Наша страна впервые принимает мировое пер­венство по лёгкой атлетике , и мы дорожим доверием , которое нам оказано . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	страна	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=9|end_char=15	
+3	впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	start_char=16|end_char=23	
+4	принимает	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=24|end_char=33	
+5	мировое	мировой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=34|end_char=41	
+6	пер­венство	пер­венство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=42|end_char=53	
+7	по	по	ADP	_	_	9	case	_	start_char=54|end_char=56	
+8	лёгкой	легкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=57|end_char=63	
+9	атлетике	атлетика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=64|end_char=72	
+10	,	,	PUNCT	_	_	13	punct	_	start_char=72|end_char=73	
+11	и	и	CCONJ	_	_	13	cc	_	start_char=74|end_char=75	
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	13	nsubj	_	start_char=76|end_char=78	
+13	дорожим	дорожить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=79|end_char=86	
+14	доверием	доверие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	start_char=87|end_char=95	
+15	,	,	PUNCT	_	_	18	punct	_	start_char=95|end_char=96	
+16	которое	который	PRON	_	Case=Nom	18	nsubj:pass	_	start_char=97|end_char=104	
+17	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	18	iobj	_	start_char=105|end_char=108	
+18	оказано	оказать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	start_char=109|end_char=116	
+19	.	.	PUNCT	_	_	4	punct	_	start_char=116|end_char=117	
+
+#text = Иск­ренне рады видеть у себя в гостях сильнейших спорт­сменов и выдающихся тре­неров планеты , представи­телей международной легко­атлетической семьи . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Иск­ренне	Иск­ренне	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=118|end_char=127	
+2	рады	рад	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=128|end_char=132	
+3	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=133|end_char=139	
+4	у	у	ADP	_	_	5	case	_	start_char=140|end_char=141	
+5	себя	себя	PRON	_	Case=Gen	3	obl	_	start_char=142|end_char=146	
+6	в	в	ADP	_	_	7	case	_	start_char=147|end_char=148	
+7	гостях	гость	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	start_char=149|end_char=155	
+8	сильнейших	сильный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	9	amod	_	start_char=156|end_char=166	
+9	спорт­сменов	спорт­сменов	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=167|end_char=179	
+10	и	и	CCONJ	_	_	12	cc	_	start_char=180|end_char=181	
+11	выдающихся	выдающийся	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=182|end_char=192	
+12	тре­неров	тре­неров	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	start_char=193|end_char=202	
+13	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=203|end_char=210	
+14	,	,	PUNCT	_	_	15	punct	_	start_char=210|end_char=211	
+15	представи­телей	представи­телей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	start_char=212|end_char=227	
+16	международной	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=228|end_char=241	
+17	легко­атлетической	легко­атлетической	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=242|end_char=260	
+18	семьи	семья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=261|end_char=266	
+19	.	.	PUNCT	_	_	2	punct	_	start_char=266|end_char=267	
+
+#text = Лёгкую атлетику спра­вед­ливо называют короле­вой спорта , она родилась практи­чески на заре цивилизации . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Лёгкую	легкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	атлетику	атлетика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=11|end_char=19	
+3	спра­вед­ливо	спра­вед­ливо	ADV	_	Degree=Pos	4	advmod	_	start_char=20|end_char=33	
+4	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=34|end_char=42	
+5	короле­вой	короле­вой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=43|end_char=53	
+6	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	start_char=54|end_char=60	
+7	,	,	PUNCT	_	_	9	punct	_	start_char=60|end_char=61	
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	start_char=62|end_char=65	
+9	родилась	рождаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	start_char=66|end_char=74	
+10	практи­чески	практи­чески	ADV	_	Degree=Pos	9	advmod	_	start_char=75|end_char=87	
+11	на	на	ADP	_	_	12	case	_	start_char=88|end_char=90	
+12	заре	заря	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=91|end_char=95	
+13	цивилизации	цивилизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=96|end_char=107	
+14	.	.	PUNCT	_	_	4	punct	_	start_char=107|end_char=108	
+
+#text = Лёгкая атлетика стала воплощением мечты о гармонии , о честных и красивых состязаниях , и сегодня она вдохновляет людей на занятия спортом . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Лёгкая	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=109|end_char=115	
+2	атлетика	атлетика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=116|end_char=124	
+3	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=125|end_char=130	
+4	воплощением	воплощение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	start_char=131|end_char=142	
+5	мечты	мечта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=143|end_char=148	
+6	о	о	ADP	_	_	7	case	_	start_char=149|end_char=150	
+7	гармонии	гармония	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	start_char=151|end_char=159	
+8	,	,	PUNCT	_	_	13	punct	_	start_char=159|end_char=160	
+9	о	о	ADP	_	_	13	case	_	start_char=161|end_char=162	
+10	честных	честный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	start_char=163|end_char=170	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=171|end_char=172	
+12	красивых	красивый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	conj	_	start_char=173|end_char=181	
+13	состязаниях	состязание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	conj	_	start_char=182|end_char=193	
+14	,	,	PUNCT	_	_	18	punct	_	start_char=193|end_char=194	
+15	и	и	CCONJ	_	_	18	cc	_	start_char=195|end_char=196	
+16	сегодня	сегодня	ADV	_	Degree=Pos	18	advmod	_	start_char=197|end_char=204	
+17	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	start_char=205|end_char=208	
+18	вдохновляет	вдохновлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=209|end_char=220	
+19	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=221|end_char=226	
+20	на	на	ADP	_	_	21	case	_	start_char=227|end_char=229	
+21	занятия	занятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obl	_	start_char=230|end_char=237	
+22	спортом	спорт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	start_char=238|end_char=245	
+23	.	.	PUNCT	_	_	3	punct	_	start_char=245|end_char=246	
+
+#text = Лёгкая атлетика объеди­няет страны и континенты , укрепляет доверие между народами . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	Лёгкая	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=247|end_char=253	
+2	атлетика	атлетика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=254|end_char=262	
+3	объеди­няет	объеди­няет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=263|end_char=274	
+4	страны	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=275|end_char=281	
+5	и	и	CCONJ	_	_	6	cc	_	start_char=282|end_char=283	
+6	континенты	континент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	conj	_	start_char=284|end_char=294	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=294|end_char=295	
+8	укрепляет	укреплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=296|end_char=305	
+9	доверие	доверие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=306|end_char=313	
+10	между	между	ADP	_	_	11	case	_	start_char=314|end_char=319	
+11	народами	народ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	start_char=320|end_char=328	
+12	.	.	PUNCT	_	_	3	punct	_	start_char=328|end_char=329	
+
+#text = Современная лёгкая атле­тика – это десятки дисциплин , значительная часть олимпийской программы . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Современная	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4|end_char=15	
+2	лёгкая	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=16|end_char=22	
+3	атле­тика	атле­тика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=23|end_char=32	
+4	–	–	PUNCT	_	_	3	punct	_	start_char=33|end_char=34	
+5	это	это	PRON	_	_	6	cop	_	start_char=35|end_char=38	
+6	десятки	десяток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=39|end_char=46	
+7	дисциплин	дисциплина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=47|end_char=56	
+8	,	,	PUNCT	_	_	10	punct	_	start_char=56|end_char=57	
+9	значительная	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=58|end_char=70	
+10	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=71|end_char=76	
+11	олимпийской	олимпийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=77|end_char=88	
+12	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=89|end_char=98	
+13	.	.	PUNCT	_	_	6	punct	_	start_char=98|end_char=99	
+
+#text = На таких соревнованиях всегда добиваются новых и новых рекордов . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	На	на	ADP	_	_	3	case	_	start_char=100|end_char=102	
+2	таких	такой	DET	_	Case=Loc|Number=Plur	3	det	_	start_char=103|end_char=108	
+3	соревнованиях	соревнование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	start_char=109|end_char=122	
+4	всегда	всегда	ADV	_	Degree=Pos	5	advmod	_	start_char=123|end_char=129	
+5	добиваются	добиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=130|end_char=140	
+6	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	start_char=141|end_char=146	
+7	и	и	CCONJ	_	_	8	cc	_	start_char=147|end_char=148	
+8	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	conj	_	start_char=149|end_char=154	
+9	рекордов	рекорд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	start_char=155|end_char=163	
+10	.	.	PUNCT	_	_	5	punct	_	start_char=163|end_char=164	
+
+#text = И здесь , на арене Лужников , мы ждём новых выдающихся результатов . 
+#par_id = 5
+#sent_id = 3
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	9	cc	_	start_char=165|end_char=166	
+2	здесь	здесь	ADV	_	Degree=Pos	9	advmod	_	start_char=167|end_char=172	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=172|end_char=173	
+4	на	на	ADP	_	_	5	case	_	start_char=174|end_char=176	
+5	арене	арена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	start_char=177|end_char=182	
+6	Лужников	Лужники	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=183|end_char=191	
+7	,	,	PUNCT	_	_	2	punct	_	start_char=191|end_char=192	
+8	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	start_char=193|end_char=195	
+9	ждём	здечь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=196|end_char=200	
+10	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=201|end_char=206	
+11	выдающихся	выдающийся	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=207|end_char=217	
+12	результатов	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	start_char=218|end_char=229	
+13	.	.	PUNCT	_	_	9	punct	_	start_char=229|end_char=230	
+
+#text = Мы желаем успехов всем спортсменам . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	желаем	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=13	
+3	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=14|end_char=21	
+4	всем	весь	DET	_	Case=Dat|Number=Plur	5	det	_	start_char=22|end_char=26	
+5	спортсменам	спортсмен	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	start_char=27|end_char=38	
+6	.	.	PUNCT	_	_	2	punct	_	start_char=38|end_char=39	
+
+#text = Разумеется , будем болеть за наших . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Разумеется	разумеется	ADV	_	Degree=Pos	4	parataxis	_	start_char=40|end_char=50	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=50|end_char=51	
+3	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=52|end_char=57	
+4	болеть	болеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=58|end_char=64	
+5	за	за	ADP	_	_	6	case	_	start_char=65|end_char=67	
+6	наших	наш	DET	_	Case=Acc|Number=Plur	4	det	_	start_char=68|end_char=73	
+7	.	.	PUNCT	_	_	4	punct	_	start_char=73|end_char=74	
+
+#text = Уверен , что XIV чемпио­нат мира по лёгкой атлетике принесёт свои новые открытия , новые яркие эмоции и новые рекорды . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=10	
+2	,	,	PUNCT	_	_	10	punct	_	start_char=10|end_char=11	
+3	что	что	SCONJ	_	_	10	mark	_	start_char=12|end_char=15	
+4	XIV	xiv	NUM	_	_	5	nummod	_	start_char=16|end_char=19	
+5	чемпио­нат	чемпио­нат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	start_char=20|end_char=30	
+6	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=31|end_char=35	
+7	по	по	ADP	_	_	9	case	_	start_char=36|end_char=38	
+8	лёгкой	легкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=39|end_char=45	
+9	атлетике	атлетика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=46|end_char=54	
+10	принесёт	принести	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=55|end_char=63	
+11	свои	свой	DET	_	Case=Acc|Number=Plur	13	det	_	start_char=64|end_char=68	
+12	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	start_char=69|end_char=74	
+13	открытия	открытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=75|end_char=83	
+14	,	,	PUNCT	_	_	17	punct	_	start_char=83|end_char=84	
+15	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	start_char=85|end_char=90	
+16	яркие	яркий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	start_char=91|end_char=96	
+17	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	conj	_	start_char=97|end_char=103	
+18	и	и	CCONJ	_	_	20	cc	_	start_char=104|end_char=105	
+19	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	start_char=106|end_char=111	
+20	рекорды	рекорд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	conj	_	start_char=112|end_char=119	
+21	.	.	PUNCT	_	_	1	punct	_	start_char=119|end_char=120	
+
+#text = Хочу поблагодарить всех организаторов , в первую очередь мос­квичей , хочу поблагодарить губернатора столицы Сергея Собянина за активное участие в подготовке чемпионата . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8	
+2	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=22	
+3	всех	весь	DET	_	Case=Acc|Number=Plur	4	det	_	start_char=23|end_char=27	
+4	организаторов	организатор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=28|end_char=41	
+5	,	,	PUNCT	_	_	9	punct	_	start_char=41|end_char=42	
+6	в	в	ADP	_	_	9	discourse	_	start_char=43|end_char=44	
+7	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	fixed	_	start_char=45|end_char=51	
+8	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	fixed	_	start_char=52|end_char=59	
+9	мос­квичей	мос­квичей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	start_char=60|end_char=70	
+10	,	,	PUNCT	_	_	11	punct	_	start_char=70|end_char=71	
+11	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=72|end_char=76	
+12	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=77|end_char=90	
+13	губернатора	губернатор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=91|end_char=102	
+14	столицы	столица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=103|end_char=110	
+15	Сергея	Сергей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	appos	_	start_char=111|end_char=117	
+16	Собянина	Собянин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	flat:name	_	start_char=118|end_char=126	
+17	за	за	ADP	_	_	19	case	_	start_char=127|end_char=129	
+18	активное	активный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=130|end_char=138	
+19	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=139|end_char=146	
+20	в	в	ADP	_	_	21	case	_	start_char=147|end_char=148	
+21	подготовке	подготовка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	start_char=149|end_char=159	
+22	чемпионата	чемпионат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=160|end_char=170	
+23	.	.	PUNCT	_	_	1	punct	_	start_char=170|end_char=171	
+
+#text = Это большая и ответственная работа , она была проведена на высо­ком уровне . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=172|end_char=175	
+2	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=176|end_char=183	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=184|end_char=185	
+4	ответственная	ответственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=186|end_char=199	
+5	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=200|end_char=206	
+6	,	,	PUNCT	_	_	9	punct	_	start_char=206|end_char=207	
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj:pass	_	start_char=208|end_char=211	
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=212|end_char=216	
+9	проведена	провести	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	start_char=217|end_char=226	
+10	на	на	ADP	_	_	12	case	_	start_char=227|end_char=229	
+11	высо­ком	высо­ком	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=230|end_char=238	
+12	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=239|end_char=245	
+13	.	.	PUNCT	_	_	5	punct	_	start_char=245|end_char=246	
+
+#text = Поздравляю всех с на­чалом чемпионата . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=14	
+2	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	1	obj	_	start_char=15|end_char=19	
+3	с	с	ADP	_	_	4	case	_	start_char=20|end_char=21	
+4	на­чалом	на­чалом	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	start_char=22|end_char=30	
+5	чемпионата	чемпионат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=31|end_char=41	
+6	.	.	PUNCT	_	_	1	punct	_	start_char=41|end_char=42	
+
+#text = Желаю показать лучшее , на что вы способны . 
+#par_id = 9
+#sent_id = 2
+#speaker = В.Путин
+1	Желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=43|end_char=48	
+2	показать	показать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=49|end_char=57	
+3	лучшее	лучший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	obj	_	start_char=58|end_char=64	
+4	,	,	PUNCT	_	_	8	punct	_	start_char=64|end_char=65	
+5	на	на	ADP	_	_	6	case	_	start_char=66|end_char=68	
+6	что	что	PRON	_	Case=Acc	8	obl	_	start_char=69|end_char=72	
+7	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	8	nsubj	_	start_char=73|end_char=75	
+8	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	acl:relcl	_	start_char=76|end_char=84	
+9	.	.	PUNCT	_	_	1	punct	_	start_char=84|end_char=85	
+
+#text = Удачи ! 
+#par_id = 9
+#sent_id = 3
+#speaker = В.Путин
+1	Удачи	удача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=86|end_char=91	
+2	!	!	PUNCT	_	_	1	punct	_	start_char=91|end_char=92	
+
+#text = XIV чемпионат мира по лёгкой атлетике в Москве объявляю открытым ! 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	XIV	xiv	NUM	_	_	2	nummod	_	start_char=4|end_char=7	
+2	чемпионат	чемпионат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=8|end_char=17	
+3	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=18|end_char=22	
+4	по	по	ADP	_	_	6	case	_	start_char=23|end_char=25	
+5	лёгкой	легкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=26|end_char=32	
+6	атлетике	атлетика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=33|end_char=41	
+7	в	в	ADP	_	_	8	case	_	start_char=42|end_char=43	
+8	Москве	Москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=44|end_char=50	
+9	объявляю	объявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=51|end_char=59	
+10	открытым	открытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	start_char=60|end_char=68	
+11	!	!	PUNCT	_	_	9	punct	_	start_char=68|end_char=69	
+

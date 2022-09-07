@@ -1,0 +1,696 @@
+#text = Дорогие друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=4|end_char=11	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=12|end_char=18	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=18|end_char=19	
+
+#text = Наш торжественный вечер посвящён 100-летию первого трижды Героя Советского Союза , маршала авиации Александра Ивановича Покрышкина . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	start_char=4|end_char=7	
+2	торжественный	торжественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=8|end_char=21	
+3	вечер	вечер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=22|end_char=27	
+4	посвящён	посвятить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=28|end_char=36	
+5	100-летию	100-летие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	start_char=37|end_char=46	
+6	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=47|end_char=54	
+7	трижды	трижды	ADV	_	Degree=Pos	6	obl	_	start_char=55|end_char=61	
+8	Героя	Герой	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=62|end_char=67	
+9	Советского	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=68|end_char=78	
+10	Союза	Союз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=79|end_char=84	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=84|end_char=85	
+12	маршала	маршал	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	start_char=86|end_char=93	
+13	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=94|end_char=101	
+14	Александра	Александр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	start_char=102|end_char=112	
+15	Ивановича	Иванович	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat:name	_	start_char=113|end_char=122	
+16	Покрышкина	Покрышкин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat:name	_	start_char=123|end_char=133	
+17	.	.	PUNCT	_	_	4	punct	_	start_char=133|end_char=134	
+
+#text = Эту дату сегодня отмечают во многих регионах нашей страны , но основные мероприятия по праву проходят здесь , в Новосибирской области , где он родился и где сформировался его настоящий сибирский характер . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	2	det	_	start_char=4|end_char=7	
+2	дату	дата	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=8|end_char=12	
+3	сегодня	сегодня	ADV	_	Degree=Pos	4	advmod	_	start_char=13|end_char=20	
+4	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=29	
+5	во	в	ADP	_	_	7	case	_	start_char=30|end_char=32	
+6	многих	много	NUM	_	_	7	amod	_	start_char=33|end_char=39	
+7	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	start_char=40|end_char=48	
+8	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	det	_	start_char=49|end_char=54	
+9	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=55|end_char=61	
+10	,	,	PUNCT	_	_	16	punct	_	start_char=61|end_char=62	
+11	но	но	CCONJ	_	_	16	cc	_	start_char=63|end_char=65	
+12	основные	основной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	start_char=66|end_char=74	
+13	мероприятия	мероприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	start_char=75|end_char=86	
+14	по	по	ADP	_	_	15	case	_	start_char=87|end_char=89	
+15	праву	право	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=90|end_char=95	
+16	проходят	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=96|end_char=104	
+17	здесь	здесь	ADV	_	Degree=Pos	16	advmod	_	start_char=105|end_char=110	
+18	,	,	PUNCT	_	_	21	punct	_	start_char=110|end_char=111	
+19	в	в	ADP	_	_	21	case	_	start_char=112|end_char=113	
+20	Новосибирской	новосибирский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=114|end_char=127	
+21	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	conj	_	start_char=128|end_char=135	
+22	,	,	PUNCT	_	_	25	punct	_	start_char=135|end_char=136	
+23	где	где	ADV	_	Degree=Pos	25	advmod	_	start_char=137|end_char=140	
+24	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	start_char=141|end_char=143	
+25	родился	рождаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	21	acl:relcl	_	start_char=144|end_char=151	
+26	и	и	CCONJ	_	_	28	cc	_	start_char=152|end_char=153	
+27	где	где	ADV	_	Degree=Pos	28	advmod	_	start_char=154|end_char=157	
+28	сформировался	сформироваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	25	conj	_	start_char=158|end_char=171	
+29	его	его	DET	_	_	32	det	_	start_char=172|end_char=175	
+30	настоящий	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=176|end_char=185	
+31	сибирский	сибирский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=186|end_char=195	
+32	характер	характер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	start_char=196|end_char=204	
+33	.	.	PUNCT	_	_	4	punct	_	start_char=204|end_char=205	
+
+#text = В этом зале находятся близкие родственники нашего героя : Александр Александрович Покрышкин – его сын , его внуки и правнуки ; ветераны Великой Отечественной войны . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	det	_	start_char=6|end_char=10	
+3	зале	зал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=11|end_char=15	
+4	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=16|end_char=25	
+5	близкие	близкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=26|end_char=33	
+6	родственники	родственник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=34|end_char=46	
+7	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	det	_	start_char=47|end_char=53	
+8	героя	герой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=54|end_char=59	
+9	:	:	PUNCT	_	_	10	punct	_	start_char=59|end_char=60	
+10	Александр	Александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	start_char=61|end_char=70	
+11	Александрович	Александрович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	start_char=71|end_char=84	
+12	Покрышкин	Покрышкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	start_char=85|end_char=94	
+13	–	–	PUNCT	_	_	15	punct	_	start_char=95|end_char=96	
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	start_char=97|end_char=100	
+15	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	start_char=101|end_char=104	
+16	,	,	PUNCT	_	_	18	punct	_	start_char=104|end_char=105	
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	start_char=106|end_char=109	
+18	внуки	внук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	start_char=110|end_char=115	
+19	и	и	CCONJ	_	_	20	cc	_	start_char=116|end_char=117	
+20	правнуки	правнук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	start_char=118|end_char=126	
+21	;	;	PUNCT	_	_	22	punct	_	start_char=126|end_char=127	
+22	ветераны	ветеран	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	start_char=128|end_char=136	
+23	Великой	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=137|end_char=144	
+24	Отечественной	отечественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=145|end_char=158	
+25	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	start_char=159|end_char=164	
+26	.	.	PUNCT	_	_	4	punct	_	start_char=164|end_char=165	
+
+#text = Я сердечно всех вас приветствую . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	start_char=166|end_char=167	
+2	сердечно	сердечно	ADV	_	Degree=Pos	5	advmod	_	start_char=168|end_char=176	
+3	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	5	obj	_	start_char=177|end_char=181	
+4	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	5	obj	_	start_char=182|end_char=185	
+5	приветствую	приветствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=186|end_char=197	
+6	.	.	PUNCT	_	_	5	punct	_	start_char=197|end_char=198	
+
+#text = Для России Покрышкин – не только отважный лётчик и непобедимый воздушный боец . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Для	для	ADP	_	_	2	case	_	start_char=4|end_char=7	
+2	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=8|end_char=14	
+3	Покрышкин	Покрышкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=15|end_char=24	
+4	–	–	PUNCT	_	_	3	punct	_	start_char=25|end_char=26	
+5	не	не	PART	_	_	6	advmod	_	start_char=27|end_char=29	
+6	только	только	PART	_	_	7	advmod	_	start_char=30|end_char=36	
+7	отважный	отважный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=37|end_char=45	
+8	лётчик	лётчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=46|end_char=52	
+9	и	и	CCONJ	_	_	12	cc	_	start_char=53|end_char=54	
+10	непобедимый	непобедимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=55|end_char=66	
+11	воздушный	воздушный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=67|end_char=76	
+12	боец	боец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	start_char=77|end_char=81	
+13	.	.	PUNCT	_	_	8	punct	_	start_char=81|end_char=82	
+
+#text = Александр Иванович был истинным , преданным патриотом нашей Родины . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Александр	Александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=83|end_char=92	
+2	Иванович	Иванович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=93|end_char=101	
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=102|end_char=105	
+4	истинным	истинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=106|end_char=114	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=114|end_char=115	
+6	преданным	преданный	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	start_char=116|end_char=125	
+7	патриотом	патриот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	start_char=126|end_char=135	
+8	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	det	_	start_char=136|end_char=141	
+9	Родины	Родина	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=142|end_char=148	
+10	.	.	PUNCT	_	_	7	punct	_	start_char=148|end_char=149	
+
+#text = Мы сегодня много говорим , даже спорим о патриотизме , о том , каким смыслом , какими устремлениями и ценностями должно быть наполнено это чувство . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	start_char=4|end_char=6	
+2	сегодня	сегодня	ADV	_	Degree=Pos	4	advmod	_	start_char=7|end_char=14	
+3	много	много	ADV	_	Degree=Pos	4	advmod	_	start_char=15|end_char=20	
+4	говорим	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=28	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=28|end_char=29	
+6	даже	даже	PART	_	_	7	advmod	_	start_char=30|end_char=34	
+7	спорим	спорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=35|end_char=41	
+8	о	о	ADP	_	_	9	case	_	start_char=42|end_char=43	
+9	патриотизме	патриотизм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=44|end_char=55	
+10	,	,	PUNCT	_	_	12	punct	_	start_char=55|end_char=56	
+11	о	о	ADP	_	_	12	case	_	start_char=57|end_char=58	
+12	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	conj	_	start_char=59|end_char=62	
+13	,	,	PUNCT	_	_	21	punct	_	start_char=62|end_char=63	
+14	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	15	det	_	start_char=64|end_char=69	
+15	смыслом	смысл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	start_char=70|end_char=77	
+16	,	,	PUNCT	_	_	18	punct	_	start_char=77|end_char=78	
+17	какими	какой	DET	_	Case=Ins|Number=Plur	18	det	_	start_char=79|end_char=85	
+18	устремлениями	устремление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	15	conj	_	start_char=86|end_char=99	
+19	и	и	CCONJ	_	_	20	cc	_	start_char=100|end_char=101	
+20	ценностями	ценность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	conj	_	start_char=102|end_char=112	
+21	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	12	acl	_	start_char=113|end_char=119	
+22	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	aux:pass	_	start_char=120|end_char=124	
+23	наполнено	наполнить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	xcomp	_	start_char=125|end_char=134	
+24	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	25	det	_	start_char=135|end_char=138	
+25	чувство	чувство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj:pass	_	start_char=139|end_char=146	
+26	.	.	PUNCT	_	_	4	punct	_	start_char=146|end_char=147	
+
+#text = Но есть люди , сама жизнь которых даёт нам ясные ответы на все эти вопросы . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Но	но	CCONJ	_	_	2	cc	_	start_char=148|end_char=150	
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=151|end_char=155	
+3	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=156|end_char=160	
+4	,	,	PUNCT	_	_	8	punct	_	start_char=160|end_char=161	
+5	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=162|end_char=166	
+6	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=167|end_char=172	
+7	которых	который	PRON	_	Case=Gen	6	nmod	_	start_char=173|end_char=180	
+8	даёт	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=181|end_char=185	
+9	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	8	iobj	_	start_char=186|end_char=189	
+10	ясные	ясный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	start_char=190|end_char=195	
+11	ответы	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=196|end_char=202	
+12	на	на	ADP	_	_	15	case	_	start_char=203|end_char=205	
+13	все	весь	DET	_	Case=Acc|Number=Plur	15	det	_	start_char=206|end_char=209	
+14	эти	этот	DET	_	Case=Acc|Number=Plur	15	det	_	start_char=210|end_char=213	
+15	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	nmod	_	start_char=214|end_char=221	
+16	.	.	PUNCT	_	_	2	punct	_	start_char=221|end_char=222	
+
+#text = Среди них , безусловно , Александр Иванович Покрышкин , доказавший , как много может сделать человек для своего Отечества . 
+#par_id = 6
+#sent_id = 3
+#speaker = В.Путин
+1	Среди	среди	ADP	_	_	2	case	_	start_char=223|end_char=228	
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	0	root	_	start_char=229|end_char=232	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=232|end_char=233	
+4	безусловно	безусловно	ADV	_	Degree=Pos	2	parataxis	_	start_char=234|end_char=244	
+5	,	,	PUNCT	_	_	4	punct	_	start_char=244|end_char=245	
+6	Александр	Александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=246|end_char=255	
+7	Иванович	Иванович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	start_char=256|end_char=264	
+8	Покрышкин	Покрышкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	start_char=265|end_char=274	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=274|end_char=275	
+10	доказавший	доказать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl	_	start_char=276|end_char=286	
+11	,	,	PUNCT	_	_	14	punct	_	start_char=286|end_char=287	
+12	как	как	SCONJ	_	_	14	mark	_	start_char=288|end_char=291	
+13	много	много	ADV	_	Degree=Pos	14	advmod	_	start_char=292|end_char=297	
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	start_char=298|end_char=303	
+15	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=304|end_char=311	
+16	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=312|end_char=319	
+17	для	для	ADP	_	_	19	case	_	start_char=320|end_char=323	
+18	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	19	det	_	start_char=324|end_char=330	
+19	Отечества	Отечество	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	start_char=331|end_char=340	
+20	.	.	PUNCT	_	_	2	punct	_	start_char=340|end_char=341	
+
+#text = У него была одна цель – освобождение родной страны . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	У	у	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	obl	_	start_char=6|end_char=10	
+3	была	быть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=15	
+4	одна	один	NUM	_	Case=Nom|Gender=Fem	5	nummod:gov	_	start_char=16|end_char=20	
+5	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=21|end_char=25	
+6	–	–	PUNCT	_	_	7	punct	_	start_char=26|end_char=27	
+7	освобождение	освобождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	start_char=28|end_char=40	
+8	родной	родной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=41|end_char=47	
+9	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=48|end_char=54	
+10	.	.	PUNCT	_	_	3	punct	_	start_char=54|end_char=55	
+
+#text = Его доблесть , ум , слава вдохновляли бойцов по всему фронту , поднимали их на новые подвиги . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	Его	его	DET	_	_	2	det	_	start_char=56|end_char=59	
+2	доблесть	доблесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=60|end_char=68	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=68|end_char=69	
+4	ум	ум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=70|end_char=72	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=72|end_char=73	
+6	слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=74|end_char=79	
+7	вдохновляли	вдохновлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=80|end_char=91	
+8	бойцов	боец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=92|end_char=98	
+9	по	по	ADP	_	_	11	case	_	start_char=99|end_char=101	
+10	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing	11	det	_	start_char=102|end_char=107	
+11	фронту	фронт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=108|end_char=114	
+12	,	,	PUNCT	_	_	13	punct	_	start_char=114|end_char=115	
+13	поднимали	поднимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=116|end_char=125	
+14	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	13	obj	_	start_char=126|end_char=128	
+15	на	на	ADP	_	_	17	case	_	start_char=129|end_char=131	
+16	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	start_char=132|end_char=137	
+17	подвиги	подвиг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	start_char=138|end_char=145	
+18	.	.	PUNCT	_	_	7	punct	_	start_char=145|end_char=146	
+
+#text = 30 лётчиков , прошедших школу Покрышкина , стали героями Советского Союза , а трое из них – дважды героями . 
+#par_id = 7
+#sent_id = 3
+#speaker = В.Путин
+1	30	30	NUM	_	_	2	nummod	_	start_char=147|end_char=149	
+2	лётчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	start_char=150|end_char=158	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=158|end_char=159	
+4	прошедших	пройти	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	start_char=160|end_char=169	
+5	школу	школа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=170|end_char=175	
+6	Покрышкина	Покрышкин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=176|end_char=186	
+7	,	,	PUNCT	_	_	4	punct	_	start_char=186|end_char=187	
+8	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=188|end_char=193	
+9	героями	герой	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	start_char=194|end_char=201	
+10	Советского	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=202|end_char=212	
+11	Союза	Союз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=213|end_char=218	
+12	,	,	PUNCT	_	_	19	punct	_	start_char=218|end_char=219	
+13	а	а	CCONJ	_	_	19	cc	_	start_char=220|end_char=221	
+14	трое	трое	NUM	_	Case=Nom	19	nsubj	_	start_char=222|end_char=226	
+15	из	из	ADP	_	_	16	case	_	start_char=227|end_char=229	
+16	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	start_char=230|end_char=233	
+17	–	–	PUNCT	_	_	19	punct	_	start_char=234|end_char=235	
+18	дважды	дважды	ADV	_	Degree=Pos	19	advmod	_	start_char=236|end_char=242	
+19	героями	герой	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	conj	_	start_char=243|end_char=250	
+20	.	.	PUNCT	_	_	8	punct	_	start_char=250|end_char=251	
+
+#text = Боевая биография Покрышкина – это только победы , поражений он не знал . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Боевая	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	биография	биография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=11|end_char=20	
+3	Покрышкина	Покрышкин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=21|end_char=31	
+4	–	–	PUNCT	_	_	2	punct	_	start_char=32|end_char=33	
+5	это	это	PRON	_	_	7	cop	_	start_char=34|end_char=37	
+6	только	только	PART	_	_	7	advmod	_	start_char=38|end_char=44	
+7	победы	победа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=45|end_char=51	
+8	,	,	PUNCT	_	_	12	punct	_	start_char=51|end_char=52	
+9	поражений	поражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	start_char=53|end_char=62	
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	start_char=63|end_char=65	
+11	не	не	PART	_	_	12	advmod	_	start_char=66|end_char=68	
+12	знал	знать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=69|end_char=73	
+13	.	.	PUNCT	_	_	7	punct	_	start_char=73|end_char=74	
+
+#text = Совершил свыше 600 боевых вылетов . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	Совершил	совершить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=75|end_char=83	
+2	свыше	свыше	ADP	_	_	5	case	_	start_char=84|end_char=89	
+3	600	600	NUM	_	_	5	nummod	_	start_char=90|end_char=93	
+4	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=94|end_char=100	
+5	вылетов	вылет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	start_char=101|end_char=108	
+6	.	.	PUNCT	_	_	1	punct	_	start_char=108|end_char=109	
+
+#text = Там , в грозном военном небе , оттачивалась его уникальная наука побеждать , а на земле он анализировал все детали воздушных боёв , изобретал новые тактические приёмы . 
+#par_id = 8
+#sent_id = 3
+#speaker = В.Путин
+1	Там	там	ADV	_	Degree=Pos	8	advmod	_	start_char=110|end_char=113	
+2	,	,	PUNCT	_	_	6	punct	_	start_char=113|end_char=114	
+3	в	в	ADP	_	_	6	case	_	start_char=115|end_char=116	
+4	грозном	грозный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=117|end_char=124	
+5	военном	военный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=125|end_char=132	
+6	небе	небо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	conj	_	start_char=133|end_char=137	
+7	,	,	PUNCT	_	_	1	punct	_	start_char=137|end_char=138	
+8	оттачивалась	оттачиваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=139|end_char=151	
+9	его	его	DET	_	_	11	det	_	start_char=152|end_char=155	
+10	уникальная	уникальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=156|end_char=166	
+11	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=167|end_char=172	
+12	побеждать	побеждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=173|end_char=182	
+13	,	,	PUNCT	_	_	18	punct	_	start_char=182|end_char=183	
+14	а	а	CCONJ	_	_	18	cc	_	start_char=184|end_char=185	
+15	на	на	ADP	_	_	16	case	_	start_char=186|end_char=188	
+16	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	start_char=189|end_char=194	
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	start_char=195|end_char=197	
+18	анализировал	анализировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=198|end_char=210	
+19	все	весь	DET	_	Case=Acc|Number=Plur	20	det	_	start_char=211|end_char=214	
+20	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	start_char=215|end_char=221	
+21	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	start_char=222|end_char=231	
+22	боёв	боев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	start_char=232|end_char=236	
+23	,	,	PUNCT	_	_	24	punct	_	start_char=236|end_char=237	
+24	изобретал	изобретать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=238|end_char=247	
+25	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	start_char=248|end_char=253	
+26	тактические	тактический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	start_char=254|end_char=265	
+27	приёмы	прицм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	start_char=266|end_char=272	
+28	.	.	PUNCT	_	_	8	punct	_	start_char=272|end_char=273	
+
+#text = Каждый его смелый манёвр был продуман до мелочей . 
+#par_id = 8
+#sent_id = 4
+#speaker = В.Путин
+1	Каждый	каждый	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	start_char=274|end_char=280	
+2	его	его	DET	_	_	4	det	_	start_char=281|end_char=284	
+3	смелый	смелый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=285|end_char=291	
+4	манёвр	манёвр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	start_char=292|end_char=298	
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=299|end_char=302	
+6	продуман	продумать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=303|end_char=311	
+7	до	до	ADP	_	_	8	case	_	start_char=312|end_char=314	
+8	мелочей	мелочь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=315|end_char=322	
+9	.	.	PUNCT	_	_	6	punct	_	start_char=322|end_char=323	
+
+#text = Для молодых пилотов , для своих однополчан он был больше чем командир , он был настоящим боевым товарищем . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Для	для	ADP	_	_	3	case	_	start_char=4|end_char=7	
+2	молодых	молодой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=8|end_char=15	
+3	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=16|end_char=23	
+4	,	,	PUNCT	_	_	7	punct	_	start_char=23|end_char=24	
+5	для	для	ADP	_	_	7	case	_	start_char=25|end_char=28	
+6	своих	свой	DET	_	Case=Gen|Number=Plur	7	det	_	start_char=29|end_char=34	
+7	однополчан	однополчанин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	start_char=35|end_char=45	
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	start_char=46|end_char=48	
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=49|end_char=52	
+10	больше	больше	ADV	_	Degree=Cmp	12	case	_	start_char=53|end_char=59	
+11	чем	чем	SCONJ	_	_	10	fixed	_	start_char=60|end_char=63	
+12	командир	командир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	advcl	_	start_char=64|end_char=72	
+13	,	,	PUNCT	_	_	3	punct	_	start_char=72|end_char=73	
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	start_char=74|end_char=76	
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	start_char=77|end_char=80	
+16	настоящим	настоящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=81|end_char=90	
+17	боевым	боевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=91|end_char=97	
+18	товарищем	товарищ	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	start_char=98|end_char=107	
+19	.	.	PUNCT	_	_	18	punct	_	start_char=107|end_char=108	
+
+#text = Все знали , что Покрышкин никогда никого не бросает в беде . 
+#par_id = 9
+#sent_id = 2
+#speaker = В.Путин
+1	Все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	2	nsubj	_	start_char=109|end_char=112	
+2	знали	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=113|end_char=118	
+3	,	,	PUNCT	_	_	9	punct	_	start_char=118|end_char=119	
+4	что	что	SCONJ	_	_	9	mark	_	start_char=120|end_char=123	
+5	Покрышкин	Покрышкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=124|end_char=133	
+6	никогда	никогда	ADV	_	Degree=Pos	9	advmod	_	start_char=134|end_char=141	
+7	никого	никто	PRON	_	Case=Gen	9	obl	_	start_char=142|end_char=148	
+8	не	не	PART	_	_	9	advmod	_	start_char=149|end_char=151	
+9	бросает	бросать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=152|end_char=159	
+10	в	в	ADP	_	_	11	case	_	start_char=160|end_char=161	
+11	беде	беда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=162|end_char=166	
+12	.	.	PUNCT	_	_	2	punct	_	start_char=166|end_char=167	
+
+#text = И все помнили его слова : « Мне свои ребята , – говорил он , – дороже сбитого самолёта . 
+#par_id = 9
+#sent_id = 3
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	3	cc	_	start_char=168|end_char=169	
+2	все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	3	nsubj	_	start_char=170|end_char=173	
+3	помнили	помнить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=174|end_char=181	
+4	его	его	DET	_	_	5	det	_	start_char=182|end_char=185	
+5	слова	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=186|end_char=191	
+6	:	:	PUNCT	_	_	10	punct	_	start_char=191|end_char=192	
+7	«	"	PUNCT	_	_	10	punct	_	start_char=193|end_char=194	
+8	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	10	orphan	_	start_char=194|end_char=197	
+9	свои	свой	DET	_	Case=Nom|Number=Plur	10	det	_	start_char=198|end_char=202	
+10	ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	5	parataxis	_	start_char=203|end_char=209	
+11	,	,	PUNCT	_	_	13	punct	_	start_char=209|end_char=210	
+12	–	–	PUNCT	_	_	13	punct	_	start_char=211|end_char=212	
+13	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=213|end_char=220	
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	start_char=221|end_char=223	
+15	,	,	PUNCT	_	_	17	punct	_	start_char=223|end_char=224	
+16	–	–	PUNCT	_	_	17	punct	_	start_char=225|end_char=226	
+17	дороже	дорогой	ADJ	_	Degree=Cmp	13	conj	_	start_char=227|end_char=233	
+18	сбитого	сбить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	start_char=234|end_char=241	
+19	самолёта	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	start_char=242|end_char=250	
+20	.	.	PUNCT	_	_	3	punct	_	start_char=250|end_char=251	
+
+#text = Вместе мы их больше насшибаем ! » 
+#par_id = 9
+#sent_id = 4
+#speaker = В.Путин
+1	Вместе	вместе	ADV	_	Degree=Pos	5	advmod	_	start_char=252|end_char=258	
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	start_char=259|end_char=261	
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	5	obj	_	start_char=262|end_char=264	
+4	больше	больше	ADV	_	Degree=Cmp	5	advmod	_	start_char=265|end_char=271	
+5	насшибаем	насшибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=272|end_char=281	
+6	!	!	PUNCT	_	_	5	punct	_	start_char=281|end_char=282	
+7	»	"	PUNCT	_	_	5	punct	_	start_char=282|end_char=283	
+
+#text = Истребительная авиационная дивизия под его командованием сбила 1147 самолётов противника и вписала свои доблестные страницы в ратную историю Великой Отечественной войны . 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	Истребительная	истребительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4|end_char=18	
+2	авиационная	авиационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=19|end_char=30	
+3	дивизия	дивизия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=31|end_char=38	
+4	под	под	ADP	_	_	6	case	_	start_char=39|end_char=42	
+5	его	его	DET	_	_	6	det	_	start_char=43|end_char=46	
+6	командованием	командование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	start_char=47|end_char=60	
+7	сбила	сбить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=61|end_char=66	
+8	1147	1147	NUM	_	_	9	nummod	_	start_char=67|end_char=71	
+9	самолётов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=72|end_char=81	
+10	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=82|end_char=92	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=93|end_char=94	
+12	вписала	вписать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=95|end_char=102	
+13	свои	свой	DET	_	Case=Acc|Number=Plur	15	det	_	start_char=103|end_char=107	
+14	доблестные	доблестный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=108|end_char=118	
+15	страницы	страница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=119|end_char=127	
+16	в	в	ADP	_	_	18	case	_	start_char=128|end_char=129	
+17	ратную	ратный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=130|end_char=136	
+18	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=137|end_char=144	
+19	Великой	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=145|end_char=152	
+20	Отечественной	отечественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=153|end_char=166	
+21	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=167|end_char=172	
+22	.	.	PUNCT	_	_	7	punct	_	start_char=172|end_char=173	
+
+#text = Дорогие друзья ! 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=4|end_char=11	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=12|end_char=18	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=18|end_char=19	
+
+#text = Александр Иванович Покрышкин был настоящим гением лётного боя . 
+#par_id = 11
+#sent_id = 2
+#speaker = В.Путин
+1	Александр	Александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=20|end_char=29	
+2	Иванович	Иванович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=30|end_char=38	
+3	Покрышкин	Покрышкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	start_char=39|end_char=48	
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=49|end_char=52	
+5	настоящим	настоящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=53|end_char=62	
+6	гением	гений	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	start_char=63|end_char=69	
+7	лётного	летный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=70|end_char=77	
+8	боя	бой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=78|end_char=81	
+9	.	.	PUNCT	_	_	6	punct	_	start_char=81|end_char=82	
+
+#text = В истории мировой авиации он признан и как бесстрашный дерзкий пилот , и как блестящий тактик воздушного боя . 
+#par_id = 11
+#sent_id = 3
+#speaker = В.Путин
+1	В	в	ADP	_	_	2	case	_	start_char=83|end_char=84	
+2	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=85|end_char=92	
+3	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=93|end_char=100	
+4	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=101|end_char=108	
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj:pass	_	start_char=109|end_char=111	
+6	признан	признать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=112|end_char=119	
+7	и	и	CCONJ	_	_	11	cc	_	start_char=120|end_char=121	
+8	как	как	SCONJ	_	_	11	mark	_	start_char=122|end_char=125	
+9	бесстрашный	бесстрашный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=126|end_char=137	
+10	дерзкий	дерзкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=138|end_char=145	
+11	пилот	пилот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	advcl	_	start_char=146|end_char=151	
+12	,	,	PUNCT	_	_	16	punct	_	start_char=151|end_char=152	
+13	и	и	CCONJ	_	_	16	cc	_	start_char=153|end_char=154	
+14	как	как	SCONJ	_	_	16	mark	_	start_char=155|end_char=158	
+15	блестящий	блестящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=159|end_char=168	
+16	тактик	тактика	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=169|end_char=175	
+17	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=176|end_char=186	
+18	боя	бой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=187|end_char=190	
+19	.	.	PUNCT	_	_	6	punct	_	start_char=190|end_char=191	
+
+#text = Целеустремлённость , талант , благородство и честь сформировали его судьбу . 
+#par_id = 12
+#sent_id = 1
+#speaker = В.Путин
+1	Целеустремлённость	целеустремлённость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=4|end_char=22	
+2	,	,	PUNCT	_	_	3	punct	_	start_char=22|end_char=23	
+3	талант	талант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=24|end_char=30	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=30|end_char=31	
+5	благородство	благородство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=32|end_char=44	
+6	и	и	CCONJ	_	_	7	cc	_	start_char=45|end_char=46	
+7	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=47|end_char=52	
+8	сформировали	сформировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=53|end_char=65	
+9	его	его	DET	_	_	10	det	_	start_char=66|end_char=69	
+10	судьбу	судьба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=70|end_char=76	
+11	.	.	PUNCT	_	_	8	punct	_	start_char=76|end_char=77	
+
+#text = Она была поистине великой . 
+#par_id = 12
+#sent_id = 2
+#speaker = В.Путин
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	start_char=78|end_char=81	
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=82|end_char=86	
+3	поистине	поистине	ADV	_	Degree=Pos	4	obl	_	start_char=87|end_char=95	
+4	великой	великий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=96|end_char=103	
+5	.	.	PUNCT	_	_	4	punct	_	start_char=103|end_char=104	
+
+#text = Такие люди , как Александр Иванович Покрышкин , – это золотой фонд нашей страны . 
+#par_id = 12
+#sent_id = 3
+#speaker = В.Путин
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	det	_	start_char=105|end_char=110	
+2	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=111|end_char=115	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=115|end_char=116	
+4	как	как	SCONJ	_	_	5	mark	_	start_char=117|end_char=120	
+5	Александр	Александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	obl	_	start_char=121|end_char=130	
+6	Иванович	Иванович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	start_char=131|end_char=139	
+7	Покрышкин	Покрышкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	start_char=140|end_char=149	
+8	,	,	PUNCT	_	_	7	punct	_	start_char=149|end_char=150	
+9	–	–	PUNCT	_	_	2	punct	_	start_char=151|end_char=152	
+10	это	это	PRON	_	_	12	cop	_	start_char=153|end_char=156	
+11	золотой	золотой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=157|end_char=164	
+12	фонд	фонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=165|end_char=169	
+13	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	det	_	start_char=170|end_char=175	
+14	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=176|end_char=182	
+15	.	.	PUNCT	_	_	12	punct	_	start_char=182|end_char=183	
+
+#text = И очень важно , чтобы наша память о нём не ограничивалась сегодняшним праздником . 
+#par_id = 12
+#sent_id = 4
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	3	cc	_	start_char=184|end_char=185	
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=186|end_char=191	
+3	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=192|end_char=197	
+4	,	,	PUNCT	_	_	11	punct	_	start_char=197|end_char=198	
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	start_char=199|end_char=204	
+6	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	det	_	start_char=205|end_char=209	
+7	память	память	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=210|end_char=216	
+8	о	о	ADP	_	_	9	case	_	start_char=217|end_char=218	
+9	нём	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	start_char=219|end_char=222	
+10	не	не	PART	_	_	11	advmod	_	start_char=223|end_char=225	
+11	ограничивалась	ограничиваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	ccomp	_	start_char=226|end_char=240	
+12	сегодняшним	сегодняшний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=241|end_char=252	
+13	праздником	праздник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	start_char=253|end_char=263	
+14	.	.	PUNCT	_	_	3	punct	_	start_char=263|end_char=264	
+
+#text = Именно о таких людях , как он , о таких сынах Отечества и нужно снимать художественные фильмы , писать книги , переиздавать их собственные труды , воспоминания , возрождать опыт того , чего они сделали , и того , чего они добились , работать на примере этого опыта с молодёжью . 
+#par_id = 13
+#sent_id = 1
+#speaker = В.Путин
+1	Именно	именно	PART	_	_	4	advmod	_	start_char=4|end_char=10	
+2	о	о	ADP	_	_	4	case	_	start_char=11|end_char=12	
+3	таких	такой	DET	_	Case=Loc|Number=Plur	4	det	_	start_char=13|end_char=18	
+4	людях	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	start_char=19|end_char=24	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=24|end_char=25	
+6	как	как	SCONJ	_	_	7	mark	_	start_char=26|end_char=29	
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl	_	start_char=30|end_char=32	
+8	,	,	PUNCT	_	_	11	punct	_	start_char=32|end_char=33	
+9	о	о	ADP	_	_	11	case	_	start_char=34|end_char=35	
+10	таких	такой	DET	_	Case=Loc|Number=Plur	11	det	_	start_char=36|end_char=41	
+11	сынах	сын	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	conj	_	start_char=42|end_char=47	
+12	Отечества	Отечество	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=48|end_char=57	
+13	и	и	CCONJ	_	_	14	cc	_	start_char=58|end_char=59	
+14	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=60|end_char=65	
+15	снимать	снимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	csubj	_	start_char=66|end_char=73	
+16	художественные	художественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	start_char=74|end_char=88	
+17	фильмы	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	start_char=89|end_char=95	
+18	,	,	PUNCT	_	_	19	punct	_	start_char=95|end_char=96	
+19	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	conj	_	start_char=97|end_char=103	
+20	книги	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=104|end_char=109	
+21	,	,	PUNCT	_	_	22	punct	_	start_char=109|end_char=110	
+22	переиздавать	переиздавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	conj	_	start_char=111|end_char=123	
+23	их	их	DET	_	_	25	det	_	start_char=124|end_char=126	
+24	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	start_char=127|end_char=138	
+25	труды	труд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	start_char=139|end_char=144	
+26	,	,	PUNCT	_	_	27	punct	_	start_char=144|end_char=145	
+27	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	conj	_	start_char=146|end_char=158	
+28	,	,	PUNCT	_	_	29	punct	_	start_char=158|end_char=159	
+29	возрождать	возрождать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	conj	_	start_char=160|end_char=170	
+30	опыт	опыт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	start_char=171|end_char=175	
+31	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	start_char=176|end_char=180	
+32	,	,	PUNCT	_	_	35	punct	_	start_char=180|end_char=181	
+33	чего	что	PRON	_	Case=Gen	35	obl	_	start_char=182|end_char=186	
+34	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	35	nsubj	_	start_char=187|end_char=190	
+35	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	31	acl	_	start_char=191|end_char=198	
+36	,	,	PUNCT	_	_	44	punct	_	start_char=198|end_char=199	
+37	и	и	CCONJ	_	_	44	cc	_	start_char=200|end_char=201	
+38	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	obl	_	start_char=202|end_char=206	
+39	,	,	PUNCT	_	_	42	punct	_	start_char=206|end_char=207	
+40	чего	что	PRON	_	Case=Gen	42	obl	_	start_char=208|end_char=212	
+41	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	42	nsubj	_	start_char=213|end_char=216	
+42	добились	добиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	38	acl	_	start_char=217|end_char=225	
+43	,	,	PUNCT	_	_	38	punct	_	start_char=225|end_char=226	
+44	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	acl	_	start_char=227|end_char=235	
+45	на	на	ADP	_	_	46	case	_	start_char=236|end_char=238	
+46	примере	пример	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	44	obl	_	start_char=239|end_char=246	
+47	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	48	det	_	start_char=247|end_char=252	
+48	опыта	опыт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	start_char=253|end_char=258	
+49	с	с	ADP	_	_	50	case	_	start_char=259|end_char=260	
+50	молодёжью	молодежь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	48	nmod	_	start_char=261|end_char=270	
+51	.	.	PUNCT	_	_	4	punct	_	start_char=270|end_char=271	
+
+#text = Память об этом выдающемся человеке , об Александре Ивановиче Покрышкине , должна быть живой , активной , она должна работать – работать так , как это делал он во имя нашей страны , и служить вечным примером горячей любви к Родине . 
+#par_id = 14
+#sent_id = 1
+#speaker = В.Путин
+1	Память	память	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=4|end_char=10	
+2	об	о	ADP	_	_	5	case	_	start_char=11|end_char=13	
+3	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	5	det	_	start_char=14|end_char=18	
+4	выдающемся	выдающийся	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=19|end_char=29	
+5	человеке	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	start_char=30|end_char=38	
+6	,	,	PUNCT	_	_	8	punct	_	start_char=38|end_char=39	
+7	об	о	ADP	_	_	8	case	_	start_char=40|end_char=42	
+8	Александре	Александр	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	start_char=43|end_char=53	
+9	Ивановиче	Иванович	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	8	flat:name	_	start_char=54|end_char=63	
+10	Покрышкине	Покрышкина	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	8	flat:name	_	start_char=64|end_char=74	
+11	,	,	PUNCT	_	_	1	punct	_	start_char=74|end_char=75	
+12	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=76|end_char=82	
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	cop	_	start_char=83|end_char=87	
+14	живой	живой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	xcomp	_	start_char=88|end_char=93	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=93|end_char=94	
+16	активной	активный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	start_char=95|end_char=103	
+17	,	,	PUNCT	_	_	19	punct	_	start_char=103|end_char=104	
+18	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	start_char=105|end_char=108	
+19	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	12	conj	_	start_char=109|end_char=115	
+20	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=116|end_char=124	
+21	–	–	PUNCT	_	_	22	punct	_	start_char=125|end_char=126	
+22	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	conj	_	start_char=127|end_char=135	
+23	так	так	ADV	_	Degree=Pos	22	advmod	_	start_char=136|end_char=139	
+24	,	,	PUNCT	_	_	27	punct	_	start_char=139|end_char=140	
+25	как	как	ADV	_	Degree=Pos	27	advmod	_	start_char=141|end_char=144	
+26	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	start_char=145|end_char=148	
+27	делал	делать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	advcl	_	start_char=149|end_char=154	
+28	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	nsubj	_	start_char=155|end_char=157	
+29	во	в	ADP	_	_	30	case	_	start_char=158|end_char=160	
+30	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obl	_	start_char=161|end_char=164	
+31	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	32	det	_	start_char=165|end_char=170	
+32	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	start_char=171|end_char=177	
+33	,	,	PUNCT	_	_	35	punct	_	start_char=177|end_char=178	
+34	и	и	CCONJ	_	_	35	cc	_	start_char=179|end_char=180	
+35	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	conj	_	start_char=181|end_char=188	
+36	вечным	вечный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	start_char=189|end_char=195	
+37	примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	35	obl	_	start_char=196|end_char=204	
+38	горячей	горячий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=205|end_char=212	
+39	любви	любовь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	start_char=213|end_char=218	
+40	к	к	ADP	_	_	41	case	_	start_char=219|end_char=220	
+41	Родине	Родина	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	39	nmod	_	start_char=221|end_char=227	
+42	.	.	PUNCT	_	_	12	punct	_	start_char=227|end_char=228	
+
+#text = Я хочу всех нас поздравить с этой датой и пожелать вам успехов . 
+#par_id = 15
+#sent_id = 1
+#speaker = В.Путин
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=4|end_char=5	
+2	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=10	
+3	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	5	obj	_	start_char=11|end_char=15	
+4	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	5	obj	_	start_char=16|end_char=19	
+5	поздравить	поздравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=20|end_char=30	
+6	с	с	ADP	_	_	8	case	_	start_char=31|end_char=32	
+7	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing	8	det	_	start_char=33|end_char=37	
+8	датой	дата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	start_char=38|end_char=43	
+9	и	и	CCONJ	_	_	10	cc	_	start_char=44|end_char=45	
+10	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	start_char=46|end_char=54	
+11	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	10	iobj	_	start_char=55|end_char=58	
+12	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	start_char=59|end_char=66	
+13	.	.	PUNCT	_	_	2	punct	_	start_char=66|end_char=67	
+

@@ -1,0 +1,957 @@
+#text = Добрый день ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Добрый	добрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=15|end_char=16	
+
+#text = Ребята , привет ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=17|end_char=23	
+2	,	,	PUNCT	_	_	3	punct	_	start_char=23|end_char=24	
+3	привет	привет	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=25|end_char=31	
+4	!	!	PUNCT	_	_	1	punct	_	start_char=31|end_char=32	
+
+#text = Мы прошли , посмотрели на этот замечательный центр , и госпожа Президент спросила , как возникла эта идея . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	прошли	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=13	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=13|end_char=14	
+4	посмотрели	смотреть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=15|end_char=25	
+5	на	на	ADP	_	_	8	case	_	start_char=26|end_char=28	
+6	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	8	det	_	start_char=29|end_char=33	
+7	замечательный	замечательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=34|end_char=47	
+8	центр	центр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=48|end_char=53	
+9	,	,	PUNCT	_	_	13	punct	_	start_char=53|end_char=54	
+10	и	и	CCONJ	_	_	13	cc	_	start_char=55|end_char=56	
+11	госпожа	госпожа	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=57|end_char=64	
+12	Президент	Президент	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	start_char=65|end_char=74	
+13	спросила	спросить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=75|end_char=83	
+14	,	,	PUNCT	_	_	16	punct	_	start_char=83|end_char=84	
+15	как	как	SCONJ	_	_	16	advmod	_	start_char=85|end_char=88	
+16	возникла	возникнуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	start_char=89|end_char=97	
+17	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	18	det	_	start_char=98|end_char=101	
+18	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=102|end_char=106	
+19	.	.	PUNCT	_	_	2	punct	_	start_char=106|end_char=107	
+
+#text = Она возникла в 2004 году , когда я впервые сюда приехал , во Владивосток , и пришёл в Институт биологии моря , созданный ещё в 1970 году , во времена Советского Союза . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	start_char=108|end_char=111	
+2	возникла	возникнуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=112|end_char=120	
+3	в	в	ADP	_	_	5	case	_	start_char=121|end_char=122	
+4	2004	2004	NUM	_	_	5	nummod	_	start_char=123|end_char=127	
+5	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=128|end_char=132	
+6	,	,	PUNCT	_	_	11	punct	_	start_char=132|end_char=133	
+7	когда	когда	SCONJ	_	_	11	mark	_	start_char=134|end_char=139	
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	_	start_char=140|end_char=141	
+9	впервые	впервые	ADV	_	Degree=Pos	11	advmod	_	start_char=142|end_char=149	
+10	сюда	сюда	ADV	_	Degree=Pos	11	advmod	_	start_char=150|end_char=154	
+11	приехал	приехать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=155|end_char=162	
+12	,	,	PUNCT	_	_	14	punct	_	start_char=162|end_char=163	
+13	во	в	ADP	_	_	14	case	_	start_char=164|end_char=166	
+14	Владивосток	Владивосток	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=167|end_char=178	
+15	,	,	PUNCT	_	_	17	punct	_	start_char=178|end_char=179	
+16	и	и	CCONJ	_	_	17	cc	_	start_char=180|end_char=181	
+17	пришёл	прийти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=182|end_char=188	
+18	в	в	ADP	_	_	19	case	_	start_char=189|end_char=190	
+19	Институт	Институт	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=191|end_char=199	
+20	биологии	биология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=200|end_char=208	
+21	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	start_char=209|end_char=213	
+22	,	,	PUNCT	_	_	23	punct	_	start_char=213|end_char=214	
+23	созданный	создать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	start_char=215|end_char=224	
+24	ещё	еще	ADV	_	Degree=Pos	27	obl	_	start_char=225|end_char=228	
+25	в	в	ADP	_	_	27	case	_	start_char=229|end_char=230	
+26	1970	1970	NUM	_	_	27	nummod	_	start_char=231|end_char=235	
+27	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	start_char=236|end_char=240	
+28	,	,	PUNCT	_	_	23	punct	_	start_char=240|end_char=241	
+29	во	в	ADP	_	_	30	case	_	start_char=242|end_char=244	
+30	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obl	_	start_char=245|end_char=252	
+31	Советского	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=253|end_char=263	
+32	Союза	Союз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	start_char=264|end_char=269	
+33	.	.	PUNCT	_	_	2	punct	_	start_char=269|end_char=270	
+
+#text = Стало ясно , что научная база очень хорошая , учёные у нас замечательные , мирового класса , но работают они в очень скромных , мягко говоря , условиях – в помещениях ещё конца 70-х годов прошлого века . 
+#par_id = 2
+#sent_id = 3
+#speaker = В.Путин
+1	Стало	стать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=271|end_char=276	
+2	ясно	ясный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	obl	_	start_char=277|end_char=281	
+3	,	,	PUNCT	_	_	8	punct	_	start_char=281|end_char=282	
+4	что	что	SCONJ	_	_	8	mark	_	start_char=283|end_char=286	
+5	научная	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=287|end_char=294	
+6	база	база	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=295|end_char=299	
+7	очень	очень	ADV	_	Degree=Pos	8	obl	_	start_char=300|end_char=305	
+8	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	ccomp	_	start_char=306|end_char=313	
+9	,	,	PUNCT	_	_	13	punct	_	start_char=313|end_char=314	
+10	учёные	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=315|end_char=321	
+11	у	у	ADP	_	_	12	case	_	start_char=322|end_char=323	
+12	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	13	obl	_	start_char=324|end_char=327	
+13	замечательные	замечательный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	conj	_	start_char=328|end_char=341	
+14	,	,	PUNCT	_	_	16	punct	_	start_char=341|end_char=342	
+15	мирового	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=343|end_char=351	
+16	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	start_char=352|end_char=358	
+17	,	,	PUNCT	_	_	19	punct	_	start_char=358|end_char=359	
+18	но	но	CCONJ	_	_	19	cc	_	start_char=360|end_char=362	
+19	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=363|end_char=371	
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	start_char=372|end_char=375	
+21	в	в	ADP	_	_	28	case	_	start_char=376|end_char=377	
+22	очень	очень	ADV	_	Degree=Pos	23	obl	_	start_char=378|end_char=383	
+23	скромных	скромный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	start_char=384|end_char=392	
+24	,	,	PUNCT	_	_	26	punct	_	start_char=392|end_char=393	
+25	мягко	мягко	ADV	_	Degree=Pos	26	advmod	_	start_char=394|end_char=399	
+26	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	28	parataxis	_	start_char=400|end_char=406	
+27	,	,	PUNCT	_	_	26	punct	_	start_char=406|end_char=407	
+28	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	19	obl	_	start_char=408|end_char=416	
+29	–	–	PUNCT	_	_	31	punct	_	start_char=417|end_char=418	
+30	в	в	ADP	_	_	31	case	_	start_char=419|end_char=420	
+31	помещениях	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	28	nmod	_	start_char=421|end_char=431	
+32	ещё	еще	ADV	_	Degree=Pos	33	obl	_	start_char=432|end_char=435	
+33	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	start_char=436|end_char=441	
+34	70-х	70-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	start_char=442|end_char=446	
+35	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	start_char=447|end_char=452	
+36	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	start_char=453|end_char=461	
+37	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	start_char=462|end_char=466	
+38	.	.	PUNCT	_	_	1	punct	_	start_char=466|end_char=467	
+
+#text = И мне сразу вспомнился музей моря в Монако – замечательное просветительское учреждение и отчасти научное . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=4|end_char=5	
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	4	iobj	_	start_char=6|end_char=9	
+3	сразу	сразу	ADV	_	Degree=Pos	4	advmod	_	start_char=10|end_char=15	
+4	вспомнился	вспомниться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=16|end_char=26	
+5	музей	музей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=27|end_char=32	
+6	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=33|end_char=37	
+7	в	в	ADP	_	_	8	case	_	start_char=38|end_char=39	
+8	Монако	Монако	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	start_char=40|end_char=46	
+9	–	–	PUNCT	_	_	12	punct	_	start_char=47|end_char=48	
+10	замечательное	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=49|end_char=62	
+11	просветительское	просветительский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=63|end_char=79	
+12	учреждение	учреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	start_char=80|end_char=90	
+13	и	и	CCONJ	_	_	15	cc	_	start_char=91|end_char=92	
+14	отчасти	отчасти	ADV	_	Degree=Pos	15	obl	_	start_char=93|end_char=100	
+15	научное	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	start_char=101|end_char=108	
+16	.	.	PUNCT	_	_	4	punct	_	start_char=108|end_char=109	
+
+#text = Конечно , я подумал о том , что у нас здесь , на берегу Тихого океана , на берегу Японского , « восточного моря » , условия ничуть не хуже , чем в Средиземном море , а может , даже чем-то и лучше , имея в виду биологическое разнообразие . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Конечно	конечно	ADV	_	Degree=Pos	4	parataxis	_	start_char=110|end_char=117	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=117|end_char=118	
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=119|end_char=120	
+4	подумал	подумать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=121|end_char=128	
+5	о	о	ADP	_	_	6	case	_	start_char=129|end_char=130	
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=131|end_char=134	
+7	,	,	PUNCT	_	_	30	punct	_	start_char=134|end_char=135	
+8	что	что	SCONJ	_	_	30	mark	_	start_char=136|end_char=139	
+9	у	у	ADP	_	_	10	case	_	start_char=140|end_char=141	
+10	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	30	obl	_	start_char=142|end_char=145	
+11	здесь	здесь	ADV	_	Degree=Pos	30	advmod	_	start_char=146|end_char=151	
+12	,	,	PUNCT	_	_	14	punct	_	start_char=151|end_char=152	
+13	на	на	ADP	_	_	14	case	_	start_char=153|end_char=155	
+14	берегу	берег	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	start_char=156|end_char=162	
+15	Тихого	тихий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=163|end_char=169	
+16	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=170|end_char=176	
+17	,	,	PUNCT	_	_	19	punct	_	start_char=176|end_char=177	
+18	на	на	ADP	_	_	19	case	_	start_char=178|end_char=180	
+19	берегу	берег	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	start_char=181|end_char=187	
+20	Японского	японский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	start_char=188|end_char=197	
+21	,	,	PUNCT	_	_	24	punct	_	start_char=197|end_char=198	
+22	«	"	PUNCT	_	_	24	punct	_	start_char=199|end_char=200	
+23	восточного	восточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	conj	_	start_char=200|end_char=210	
+24	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	start_char=211|end_char=215	
+25	»	"	PUNCT	_	_	24	punct	_	start_char=215|end_char=216	
+26	,	,	PUNCT	_	_	11	punct	_	start_char=216|end_char=217	
+27	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	30	nsubj	_	start_char=218|end_char=225	
+28	ничуть	ничуть	ADV	_	Degree=Pos	29	advmod	_	start_char=226|end_char=232	
+29	не	не	PART	_	_	30	advmod	_	start_char=233|end_char=235	
+30	хуже	плохой	ADJ	_	Degree=Cmp	6	acl	_	start_char=236|end_char=240	
+31	,	,	PUNCT	_	_	35	punct	_	start_char=240|end_char=241	
+32	чем	чем	SCONJ	_	_	35	mark	_	start_char=242|end_char=245	
+33	в	в	ADP	_	_	35	case	_	start_char=246|end_char=247	
+34	Средиземном	средиземный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	start_char=248|end_char=259	
+35	море	море	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	obl	_	start_char=260|end_char=264	
+36	,	,	PUNCT	_	_	43	punct	_	start_char=264|end_char=265	
+37	а	а	CCONJ	_	_	43	cc	_	start_char=266|end_char=267	
+38	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	parataxis	_	start_char=268|end_char=273	
+39	,	,	PUNCT	_	_	38	punct	_	start_char=273|end_char=274	
+40	даже	даже	PART	_	_	41	advmod	_	start_char=275|end_char=279	
+41	чем-то	что-то	PRON	_	Case=Ins	43	obl	_	start_char=280|end_char=286	
+42	и	и	PART	_	_	43	advmod	_	start_char=287|end_char=288	
+43	лучше	хороший	ADJ	_	Degree=Cmp	30	conj	_	start_char=289|end_char=294	
+44	,	,	PUNCT	_	_	45	punct	_	start_char=294|end_char=295	
+45	имея	иметь	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	43	advcl	_	start_char=296|end_char=300	
+46	в	в	ADP	_	_	45	advmod	_	start_char=301|end_char=302	
+47	виду	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	46	fixed	_	start_char=303|end_char=307	
+48	биологическое	биологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	start_char=308|end_char=321	
+49	разнообразие	разнообразие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	45	obj	_	start_char=322|end_char=334	
+50	.	.	PUNCT	_	_	4	punct	_	start_char=334|end_char=335	
+
+#text = Так постепенно возникла , сформировалась идея не только о строительстве океанариума как какого-то коммерческого и прежде всего некоммерческого объекта , а как центра , который бы совмещал в себе и научные исследования , и образование , и просвещение . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Так	так	ADV	_	Degree=Pos	2	advmod	_	start_char=4|end_char=7	
+2	постепенно	постепенно	ADV	_	Degree=Pos	3	advmod	_	start_char=8|end_char=18	
+3	возникла	возникнуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=27	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=27|end_char=28	
+5	сформировалась	сформироваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=29|end_char=43	
+6	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=44|end_char=48	
+7	не	не	PART	_	_	8	advmod	_	start_char=49|end_char=51	
+8	только	только	PART	_	_	10	advmod	_	start_char=52|end_char=58	
+9	о	о	ADP	_	_	10	case	_	start_char=59|end_char=60	
+10	строительстве	строительство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	start_char=61|end_char=74	
+11	океанариума	океанариум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=75|end_char=86	
+12	как	как	SCONJ	_	_	19	mark	_	start_char=87|end_char=90	
+13	какого-то	какой-то	DET	_	Case=Gen|Gender=Masc|Number=Sing	19	det	_	start_char=91|end_char=100	
+14	коммерческого	коммерческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=101|end_char=114	
+15	и	и	CCONJ	_	_	18	cc	_	start_char=115|end_char=116	
+16	прежде	прежде	ADP	_	_	18	advmod	_	start_char=117|end_char=123	
+17	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	18	det	_	start_char=124|end_char=129	
+18	некоммерческого	некоммерческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	start_char=130|end_char=145	
+19	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=146|end_char=153	
+20	,	,	PUNCT	_	_	23	punct	_	start_char=153|end_char=154	
+21	а	а	CCONJ	_	_	23	cc	_	start_char=155|end_char=156	
+22	как	как	SCONJ	_	_	23	cc	_	start_char=157|end_char=160	
+23	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	start_char=161|end_char=167	
+24	,	,	PUNCT	_	_	27	punct	_	start_char=167|end_char=168	
+25	который	который	PRON	_	Case=Nom	27	nsubj	_	start_char=169|end_char=176	
+26	бы	бы	AUX	_	_	27	aux	_	start_char=177|end_char=179	
+27	совмещал	совмещать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	start_char=180|end_char=188	
+28	в	в	ADP	_	_	29	case	_	start_char=189|end_char=190	
+29	себе	себя	PRON	_	Case=Loc	27	obl	_	start_char=191|end_char=195	
+30	и	и	CCONJ	_	_	32	cc	_	start_char=196|end_char=197	
+31	научные	научный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	32	amod	_	start_char=198|end_char=205	
+32	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	27	obj	_	start_char=206|end_char=218	
+33	,	,	PUNCT	_	_	35	punct	_	start_char=218|end_char=219	
+34	и	и	CCONJ	_	_	35	cc	_	start_char=220|end_char=221	
+35	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	conj	_	start_char=222|end_char=233	
+36	,	,	PUNCT	_	_	38	punct	_	start_char=233|end_char=234	
+37	и	и	CCONJ	_	_	38	cc	_	start_char=235|end_char=236	
+38	просвещение	просвещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	conj	_	start_char=237|end_char=248	
+39	.	.	PUNCT	_	_	3	punct	_	start_char=248|end_char=249	
+
+#text = То , что мы здесь видим , и то , что будут видеть посетители , – это только одна часть того , что есть , того , что создано . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	start_char=4|end_char=6	
+2	,	,	PUNCT	_	_	6	punct	_	start_char=6|end_char=7	
+3	что	что	PRON	_	Case=Acc	6	obj	_	start_char=8|end_char=11	
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	start_char=12|end_char=14	
+5	здесь	здесь	ADV	_	Degree=Pos	6	advmod	_	start_char=15|end_char=20	
+6	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	_	start_char=21|end_char=26	
+7	,	,	PUNCT	_	_	9	punct	_	start_char=26|end_char=27	
+8	и	и	CCONJ	_	_	9	cc	_	start_char=28|end_char=29	
+9	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=30|end_char=32	
+10	,	,	PUNCT	_	_	13	punct	_	start_char=32|end_char=33	
+11	что	что	PRON	_	Case=Acc	13	obj	_	start_char=34|end_char=37	
+12	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=38|end_char=43	
+13	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	acl	_	start_char=44|end_char=50	
+14	посетители	посетитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=51|end_char=61	
+15	,	,	PUNCT	_	_	14	punct	_	start_char=61|end_char=62	
+16	–	–	PUNCT	_	_	1	punct	_	start_char=63|end_char=64	
+17	это	это	PRON	_	_	20	cop	_	start_char=65|end_char=68	
+18	только	только	PART	_	_	19	advmod	_	start_char=69|end_char=75	
+19	одна	один	NUM	_	Case=Nom|Gender=Fem	20	nummod:gov	_	start_char=76|end_char=80	
+20	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=81|end_char=86	
+21	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	start_char=87|end_char=91	
+22	,	,	PUNCT	_	_	24	punct	_	start_char=91|end_char=92	
+23	что	что	PRON	_	Case=Nom	24	nsubj	_	start_char=93|end_char=96	
+24	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl	_	start_char=97|end_char=101	
+25	,	,	PUNCT	_	_	26	punct	_	start_char=101|end_char=102	
+26	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	conj	_	start_char=103|end_char=107	
+27	,	,	PUNCT	_	_	29	punct	_	start_char=107|end_char=108	
+28	что	что	PRON	_	Case=Nom	29	nsubj:pass	_	start_char=109|end_char=112	
+29	создано	создать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	acl	_	start_char=113|end_char=120	
+30	.	.	PUNCT	_	_	20	punct	_	start_char=120|end_char=121	
+
+#text = Вторая часть , ещё раз говорю , это образовательная часть и научная . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=122|end_char=128	
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=129|end_char=134	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=134|end_char=135	
+4	ещё	еще	ADV	_	Degree=Pos	5	obl	_	start_char=136|end_char=139	
+5	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=140|end_char=143	
+6	говорю	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	start_char=144|end_char=150	
+7	,	,	PUNCT	_	_	6	punct	_	start_char=150|end_char=151	
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=152|end_char=155	
+9	образовательная	образовательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=156|end_char=171	
+10	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=172|end_char=177	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=178|end_char=179	
+12	научная	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	start_char=180|end_char=187	
+13	.	.	PUNCT	_	_	10	punct	_	start_char=187|end_char=188	
+
+#text = Здесь совсем рядом расположены другие помещения , другие танки с животными , где будут проходить , будут продолжаться исследования и где люди , которые будут приходить сюда , в эту представительскую , так скажем , часть , будут знакомиться с разнообразной биологией моря и не только с ней – будут знакомиться с самыми новейшими теориями происхождения нашей планеты , происхождения жизни на Земле . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Здесь	здесь	ADV	_	Degree=Pos	4	advmod	_	start_char=4|end_char=9	
+2	совсем	совсем	ADV	_	Degree=Pos	3	advmod	_	start_char=10|end_char=16	
+3	рядом	рядом	ADV	_	Degree=Pos	4	advmod	_	start_char=17|end_char=22	
+4	расположены	расположенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=23|end_char=34	
+5	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=35|end_char=41	
+6	помещения	помещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=42|end_char=51	
+7	,	,	PUNCT	_	_	9	punct	_	start_char=51|end_char=52	
+8	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=53|end_char=59	
+9	танки	танк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=60|end_char=65	
+10	с	с	ADP	_	_	11	case	_	start_char=66|end_char=67	
+11	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	start_char=68|end_char=77	
+12	,	,	PUNCT	_	_	15	punct	_	start_char=77|end_char=78	
+13	где	где	ADV	_	Degree=Pos	15	advmod	_	start_char=79|end_char=82	
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	start_char=83|end_char=88	
+15	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	acl:relcl	_	start_char=89|end_char=98	
+16	,	,	PUNCT	_	_	18	punct	_	start_char=98|end_char=99	
+17	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	start_char=100|end_char=105	
+18	продолжаться	продолжаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	conj	_	start_char=106|end_char=118	
+19	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	start_char=119|end_char=131	
+20	и	и	CCONJ	_	_	39	cc	_	start_char=132|end_char=133	
+21	где	где	ADV	_	Degree=Pos	39	advmod	_	start_char=134|end_char=137	
+22	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	39	nsubj	_	start_char=138|end_char=142	
+23	,	,	PUNCT	_	_	26	punct	_	start_char=142|end_char=143	
+24	которые	который	PRON	_	Case=Nom	26	nsubj	_	start_char=144|end_char=151	
+25	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	start_char=152|end_char=157	
+26	приходить	приходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	acl:relcl	_	start_char=158|end_char=167	
+27	сюда	сюда	ADV	_	Degree=Pos	26	advmod	_	start_char=168|end_char=172	
+28	,	,	PUNCT	_	_	22	punct	_	start_char=172|end_char=173	
+29	в	в	ADP	_	_	36	case	_	start_char=174|end_char=175	
+30	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	36	det	_	start_char=176|end_char=179	
+31	представительскую	представительский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=180|end_char=197	
+32	,	,	PUNCT	_	_	34	punct	_	start_char=197|end_char=198	
+33	так	так	ADV	_	Degree=Pos	34	advmod	_	start_char=199|end_char=202	
+34	скажем	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	36	parataxis	_	start_char=203|end_char=209	
+35	,	,	PUNCT	_	_	34	punct	_	start_char=209|end_char=210	
+36	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obl	_	start_char=211|end_char=216	
+37	,	,	PUNCT	_	_	39	punct	_	start_char=216|end_char=217	
+38	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	aux	_	start_char=218|end_char=223	
+39	знакомиться	знакомиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	conj	_	start_char=224|end_char=235	
+40	с	с	ADP	_	_	42	case	_	start_char=236|end_char=237	
+41	разнообразной	разнообразный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=238|end_char=251	
+42	биологией	биология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	obl	_	start_char=252|end_char=261	
+43	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	42	nmod	_	start_char=262|end_char=266	
+44	и	и	CCONJ	_	_	48	cc	_	start_char=267|end_char=268	
+45	не	не	PART	_	_	46	advmod	_	start_char=269|end_char=271	
+46	только	только	PART	_	_	48	advmod	_	start_char=272|end_char=278	
+47	с	с	ADP	_	_	48	case	_	start_char=279|end_char=280	
+48	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	42	conj	_	start_char=281|end_char=284	
+49	–	–	PUNCT	_	_	51	punct	_	start_char=285|end_char=286	
+50	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	51	aux	_	start_char=287|end_char=292	
+51	знакомиться	знакомиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	39	conj	_	start_char=293|end_char=304	
+52	с	с	ADP	_	_	55	case	_	start_char=305|end_char=306	
+53	самыми	самый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	54	amod	_	start_char=307|end_char=313	
+54	новейшими	новый	ADJ	_	Case=Ins|Degree=Sup|Number=Plur	55	amod	_	start_char=314|end_char=323	
+55	теориями	теория	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	51	obl	_	start_char=324|end_char=332	
+56	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	55	nmod	_	start_char=333|end_char=346	
+57	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	58	det	_	start_char=347|end_char=352	
+58	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	start_char=353|end_char=360	
+59	,	,	PUNCT	_	_	60	punct	_	start_char=360|end_char=361	
+60	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	56	conj	_	start_char=362|end_char=375	
+61	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	60	nmod	_	start_char=376|end_char=381	
+62	на	на	ADP	_	_	63	case	_	start_char=382|end_char=384	
+63	Земле	Земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	60	nmod	_	start_char=385|end_char=390	
+64	.	.	PUNCT	_	_	4	punct	_	start_char=390|end_char=391	
+
+#text = Уверен , что эта просветительская часть будет не менее важной , чем две предыдущие – образовательная и научная . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=392|end_char=398	
+2	,	,	PUNCT	_	_	10	punct	_	start_char=398|end_char=399	
+3	что	что	SCONJ	_	_	10	mark	_	start_char=400|end_char=403	
+4	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	det	_	start_char=404|end_char=407	
+5	просветительская	просветительский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=408|end_char=424	
+6	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=425|end_char=430	
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=431|end_char=436	
+8	не	не	PART	_	_	9	advmod	_	start_char=437|end_char=439	
+9	менее	менее	ADV	_	Degree=Cmp	10	obl	_	start_char=440|end_char=445	
+10	важной	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	ccomp	_	start_char=446|end_char=452	
+11	,	,	PUNCT	_	_	14	punct	_	start_char=452|end_char=453	
+12	чем	чем	SCONJ	_	_	14	mark	_	start_char=454|end_char=457	
+13	две	два	NUM	_	Case=Nom|Gender=Fem	14	nummod:gov	_	start_char=458|end_char=461	
+14	предыдущие	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	advcl	_	start_char=462|end_char=472	
+15	–	–	PUNCT	_	_	16	punct	_	start_char=473|end_char=474	
+16	образовательная	образовательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	start_char=475|end_char=490	
+17	и	и	CCONJ	_	_	18	cc	_	start_char=491|end_char=492	
+18	научная	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	start_char=493|end_char=500	
+19	.	.	PUNCT	_	_	1	punct	_	start_char=500|end_char=501	
+
+#text = Хочу поздравить всех , кто в течение многих лет работал над созданием этого центра , хочу пожелать им успеха в работе , а людям , которые сюда будут приезжать со всей нашей необъятной страны и из-за рубежа , хочу пожелать полезного и приятного времяпрепровождения . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8	
+2	поздравить	поздравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=19	
+3	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	2	obj	_	start_char=20|end_char=24	
+4	,	,	PUNCT	_	_	10	punct	_	start_char=24|end_char=25	
+5	кто	кто	PRON	_	Case=Nom	10	nsubj	_	start_char=26|end_char=29	
+6	в	в	ADP	_	_	9	case	_	start_char=30|end_char=31	
+7	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	start_char=32|end_char=39	
+8	многих	много	NUM	_	_	9	amod	_	start_char=40|end_char=46	
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	start_char=47|end_char=50	
+10	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=51|end_char=58	
+11	над	над	ADP	_	_	12	case	_	start_char=59|end_char=62	
+12	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	start_char=63|end_char=72	
+13	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	14	det	_	start_char=73|end_char=78	
+14	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=79|end_char=85	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=85|end_char=86	
+16	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=87|end_char=91	
+17	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=92|end_char=100	
+18	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	17	iobj	_	start_char=101|end_char=103	
+19	успеха	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	start_char=104|end_char=110	
+20	в	в	ADP	_	_	21	case	_	start_char=111|end_char=112	
+21	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	start_char=113|end_char=119	
+22	,	,	PUNCT	_	_	39	punct	_	start_char=119|end_char=120	
+23	а	а	CCONJ	_	_	39	cc	_	start_char=121|end_char=122	
+24	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	39	iobj	_	start_char=123|end_char=128	
+25	,	,	PUNCT	_	_	29	punct	_	start_char=128|end_char=129	
+26	которые	который	PRON	_	Case=Nom	29	nsubj	_	start_char=130|end_char=137	
+27	сюда	сюда	ADV	_	Degree=Pos	29	advmod	_	start_char=138|end_char=142	
+28	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux	_	start_char=143|end_char=148	
+29	приезжать	приезжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	acl:relcl	_	start_char=149|end_char=158	
+30	со	с	ADP	_	_	34	case	_	start_char=159|end_char=161	
+31	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	34	det	_	start_char=162|end_char=166	
+32	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	34	det	_	start_char=167|end_char=172	
+33	необъятной	необъятный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=173|end_char=183	
+34	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	obl	_	start_char=184|end_char=190	
+35	и	и	CCONJ	_	_	37	cc	_	start_char=191|end_char=192	
+36	из-за	из-за	ADP	_	_	37	case	_	start_char=193|end_char=198	
+37	рубежа	рубеж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	conj	_	start_char=199|end_char=205	
+38	,	,	PUNCT	_	_	24	punct	_	start_char=205|end_char=206	
+39	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=207|end_char=211	
+40	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	39	xcomp	_	start_char=212|end_char=220	
+41	полезного	полезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	start_char=221|end_char=230	
+42	и	и	CCONJ	_	_	43	cc	_	start_char=231|end_char=232	
+43	приятного	приятный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	41	conj	_	start_char=233|end_char=242	
+44	времяпрепровождения	времяпрепровождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	obl	_	start_char=243|end_char=262	
+45	.	.	PUNCT	_	_	1	punct	_	start_char=262|end_char=263	
+
+#text = И конечно , хочу поздравить владивостокцев , всех приморцев с таким новым замечательным научно-образовательным и просветительским центром . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=264|end_char=265	
+2	конечно	конечно	ADV	_	Degree=Pos	4	parataxis	_	start_char=266|end_char=273	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=273|end_char=274	
+4	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=275|end_char=279	
+5	поздравить	поздравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=280|end_char=290	
+6	владивостокцев	владивостокец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=291|end_char=305	
+7	,	,	PUNCT	_	_	9	punct	_	start_char=305|end_char=306	
+8	всех	весь	DET	_	Case=Acc|Number=Plur	9	det	_	start_char=307|end_char=311	
+9	приморцев	приморец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	start_char=312|end_char=321	
+10	с	с	ADP	_	_	17	case	_	start_char=322|end_char=323	
+11	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	17	det	_	start_char=324|end_char=329	
+12	новым	новый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=330|end_char=335	
+13	замечательным	замечательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=336|end_char=349	
+14	научно-образовательным	научно-образовательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=350|end_char=372	
+15	и	и	CCONJ	_	_	16	cc	_	start_char=373|end_char=374	
+16	просветительским	просветительский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	start_char=375|end_char=391	
+17	центром	центр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	start_char=392|end_char=399	
+18	.	.	PUNCT	_	_	4	punct	_	start_char=399|end_char=400	
+
+#text = Всего вам доброго ! 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=4|end_char=9	
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	3	iobj	_	start_char=10|end_char=13	
+3	доброго	добрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=21	
+4	!	!	PUNCT	_	_	3	punct	_	start_char=21|end_char=22	
+
+#text = Успехов . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	Успехов	Успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	start_char=23|end_char=30	
+2	.	.	PUNCT	_	_	1	punct	_	start_char=30|end_char=31	
+
+#text = Уважаемый господин Президент Путин ! 
+#par_id = 9
+#sent_id = 1
+#speaker = Пак Кын Хе
+1	Уважаемый	уважать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	start_char=4|end_char=13	
+2	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=22	
+3	Президент	Президент	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=23|end_char=32	
+4	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=33|end_char=38	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=38|end_char=39	
+
+#text = Уважаемые дамы и господа ! 
+#par_id = 9
+#sent_id = 2
+#speaker = Пак Кын Хе
+1	Уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=40|end_char=49	
+2	дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=50|end_char=54	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=55|end_char=56	
+4	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=57|end_char=64	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=64|end_char=65	
+
+#text = Позвольте мне от всего сердца поздравить вас с открытием самого большого по масштабам в России океанариума здесь , на острове Русский , который является символом развития Дальнего Востока России . 
+#par_id = 9
+#sent_id = 3
+#speaker = Пак Кын Хе
+1	Позвольте	позволить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=66|end_char=75	
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	1	iobj	_	start_char=76|end_char=79	
+3	от	от	ADP	_	_	5	case	_	start_char=80|end_char=82	
+4	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	5	det	_	start_char=83|end_char=88	
+5	сердца	сердце	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	start_char=89|end_char=95	
+6	поздравить	поздравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=96|end_char=106	
+7	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	6	obj	_	start_char=107|end_char=110	
+8	с	с	ADP	_	_	9	case	_	start_char=111|end_char=112	
+9	открытием	открытие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	start_char=113|end_char=122	
+10	самого	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=123|end_char=129	
+11	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=130|end_char=138	
+12	по	по	ADP	_	_	13	case	_	start_char=139|end_char=141	
+13	масштабам	масштаб	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	start_char=142|end_char=151	
+14	в	в	ADP	_	_	15	case	_	start_char=152|end_char=153	
+15	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	start_char=154|end_char=160	
+16	океанариума	океанариум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=161|end_char=172	
+17	здесь	здесь	ADV	_	Degree=Pos	16	advmod	_	start_char=173|end_char=178	
+18	,	,	PUNCT	_	_	20	punct	_	start_char=178|end_char=179	
+19	на	на	ADP	_	_	20	case	_	start_char=180|end_char=182	
+20	острове	остров	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	conj	_	start_char=183|end_char=190	
+21	Русский	русский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	nsubj	_	start_char=191|end_char=198	
+22	,	,	PUNCT	_	_	24	punct	_	start_char=198|end_char=199	
+23	который	который	PRON	_	Case=Nom	24	nsubj	_	start_char=200|end_char=207	
+24	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	acl:relcl	_	start_char=208|end_char=216	
+25	символом	символ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	start_char=217|end_char=225	
+26	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	start_char=226|end_char=234	
+27	Дальнего	дальний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=235|end_char=243	
+28	Востока	Восток	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	start_char=244|end_char=251	
+29	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	start_char=252|end_char=258	
+30	.	.	PUNCT	_	_	1	punct	_	start_char=258|end_char=259	
+
+#text = Я думаю , что в этом месте – на восточном краю России – заложено стремление русского народа выйти на широкие просторы Тихого океана . 
+#par_id = 10
+#sent_id = 1
+#speaker = Пак Кын Хе
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=4|end_char=5	
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=11	
+3	,	,	PUNCT	_	_	14	punct	_	start_char=11|end_char=12	
+4	что	что	SCONJ	_	_	14	mark	_	start_char=13|end_char=16	
+5	в	в	ADP	_	_	7	case	_	start_char=17|end_char=18	
+6	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing	7	det	_	start_char=19|end_char=23	
+7	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	start_char=24|end_char=29	
+8	–	–	PUNCT	_	_	11	punct	_	start_char=30|end_char=31	
+9	на	на	ADP	_	_	11	case	_	start_char=32|end_char=34	
+10	восточном	восточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=35|end_char=44	
+11	краю	край	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	start_char=45|end_char=49	
+12	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=50|end_char=56	
+13	–	–	PUNCT	_	_	7	punct	_	start_char=57|end_char=58	
+14	заложено	заложить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=59|end_char=67	
+15	стремление	стремление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	start_char=68|end_char=78	
+16	русского	русский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=79|end_char=87	
+17	народа	народ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=88|end_char=94	
+18	выйти	выйти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	obl	_	start_char=95|end_char=100	
+19	на	на	ADP	_	_	21	case	_	start_char=101|end_char=103	
+20	широкие	широкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	start_char=104|end_char=111	
+21	просторы	простор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obl	_	start_char=112|end_char=120	
+22	Тихого	тихий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=121|end_char=127	
+23	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=128|end_char=134	
+24	.	.	PUNCT	_	_	2	punct	_	start_char=134|end_char=135	
+
+#text = Море существовало всё время , пока существовала история человечества , и является выходом в мир с безграничным потенциалом , а также является открытым пространством для нашего будущего . 
+#par_id = 10
+#sent_id = 2
+#speaker = Пак Кын Хе
+1	Море	море	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=136|end_char=140	
+2	существовало	существовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=141|end_char=153	
+3	всё	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	det	_	start_char=154|end_char=157	
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=158|end_char=163	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=163|end_char=164	
+6	пока	пока	SCONJ	_	_	7	mark	_	start_char=165|end_char=169	
+7	существовала	существовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=170|end_char=182	
+8	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=183|end_char=190	
+9	человечества	человечество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=191|end_char=203	
+10	,	,	PUNCT	_	_	12	punct	_	start_char=203|end_char=204	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=205|end_char=206	
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=207|end_char=215	
+13	выходом	выход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	start_char=216|end_char=223	
+14	в	в	ADP	_	_	15	case	_	start_char=224|end_char=225	
+15	мир	мир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	start_char=226|end_char=229	
+16	с	с	ADP	_	_	18	case	_	start_char=230|end_char=231	
+17	безграничным	безграничный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=232|end_char=244	
+18	потенциалом	потенциал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	start_char=245|end_char=256	
+19	,	,	PUNCT	_	_	22	punct	_	start_char=256|end_char=257	
+20	а	а	CCONJ	_	_	22	cc	_	start_char=258|end_char=259	
+21	также	также	PART	_	_	20	fixed	_	start_char=260|end_char=265	
+22	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=266|end_char=274	
+23	открытым	открытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	start_char=275|end_char=283	
+24	пространством	пространство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	start_char=284|end_char=297	
+25	для	для	ADP	_	_	27	case	_	start_char=298|end_char=301	
+26	нашего	наш	DET	_	Case=Gen|Gender=Neut|Number=Sing	27	det	_	start_char=302|end_char=308	
+27	будущего	будущее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	start_char=309|end_char=317	
+28	.	.	PUNCT	_	_	2	punct	_	start_char=317|end_char=318	
+
+#text = В последнее время существуют различные вызовы , угрожающие биоресурсам моря , такие как изменение климата , загрязнение океанов , чрезмерный вылов рыбы , нелегальный рыбный промысел и так далее . 
+#par_id = 11
+#sent_id = 1
+#speaker = Пак Кын Хе
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=6|end_char=15	
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=16|end_char=21	
+4	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=22|end_char=32	
+5	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=33|end_char=42	
+6	вызовы	вызов	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=43|end_char=49	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=49|end_char=50	
+8	угрожающие	угрожать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	start_char=51|end_char=61	
+9	биоресурсам	биоресурс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	iobj	_	start_char=62|end_char=73	
+10	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=74|end_char=78	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=78|end_char=79	
+12	такие	такой	DET	_	Case=Nom|Number=Plur	6	det	_	start_char=80|end_char=85	
+13	как	как	SCONJ	_	_	14	mark	_	start_char=86|end_char=89	
+14	изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	obl	_	start_char=90|end_char=99	
+15	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=100|end_char=107	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=107|end_char=108	
+17	загрязнение	загрязнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	start_char=109|end_char=120	
+18	океанов	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=121|end_char=128	
+19	,	,	PUNCT	_	_	21	punct	_	start_char=128|end_char=129	
+20	чрезмерный	чрезмерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=130|end_char=140	
+21	вылов	выл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	start_char=141|end_char=146	
+22	рыбы	рыба	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=147|end_char=151	
+23	,	,	PUNCT	_	_	26	punct	_	start_char=151|end_char=152	
+24	нелегальный	нелегальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=153|end_char=164	
+25	рыбный	рыбный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=165|end_char=171	
+26	промысел	промысел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	start_char=172|end_char=180	
+27	и	и	CCONJ	_	_	14	conj	_	start_char=181|end_char=182	
+28	так	так	ADV	_	Degree=Pos	27	fixed	_	start_char=183|end_char=186	
+29	далее	далее	ADV	_	Degree=Pos	27	fixed	_	start_char=187|end_char=192	
+30	.	.	PUNCT	_	_	4	punct	_	start_char=192|end_char=193	
+
+#text = Думаю , что мы сможем преодолеть такие вызовы , если мы соберём силы и мудрость . 
+#par_id = 12
+#sent_id = 1
+#speaker = Пак Кын Хе
+1	Думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=9	
+2	,	,	PUNCT	_	_	5	punct	_	start_char=9|end_char=10	
+3	что	что	SCONJ	_	_	5	mark	_	start_char=11|end_char=14	
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	start_char=15|end_char=17	
+5	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=18|end_char=24	
+6	преодолеть	преодолеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=25|end_char=35	
+7	такие	такой	DET	_	Case=Acc|Number=Plur	8	det	_	start_char=36|end_char=41	
+8	вызовы	вызов	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=42|end_char=48	
+9	,	,	PUNCT	_	_	12	punct	_	start_char=48|end_char=49	
+10	если	если	SCONJ	_	_	12	mark	_	start_char=50|end_char=54	
+11	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	12	nsubj	_	start_char=55|end_char=57	
+12	соберём	собрать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=58|end_char=65	
+13	силы	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=66|end_char=70	
+14	и	и	CCONJ	_	_	15	cc	_	start_char=71|end_char=72	
+15	мудрость	мудрость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	conj	_	start_char=73|end_char=81	
+16	.	.	PUNCT	_	_	1	punct	_	start_char=81|end_char=82	
+
+#text = В этом контексте я ожидаю , что три наших страны – Корея , Россия , Япония , – которые здесь присутствуют сегодня , смогут набраться мудрости и сотрудничать для сохранения биосистемы « восточного моря » и окружающей среды . 
+#par_id = 12
+#sent_id = 2
+#speaker = Пак Кын Хе
+1	В	в	ADP	_	_	3	case	_	start_char=83|end_char=84	
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	det	_	start_char=85|end_char=89	
+3	контексте	контекст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=90|end_char=99	
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	start_char=100|end_char=101	
+5	ожидаю	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=102|end_char=108	
+6	,	,	PUNCT	_	_	24	punct	_	start_char=108|end_char=109	
+7	что	что	SCONJ	_	_	24	mark	_	start_char=110|end_char=113	
+8	три	три	NUM	_	Case=Nom	10	nummod:gov	_	start_char=114|end_char=117	
+9	наших	наш	DET	_	Case=Gen|Number=Plur	10	det	_	start_char=118|end_char=123	
+10	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nsubj	_	start_char=124|end_char=130	
+11	–	–	PUNCT	_	_	12	punct	_	start_char=131|end_char=132	
+12	Корея	Корея	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	start_char=133|end_char=138	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=138|end_char=139	
+14	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	start_char=140|end_char=146	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=146|end_char=147	
+16	Япония	Япония	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	start_char=148|end_char=154	
+17	,	,	PUNCT	_	_	21	punct	_	start_char=154|end_char=155	
+18	–	–	PUNCT	_	_	21	punct	_	start_char=156|end_char=157	
+19	которые	который	PRON	_	Case=Nom	21	nsubj	_	start_char=158|end_char=165	
+20	здесь	здесь	ADV	_	Degree=Pos	21	advmod	_	start_char=166|end_char=171	
+21	присутствуют	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=172|end_char=184	
+22	сегодня	сегодня	ADV	_	Degree=Pos	21	advmod	_	start_char=185|end_char=192	
+23	,	,	PUNCT	_	_	10	punct	_	start_char=192|end_char=193	
+24	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=194|end_char=200	
+25	набраться	набраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	24	xcomp	_	start_char=201|end_char=210	
+26	мудрости	мудрость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	start_char=211|end_char=219	
+27	и	и	CCONJ	_	_	28	cc	_	start_char=220|end_char=221	
+28	сотрудничать	сотрудничать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	conj	_	start_char=222|end_char=234	
+29	для	для	ADP	_	_	30	case	_	start_char=235|end_char=238	
+30	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	start_char=239|end_char=249	
+31	биосистемы	биосистема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	start_char=250|end_char=260	
+32	«	"	PUNCT	_	_	34	punct	_	start_char=261|end_char=262	
+33	восточного	восточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	start_char=262|end_char=272	
+34	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	start_char=273|end_char=277	
+35	»	"	PUNCT	_	_	34	punct	_	start_char=277|end_char=278	
+36	и	и	CCONJ	_	_	38	cc	_	start_char=279|end_char=280	
+37	окружающей	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	start_char=281|end_char=291	
+38	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	conj	_	start_char=292|end_char=297	
+39	.	.	PUNCT	_	_	5	punct	_	start_char=297|end_char=298	
+
+#text = Желаю , чтобы Приморский океанариум и в дальнейшем развивался как центр сохранения биосистемы морей и центр морской культуры и туризма . 
+#par_id = 13
+#sent_id = 1
+#speaker = Пак Кын Хе
+1	Желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=9	
+2	,	,	PUNCT	_	_	9	punct	_	start_char=9|end_char=10	
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	start_char=11|end_char=16	
+4	Приморский	Приморский	PROPN	_	_	5	amod	_	start_char=17|end_char=27	
+5	океанариум	океанариум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=28|end_char=38	
+6	и	и	CCONJ	_	_	8	advmod	_	start_char=39|end_char=40	
+7	в	в	ADP	_	_	8	case	_	start_char=41|end_char=42	
+8	дальнейшем	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	start_char=43|end_char=53	
+9	развивался	развиваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	ccomp	_	start_char=54|end_char=64	
+10	как	как	SCONJ	_	_	11	mark	_	start_char=65|end_char=68	
+11	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	advcl	_	start_char=69|end_char=74	
+12	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=75|end_char=85	
+13	биосистемы	биосистема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=86|end_char=96	
+14	морей	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	start_char=97|end_char=102	
+15	и	и	CCONJ	_	_	16	cc	_	start_char=103|end_char=104	
+16	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=105|end_char=110	
+17	морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=111|end_char=118	
+18	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=119|end_char=127	
+19	и	и	CCONJ	_	_	20	cc	_	start_char=128|end_char=129	
+20	туризма	туризм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	conj	_	start_char=130|end_char=137	
+21	.	.	PUNCT	_	_	1	punct	_	start_char=137|end_char=138	
+
+#text = Большое спасибо . 
+#par_id = 13
+#sent_id = 2
+#speaker = Пак Кын Хе
+1	Большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=139|end_char=146	
+2	спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=147|end_char=154	
+3	.	.	PUNCT	_	_	2	punct	_	start_char=154|end_char=155	
+
+#text = Уважаемый Владимир Владимирович ! 
+#par_id = 14
+#sent_id = 1
+#speaker = С.Абэ
+1	Уважаемый	уважать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	start_char=4|end_char=13	
+2	Владимир	Владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=22	
+3	Владимирович	Владимирович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	start_char=23|end_char=35	
+4	!	!	PUNCT	_	_	2	punct	_	start_char=35|end_char=36	
+
+#text = Уважаемая госпожа Пак Кын ! 
+#par_id = 14
+#sent_id = 2
+#speaker = С.Абэ
+1	Уважаемая	уважать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=37|end_char=46	
+2	госпожа	госпожа	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=47|end_char=54	
+3	Пак	Пак	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=55|end_char=58	
+4	Кын	Кын	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=59|end_char=62	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=62|end_char=63	
+
+#text = Уважаемые дамы и господа ! 
+#par_id = 14
+#sent_id = 3
+#speaker = С.Абэ
+1	Уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=64|end_char=73	
+2	дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=74|end_char=78	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=79|end_char=80	
+4	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=81|end_char=88	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=88|end_char=89	
+
+#text = Я от души поздравляю с открытием первого в России океанариума . 
+#par_id = 15
+#sent_id = 1
+#speaker = С.Абэ
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=4|end_char=5	
+2	от	от	ADP	_	_	3	case	_	start_char=6|end_char=8	
+3	души	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=9|end_char=13	
+4	поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=14|end_char=24	
+5	с	с	ADP	_	_	6	case	_	start_char=25|end_char=26	
+6	открытием	открытие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	start_char=27|end_char=36	
+7	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=37|end_char=44	
+8	в	в	ADP	_	_	9	case	_	start_char=45|end_char=46	
+9	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	start_char=47|end_char=53	
+10	океанариума	океанариум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=54|end_char=65	
+11	.	.	PUNCT	_	_	4	punct	_	start_char=65|end_char=66	
+
+#text = Позвольте мне выразить надежду на то , что благодаря твёрдой поддержке Президента Путина этот океанариум станет выдающимся в мире . 
+#par_id = 15
+#sent_id = 2
+#speaker = С.Абэ
+1	Позвольте	позволить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=67|end_char=76	
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	1	iobj	_	start_char=77|end_char=80	
+3	выразить	выразить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=81|end_char=89	
+4	надежду	надежда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=90|end_char=97	
+5	на	на	ADP	_	_	6	case	_	start_char=98|end_char=100	
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=101|end_char=103	
+7	,	,	PUNCT	_	_	16	punct	_	start_char=103|end_char=104	
+8	что	что	SCONJ	_	_	16	mark	_	start_char=105|end_char=108	
+9	благодаря	благодаря	ADP	_	_	11	case	_	start_char=109|end_char=118	
+10	твёрдой	твердый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=119|end_char=126	
+11	поддержке	поддержка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=127|end_char=136	
+12	Президента	Президент	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=137|end_char=147	
+13	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	start_char=148|end_char=154	
+14	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	15	det	_	start_char=155|end_char=159	
+15	океанариум	океанариум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=160|end_char=170	
+16	станет	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	acl	_	start_char=171|end_char=177	
+17	выдающимся	выдающийся	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	obl	_	start_char=178|end_char=188	
+18	в	в	ADP	_	_	19	case	_	start_char=189|end_char=190	
+19	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	start_char=191|end_char=195	
+20	.	.	PUNCT	_	_	1	punct	_	start_char=195|end_char=196	
+
+#text = Если я не ошибаюсь , то в строительстве этого океанариума использованы материалы японских компаний – акриловые панели для бассейна и электрогенерация для океанариума . 
+#par_id = 16
+#sent_id = 1
+#speaker = С.Абэ
+1	Если	если	SCONJ	_	_	4	mark	_	start_char=4|end_char=8	
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=9|end_char=10	
+3	не	не	PART	_	_	4	advmod	_	start_char=11|end_char=13	
+4	ошибаюсь	ошибаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	start_char=14|end_char=22	
+5	,	,	PUNCT	_	_	4	punct	_	start_char=22|end_char=23	
+6	то	то	SCONJ	_	_	11	mark	_	start_char=24|end_char=26	
+7	в	в	ADP	_	_	8	case	_	start_char=27|end_char=28	
+8	строительстве	строительство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	start_char=29|end_char=42	
+9	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	10	det	_	start_char=43|end_char=48	
+10	океанариума	океанариум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=49|end_char=60	
+11	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=61|end_char=73	
+12	материалы	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj:pass	_	start_char=74|end_char=83	
+13	японских	японский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=84|end_char=92	
+14	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=93|end_char=101	
+15	–	–	PUNCT	_	_	17	punct	_	start_char=102|end_char=103	
+16	акриловые	акриловый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	start_char=104|end_char=113	
+17	панели	панель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	conj	_	start_char=114|end_char=120	
+18	для	для	ADP	_	_	19	case	_	start_char=121|end_char=124	
+19	бассейна	бассейн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=125|end_char=133	
+20	и	и	CCONJ	_	_	21	cc	_	start_char=134|end_char=135	
+21	электрогенерация	электрогенерация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	start_char=136|end_char=152	
+22	для	для	ADP	_	_	23	case	_	start_char=153|end_char=156	
+23	океанариума	океанариум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=157|end_char=168	
+24	.	.	PUNCT	_	_	11	punct	_	start_char=168|end_char=169	
+
+#text = Мы очень рады , что здесь внедрили японские технологии . 
+#par_id = 16
+#sent_id = 2
+#speaker = С.Абэ
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	start_char=170|end_char=172	
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=173|end_char=178	
+3	рады	рад	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=179|end_char=183	
+4	,	,	PUNCT	_	_	7	punct	_	start_char=183|end_char=184	
+5	что	что	SCONJ	_	_	7	mark	_	start_char=185|end_char=188	
+6	здесь	здесь	ADV	_	Degree=Pos	7	advmod	_	start_char=189|end_char=194	
+7	внедрили	внедрить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=195|end_char=203	
+8	японские	японский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	start_char=204|end_char=212	
+9	технологии	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=213|end_char=223	
+10	.	.	PUNCT	_	_	3	punct	_	start_char=223|end_char=224	
+
+#text = Между Японией и Россией осуществляется обмен дельфинами и другими животными . 
+#par_id = 17
+#sent_id = 1
+#speaker = С.Абэ
+1	Между	между	ADP	_	_	2	case	_	start_char=4|end_char=9	
+2	Японией	Япония	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	start_char=10|end_char=17	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=18|end_char=19	
+4	Россией	Россия	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	conj	_	start_char=20|end_char=27	
+5	осуществляется	осуществлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=28|end_char=42	
+6	обмен	обмен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	start_char=43|end_char=48	
+7	дельфинами	дельфин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	start_char=49|end_char=59	
+8	и	и	CCONJ	_	_	10	cc	_	start_char=60|end_char=61	
+9	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	start_char=62|end_char=69	
+10	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	conj	_	start_char=70|end_char=79	
+11	.	.	PUNCT	_	_	5	punct	_	start_char=79|end_char=80	
+
+#text = Я слышал , что здешние дельфины тоже прилетели из Японии . 
+#par_id = 17
+#sent_id = 2
+#speaker = С.Абэ
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=81|end_char=82	
+2	слышал	слышать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=83|end_char=89	
+3	,	,	PUNCT	_	_	8	punct	_	start_char=89|end_char=90	
+4	что	что	SCONJ	_	_	8	mark	_	start_char=91|end_char=94	
+5	здешние	здешний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=95|end_char=102	
+6	дельфины	дельфин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=103|end_char=111	
+7	тоже	тоже	PART	_	_	8	advmod	_	start_char=112|end_char=116	
+8	прилетели	прилететь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=117|end_char=126	
+9	из	из	ADP	_	_	10	case	_	start_char=127|end_char=129	
+10	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	start_char=130|end_char=136	
+11	.	.	PUNCT	_	_	2	punct	_	start_char=136|end_char=137	
+
+#text = У этого океанариума есть желание получить от нас теперь и пингвинов Гумбольдта . 
+#par_id = 17
+#sent_id = 3
+#speaker = С.Абэ
+1	У	у	ADP	_	_	3	case	_	start_char=138|end_char=139	
+2	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	det	_	start_char=140|end_char=145	
+3	океанариума	океанариум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	start_char=146|end_char=157	
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=158|end_char=162	
+5	желание	желание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=163|end_char=170	
+6	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	obl	_	start_char=171|end_char=179	
+7	от	от	ADP	_	_	8	case	_	start_char=180|end_char=182	
+8	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	6	obl	_	start_char=183|end_char=186	
+9	теперь	теперь	ADV	_	Degree=Pos	6	advmod	_	start_char=187|end_char=193	
+10	и	и	PART	_	_	11	advmod	_	start_char=194|end_char=195	
+11	пингвинов	пингвин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obj	_	start_char=196|end_char=205	
+12	Гумбольдта	Гумбольдт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=206|end_char=216	
+13	.	.	PUNCT	_	_	4	punct	_	start_char=216|end_char=217	
+
+#text = Вся японская ассоциация зоопарков и океанариумов сейчас рассматривает эту возможность в положительном направлении , рассчитывая на выстраивание долгосрочного сотрудничества . 
+#par_id = 17
+#sent_id = 4
+#speaker = С.Абэ
+1	Вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	det	_	start_char=218|end_char=221	
+2	японская	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=222|end_char=230	
+3	ассоциация	ассоциация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=231|end_char=241	
+4	зоопарков	зоопарка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=242|end_char=251	
+5	и	и	CCONJ	_	_	6	cc	_	start_char=252|end_char=253	
+6	океанариумов	океанариум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	start_char=254|end_char=266	
+7	сейчас	сейчас	ADV	_	Degree=Pos	8	advmod	_	start_char=267|end_char=273	
+8	рассматривает	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=274|end_char=287	
+9	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	10	det	_	start_char=288|end_char=291	
+10	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=292|end_char=303	
+11	в	в	ADP	_	_	13	case	_	start_char=304|end_char=305	
+12	положительном	положительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=306|end_char=319	
+13	направлении	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	start_char=320|end_char=331	
+14	,	,	PUNCT	_	_	15	punct	_	start_char=331|end_char=332	
+15	рассчитывая	рассчитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	start_char=333|end_char=344	
+16	на	на	ADP	_	_	17	case	_	start_char=345|end_char=347	
+17	выстраивание	выстраивание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	start_char=348|end_char=360	
+18	долгосрочного	долгосрочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=361|end_char=374	
+19	сотрудничества	сотрудничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	start_char=375|end_char=389	
+20	.	.	PUNCT	_	_	8	punct	_	start_char=389|end_char=390	
+
+#text = Я надеюсь , что их отношения будут развиваться . 
+#par_id = 17
+#sent_id = 5
+#speaker = С.Абэ
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=391|end_char=392	
+2	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=393|end_char=400	
+3	,	,	PUNCT	_	_	8	punct	_	start_char=400|end_char=401	
+4	что	что	SCONJ	_	_	8	mark	_	start_char=402|end_char=405	
+5	их	их	DET	_	_	6	det	_	start_char=406|end_char=408	
+6	отношения	отношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	start_char=409|end_char=418	
+7	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=419|end_char=424	
+8	развиваться	развиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	ccomp	_	start_char=425|end_char=436	
+9	.	.	PUNCT	_	_	2	punct	_	start_char=436|end_char=437	
+
+#text = И в заключение я желаю вам успехов и развития двустороннего сотрудничества . 
+#par_id = 18
+#sent_id = 1
+#speaker = С.Абэ
+1	И	и	CCONJ	_	_	5	cc	_	start_char=4|end_char=5	
+2	в	в	ADP	_	_	3	case	_	start_char=6|end_char=7	
+3	заключение	заключение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	start_char=8|end_char=18	
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	start_char=19|end_char=20	
+5	желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=26	
+6	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	5	iobj	_	start_char=27|end_char=30	
+7	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=31|end_char=38	
+8	и	и	CCONJ	_	_	9	cc	_	start_char=39|end_char=40	
+9	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	start_char=41|end_char=49	
+10	двустороннего	двусторонний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=50|end_char=63	
+11	сотрудничества	сотрудничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=64|end_char=78	
+12	.	.	PUNCT	_	_	5	punct	_	start_char=78|end_char=79	
+
+#text = Благодарю за внимание ! 
+#par_id = 18
+#sent_id = 2
+#speaker = С.Абэ
+1	Благодарю	благодать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=80|end_char=89	
+2	за	за	ADP	_	_	3	case	_	start_char=90|end_char=92	
+3	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=93|end_char=101	
+4	!	!	PUNCT	_	_	1	punct	_	start_char=101|end_char=102	
+

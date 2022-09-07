@@ -1,0 +1,680 @@
+#text = Уважаемый господин президент ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Уважаемый	уважать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	start_char=4|end_char=13	
+2	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=22	
+3	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=23|end_char=32	
+4	!	!	PUNCT	_	_	2	punct	_	start_char=32|end_char=33	
+
+#text = Мы , как и договаривались , встречаемся с Вами перед жеребьёвкой Кубка конфедераций . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	start_char=4|end_char=6	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=6|end_char=7	
+3	как	как	SCONJ	_	_	5	mark	_	start_char=8|end_char=11	
+4	и	и	PART	_	_	5	advmod	_	start_char=12|end_char=13	
+5	договаривались	договариваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	7	advcl	_	start_char=14|end_char=28	
+6	,	,	PUNCT	_	_	5	punct	_	start_char=28|end_char=29	
+7	встречаемся	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=30|end_char=41	
+8	с	с	ADP	_	_	9	case	_	start_char=42|end_char=43	
+9	Вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2	7	obl	_	start_char=44|end_char=48	
+10	перед	перед	ADP	_	_	11	case	_	start_char=49|end_char=54	
+11	жеребьёвкой	жеребьевка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	start_char=55|end_char=66	
+12	Кубка	Кубок	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=67|end_char=72	
+13	конфедераций	конфедерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=73|end_char=85	
+14	.	.	PUNCT	_	_	7	punct	_	start_char=85|end_char=86	
+
+#text = К сожалению , не смогу присутствовать на самом этом мероприятии в Казани , но я Вас уверяю : всё пройдёт самым лучшим образом . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	К	к	ADP	_	_	2	case	_	start_char=87|end_char=88	
+2	сожалению	сожаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	parataxis	_	start_char=89|end_char=98	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=98|end_char=99	
+4	не	не	PART	_	_	5	advmod	_	start_char=100|end_char=102	
+5	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=103|end_char=108	
+6	присутствовать	присутствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=109|end_char=123	
+7	на	на	ADP	_	_	10	case	_	start_char=124|end_char=126	
+8	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=127|end_char=132	
+9	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing	10	det	_	start_char=133|end_char=137	
+10	мероприятии	мероприятие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=138|end_char=149	
+11	в	в	ADP	_	_	12	case	_	start_char=150|end_char=151	
+12	Казани	Казань	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=152|end_char=158	
+13	,	,	PUNCT	_	_	17	punct	_	start_char=158|end_char=159	
+14	но	но	CCONJ	_	_	17	cc	_	start_char=160|end_char=162	
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	17	nsubj	_	start_char=163|end_char=164	
+16	Вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	17	obj	_	start_char=165|end_char=168	
+17	уверяю	уверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=169|end_char=175	
+18	:	:	PUNCT	_	_	20	punct	_	start_char=175|end_char=176	
+19	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	start_char=177|end_char=180	
+20	пройдёт	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	parataxis	_	start_char=181|end_char=188	
+21	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=189|end_char=194	
+22	лучшим	лучший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=195|end_char=201	
+23	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	start_char=202|end_char=209	
+24	.	.	PUNCT	_	_	5	punct	_	start_char=209|end_char=210	
+
+#text = И конечно , в ряду наших ближайших задач – организация этих масштабных соревнований : все стадионы будут готовы в четырёх городах – Москва , Петербург , Сочи и Казань , где Вы будете проводить жеребьёвку . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	5	cc	_	start_char=4|end_char=5	
+2	конечно	конечно	ADV	_	Degree=Pos	5	parataxis	_	start_char=6|end_char=13	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=13|end_char=14	
+4	в	в	ADP	_	_	5	case	_	start_char=15|end_char=16	
+5	ряду	ряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=17|end_char=21	
+6	наших	наш	DET	_	Case=Gen|Number=Plur	8	det	_	start_char=22|end_char=27	
+7	ближайших	близкий	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	8	amod	_	start_char=28|end_char=37	
+8	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=38|end_char=43	
+9	–	–	PUNCT	_	_	0	root	_	start_char=44|end_char=45	
+10	организация	организация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=46|end_char=57	
+11	этих	этот	DET	_	Case=Gen|Number=Plur	13	det	_	start_char=58|end_char=62	
+12	масштабных	масштабный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=63|end_char=73	
+13	соревнований	соревнование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	start_char=74|end_char=86	
+14	:	:	PUNCT	_	_	18	punct	_	start_char=86|end_char=87	
+15	все	весь	DET	_	Case=Nom|Number=Plur	16	det	_	start_char=88|end_char=91	
+16	стадионы	стадион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=92|end_char=100	
+17	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	start_char=101|end_char=106	
+18	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	parataxis	_	start_char=107|end_char=113	
+19	в	в	ADP	_	_	21	case	_	start_char=114|end_char=115	
+20	четырёх	четыре	NUM	_	Case=Loc	21	nummod	_	start_char=116|end_char=123	
+21	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	start_char=124|end_char=131	
+22	–	–	PUNCT	_	_	23	punct	_	start_char=132|end_char=133	
+23	Москва	Москва	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	parataxis	_	start_char=134|end_char=140	
+24	,	,	PUNCT	_	_	25	punct	_	start_char=140|end_char=141	
+25	Петербург	Петербург	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	conj	_	start_char=142|end_char=151	
+26	,	,	PUNCT	_	_	27	punct	_	start_char=151|end_char=152	
+27	Сочи	Сочи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	conj	_	start_char=153|end_char=157	
+28	и	и	CCONJ	_	_	29	cc	_	start_char=158|end_char=159	
+29	Казань	Казань	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	conj	_	start_char=160|end_char=166	
+30	,	,	PUNCT	_	_	34	punct	_	start_char=166|end_char=167	
+31	где	где	ADV	_	Degree=Pos	34	advmod	_	start_char=168|end_char=171	
+32	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	34	nsubj	_	start_char=172|end_char=174	
+33	будете	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	34	aux	_	start_char=175|end_char=181	
+34	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	acl:relcl	_	start_char=182|end_char=191	
+35	жеребьёвку	жеребеевка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	start_char=192|end_char=202	
+36	.	.	PUNCT	_	_	9	punct	_	start_char=202|end_char=203	
+
+#text = Нам хорошо известны и проблемы со стадионом « Зенит - Арена » в Петербурге , и единственное , что нас успокаивает , – что такой долгострой в сфере спортивного строительства иногда встречается не только у нас , хотя это очень печальная история . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	3	iobj	_	start_char=4|end_char=7	
+2	хорошо	хорошо	ADV	_	Degree=Pos	3	obl	_	start_char=8|end_char=14	
+3	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=15|end_char=23	
+4	и	и	PART	_	_	5	advmod	_	start_char=24|end_char=25	
+5	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=26|end_char=34	
+6	со	с	ADP	_	_	7	case	_	start_char=35|end_char=37	
+7	стадионом	стадион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	start_char=38|end_char=47	
+8	«	"	PUNCT	_	_	9	punct	_	start_char=48|end_char=49	
+9	Зенит	Зенит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	start_char=49|end_char=54	
+10	-	-	PUNCT	_	_	11	punct	_	start_char=54|end_char=55	
+11	Арена	Арена	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	start_char=55|end_char=60	
+12	»	"	PUNCT	_	_	9	punct	_	start_char=60|end_char=61	
+13	в	в	ADP	_	_	14	case	_	start_char=62|end_char=63	
+14	Петербурге	Петербург	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	start_char=64|end_char=74	
+15	,	,	PUNCT	_	_	17	punct	_	start_char=74|end_char=75	
+16	и	и	CCONJ	_	_	17	cc	_	start_char=76|end_char=77	
+17	единственное	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	start_char=78|end_char=90	
+18	,	,	PUNCT	_	_	21	punct	_	start_char=90|end_char=91	
+19	что	что	PRON	_	Case=Nom	21	nsubj	_	start_char=92|end_char=95	
+20	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	21	obj	_	start_char=96|end_char=99	
+21	успокаивает	успокаивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	start_char=100|end_char=111	
+22	,	,	PUNCT	_	_	32	punct	_	start_char=111|end_char=112	
+23	–	–	PUNCT	_	_	32	punct	_	start_char=113|end_char=114	
+24	что	что	SCONJ	_	_	32	mark	_	start_char=115|end_char=118	
+25	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	26	det	_	start_char=119|end_char=124	
+26	долгострой	долгострой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	start_char=125|end_char=135	
+27	в	в	ADP	_	_	28	case	_	start_char=136|end_char=137	
+28	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	nmod	_	start_char=138|end_char=143	
+29	спортивного	спортивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	start_char=144|end_char=155	
+30	строительства	строительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	start_char=156|end_char=169	
+31	иногда	иногда	ADV	_	Degree=Pos	32	advmod	_	start_char=170|end_char=176	
+32	встречается	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	conj	_	start_char=177|end_char=188	
+33	не	не	PART	_	_	34	advmod	_	start_char=189|end_char=191	
+34	только	только	PART	_	_	36	advmod	_	start_char=192|end_char=198	
+35	у	у	ADP	_	_	36	case	_	start_char=199|end_char=200	
+36	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	32	obl	_	start_char=201|end_char=204	
+37	,	,	PUNCT	_	_	42	punct	_	start_char=204|end_char=205	
+38	хотя	хотя	SCONJ	_	_	42	mark	_	start_char=206|end_char=210	
+39	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	nsubj	_	start_char=211|end_char=214	
+40	очень	очень	ADV	_	Degree=Pos	41	obl	_	start_char=215|end_char=220	
+41	печальная	печальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=221|end_char=230	
+42	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	advcl	_	start_char=231|end_char=238	
+43	.	.	PUNCT	_	_	3	punct	_	start_char=238|end_char=239	
+
+#text = Мы знаем результаты исследования стадиона вашей инспекционной группой , знаем ваши замечания по поводу выдвижного поля . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=12	
+3	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=13|end_char=23	
+4	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=24|end_char=36	
+5	стадиона	стадион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=37|end_char=45	
+6	вашей	ваш	DET	_	Case=Ins|Gender=Fem|Number=Sing	8	det	_	start_char=46|end_char=51	
+7	инспекционной	инспекционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=52|end_char=65	
+8	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=66|end_char=73	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=73|end_char=74	
+10	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=75|end_char=80	
+11	ваши	ваш	DET	_	Case=Acc|Number=Plur	12	det	_	start_char=81|end_char=85	
+12	замечания	замечание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=86|end_char=95	
+13	по	по	ADP	_	_	16	case	_	start_char=96|end_char=98	
+14	поводу	повод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	fixed	_	start_char=99|end_char=105	
+15	выдвижного	выдвижный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=106|end_char=116	
+16	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	start_char=117|end_char=121	
+17	.	.	PUNCT	_	_	2	punct	_	start_char=121|end_char=122	
+
+#text = Строители обещают всё поправить к концу этого года . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Строители	строитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=123|end_char=132	
+2	обещают	обещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=133|end_char=140	
+3	всё	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=141|end_char=144	
+4	поправить	поправить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=145|end_char=154	
+5	к	к	ADP	_	_	6	case	_	start_char=155|end_char=156	
+6	концу	конец	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=157|end_char=162	
+7	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	det	_	start_char=163|end_char=168	
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=169|end_char=173	
+9	.	.	PUNCT	_	_	2	punct	_	start_char=173|end_char=174	
+
+#text = Сегодня там работают несколько тысяч строителей . 
+#par_id = 5
+#sent_id = 3
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=175|end_char=182	
+2	там	там	ADV	_	Degree=Pos	3	advmod	_	start_char=183|end_char=186	
+3	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=187|end_char=195	
+4	несколько	несколько	NUM	_	Case=Nom	5	nummod:gov	_	start_char=196|end_char=205	
+5	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	start_char=206|end_char=211	
+6	строителей	строитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=212|end_char=222	
+7	.	.	PUNCT	_	_	3	punct	_	start_char=222|end_char=223	
+
+#text = Но это технические вопросы . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Но	но	CCONJ	_	_	4	cc	_	start_char=4|end_char=6	
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=7|end_char=10	
+3	технические	технический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	start_char=11|end_char=22	
+4	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=23|end_char=30	
+5	.	.	PUNCT	_	_	4	punct	_	start_char=30|end_char=31	
+
+#text = Что касается организации , то мы очень рассчитываем и будем стремиться к тому , чтобы Кубок конфедераций был большим , масштабным праздником для всех любителей футбола . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Что	что	PRON	_	Case=Nom	2	nsubj	_	start_char=32|end_char=35	
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	advcl	_	start_char=36|end_char=44	
+3	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=45|end_char=56	
+4	,	,	PUNCT	_	_	2	punct	_	start_char=56|end_char=57	
+5	то	то	SCONJ	_	_	8	mark	_	start_char=58|end_char=60	
+6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	start_char=61|end_char=63	
+7	очень	очень	ADV	_	Degree=Pos	8	advmod	_	start_char=64|end_char=69	
+8	рассчитываем	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=70|end_char=82	
+9	и	и	CCONJ	_	_	11	cc	_	start_char=83|end_char=84	
+10	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=85|end_char=90	
+11	стремиться	стремиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	conj	_	start_char=91|end_char=101	
+12	к	к	ADP	_	_	13	case	_	start_char=102|end_char=103	
+13	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=104|end_char=108	
+14	,	,	PUNCT	_	_	22	punct	_	start_char=108|end_char=109	
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	22	mark	_	start_char=110|end_char=115	
+16	Кубок	Кубок	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	start_char=116|end_char=121	
+17	конфедераций	конфедерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=122|end_char=134	
+18	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	start_char=135|end_char=138	
+19	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=139|end_char=146	
+20	,	,	PUNCT	_	_	21	punct	_	start_char=146|end_char=147	
+21	масштабным	масштабный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	start_char=148|end_char=158	
+22	праздником	праздник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	acl	_	start_char=159|end_char=169	
+23	для	для	ADP	_	_	25	case	_	start_char=170|end_char=173	
+24	всех	весь	DET	_	Case=Gen|Number=Plur	25	det	_	start_char=174|end_char=178	
+25	любителей	любитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	start_char=179|end_char=188	
+26	футбола	футбол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	start_char=189|end_char=196	
+27	.	.	PUNCT	_	_	8	punct	_	start_char=196|end_char=197	
+
+#text = Будем работать , будем готовиться . 
+#par_id = 6
+#sent_id = 3
+#speaker = В.Путин
+1	Будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=198|end_char=203	
+2	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=204|end_char=212	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=212|end_char=213	
+4	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=214|end_char=219	
+5	готовиться	готовиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	conj	_	start_char=220|end_char=230	
+6	.	.	PUNCT	_	_	2	punct	_	start_char=230|end_char=231	
+
+#text = Спасибо большое ! 
+#par_id = 7
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4|end_char=11	
+2	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	start_char=12|end_char=19	
+3	!	!	PUNCT	_	_	1	punct	_	start_char=19|end_char=20	
+
+#text = Господин Президент , для меня большое удовольствие и честь быть здесь сегодня с Вами . 
+#par_id = 7
+#sent_id = 2
+#speaker = Дж.Инфантино
+1	Господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	parataxis	_	start_char=21|end_char=29	
+2	Президент	Президент	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=30|end_char=39	
+3	,	,	PUNCT	_	_	1	punct	_	start_char=39|end_char=40	
+4	для	для	ADP	_	_	5	case	_	start_char=41|end_char=44	
+5	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	7	nmod	_	start_char=45|end_char=49	
+6	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=50|end_char=57	
+7	удовольствие	удовольствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=58|end_char=70	
+8	и	и	CCONJ	_	_	9	cc	_	start_char=71|end_char=72	
+9	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=73|end_char=78	
+10	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	start_char=79|end_char=83	
+11	здесь	здесь	ADV	_	Degree=Pos	9	advmod	_	start_char=84|end_char=89	
+12	сегодня	сегодня	ADV	_	Degree=Pos	11	advmod	_	start_char=90|end_char=97	
+13	с	с	ADP	_	_	14	case	_	start_char=98|end_char=99	
+14	Вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2	11	obl	_	start_char=100|end_char=104	
+15	.	.	PUNCT	_	_	7	punct	_	start_char=104|end_char=105	
+
+#text = С нетерпением жду , что открою для себя сегодня вечером и завтра тот город России , с которым я ещё не знаком , – Казань . 
+#par_id = 8
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	С	с	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	нетерпением	нетерпение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	start_char=6|end_char=17	
+3	жду	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=21	
+4	,	,	PUNCT	_	_	6	punct	_	start_char=21|end_char=22	
+5	что	что	SCONJ	_	_	6	mark	_	start_char=23|end_char=26	
+6	открою	открыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=27|end_char=33	
+7	для	для	ADP	_	_	8	case	_	start_char=34|end_char=37	
+8	себя	себя	PRON	_	Case=Gen	6	obl	_	start_char=38|end_char=42	
+9	сегодня	сегодня	ADV	_	Degree=Pos	6	advmod	_	start_char=43|end_char=50	
+10	вечером	вечер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=51|end_char=58	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=59|end_char=60	
+12	завтра	завтра	ADV	_	Degree=Pos	6	advmod	_	start_char=61|end_char=67	
+13	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	14	det	_	start_char=68|end_char=71	
+14	город	город	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=72|end_char=77	
+15	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=78|end_char=84	
+16	,	,	PUNCT	_	_	22	punct	_	start_char=84|end_char=85	
+17	с	с	ADP	_	_	18	case	_	start_char=86|end_char=87	
+18	которым	который	PRON	_	Case=Ins	22	obl	_	start_char=88|end_char=95	
+19	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	22	nsubj	_	start_char=96|end_char=97	
+20	ещё	еще	ADV	_	Degree=Pos	22	obl	_	start_char=98|end_char=101	
+21	не	не	PART	_	_	22	advmod	_	start_char=102|end_char=104	
+22	знаком	знакомый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	acl:relcl	_	start_char=105|end_char=111	
+23	,	,	PUNCT	_	_	25	punct	_	start_char=111|end_char=112	
+24	–	–	PUNCT	_	_	25	cc	_	start_char=113|end_char=114	
+25	Казань	Казань	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	conj	_	start_char=115|end_char=121	
+26	.	.	PUNCT	_	_	3	punct	_	start_char=121|end_char=122	
+
+#text = Слышал , что это красивый город . 
+#par_id = 8
+#sent_id = 2
+#speaker = Дж.Инфантино
+1	Слышал	слышать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=123|end_char=129	
+2	,	,	PUNCT	_	_	6	punct	_	start_char=129|end_char=130	
+3	что	что	SCONJ	_	_	6	mark	_	start_char=131|end_char=134	
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=135|end_char=138	
+5	красивый	красивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=139|end_char=147	
+6	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	start_char=148|end_char=153	
+7	.	.	PUNCT	_	_	1	punct	_	start_char=153|end_char=154	
+
+#text = Очень хороший . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=4|end_char=9	
+2	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=17	
+3	.	.	PUNCT	_	_	2	punct	_	start_char=17|end_char=18	
+
+#text = За последние годы Казань просто преобразилась , это совсем другой город . 
+#par_id = 9
+#sent_id = 2
+#speaker = В.Путин
+1	За	за	ADP	_	_	3	case	_	start_char=19|end_char=21	
+2	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=22|end_char=31	
+3	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	start_char=32|end_char=36	
+4	Казань	Казань	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=37|end_char=43	
+5	просто	просто	PART	_	_	6	advmod	_	start_char=44|end_char=50	
+6	преобразилась	преобразиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=51|end_char=64	
+7	,	,	PUNCT	_	_	11	punct	_	start_char=64|end_char=65	
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=66|end_char=69	
+9	совсем	совсем	ADV	_	Degree=Pos	10	obl	_	start_char=70|end_char=76	
+10	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=77|end_char=83	
+11	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	start_char=84|end_char=89	
+12	.	.	PUNCT	_	_	6	punct	_	start_char=89|end_char=90	
+
+#text = Он и древний , и современный одновременно . 
+#par_id = 9
+#sent_id = 3
+#speaker = В.Путин
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	start_char=91|end_char=93	
+2	и	и	PART	_	_	3	cc	_	start_char=94|end_char=95	
+3	древний	древний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=96|end_char=103	
+4	,	,	PUNCT	_	_	6	punct	_	start_char=103|end_char=104	
+5	и	и	CCONJ	_	_	6	cc	_	start_char=105|end_char=106	
+6	современный	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=107|end_char=118	
+7	одновременно	одновременно	ADV	_	Degree=Pos	3	conj	_	start_char=119|end_char=131	
+8	.	.	PUNCT	_	_	3	punct	_	start_char=131|end_char=132	
+
+#text = Это также футбольный город . 
+#par_id = 10
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=4|end_char=7	
+2	также	также	ADV	_	Degree=Pos	4	obl	_	start_char=8|end_char=13	
+3	футбольный	футбольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=14|end_char=24	
+4	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=25|end_char=30	
+5	.	.	PUNCT	_	_	4	punct	_	start_char=30|end_char=31	
+
+#text = Точно . 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	Точно	точный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=9	
+2	.	.	PUNCT	_	_	1	punct	_	start_char=9|end_char=10	
+
+#text = Я закладывал этот стадион , когда ещё в том месте было просто чистое поле . 
+#par_id = 11
+#sent_id = 2
+#speaker = В.Путин
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=11|end_char=12	
+2	закладывал	закладывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=13|end_char=23	
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	4	det	_	start_char=24|end_char=28	
+4	стадион	стадион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=29|end_char=36	
+5	,	,	PUNCT	_	_	11	punct	_	start_char=36|end_char=37	
+6	когда	когда	SCONJ	_	_	11	mark	_	start_char=38|end_char=43	
+7	ещё	еще	ADV	_	Degree=Pos	10	obl	_	start_char=44|end_char=47	
+8	в	в	ADP	_	_	10	case	_	start_char=48|end_char=49	
+9	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	10	det	_	start_char=50|end_char=53	
+10	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	start_char=54|end_char=59	
+11	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=60|end_char=64	
+12	просто	просто	PART	_	_	13	advmod	_	start_char=65|end_char=71	
+13	чистое	чистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=72|end_char=78	
+14	поле	поле	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=79|end_char=83	
+15	.	.	PUNCT	_	_	2	punct	_	start_char=83|end_char=84	
+
+#text = Да , там пройдёт жеребьёвка для Кубка конфедераций . 
+#par_id = 12
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Да	да	PART	_	_	4	parataxis	_	start_char=4|end_char=6	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=6|end_char=7	
+3	там	там	ADV	_	Degree=Pos	4	advmod	_	start_char=8|end_char=11	
+4	пройдёт	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=19	
+5	жеребьёвка	жеребьёвка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=20|end_char=30	
+6	для	для	ADP	_	_	7	case	_	start_char=31|end_char=34	
+7	Кубка	Кубок	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=35|end_char=40	
+8	конфедераций	конфедерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=41|end_char=53	
+9	.	.	PUNCT	_	_	4	punct	_	start_char=53|end_char=54	
+
+#text = Это будет большое событие , а чемпионат мира будет ещё более масштабным событием . 
+#par_id = 12
+#sent_id = 2
+#speaker = Дж.Инфантино
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=55|end_char=58	
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=59|end_char=64	
+3	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=65|end_char=72	
+4	событие	событие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=73|end_char=80	
+5	,	,	PUNCT	_	_	13	punct	_	start_char=80|end_char=81	
+6	а	а	CCONJ	_	_	13	cc	_	start_char=82|end_char=83	
+7	чемпионат	чемпионат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=84|end_char=93	
+8	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=94|end_char=98	
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=99|end_char=104	
+10	ещё	еще	ADV	_	Degree=Pos	11	advmod	_	start_char=105|end_char=108	
+11	более	более	ADV	_	Degree=Cmp	12	obl	_	start_char=109|end_char=114	
+12	масштабным	масштабный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=115|end_char=125	
+13	событием	событие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	conj	_	start_char=126|end_char=134	
+14	.	.	PUNCT	_	_	4	punct	_	start_char=134|end_char=135	
+
+#text = Убеждён в этом на основе тех докладов , которые получаю . 
+#par_id = 12
+#sent_id = 3
+#speaker = Дж.Инфантино
+1	Убеждён	убедить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=136|end_char=143	
+2	в	в	ADP	_	_	3	case	_	start_char=144|end_char=145	
+3	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	obl	_	start_char=146|end_char=150	
+4	на	на	ADP	_	_	5	case	_	start_char=151|end_char=153	
+5	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	start_char=154|end_char=160	
+6	тех	тот	DET	_	Case=Gen|Number=Plur	7	det	_	start_char=161|end_char=164	
+7	докладов	доклад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=165|end_char=173	
+8	,	,	PUNCT	_	_	10	punct	_	start_char=173|end_char=174	
+9	которые	который	PRON	_	Case=Acc	10	obj	_	start_char=175|end_char=182	
+10	получаю	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=183|end_char=190	
+11	.	.	PUNCT	_	_	1	punct	_	start_char=190|end_char=191	
+
+#text = Хотел бы поблагодарить лично Вас , Правительство , а также Российский футбольный союз за ту приверженность нашему делу , за ту работу , которую вы делаете для подготовки Кубка конфедераций и чемпионата мира по футболу . 
+#par_id = 13
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=9	
+2	бы	бы	AUX	_	_	1	aux	_	start_char=10|end_char=12	
+3	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=13|end_char=26	
+4	лично	лично	ADV	_	Degree=Pos	5	obl	_	start_char=27|end_char=32	
+5	Вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	3	obj	_	start_char=33|end_char=36	
+6	,	,	PUNCT	_	_	7	punct	_	start_char=36|end_char=37	
+7	Правительство	Правительство	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	start_char=38|end_char=51	
+8	,	,	PUNCT	_	_	13	punct	_	start_char=51|end_char=52	
+9	а	а	CCONJ	_	_	13	cc	_	start_char=53|end_char=54	
+10	также	также	PART	_	_	9	fixed	_	start_char=55|end_char=60	
+11	Российский	российский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=61|end_char=71	
+12	футбольный	футбольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=72|end_char=82	
+13	союз	союз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	start_char=83|end_char=87	
+14	за	за	ADP	_	_	16	case	_	start_char=88|end_char=90	
+15	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	16	det	_	start_char=91|end_char=93	
+16	приверженность	приверженность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=94|end_char=108	
+17	нашему	наш	DET	_	Case=Dat|Gender=Neut|Number=Sing	18	det	_	start_char=109|end_char=115	
+18	делу	дело	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	iobj	_	start_char=116|end_char=120	
+19	,	,	PUNCT	_	_	22	punct	_	start_char=120|end_char=121	
+20	за	за	ADP	_	_	22	case	_	start_char=122|end_char=124	
+21	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	22	det	_	start_char=125|end_char=127	
+22	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	conj	_	start_char=128|end_char=134	
+23	,	,	PUNCT	_	_	26	punct	_	start_char=134|end_char=135	
+24	которую	который	PRON	_	Case=Acc	26	obj	_	start_char=136|end_char=143	
+25	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	26	nsubj	_	start_char=144|end_char=146	
+26	делаете	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	start_char=147|end_char=154	
+27	для	для	ADP	_	_	28	case	_	start_char=155|end_char=158	
+28	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obl	_	start_char=159|end_char=169	
+29	Кубка	Кубок	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	start_char=170|end_char=175	
+30	конфедераций	конфедерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	start_char=176|end_char=188	
+31	и	и	CCONJ	_	_	32	cc	_	start_char=189|end_char=190	
+32	чемпионата	чемпионат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	conj	_	start_char=191|end_char=201	
+33	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	start_char=202|end_char=206	
+34	по	по	ADP	_	_	35	case	_	start_char=207|end_char=209	
+35	футболу	футбол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	32	nmod	_	start_char=210|end_char=217	
+36	.	.	PUNCT	_	_	1	punct	_	start_char=217|end_char=218	
+
+#text = Уже примерно в течение 20 лет я занимаюсь организацией футбольных мероприятий , и я должен сказать , что мой опыт сотрудничества с Российской Федерацией , тот уровень приверженности делу со стороны Правительства , на самом высоком уровне , со стороны футбольного союза , со стороны населения – это что-то беспрецедентное . 
+#par_id = 14
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Уже	уже	ADV	_	Degree=Pos	6	obl	_	start_char=4|end_char=7	
+2	примерно	примерно	ADV	_	Degree=Pos	6	obl	_	start_char=8|end_char=16	
+3	в	в	ADP	_	_	6	case	_	start_char=17|end_char=18	
+4	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	start_char=19|end_char=26	
+5	20	20	NUM	_	_	6	nummod	_	start_char=27|end_char=29	
+6	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	start_char=30|end_char=33	
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	start_char=34|end_char=35	
+8	занимаюсь	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=36|end_char=45	
+9	организацией	организация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	start_char=46|end_char=58	
+10	футбольных	футбольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=59|end_char=69	
+11	мероприятий	мероприятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	start_char=70|end_char=81	
+12	,	,	PUNCT	_	_	15	punct	_	start_char=81|end_char=82	
+13	и	и	CCONJ	_	_	15	cc	_	start_char=83|end_char=84	
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	15	nsubj	_	start_char=85|end_char=86	
+15	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	conj	_	start_char=87|end_char=93	
+16	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=94|end_char=101	
+17	,	,	PUNCT	_	_	49	punct	_	start_char=101|end_char=102	
+18	что	что	SCONJ	_	_	49	mark	_	start_char=103|end_char=106	
+19	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing	20	det	_	start_char=107|end_char=110	
+20	опыт	опыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	49	nsubj	_	start_char=111|end_char=115	
+21	сотрудничества	сотрудничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	start_char=116|end_char=130	
+22	с	с	ADP	_	_	24	case	_	start_char=131|end_char=132	
+23	Российской	российский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=133|end_char=143	
+24	Федерацией	Федерация	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	nmod	_	start_char=144|end_char=154	
+25	,	,	PUNCT	_	_	27	punct	_	start_char=154|end_char=155	
+26	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	27	det	_	start_char=156|end_char=159	
+27	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	conj	_	start_char=160|end_char=167	
+28	приверженности	приверженность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	start_char=168|end_char=182	
+29	делу	дело	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	27	iobj	_	start_char=183|end_char=187	
+30	со	с	ADP	_	_	32	case	_	start_char=188|end_char=190	
+31	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	start_char=191|end_char=198	
+32	Правительства	Правительство	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	start_char=199|end_char=212	
+33	,	,	PUNCT	_	_	37	punct	_	start_char=212|end_char=213	
+34	на	на	ADP	_	_	37	case	_	start_char=214|end_char=216	
+35	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	start_char=217|end_char=222	
+36	высоком	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	start_char=223|end_char=230	
+37	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	49	nmod	_	start_char=231|end_char=237	
+38	,	,	PUNCT	_	_	42	punct	_	start_char=237|end_char=238	
+39	со	с	ADP	_	_	42	case	_	start_char=239|end_char=241	
+40	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	fixed	_	start_char=242|end_char=249	
+41	футбольного	футбольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	start_char=250|end_char=261	
+42	союза	союз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	conj	_	start_char=262|end_char=267	
+43	,	,	PUNCT	_	_	46	punct	_	start_char=267|end_char=268	
+44	со	с	ADP	_	_	46	case	_	start_char=269|end_char=271	
+45	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	fixed	_	start_char=272|end_char=279	
+46	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	start_char=280|end_char=289	
+47	–	–	PUNCT	_	_	20	punct	_	start_char=290|end_char=291	
+48	это	это	PRON	_	_	49	cop	_	start_char=292|end_char=295	
+49	что-то	что-то	PRON	_	Case=Nom	16	ccomp	_	start_char=296|end_char=302	
+50	беспрецедентное	беспрецедентный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	start_char=303|end_char=318	
+51	.	.	PUNCT	_	_	8	punct	_	start_char=318|end_char=319	
+
+#text = Это вселяет в меня уверенность , что у нас будут два прекрасных лета , которые позволят , как я надеюсь , открыть миру ту Россию , которую , возможно , они не знают . 
+#par_id = 14
+#sent_id = 2
+#speaker = Дж.Инфантино
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=320|end_char=323	
+2	вселяет	вселять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=324|end_char=331	
+3	в	в	ADP	_	_	4	case	_	start_char=332|end_char=333	
+4	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	2	obl	_	start_char=334|end_char=338	
+5	уверенность	уверенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=339|end_char=350	
+6	,	,	PUNCT	_	_	10	punct	_	start_char=350|end_char=351	
+7	что	что	SCONJ	_	_	10	mark	_	start_char=352|end_char=355	
+8	у	у	ADP	_	_	9	case	_	start_char=356|end_char=357	
+9	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	10	obl	_	start_char=358|end_char=361	
+10	будут	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	start_char=362|end_char=367	
+11	два	два	NUM	_	Case=Nom|Gender=Neut	13	nummod:gov	_	start_char=368|end_char=371	
+12	прекрасных	прекрасный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=372|end_char=382	
+13	лета	лето	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nsubj	_	start_char=383|end_char=387	
+14	,	,	PUNCT	_	_	16	punct	_	start_char=387|end_char=388	
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	start_char=389|end_char=396	
+16	позволят	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=397|end_char=405	
+17	,	,	PUNCT	_	_	20	punct	_	start_char=405|end_char=406	
+18	как	как	ADV	_	Degree=Pos	20	mark	_	start_char=407|end_char=410	
+19	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	20	nsubj	_	start_char=411|end_char=412	
+20	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	16	parataxis	_	start_char=413|end_char=420	
+21	,	,	PUNCT	_	_	20	punct	_	start_char=420|end_char=421	
+22	открыть	открыть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=422|end_char=429	
+23	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	iobj	_	start_char=430|end_char=434	
+24	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	25	det	_	start_char=435|end_char=437	
+25	Россию	Россия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=438|end_char=444	
+26	,	,	PUNCT	_	_	33	punct	_	start_char=444|end_char=445	
+27	которую	который	PRON	_	Case=Acc	33	obj	_	start_char=446|end_char=453	
+28	,	,	PUNCT	_	_	27	punct	_	start_char=453|end_char=454	
+29	возможно	возможно	ADV	_	Degree=Pos	33	parataxis	_	start_char=455|end_char=463	
+30	,	,	PUNCT	_	_	29	punct	_	start_char=463|end_char=464	
+31	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	33	nsubj	_	start_char=465|end_char=468	
+32	не	не	PART	_	_	33	advmod	_	start_char=469|end_char=471	
+33	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	start_char=472|end_char=477	
+34	.	.	PUNCT	_	_	2	punct	_	start_char=477|end_char=478	
+
+#text = Спасибо большое . 
+#par_id = 15
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4|end_char=11	
+2	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	start_char=12|end_char=19	
+3	.	.	PUNCT	_	_	1	punct	_	start_char=19|end_char=20	
+
+#text = Господин Президент , у меня есть маленький подарок для Вас. 
+#par_id = 16
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	start_char=4|end_char=12	
+2	Президент	Президент	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=13|end_char=22	
+3	,	,	PUNCT	_	_	1	punct	_	start_char=22|end_char=23	
+4	у	у	ADP	_	_	5	case	_	start_char=24|end_char=25	
+5	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	6	obl	_	start_char=26|end_char=30	
+6	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=31|end_char=35	
+7	маленький	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=36|end_char=45	
+8	подарок	подарок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=46|end_char=53	
+9	для	для	ADP	_	_	10	case	_	start_char=54|end_char=57	
+10	Вас.	Вас.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=58|end_char=62	
+
+#text = ( Вручает официальный мяч Кубка конфедераций . ) 
+#par_id = 17
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	(	(	PUNCT	_	_	2	punct	_	start_char=4|end_char=5	
+2	Вручает	вручать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=5|end_char=12	
+3	официальный	официальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=13|end_char=24	
+4	мяч	мяч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=25|end_char=28	
+5	Кубка	Кубок	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=29|end_char=34	
+6	конфедераций	конфедерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=35|end_char=47	
+7	.	.	PUNCT	_	_	2	punct	_	start_char=47|end_char=48	
+8	)	)	PUNCT	_	_	2	punct	_	start_char=48|end_char=49	
+
+#text = Это официальный мяч Кубка конфедераций « Красава » , и Вы первый имеете этот мяч у себя – Вы можете начать тренировку с российской национальной сборной . 
+#par_id = 18
+#sent_id = 1
+#speaker = Дж.Инфантино
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=4|end_char=7	
+2	официальный	официальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=8|end_char=19	
+3	мяч	мяч	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=20|end_char=23	
+4	Кубка	Кубок	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=24|end_char=29	
+5	конфедераций	конфедерация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=30|end_char=42	
+6	«	"	PUNCT	_	_	7	punct	_	start_char=43|end_char=44	
+7	Красава	красава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=44|end_char=51	
+8	»	"	PUNCT	_	_	7	punct	_	start_char=51|end_char=52	
+9	,	,	PUNCT	_	_	13	punct	_	start_char=52|end_char=53	
+10	и	и	CCONJ	_	_	13	cc	_	start_char=54|end_char=55	
+11	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	13	nsubj	_	start_char=56|end_char=58	
+12	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	obj	_	start_char=59|end_char=65	
+13	имеете	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=66|end_char=72	
+14	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	15	det	_	start_char=73|end_char=77	
+15	мяч	мяч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=78|end_char=81	
+16	у	у	ADP	_	_	17	case	_	start_char=82|end_char=83	
+17	себя	себя	PRON	_	Case=Gen	13	obl	_	start_char=84|end_char=88	
+18	–	–	PUNCT	_	_	20	punct	_	start_char=89|end_char=90	
+19	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	20	nsubj	_	start_char=91|end_char=93	
+20	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=94|end_char=100	
+21	начать	начать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	start_char=101|end_char=107	
+22	тренировку	тренировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=108|end_char=118	
+23	с	с	ADP	_	_	26	case	_	start_char=119|end_char=120	
+24	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=121|end_char=131	
+25	национальной	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=132|end_char=144	
+26	сборной	сборная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	start_char=145|end_char=152	
+27	.	.	PUNCT	_	_	3	punct	_	start_char=152|end_char=153	
+
+#text = Спасибо . 
+#par_id = 19
+#sent_id = 1
+#speaker = В.Путин
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4|end_char=11	
+2	.	.	PUNCT	_	_	1	punct	_	start_char=11|end_char=12	
+
+#text = В нашей стране очень любят футбол , и я очень рассчитываю , что эта любовь трансформируется в качество игры нашей сборной . 
+#par_id = 20
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	нашей	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	3	det	_	start_char=6|end_char=11	
+3	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=12|end_char=18	
+4	очень	очень	ADV	_	Degree=Pos	5	advmod	_	start_char=19|end_char=24	
+5	любят	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=25|end_char=30	
+6	футбол	футбол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=31|end_char=37	
+7	,	,	PUNCT	_	_	11	punct	_	start_char=37|end_char=38	
+8	и	и	CCONJ	_	_	11	cc	_	start_char=39|end_char=40	
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	_	start_char=41|end_char=42	
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	start_char=43|end_char=48	
+11	рассчитываю	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=49|end_char=60	
+12	,	,	PUNCT	_	_	16	punct	_	start_char=60|end_char=61	
+13	что	что	SCONJ	_	_	16	mark	_	start_char=62|end_char=65	
+14	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	15	det	_	start_char=66|end_char=69	
+15	любовь	любовь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=70|end_char=76	
+16	трансформируется	трансформировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	ccomp	_	start_char=77|end_char=93	
+17	в	в	ADP	_	_	18	case	_	start_char=94|end_char=95	
+18	качество	качество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	start_char=96|end_char=104	
+19	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=105|end_char=109	
+20	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	21	det	_	start_char=110|end_char=115	
+21	сборной	сборная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=116|end_char=123	
+22	.	.	PUNCT	_	_	5	punct	_	start_char=123|end_char=124	
+

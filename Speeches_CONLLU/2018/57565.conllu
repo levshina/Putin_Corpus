@@ -1,0 +1,934 @@
+#text = Добрый день , дорогие друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Добрый	добрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=15|end_char=16	
+4	дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=17|end_char=24	
+5	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=25|end_char=31	
+6	!	!	PUNCT	_	_	2	punct	_	start_char=31|end_char=32	
+
+#text = Рад приветствовать командира экипажа Международной космической станции , гражданина России Антона Шкаплерова , и бортинженера , гражданина Японии Норишиге Канаи . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Рад	рад	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=7	
+2	приветствовать	приветствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=8|end_char=22	
+3	командира	командир	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=23|end_char=32	
+4	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=33|end_char=40	
+5	Международной	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=41|end_char=54	
+6	космической	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=55|end_char=66	
+7	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=67|end_char=74	
+8	,	,	PUNCT	_	_	9	punct	_	start_char=74|end_char=75	
+9	гражданина	гражданин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	start_char=76|end_char=86	
+10	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=87|end_char=93	
+11	Антона	Антон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	appos	_	start_char=94|end_char=100	
+12	Шкаплерова	Шкаплеров	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	start_char=101|end_char=111	
+13	,	,	PUNCT	_	_	15	punct	_	start_char=111|end_char=112	
+14	и	и	CCONJ	_	_	15	cc	_	start_char=113|end_char=114	
+15	бортинженера	бортинженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	start_char=115|end_char=127	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=127|end_char=128	
+17	гражданина	гражданин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	appos	_	start_char=129|end_char=139	
+18	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=140|end_char=146	
+19	Норишиге	Норишиг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	appos	_	start_char=147|end_char=155	
+20	Канаи	Канаи	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	flat:name	_	start_char=156|end_char=161	
+21	.	.	PUNCT	_	_	1	punct	_	start_char=161|end_char=162	
+
+#text = Хочу отметить , что это далеко не первый совместный полёт . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8	
+2	отметить	отметить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=17	
+3	,	,	PUNCT	_	_	10	punct	_	start_char=17|end_char=18	
+4	что	что	SCONJ	_	_	10	mark	_	start_char=19|end_char=22	
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=23|end_char=26	
+6	далеко	далеко	ADV	_	Degree=Pos	7	advmod	_	start_char=27|end_char=33	
+7	не	не	PART	_	_	8	advmod	_	start_char=34|end_char=36	
+8	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=37|end_char=43	
+9	совместный	совместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=44|end_char=54	
+10	полёт	полёт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	start_char=55|end_char=60	
+11	.	.	PUNCT	_	_	1	punct	_	start_char=60|end_char=61	
+
+#text = Уже более 10 лет мы сотрудничаем с Японией . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Уже	уже	ADV	_	Degree=Pos	2	advmod	_	start_char=62|end_char=65	
+2	более	более	ADV	_	Degree=Cmp	4	nummod:gov	_	start_char=66|end_char=71	
+3	10	10	NUM	_	_	4	nummod	_	start_char=72|end_char=74	
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=75|end_char=78	
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	start_char=79|end_char=81	
+6	сотрудничаем	сотрудничать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=82|end_char=94	
+7	с	с	ADP	_	_	8	case	_	start_char=95|end_char=96	
+8	Японией	Япония	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	start_char=97|end_char=104	
+9	.	.	PUNCT	_	_	6	punct	_	start_char=104|end_char=105	
+
+#text = Привет вам ! 
+#par_id = 3
+#sent_id = 3
+#speaker = В.Путин
+1	Привет	привести	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=106|end_char=112	
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	1	iobj	_	start_char=113|end_char=116	
+3	!	!	PUNCT	_	_	1	punct	_	start_char=116|end_char=117	
+
+#text = И на орбите уже побывали семь японских исследователей . 
+#par_id = 3
+#sent_id = 4
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	5	cc	_	start_char=118|end_char=119	
+2	на	на	ADP	_	_	3	case	_	start_char=120|end_char=122	
+3	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=123|end_char=129	
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	start_char=130|end_char=133	
+5	побывали	побывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=134|end_char=142	
+6	семь	семь	NUM	_	Case=Nom	8	nummod:gov	_	start_char=143|end_char=147	
+7	японских	японский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=148|end_char=156	
+8	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	start_char=157|end_char=171	
+9	.	.	PUNCT	_	_	5	punct	_	start_char=171|end_char=172	
+
+#text = Мы хотим пожелать вам удачи ! 
+#par_id = 3
+#sent_id = 5
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=173|end_char=175	
+2	хотим	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=176|end_char=181	
+3	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=182|end_char=190	
+4	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	3	iobj	_	start_char=191|end_char=194	
+5	удачи	удача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	start_char=195|end_char=200	
+6	!	!	PUNCT	_	_	2	punct	_	start_char=200|end_char=201	
+
+#text = Япония вносит значительный вклад в деятельность Международной космической станции . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Япония	Япония	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=4|end_char=10	
+2	вносит	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=17	
+3	значительный	значительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=18|end_char=30	
+4	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=31|end_char=36	
+5	в	в	ADP	_	_	6	case	_	start_char=37|end_char=38	
+6	деятельность	деятельность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	start_char=39|end_char=51	
+7	Международной	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=52|end_char=65	
+8	космической	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=66|end_char=77	
+9	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=78|end_char=85	
+10	.	.	PUNCT	_	_	2	punct	_	start_char=85|end_char=86	
+
+#text = Не только граждане Японии , исследователи , работают в космосе , но и большой объём аппаратуры , и исследований проводится японскими специалистами . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Не	не	PART	_	_	2	advmod	_	start_char=87|end_char=89	
+2	только	только	PART	_	_	3	advmod	_	start_char=90|end_char=96	
+3	граждане	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj:pass	_	start_char=97|end_char=105	
+4	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=106|end_char=112	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=112|end_char=113	
+6	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	start_char=114|end_char=127	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=127|end_char=128	
+8	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=129|end_char=137	
+9	в	в	ADP	_	_	10	case	_	start_char=138|end_char=139	
+10	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	start_char=140|end_char=147	
+11	,	,	PUNCT	_	_	15	punct	_	start_char=147|end_char=148	
+12	но	но	CCONJ	_	_	15	cc	_	start_char=149|end_char=151	
+13	и	и	PART	_	_	12	advmod	_	start_char=152|end_char=153	
+14	большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=154|end_char=161	
+15	объём	объём	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	start_char=162|end_char=167	
+16	аппаратуры	аппаратура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=168|end_char=178	
+17	,	,	PUNCT	_	_	19	punct	_	start_char=178|end_char=179	
+18	и	и	CCONJ	_	_	19	cc	_	start_char=180|end_char=181	
+19	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	conj	_	start_char=182|end_char=194	
+20	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	start_char=195|end_char=205	
+21	японскими	японский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	start_char=206|end_char=215	
+22	специалистами	специалист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	20	obl	_	start_char=216|end_char=229	
+23	.	.	PUNCT	_	_	20	punct	_	start_char=229|end_char=230	
+
+#text = Мы желаем вам удачи ! 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	желаем	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=13	
+3	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	2	iobj	_	start_char=14|end_char=17	
+4	удачи	удача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=18|end_char=23	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=23|end_char=24	
+
+#text = Прежде всего позвольте мне выразить вам , обоим космонавтам , свою искреннюю радость за то , что вы – представители двух стран , космонавты – так дружно работаете в космосе . 
+#par_id = 6
+#sent_id = 1
+#speaker = С.Абэ
+1	Прежде	прежде	ADP	_	_	3	advmod	_	start_char=4|end_char=10	
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	fixed	_	start_char=11|end_char=16	
+3	позвольте	позволить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=26	
+4	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	3	iobj	_	start_char=27|end_char=30	
+5	выразить	выразить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=31|end_char=39	
+6	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	5	iobj	_	start_char=40|end_char=43	
+7	,	,	PUNCT	_	_	9	punct	_	start_char=43|end_char=44	
+8	обоим	оба	NUM	_	Case=Dat	9	nummod	_	start_char=45|end_char=50	
+9	космонавтам	космонавт	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	conj	_	start_char=51|end_char=62	
+10	,	,	PUNCT	_	_	13	punct	_	start_char=62|end_char=63	
+11	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	13	det	_	start_char=64|end_char=68	
+12	искреннюю	искренний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=69|end_char=78	
+13	радость	радость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=79|end_char=86	
+14	за	за	ADP	_	_	15	case	_	start_char=87|end_char=89	
+15	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	start_char=90|end_char=92	
+16	,	,	PUNCT	_	_	28	punct	_	start_char=92|end_char=93	
+17	что	что	SCONJ	_	_	28	mark	_	start_char=94|end_char=97	
+18	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	28	nsubj	_	start_char=98|end_char=100	
+19	–	–	PUNCT	_	_	20	punct	_	start_char=101|end_char=102	
+20	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	conj	_	start_char=103|end_char=116	
+21	двух	два	NUM	_	Case=Gen	22	nummod	_	start_char=117|end_char=121	
+22	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	start_char=122|end_char=127	
+23	,	,	PUNCT	_	_	24	punct	_	start_char=127|end_char=128	
+24	космонавты	космонавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	conj	_	start_char=129|end_char=139	
+25	–	–	PUNCT	_	_	28	punct	_	start_char=140|end_char=141	
+26	так	так	ADV	_	Degree=Pos	27	advmod	_	start_char=142|end_char=145	
+27	дружно	дружно	ADV	_	Degree=Pos	28	advmod	_	start_char=146|end_char=152	
+28	работаете	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	_	start_char=153|end_char=162	
+29	в	в	ADP	_	_	30	case	_	start_char=163|end_char=164	
+30	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	start_char=165|end_char=172	
+31	.	.	PUNCT	_	_	3	punct	_	start_char=172|end_char=173	
+
+#text = Как отметил уважаемый Президент господин Путин , сотрудничество в космической области длится между нашими странами очень долго и будет продолжаться дальше . 
+#par_id = 7
+#sent_id = 1
+#speaker = С.Абэ
+1	Как	как	SCONJ	_	_	2	mark	_	start_char=4|end_char=7	
+2	отметил	отметить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	start_char=8|end_char=15	
+3	уважаемый	уважаемый	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	4	amod	_	start_char=16|end_char=25	
+4	Президент	Президент	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=26|end_char=35	
+5	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=36|end_char=44	
+6	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=45|end_char=50	
+7	,	,	PUNCT	_	_	2	punct	_	start_char=50|end_char=51	
+8	сотрудничество	сотрудничество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=52|end_char=66	
+9	в	в	ADP	_	_	11	case	_	start_char=67|end_char=68	
+10	космической	космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=69|end_char=80	
+11	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	start_char=81|end_char=88	
+12	длится	длиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=89|end_char=95	
+13	между	между	ADP	_	_	15	case	_	start_char=96|end_char=101	
+14	нашими	наш	DET	_	Case=Ins|Number=Plur	15	det	_	start_char=102|end_char=108	
+15	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	obl	_	start_char=109|end_char=117	
+16	очень	очень	ADV	_	Degree=Pos	17	advmod	_	start_char=118|end_char=123	
+17	долго	долго	ADV	_	Degree=Pos	12	advmod	_	start_char=124|end_char=129	
+18	и	и	CCONJ	_	_	20	cc	_	start_char=130|end_char=131	
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	start_char=132|end_char=137	
+20	продолжаться	продолжаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	conj	_	start_char=138|end_char=150	
+21	дальше	далеко	ADV	_	Degree=Cmp	20	advmod	_	start_char=151|end_char=157	
+22	.	.	PUNCT	_	_	12	punct	_	start_char=157|end_char=158	
+
+#text = У вас за спиной висят два флага – России и Японии , – и мы тоже только что провели переговоры с уважаемым Президентом господином Путиным . 
+#par_id = 8
+#sent_id = 1
+#speaker = С.Абэ
+1	У	у	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	5	obl	_	start_char=6|end_char=9	
+3	за	за	ADP	_	_	4	case	_	start_char=10|end_char=12	
+4	спиной	спина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	start_char=13|end_char=19	
+5	висят	висеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=20|end_char=25	
+6	два	два	NUM	_	Case=Nom|Gender=Masc	7	nummod:gov	_	start_char=26|end_char=29	
+7	флага	флаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	start_char=30|end_char=35	
+8	–	–	PUNCT	_	_	9	punct	_	start_char=36|end_char=37	
+9	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	start_char=38|end_char=44	
+10	и	и	CCONJ	_	_	11	cc	_	start_char=45|end_char=46	
+11	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	start_char=47|end_char=53	
+12	,	,	PUNCT	_	_	19	punct	_	start_char=53|end_char=54	
+13	–	–	PUNCT	_	_	19	cc	_	start_char=55|end_char=56	
+14	и	и	PART	_	_	15	advmod	_	start_char=57|end_char=58	
+15	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	19	nsubj	_	start_char=59|end_char=61	
+16	тоже	тоже	PART	_	_	19	advmod	_	start_char=62|end_char=66	
+17	только	только	PART	_	_	19	advmod	_	start_char=67|end_char=73	
+18	что	что	SCONJ	_	_	17	fixed	_	start_char=74|end_char=77	
+19	провели	провести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=78|end_char=85	
+20	переговоры	переговоры	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	start_char=86|end_char=96	
+21	с	с	ADP	_	_	23	case	_	start_char=97|end_char=98	
+22	уважаемым	уважать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	23	amod	_	start_char=99|end_char=108	
+23	Президентом	Президент	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	start_char=109|end_char=120	
+24	господином	господин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	appos	_	start_char=121|end_char=131	
+25	Путиным	Путин	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	appos	_	start_char=132|end_char=139	
+26	.	.	PUNCT	_	_	5	punct	_	start_char=139|end_char=140	
+
+#text = Мы договорились о том , чтобы в дальнейшем приложить усилия для развития сотрудничества между нашими странами . 
+#par_id = 8
+#sent_id = 2
+#speaker = С.Абэ
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=141|end_char=143	
+2	договорились	договориться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=144|end_char=156	
+3	о	о	ADP	_	_	4	case	_	start_char=157|end_char=158	
+4	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	start_char=159|end_char=162	
+5	,	,	PUNCT	_	_	9	punct	_	start_char=162|end_char=163	
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	start_char=164|end_char=169	
+7	в	в	ADP	_	_	8	case	_	start_char=170|end_char=171	
+8	дальнейшем	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	obl	_	start_char=172|end_char=182	
+9	приложить	приложить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=183|end_char=192	
+10	усилия	усилие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=193|end_char=199	
+11	для	для	ADP	_	_	12	case	_	start_char=200|end_char=203	
+12	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=204|end_char=212	
+13	сотрудничества	сотрудничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=213|end_char=227	
+14	между	между	ADP	_	_	16	case	_	start_char=228|end_char=233	
+15	нашими	наш	DET	_	Case=Ins|Number=Plur	16	det	_	start_char=234|end_char=240	
+16	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	start_char=241|end_char=249	
+17	.	.	PUNCT	_	_	2	punct	_	start_char=249|end_char=250	
+
+#text = Пользуясь этим случаем , хочу пожелать вам , обоим космонавтам , чтобы вы объединили усилия в области будущего развития технологий в области космоса . 
+#par_id = 9
+#sent_id = 1
+#speaker = С.Абэ
+1	Пользуясь	пользоваться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	5	advcl	_	start_char=4|end_char=13	
+2	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	3	det	_	start_char=14|end_char=18	
+3	случаем	случай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	start_char=19|end_char=26	
+4	,	,	PUNCT	_	_	1	punct	_	start_char=26|end_char=27	
+5	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=28|end_char=32	
+6	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=33|end_char=41	
+7	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	6	iobj	_	start_char=42|end_char=45	
+8	,	,	PUNCT	_	_	10	punct	_	start_char=45|end_char=46	
+9	обоим	оба	NUM	_	Case=Dat	10	nummod	_	start_char=47|end_char=52	
+10	космонавтам	космонавт	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	conj	_	start_char=53|end_char=64	
+11	,	,	PUNCT	_	_	14	punct	_	start_char=64|end_char=65	
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	start_char=66|end_char=71	
+13	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	14	nsubj	_	start_char=72|end_char=74	
+14	объединили	объединить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=75|end_char=85	
+15	усилия	усилие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	start_char=86|end_char=92	
+16	в	в	ADP	_	_	17	case	_	start_char=93|end_char=94	
+17	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	start_char=95|end_char=102	
+18	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=103|end_char=111	
+19	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	start_char=112|end_char=120	
+20	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	start_char=121|end_char=131	
+21	в	в	ADP	_	_	22	case	_	start_char=132|end_char=133	
+22	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	start_char=134|end_char=141	
+23	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=142|end_char=149	
+24	.	.	PUNCT	_	_	5	punct	_	start_char=149|end_char=150	
+
+#text = Здравствуйте , уважаемый Владимир Владимирович , господин Премьер-министр Абэ ! 
+#par_id = 10
+#sent_id = 1
+#speaker = А.Шкаплеров
+1	Здравствуйте	здравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=16	
+2	,	,	PUNCT	_	_	4	punct	_	start_char=16|end_char=17	
+3	уважаемый	уважаемый	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	4	amod	_	start_char=18|end_char=27	
+4	Владимир	Владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	start_char=28|end_char=36	
+5	Владимирович	Владимирович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	start_char=37|end_char=49	
+6	,	,	PUNCT	_	_	7	punct	_	start_char=49|end_char=50	
+7	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=51|end_char=59	
+8	Премьер-министр	премьер-министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	start_char=60|end_char=75	
+9	Абэ	Абэ	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	start_char=76|end_char=79	
+10	!	!	PUNCT	_	_	1	punct	_	start_char=79|end_char=80	
+
+#text = Я , Антон Шкаплеров , космонавт « Роскосмоса » , приветствую вас с борта МКС и передаю слово своему японскому другу и коллеге Норишиге Канаи . 
+#par_id = 11
+#sent_id = 1
+#speaker = А.Шкаплеров
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	_	start_char=4|end_char=5	
+2	,	,	PUNCT	_	_	3	punct	_	start_char=5|end_char=6	
+3	Антон	Антон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=7|end_char=12	
+4	Шкаплеров	Шкаплеров	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=13|end_char=22	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=22|end_char=23	
+6	космонавт	космонавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=24|end_char=33	
+7	«	"	PUNCT	_	_	8	punct	_	start_char=34|end_char=35	
+8	Роскосмоса	Роскосмос	PROPN	_	_	6	nmod	_	start_char=35|end_char=45	
+9	»	"	PUNCT	_	_	8	punct	_	start_char=45|end_char=46	
+10	,	,	PUNCT	_	_	1	punct	_	start_char=46|end_char=47	
+11	приветствую	приветствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=48|end_char=59	
+12	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	11	obj	_	start_char=60|end_char=63	
+13	с	с	ADP	_	_	14	case	_	start_char=64|end_char=65	
+14	борта	борт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	start_char=66|end_char=71	
+15	МКС	МКС	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=72|end_char=75	
+16	и	и	CCONJ	_	_	17	cc	_	start_char=76|end_char=77	
+17	передаю	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	start_char=78|end_char=85	
+18	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=86|end_char=91	
+19	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing	21	det	_	start_char=92|end_char=98	
+20	японскому	японский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=99|end_char=108	
+21	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	start_char=109|end_char=114	
+22	и	и	CCONJ	_	_	23	cc	_	start_char=115|end_char=116	
+23	коллеге	коллега	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	conj	_	start_char=117|end_char=124	
+24	Норишиге	Норишиг	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	appos	_	start_char=125|end_char=133	
+25	Канаи	Канаи	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	24	flat:name	_	start_char=134|end_char=139	
+26	.	.	PUNCT	_	_	11	punct	_	start_char=139|end_char=140	
+
+#text = Между Японией и Россией действительно развивается тесное сотрудничество , взаимный контакт на Международной космической станции . 
+#par_id = 12
+#sent_id = 1
+#speaker = Н.Канаи
+1	Между	между	ADP	_	_	2	case	_	start_char=4|end_char=9	
+2	Японией	Япония	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	start_char=10|end_char=17	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=18|end_char=19	
+4	Россией	Россия	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	conj	_	start_char=20|end_char=27	
+5	действительно	действительно	ADV	_	Degree=Pos	6	advmod	_	start_char=28|end_char=41	
+6	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=42|end_char=53	
+7	тесное	тесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=54|end_char=60	
+8	сотрудничество	сотрудничество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=61|end_char=75	
+9	,	,	PUNCT	_	_	11	punct	_	start_char=75|end_char=76	
+10	взаимный	взаимный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=77|end_char=85	
+11	контакт	контакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	start_char=86|end_char=93	
+12	на	на	ADP	_	_	15	case	_	start_char=94|end_char=96	
+13	Международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=97|end_char=110	
+14	космической	космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=111|end_char=122	
+15	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	start_char=123|end_char=130	
+16	.	.	PUNCT	_	_	6	punct	_	start_char=130|end_char=131	
+
+#text = И у нас , и в России тоже , конечно , имеется длительная история освоения космоса . 
+#par_id = 12
+#sent_id = 2
+#speaker = Н.Канаи
+1	И	и	CCONJ	_	_	12	cc	_	start_char=132|end_char=133	
+2	у	у	ADP	_	_	3	case	_	start_char=134|end_char=135	
+3	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	12	obl	_	start_char=136|end_char=139	
+4	,	,	PUNCT	_	_	7	punct	_	start_char=139|end_char=140	
+5	и	и	CCONJ	_	_	7	cc	_	start_char=141|end_char=142	
+6	в	в	ADP	_	_	7	case	_	start_char=143|end_char=144	
+7	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	conj	_	start_char=145|end_char=151	
+8	тоже	тоже	PART	_	_	12	advmod	_	start_char=152|end_char=156	
+9	,	,	PUNCT	_	_	3	punct	_	start_char=156|end_char=157	
+10	конечно	конечно	ADV	_	Degree=Pos	12	parataxis	_	start_char=158|end_char=165	
+11	,	,	PUNCT	_	_	10	punct	_	start_char=165|end_char=166	
+12	имеется	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=167|end_char=174	
+13	длительная	длительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=175|end_char=185	
+14	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=186|end_char=193	
+15	освоения	освоение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=194|end_char=202	
+16	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=203|end_char=210	
+17	.	.	PUNCT	_	_	12	punct	_	start_char=210|end_char=211	
+
+#text = И у нас в Японии тоже имеется длительная история развития космических исследований , поэтому у нас тоже есть и свои преимущества , и свои технологии . 
+#par_id = 12
+#sent_id = 3
+#speaker = Н.Канаи
+1	И	и	CCONJ	_	_	7	cc	_	start_char=212|end_char=213	
+2	у	у	ADP	_	_	3	case	_	start_char=214|end_char=215	
+3	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	7	obl	_	start_char=216|end_char=219	
+4	в	в	ADP	_	_	5	case	_	start_char=220|end_char=221	
+5	Японии	Япония	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=222|end_char=228	
+6	тоже	тоже	PART	_	_	7	advmod	_	start_char=229|end_char=233	
+7	имеется	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=234|end_char=241	
+8	длительная	длительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=242|end_char=252	
+9	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=253|end_char=260	
+10	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=261|end_char=269	
+11	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=270|end_char=281	
+12	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	start_char=282|end_char=294	
+13	,	,	PUNCT	_	_	18	punct	_	start_char=294|end_char=295	
+14	поэтому	поэтому	ADV	_	Degree=Pos	18	advmod	_	start_char=296|end_char=303	
+15	у	у	ADP	_	_	16	case	_	start_char=304|end_char=305	
+16	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	18	obl	_	start_char=306|end_char=309	
+17	тоже	тоже	PART	_	_	18	advmod	_	start_char=310|end_char=314	
+18	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=315|end_char=319	
+19	и	и	PART	_	_	20	advmod	_	start_char=320|end_char=321	
+20	свои	свой	DET	_	Case=Nom|Number=Plur	21	det	_	start_char=322|end_char=326	
+21	преимущества	преимущество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	start_char=327|end_char=339	
+22	,	,	PUNCT	_	_	25	punct	_	start_char=339|end_char=340	
+23	и	и	CCONJ	_	_	25	cc	_	start_char=341|end_char=342	
+24	свои	свой	DET	_	Case=Nom|Number=Plur	25	det	_	start_char=343|end_char=347	
+25	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	conj	_	start_char=348|end_char=358	
+26	.	.	PUNCT	_	_	7	punct	_	start_char=358|end_char=359	
+
+#text = Мы применяем свои технологии для проведения наших исследований , экспериментов на нашей космической международной станции , и мы убеждаемся в том , что наше сотрудничество даёт большое сложение , то есть один плюс один не два , а именно три и даже четыре . 
+#par_id = 13
+#sent_id = 1
+#speaker = Н.Канаи
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	применяем	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=16	
+3	свои	свой	DET	_	Case=Acc|Number=Plur	4	det	_	start_char=17|end_char=21	
+4	технологии	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=22|end_char=32	
+5	для	для	ADP	_	_	6	case	_	start_char=33|end_char=36	
+6	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=37|end_char=47	
+7	наших	наш	DET	_	Case=Gen|Number=Plur	8	det	_	start_char=48|end_char=53	
+8	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	start_char=54|end_char=66	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=66|end_char=67	
+10	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	start_char=68|end_char=81	
+11	на	на	ADP	_	_	15	case	_	start_char=82|end_char=84	
+12	нашей	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	15	det	_	start_char=85|end_char=90	
+13	космической	космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=91|end_char=102	
+14	международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=103|end_char=116	
+15	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	start_char=117|end_char=124	
+16	,	,	PUNCT	_	_	19	punct	_	start_char=124|end_char=125	
+17	и	и	CCONJ	_	_	19	cc	_	start_char=126|end_char=127	
+18	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	19	nsubj	_	start_char=128|end_char=130	
+19	убеждаемся	убеждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=131|end_char=141	
+20	в	в	ADP	_	_	21	case	_	start_char=142|end_char=143	
+21	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	start_char=144|end_char=147	
+22	,	,	PUNCT	_	_	26	punct	_	start_char=147|end_char=148	
+23	что	что	SCONJ	_	_	26	mark	_	start_char=149|end_char=152	
+24	наше	наш	DET	_	Case=Nom|Gender=Neut|Number=Sing	25	det	_	start_char=153|end_char=157	
+25	сотрудничество	сотрудничество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	start_char=158|end_char=172	
+26	даёт	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl	_	start_char=173|end_char=177	
+27	большое	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	start_char=178|end_char=185	
+28	сложение	сложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	start_char=186|end_char=194	
+29	,	,	PUNCT	_	_	32	punct	_	start_char=194|end_char=195	
+30	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	mark	_	start_char=196|end_char=198	
+31	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	fixed	_	start_char=199|end_char=203	
+32	один	один	NUM	_	Animacy=Inan|Case=Nom|Gender=Masc	28	parataxis	_	start_char=204|end_char=208	
+33	плюс	плюс	ADP	_	_	36	case	_	start_char=209|end_char=213	
+34	один	один	NUM	_	Case=Nom|Gender=Masc	36	nummod:gov	_	start_char=214|end_char=218	
+35	не	не	PART	_	_	36	advmod	_	start_char=219|end_char=221	
+36	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	32	nummod:gov	_	start_char=222|end_char=225	
+37	,	,	PUNCT	_	_	40	punct	_	start_char=225|end_char=226	
+38	а	а	CCONJ	_	_	40	cc	_	start_char=227|end_char=228	
+39	именно	именно	PART	_	_	40	advmod	_	start_char=229|end_char=235	
+40	три	три	NUM	_	Animacy=Inan|Case=Nom	36	conj	_	start_char=236|end_char=239	
+41	и	и	CCONJ	_	_	43	cc	_	start_char=240|end_char=241	
+42	даже	даже	PART	_	_	43	advmod	_	start_char=242|end_char=246	
+43	четыре	четыре	NUM	_	Animacy=Inan|Case=Nom	36	conj	_	start_char=247|end_char=253	
+44	.	.	PUNCT	_	_	2	punct	_	start_char=253|end_char=254	
+
+#text = И приносит наше такое взаимное действие огромные плоды , хорошие результаты нашей совместной деятельности , работы . 
+#par_id = 14
+#sent_id = 1
+#speaker = Н.Канаи
+1	И	и	CCONJ	_	_	2	cc	_	start_char=4|end_char=5	
+2	приносит	приносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=14	
+3	наше	наш	DET	_	Case=Acc|Gender=Neut|Number=Sing	6	det	_	start_char=15|end_char=19	
+4	такое	такой	DET	_	Case=Acc|Gender=Neut|Number=Sing	6	det	_	start_char=20|end_char=25	
+5	взаимное	взаимный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=26|end_char=34	
+6	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=35|end_char=43	
+7	огромные	огромный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	start_char=44|end_char=52	
+8	плоды	плод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=53|end_char=58	
+9	,	,	PUNCT	_	_	11	punct	_	start_char=58|end_char=59	
+10	хорошие	хороший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	start_char=60|end_char=67	
+11	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	start_char=68|end_char=78	
+12	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	det	_	start_char=79|end_char=84	
+13	совместной	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=85|end_char=95	
+14	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=96|end_char=108	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=108|end_char=109	
+16	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	start_char=110|end_char=116	
+17	.	.	PUNCT	_	_	2	punct	_	start_char=116|end_char=117	
+
+#text = Уверен , что такое сотрудничество будет способствовать развитию сотрудничества не только в области космических исследований , но ещё в области науки и технологий , промышленности и в других областях , которые принесли бы большие плоды и ещё инновации , к которым стремятся наши страны . 
+#par_id = 14
+#sent_id = 2
+#speaker = Н.Канаи
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=118|end_char=124	
+2	,	,	PUNCT	_	_	7	punct	_	start_char=124|end_char=125	
+3	что	что	SCONJ	_	_	7	mark	_	start_char=126|end_char=129	
+4	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	5	det	_	start_char=130|end_char=135	
+5	сотрудничество	сотрудничество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=136|end_char=150	
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=151|end_char=156	
+7	способствовать	способствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	ccomp	_	start_char=157|end_char=171	
+8	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	iobj	_	start_char=172|end_char=180	
+9	сотрудничества	сотрудничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=181|end_char=195	
+10	не	не	PART	_	_	11	advmod	_	start_char=196|end_char=198	
+11	только	только	PART	_	_	13	advmod	_	start_char=199|end_char=205	
+12	в	в	ADP	_	_	13	case	_	start_char=206|end_char=207	
+13	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	start_char=208|end_char=215	
+14	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=216|end_char=227	
+15	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	start_char=228|end_char=240	
+16	,	,	PUNCT	_	_	20	punct	_	start_char=240|end_char=241	
+17	но	но	CCONJ	_	_	20	cc	_	start_char=242|end_char=244	
+18	ещё	еще	ADV	_	Degree=Pos	20	obl	_	start_char=245|end_char=248	
+19	в	в	ADP	_	_	20	case	_	start_char=249|end_char=250	
+20	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	conj	_	start_char=251|end_char=258	
+21	науки	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=259|end_char=264	
+22	и	и	CCONJ	_	_	23	cc	_	start_char=265|end_char=266	
+23	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	conj	_	start_char=267|end_char=277	
+24	,	,	PUNCT	_	_	25	punct	_	start_char=277|end_char=278	
+25	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	conj	_	start_char=279|end_char=293	
+26	и	и	CCONJ	_	_	29	cc	_	start_char=294|end_char=295	
+27	в	в	ADP	_	_	29	case	_	start_char=296|end_char=297	
+28	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	start_char=298|end_char=304	
+29	областях	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	conj	_	start_char=305|end_char=313	
+30	,	,	PUNCT	_	_	32	punct	_	start_char=313|end_char=314	
+31	которые	который	PRON	_	Case=Nom	32	nsubj	_	start_char=315|end_char=322	
+32	принесли	принести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	start_char=323|end_char=331	
+33	бы	бы	AUX	_	_	32	aux	_	start_char=332|end_char=334	
+34	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	35	amod	_	start_char=335|end_char=342	
+35	плоды	плод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	obj	_	start_char=343|end_char=348	
+36	и	и	CCONJ	_	_	38	cc	_	start_char=349|end_char=350	
+37	ещё	еще	ADV	_	Degree=Pos	38	obl	_	start_char=351|end_char=354	
+38	инновации	инновация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	conj	_	start_char=355|end_char=364	
+39	,	,	PUNCT	_	_	42	punct	_	start_char=364|end_char=365	
+40	к	к	ADP	_	_	41	case	_	start_char=366|end_char=367	
+41	которым	который	PRON	_	Case=Dat	42	obl	_	start_char=368|end_char=375	
+42	стремятся	стремиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	38	acl:relcl	_	start_char=376|end_char=385	
+43	наши	наш	DET	_	Case=Nom|Number=Plur	44	det	_	start_char=386|end_char=390	
+44	страны	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	42	nsubj	_	start_char=391|end_char=397	
+45	.	.	PUNCT	_	_	1	punct	_	start_char=397|end_char=398	
+
+#text = Этот год является прекрасным перекрёстным годом – Годом России в Японии и Годом Японии в России . 
+#par_id = 15
+#sent_id = 1
+#speaker = Н.Канаи
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=9|end_char=12	
+3	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=13|end_char=21	
+4	прекрасным	прекрасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=22|end_char=32	
+5	перекрёстным	перекрестный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=33|end_char=45	
+6	годом	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	start_char=46|end_char=51	
+7	–	–	PUNCT	_	_	8	punct	_	start_char=52|end_char=53	
+8	Годом	Год	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	start_char=54|end_char=59	
+9	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=60|end_char=66	
+10	в	в	ADP	_	_	11	case	_	start_char=67|end_char=68	
+11	Японии	Япония	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	start_char=69|end_char=75	
+12	и	и	CCONJ	_	_	13	cc	_	start_char=76|end_char=77	
+13	Годом	Год	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	start_char=78|end_char=83	
+14	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=84|end_char=90	
+15	в	в	ADP	_	_	16	case	_	start_char=91|end_char=92	
+16	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	start_char=93|end_char=99	
+17	.	.	PUNCT	_	_	3	punct	_	start_char=99|end_char=100	
+
+#text = И в такой прекрасный год хочу пожелать всем вам из космоса будущего развития дружеских отношений между нашими странами . 
+#par_id = 15
+#sent_id = 2
+#speaker = Н.Канаи
+1	И	и	CCONJ	_	_	6	cc	_	start_char=101|end_char=102	
+2	в	в	ADP	_	_	5	case	_	start_char=103|end_char=104	
+3	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	det	_	start_char=105|end_char=110	
+4	прекрасный	прекрасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=111|end_char=121	
+5	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=122|end_char=125	
+6	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=126|end_char=130	
+7	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=131|end_char=139	
+8	всем	весь	DET	_	Case=Dat|Number=Plur	9	det	_	start_char=140|end_char=144	
+9	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	7	iobj	_	start_char=145|end_char=148	
+10	из	из	ADP	_	_	11	case	_	start_char=149|end_char=151	
+11	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=152|end_char=159	
+12	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=160|end_char=168	
+13	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=169|end_char=177	
+14	дружеских	дружеский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=178|end_char=187	
+15	отношений	отношение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	start_char=188|end_char=197	
+16	между	между	ADP	_	_	18	case	_	start_char=198|end_char=203	
+17	нашими	наш	DET	_	Case=Ins|Number=Plur	18	det	_	start_char=204|end_char=210	
+18	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	nmod	_	start_char=211|end_char=219	
+19	.	.	PUNCT	_	_	6	punct	_	start_char=219|end_char=220	
+
+#text = И так как мы приобрели очень хороших , близких друзей именно в космосе , поэтому на Земле , уверен , вы тоже приобретёте хороших друзей . 
+#par_id = 15
+#sent_id = 3
+#speaker = Н.Канаи
+1	И	и	CCONJ	_	_	5	cc	_	start_char=221|end_char=222	
+2	так	так	ADV	_	Degree=Pos	5	mark	_	start_char=223|end_char=226	
+3	как	как	SCONJ	_	_	2	fixed	_	start_char=227|end_char=230	
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	start_char=231|end_char=233	
+5	приобрели	приобрести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=234|end_char=243	
+6	очень	очень	ADV	_	Degree=Pos	7	obl	_	start_char=244|end_char=249	
+7	хороших	хороший	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=250|end_char=257	
+8	,	,	PUNCT	_	_	9	punct	_	start_char=257|end_char=258	
+9	близких	близкий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	7	conj	_	start_char=259|end_char=266	
+10	друзей	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=267|end_char=273	
+11	именно	именно	PART	_	_	13	advmod	_	start_char=274|end_char=280	
+12	в	в	ADP	_	_	13	case	_	start_char=281|end_char=282	
+13	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=283|end_char=290	
+14	,	,	PUNCT	_	_	23	punct	_	start_char=290|end_char=291	
+15	поэтому	поэтому	ADV	_	Degree=Pos	23	advmod	_	start_char=292|end_char=299	
+16	на	на	ADP	_	_	17	case	_	start_char=300|end_char=302	
+17	Земле	Земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	start_char=303|end_char=308	
+18	,	,	PUNCT	_	_	17	punct	_	start_char=308|end_char=309	
+19	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	23	parataxis	_	start_char=310|end_char=316	
+20	,	,	PUNCT	_	_	19	punct	_	start_char=316|end_char=317	
+21	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	23	nsubj	_	start_char=318|end_char=320	
+22	тоже	тоже	PART	_	_	23	advmod	_	start_char=321|end_char=325	
+23	приобретёте	приобрести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	start_char=326|end_char=337	
+24	хороших	хороший	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	start_char=338|end_char=345	
+25	друзей	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	start_char=346|end_char=352	
+26	.	.	PUNCT	_	_	5	punct	_	start_char=352|end_char=353	
+
+#text = 2018 год – это Год России в Японии и Год Японии в России . 
+#par_id = 16
+#sent_id = 1
+#speaker = А.Шкаплеров
+1	2018	2018	NUM	_	_	2	nummod	_	start_char=4|end_char=8	
+2	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=9|end_char=12	
+3	–	–	PUNCT	_	_	2	punct	_	start_char=13|end_char=14	
+4	это	это	PRON	_	_	5	cop	_	start_char=15|end_char=18	
+5	Год	Год	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=19|end_char=22	
+6	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=23|end_char=29	
+7	в	в	ADP	_	_	8	case	_	start_char=30|end_char=31	
+8	Японии	Япония	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	start_char=32|end_char=38	
+9	и	и	CCONJ	_	_	10	cc	_	start_char=39|end_char=40	
+10	Год	Год	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=41|end_char=44	
+11	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=45|end_char=51	
+12	в	в	ADP	_	_	13	case	_	start_char=52|end_char=53	
+13	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	start_char=54|end_char=60	
+14	.	.	PUNCT	_	_	5	punct	_	start_char=60|end_char=61	
+
+#text = Культурный обмен серьёзно способствует взаимопониманию между нашими народами . 
+#par_id = 16
+#sent_id = 2
+#speaker = А.Шкаплеров
+1	Культурный	культурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=62|end_char=72	
+2	обмен	обмен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=73|end_char=78	
+3	серьёзно	серьёзно	ADV	_	Degree=Pos	4	advmod	_	start_char=79|end_char=87	
+4	способствует	способствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=88|end_char=100	
+5	взаимопониманию	взаимопонимание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	start_char=101|end_char=116	
+6	между	между	ADP	_	_	8	case	_	start_char=117|end_char=122	
+7	нашими	наш	DET	_	Case=Ins|Number=Plur	8	det	_	start_char=123|end_char=129	
+8	народами	народ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	start_char=130|end_char=138	
+9	.	.	PUNCT	_	_	4	punct	_	start_char=138|end_char=139	
+
+#text = Для меня большая честь обратиться к вам с Международной космической станции , где мы живём и работаем вместе , в частности с нашими японскими коллегами . 
+#par_id = 17
+#sent_id = 1
+#speaker = А.Шкаплеров
+1	Для	для	ADP	_	_	2	case	_	start_char=4|end_char=7	
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	0	root	_	start_char=8|end_char=12	
+3	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=13|end_char=20	
+4	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=21|end_char=26	
+5	обратиться	обратиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	obl	_	start_char=27|end_char=37	
+6	к	к	ADP	_	_	7	case	_	start_char=38|end_char=39	
+7	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	5	obl	_	start_char=40|end_char=43	
+8	с	с	ADP	_	_	11	case	_	start_char=44|end_char=45	
+9	Международной	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=46|end_char=59	
+10	космической	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=60|end_char=71	
+11	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	start_char=72|end_char=79	
+12	,	,	PUNCT	_	_	15	punct	_	start_char=79|end_char=80	
+13	где	где	ADV	_	Degree=Pos	15	advmod	_	start_char=81|end_char=84	
+14	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	15	nsubj	_	start_char=85|end_char=87	
+15	живём	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=88|end_char=93	
+16	и	и	CCONJ	_	_	17	cc	_	start_char=94|end_char=95	
+17	работаем	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	start_char=96|end_char=104	
+18	вместе	вместе	ADV	_	Degree=Pos	17	advmod	_	start_char=105|end_char=111	
+19	,	,	PUNCT	_	_	25	punct	_	start_char=111|end_char=112	
+20	в	в	ADP	_	_	25	discourse	_	start_char=113|end_char=114	
+21	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	fixed	_	start_char=115|end_char=124	
+22	с	с	ADP	_	_	25	case	_	start_char=125|end_char=126	
+23	нашими	наш	DET	_	Case=Ins|Number=Plur	25	det	_	start_char=127|end_char=133	
+24	японскими	японский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	start_char=134|end_char=143	
+25	коллегами	коллега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	parataxis	_	start_char=144|end_char=153	
+26	.	.	PUNCT	_	_	2	punct	_	start_char=153|end_char=154	
+
+#text = МКС – это космическая международная платформа , где вместе работают представители многих стран . 
+#par_id = 18
+#sent_id = 1
+#speaker = А.Шкаплеров
+1	МКС	МКС	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4|end_char=7	
+2	–	–	PUNCT	_	_	1	punct	_	start_char=8|end_char=9	
+3	это	это	PRON	_	_	6	cop	_	start_char=10|end_char=13	
+4	космическая	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=14|end_char=25	
+5	международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=26|end_char=39	
+6	платформа	платформа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=40|end_char=49	
+7	,	,	PUNCT	_	_	10	punct	_	start_char=49|end_char=50	
+8	где	где	ADV	_	Degree=Pos	10	advmod	_	start_char=51|end_char=54	
+9	вместе	вместе	ADV	_	Degree=Pos	10	advmod	_	start_char=55|end_char=61	
+10	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=62|end_char=70	
+11	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=71|end_char=84	
+12	многих	много	NUM	_	_	13	amod	_	start_char=85|end_char=91	
+13	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=92|end_char=97	
+14	.	.	PUNCT	_	_	6	punct	_	start_char=97|end_char=98	
+
+#text = Наша общая экспериментальная исследовательская база расположена на расстоянии 400 километров над поверхностью Земли , существует благодаря скоординированному сотрудничеству России , Японии , США , Канады и европейских стран . 
+#par_id = 18
+#sent_id = 2
+#speaker = А.Шкаплеров
+1	Наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	det	_	start_char=99|end_char=103	
+2	общая	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=104|end_char=109	
+3	экспериментальная	экспериментальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=110|end_char=127	
+4	исследовательская	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=128|end_char=145	
+5	база	база	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=146|end_char=150	
+6	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=151|end_char=162	
+7	на	на	ADP	_	_	8	case	_	start_char=163|end_char=165	
+8	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=166|end_char=176	
+9	400	400	NUM	_	_	10	nummod	_	start_char=177|end_char=180	
+10	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=181|end_char=191	
+11	над	над	ADP	_	_	12	case	_	start_char=192|end_char=195	
+12	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	start_char=196|end_char=208	
+13	Земли	Земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=209|end_char=214	
+14	,	,	PUNCT	_	_	15	punct	_	start_char=214|end_char=215	
+15	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=216|end_char=226	
+16	благодаря	благодаря	ADP	_	_	18	case	_	start_char=227|end_char=236	
+17	скоординированному	координировать	VERB	_	Aspect=Perf|Case=Dat|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	start_char=237|end_char=255	
+18	сотрудничеству	сотрудничество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=256|end_char=270	
+19	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=271|end_char=277	
+20	,	,	PUNCT	_	_	21	punct	_	start_char=277|end_char=278	
+21	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	_	start_char=279|end_char=285	
+22	,	,	PUNCT	_	_	23	punct	_	start_char=285|end_char=286	
+23	США	США	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	19	conj	_	start_char=287|end_char=290	
+24	,	,	PUNCT	_	_	25	punct	_	start_char=290|end_char=291	
+25	Канады	Канада	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	_	start_char=292|end_char=298	
+26	и	и	CCONJ	_	_	28	cc	_	start_char=299|end_char=300	
+27	европейских	европейский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	start_char=301|end_char=312	
+28	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	start_char=313|end_char=318	
+29	.	.	PUNCT	_	_	6	punct	_	start_char=318|end_char=319	
+
+#text = В этом году у МКС юбилей – станция отмечает своё 20-летие . 
+#par_id = 19
+#sent_id = 1
+#speaker = А.Шкаплеров
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	det	_	start_char=6|end_char=10	
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=11|end_char=15	
+4	у	у	ADP	_	_	5	case	_	start_char=16|end_char=17	
+5	МКС	МКС	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	start_char=18|end_char=21	
+6	юбилей	юбилей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=22|end_char=28	
+7	–	–	PUNCT	_	_	9	punct	_	start_char=29|end_char=30	
+8	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=31|end_char=38	
+9	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=39|end_char=47	
+10	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	11	det	_	start_char=48|end_char=52	
+11	20-летие	20-летие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=53|end_char=61	
+12	.	.	PUNCT	_	_	9	punct	_	start_char=61|end_char=62	
+
+#text = И мне , и Канаи , уверен , особенно приятно , что 20-летие МКС пришлось на перекрёстный год наших стран . 
+#par_id = 19
+#sent_id = 2
+#speaker = А.Шкаплеров
+1	И	и	CCONJ	_	_	10	cc	_	start_char=63|end_char=64	
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	10	iobj	_	start_char=65|end_char=68	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=68|end_char=69	
+4	и	и	CCONJ	_	_	5	cc	_	start_char=70|end_char=71	
+5	Канаи	Канаи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=72|end_char=77	
+6	,	,	PUNCT	_	_	2	punct	_	start_char=77|end_char=78	
+7	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	parataxis	_	start_char=79|end_char=85	
+8	,	,	PUNCT	_	_	7	punct	_	start_char=85|end_char=86	
+9	особенно	особенно	ADV	_	Degree=Pos	10	obl	_	start_char=87|end_char=95	
+10	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=96|end_char=103	
+11	,	,	PUNCT	_	_	15	punct	_	start_char=103|end_char=104	
+12	что	что	SCONJ	_	_	15	mark	_	start_char=105|end_char=108	
+13	20-летие	20-летие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=109|end_char=117	
+14	МКС	МКС	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=118|end_char=121	
+15	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	ccomp	_	start_char=122|end_char=130	
+16	на	на	ADP	_	_	18	case	_	start_char=131|end_char=133	
+17	перекрёстный	перекрёстный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=134|end_char=146	
+18	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	start_char=147|end_char=150	
+19	наших	наш	DET	_	Case=Gen|Number=Plur	20	det	_	start_char=151|end_char=156	
+20	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	start_char=157|end_char=162	
+21	.	.	PUNCT	_	_	10	punct	_	start_char=162|end_char=163	
+
+#text = Дорогие друзья ! 
+#par_id = 20
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=4|end_char=11	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=12|end_char=18	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=18|end_char=19	
+
+#text = Мы знаем , что вы провели уже более 50 различных экспериментов , исследований . 
+#par_id = 21
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=12	
+3	,	,	PUNCT	_	_	6	punct	_	start_char=12|end_char=13	
+4	что	что	SCONJ	_	_	6	mark	_	start_char=14|end_char=17	
+5	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	6	nsubj	_	start_char=18|end_char=20	
+6	провели	провести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=21|end_char=28	
+7	уже	уже	ADV	_	Degree=Pos	8	advmod	_	start_char=29|end_char=32	
+8	более	более	ADV	_	Degree=Cmp	11	nummod:gov	_	start_char=33|end_char=38	
+9	50	50	NUM	_	_	11	nummod	_	start_char=39|end_char=41	
+10	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=42|end_char=51	
+11	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=52|end_char=65	
+12	,	,	PUNCT	_	_	13	punct	_	start_char=65|end_char=66	
+13	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	conj	_	start_char=67|end_char=79	
+14	.	.	PUNCT	_	_	2	punct	_	start_char=79|end_char=80	
+
+#text = И вы абсолютно правы : решая задачи в космосе , вы создаёте замечательную , необходимую атмосферу для решения задач , которые мы должны решать здесь , на Земле . 
+#par_id = 21
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=81|end_char=82	
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	4	nsubj	_	start_char=83|end_char=85	
+3	абсолютно	абсолютно	ADV	_	Degree=Pos	4	obl	_	start_char=86|end_char=95	
+4	правы	прав	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=96|end_char=101	
+5	:	:	PUNCT	_	_	12	punct	_	start_char=101|end_char=102	
+6	решая	решать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	start_char=103|end_char=108	
+7	задачи	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=109|end_char=115	
+8	в	в	ADP	_	_	9	case	_	start_char=116|end_char=117	
+9	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	start_char=118|end_char=125	
+10	,	,	PUNCT	_	_	6	punct	_	start_char=125|end_char=126	
+11	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	12	nsubj	_	start_char=127|end_char=129	
+12	создаёте	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=130|end_char=138	
+13	замечательную	замечательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=139|end_char=152	
+14	,	,	PUNCT	_	_	15	punct	_	start_char=152|end_char=153	
+15	необходимую	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	start_char=154|end_char=165	
+16	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=166|end_char=175	
+17	для	для	ADP	_	_	18	case	_	start_char=176|end_char=179	
+18	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	start_char=180|end_char=187	
+19	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	start_char=188|end_char=193	
+20	,	,	PUNCT	_	_	23	punct	_	start_char=193|end_char=194	
+21	которые	который	PRON	_	Case=Acc	24	obj	_	start_char=195|end_char=202	
+22	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	23	nsubj	_	start_char=203|end_char=205	
+23	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	19	acl:relcl	_	start_char=206|end_char=212	
+24	решать	решать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	start_char=213|end_char=219	
+25	здесь	здесь	ADV	_	Degree=Pos	24	advmod	_	start_char=220|end_char=225	
+26	,	,	PUNCT	_	_	28	punct	_	start_char=225|end_char=226	
+27	на	на	ADP	_	_	28	case	_	start_char=227|end_char=229	
+28	Земле	Земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	conj	_	start_char=230|end_char=235	
+29	.	.	PUNCT	_	_	4	punct	_	start_char=235|end_char=236	
+
+#text = Всего вам доброго ! 
+#par_id = 22
+#sent_id = 1
+#speaker = В.Путин
+1	Всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=4|end_char=9	
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	3	iobj	_	start_char=10|end_char=13	
+3	доброго	добрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=21	
+4	!	!	PUNCT	_	_	3	punct	_	start_char=21|end_char=22	
+
+#text = Удачи ! 
+#par_id = 22
+#sent_id = 2
+#speaker = В.Путин
+1	Удачи	удача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=23|end_char=28	
+2	!	!	PUNCT	_	_	1	punct	_	start_char=28|end_char=29	
+
+#text = Действительно , этот год является перекрёстным годом , и мы с Президентом господином Путиным будем участвовать в открытии перекрёстного года между Японией и Россией . 
+#par_id = 23
+#sent_id = 1
+#speaker = С.Абэ
+1	Действительно	действительно	ADV	_	Degree=Pos	5	parataxis	_	start_char=4|end_char=17	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=17|end_char=18	
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	start_char=19|end_char=23	
+4	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=24|end_char=27	
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=28|end_char=36	
+6	перекрёстным	перекрестный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=37|end_char=49	
+7	годом	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	start_char=50|end_char=55	
+8	,	,	PUNCT	_	_	16	punct	_	start_char=55|end_char=56	
+9	и	и	CCONJ	_	_	16	cc	_	start_char=57|end_char=58	
+10	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	16	nsubj	_	start_char=59|end_char=61	
+11	с	с	ADP	_	_	12	case	_	start_char=62|end_char=63	
+12	Президентом	Президент	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	start_char=64|end_char=75	
+13	господином	господин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	start_char=76|end_char=86	
+14	Путиным	Путин	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	appos	_	start_char=87|end_char=94	
+15	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	start_char=95|end_char=100	
+16	участвовать	участвовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	start_char=101|end_char=112	
+17	в	в	ADP	_	_	18	case	_	start_char=113|end_char=114	
+18	открытии	открытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	start_char=115|end_char=123	
+19	перекрёстного	перекрестный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=124|end_char=137	
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=138|end_char=142	
+21	между	между	ADP	_	_	22	case	_	start_char=143|end_char=148	
+22	Японией	Япония	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	start_char=149|end_char=156	
+23	и	и	CCONJ	_	_	24	cc	_	start_char=157|end_char=158	
+24	Россией	Россия	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	conj	_	start_char=159|end_char=166	
+25	.	.	PUNCT	_	_	5	punct	_	start_char=166|end_char=167	
+
+#text = Не только на Земле , но и в космосе проводятся разные мероприятия , которые как раз подходят к нашему перекрёстному году . 
+#par_id = 23
+#sent_id = 2
+#speaker = С.Абэ
+1	Не	не	PART	_	_	2	advmod	_	start_char=168|end_char=170	
+2	только	только	PART	_	_	4	advmod	_	start_char=171|end_char=177	
+3	на	на	ADP	_	_	4	case	_	start_char=178|end_char=180	
+4	Земле	Земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	start_char=181|end_char=186	
+5	,	,	PUNCT	_	_	9	punct	_	start_char=186|end_char=187	
+6	но	но	CCONJ	_	_	9	cc	_	start_char=188|end_char=190	
+7	и	и	PART	_	_	6	advmod	_	start_char=191|end_char=192	
+8	в	в	ADP	_	_	9	case	_	start_char=193|end_char=194	
+9	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	start_char=195|end_char=202	
+10	проводятся	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=203|end_char=213	
+11	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	start_char=214|end_char=220	
+12	мероприятия	мероприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	start_char=221|end_char=232	
+13	,	,	PUNCT	_	_	17	punct	_	start_char=232|end_char=233	
+14	которые	который	PRON	_	Case=Nom	17	nsubj	_	start_char=234|end_char=241	
+15	как	как	SCONJ	_	_	17	advmod	_	start_char=242|end_char=245	
+16	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	fixed	_	start_char=246|end_char=249	
+17	подходят	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	start_char=250|end_char=258	
+18	к	к	ADP	_	_	21	case	_	start_char=259|end_char=260	
+19	нашему	наш	DET	_	Case=Dat|Gender=Masc|Number=Sing	21	det	_	start_char=261|end_char=267	
+20	перекрёстному	перекрестный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=268|end_char=281	
+21	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	start_char=282|end_char=286	
+22	.	.	PUNCT	_	_	10	punct	_	start_char=286|end_char=287	
+
+#text = Позвольте мне в заключение , пользуясь случаем , пожелать вам , космонавтам , удачи в вашей дальнейшей работе . 
+#par_id = 24
+#sent_id = 1
+#speaker = С.Абэ
+1	Позвольте	позволить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=13	
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	1	iobj	_	start_char=14|end_char=17	
+3	в	в	ADP	_	_	4	case	_	start_char=18|end_char=19	
+4	заключение	заключение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=20|end_char=30	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=30|end_char=31	
+6	пользуясь	пользоваться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	9	advcl	_	start_char=32|end_char=41	
+7	случаем	случай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=42|end_char=49	
+8	,	,	PUNCT	_	_	6	punct	_	start_char=49|end_char=50	
+9	пожелать	желать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=51|end_char=59	
+10	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	9	iobj	_	start_char=60|end_char=63	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=63|end_char=64	
+12	космонавтам	космонавт	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	conj	_	start_char=65|end_char=76	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=76|end_char=77	
+14	удачи	удача	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	10	conj	_	start_char=78|end_char=83	
+15	в	в	ADP	_	_	18	case	_	start_char=84|end_char=85	
+16	вашей	ваш	DET	_	Case=Loc|Gender=Fem|Number=Sing	18	det	_	start_char=86|end_char=91	
+17	дальнейшей	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=92|end_char=102	
+18	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	start_char=103|end_char=109	
+19	.	.	PUNCT	_	_	1	punct	_	start_char=109|end_char=110	
+

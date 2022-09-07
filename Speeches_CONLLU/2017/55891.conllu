@@ -1,0 +1,220 @@
+#text = Добрый день , дорогие друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Добрый	добрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=15|end_char=16	
+4	дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=17|end_char=24	
+5	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=25|end_char=31	
+6	!	!	PUNCT	_	_	2	punct	_	start_char=31|end_char=32	
+
+#text = Здравствуйте ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Здравствуйте	здравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=33|end_char=45	
+2	!	!	PUNCT	_	_	1	punct	_	start_char=45|end_char=46	
+
+#text = Фестивальная неделя в Сочи , в России подходит к своему завершению . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Фестивальная	фестивальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=4|end_char=16	
+2	неделя	неделя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=17|end_char=23	
+3	в	в	ADP	_	_	4	case	_	start_char=24|end_char=25	
+4	Сочи	Сочи	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	start_char=26|end_char=30	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=30|end_char=31	
+6	в	в	ADP	_	_	7	case	_	start_char=32|end_char=33	
+7	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	start_char=34|end_char=40	
+8	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=49	
+9	к	к	ADP	_	_	11	case	_	start_char=50|end_char=51	
+10	своему	свой	DET	_	Case=Dat|Gender=Neut|Number=Sing	11	det	_	start_char=52|end_char=58	
+11	завершению	завершение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=59|end_char=69	
+12	.	.	PUNCT	_	_	8	punct	_	start_char=69|end_char=70	
+
+#text = Но я уверен , что это пошло на пользу 30 тысячам молодых людей , которые приехали в нашу страну со всего мира . 
+#par_id = 2
+#sent_id = 2
+#speaker = В.Путин
+1	Но	но	CCONJ	_	_	3	cc	_	start_char=71|end_char=73	
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	start_char=74|end_char=75	
+3	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=76|end_char=82	
+4	,	,	PUNCT	_	_	7	punct	_	start_char=82|end_char=83	
+5	что	что	SCONJ	_	_	7	mark	_	start_char=84|end_char=87	
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=88|end_char=91	
+7	пошло	пойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=92|end_char=97	
+8	на	на	ADP	_	_	9	case	_	start_char=98|end_char=100	
+9	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=101|end_char=107	
+10	30	30	NUM	_	_	11	nummod	_	start_char=108|end_char=110	
+11	тысячам	тысяча	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	9	iobj	_	start_char=111|end_char=118	
+12	молодых	молодой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=119|end_char=126	
+13	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=127|end_char=132	
+14	,	,	PUNCT	_	_	16	punct	_	start_char=132|end_char=133	
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	start_char=134|end_char=141	
+16	приехали	приехать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=142|end_char=150	
+17	в	в	ADP	_	_	19	case	_	start_char=151|end_char=152	
+18	нашу	наш	DET	_	Case=Acc|Gender=Fem|Number=Sing	19	det	_	start_char=153|end_char=157	
+19	страну	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=158|end_char=164	
+20	со	с	ADP	_	_	22	case	_	start_char=165|end_char=167	
+21	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	22	det	_	start_char=168|end_char=173	
+22	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	start_char=174|end_char=178	
+23	.	.	PUNCT	_	_	3	punct	_	start_char=178|end_char=179	
+
+#text = Спасибо , что доверяете нам . 
+#par_id = 2
+#sent_id = 3
+#speaker = В.Путин
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=180|end_char=187	
+2	,	,	PUNCT	_	_	4	punct	_	start_char=187|end_char=188	
+3	что	что	PRON	_	Case=Acc	4	obj	_	start_char=189|end_char=192	
+4	доверяете	доверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=193|end_char=202	
+5	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	4	iobj	_	start_char=203|end_char=206	
+6	.	.	PUNCT	_	_	1	punct	_	start_char=206|end_char=207	
+
+#text = Поздравляю всех , кто принял активное участие в мероприятиях фестиваля . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=14	
+2	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	1	obj	_	start_char=15|end_char=19	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=19|end_char=20	
+4	кто	кто	PRON	_	Case=Nom	5	nsubj	_	start_char=21|end_char=24	
+5	принял	принять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=25|end_char=31	
+6	активное	активный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=32|end_char=40	
+7	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=41|end_char=48	
+8	в	в	ADP	_	_	9	case	_	start_char=49|end_char=50	
+9	мероприятиях	мероприятие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	nmod	_	start_char=51|end_char=63	
+10	фестиваля	фестиваль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=64|end_char=73	
+11	.	.	PUNCT	_	_	1	punct	_	start_char=73|end_char=74	
+
+#text = Знаю , что на фестивале царила необычная , абсолютно необычная энергетика , так же как она царит сегодня на этой площади . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=75|end_char=79	
+2	,	,	PUNCT	_	_	6	punct	_	start_char=79|end_char=80	
+3	что	что	SCONJ	_	_	6	mark	_	start_char=81|end_char=84	
+4	на	на	ADP	_	_	5	case	_	start_char=85|end_char=87	
+5	фестивале	фестиваль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=88|end_char=97	
+6	царила	царить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=98|end_char=104	
+7	необычная	необычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=105|end_char=114	
+8	,	,	PUNCT	_	_	10	punct	_	start_char=114|end_char=115	
+9	абсолютно	абсолютно	ADV	_	Degree=Pos	10	obl	_	start_char=116|end_char=125	
+10	необычная	необычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	start_char=126|end_char=135	
+11	энергетика	энергетика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=136|end_char=146	
+12	,	,	PUNCT	_	_	17	punct	_	start_char=146|end_char=147	
+13	так	так	ADV	_	Degree=Pos	17	mark	_	start_char=148|end_char=151	
+14	же	же	PART	_	_	13	fixed	_	start_char=152|end_char=154	
+15	как	как	SCONJ	_	_	13	fixed	_	start_char=155|end_char=158	
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	start_char=159|end_char=162	
+17	царит	царить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=163|end_char=168	
+18	сегодня	сегодня	ADV	_	Degree=Pos	17	advmod	_	start_char=169|end_char=176	
+19	на	на	ADP	_	_	21	case	_	start_char=177|end_char=179	
+20	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	21	det	_	start_char=180|end_char=184	
+21	площади	площадь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	start_char=185|end_char=192	
+22	.	.	PUNCT	_	_	1	punct	_	start_char=192|end_char=193	
+
+#text = Это энергетика молодых . 
+#par_id = 3
+#sent_id = 3
+#speaker = В.Путин
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=194|end_char=197	
+2	энергетика	энергетика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=198|end_char=208	
+3	молодых	молодой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	nmod	_	start_char=209|end_char=216	
+4	.	.	PUNCT	_	_	2	punct	_	start_char=216|end_char=217	
+
+#text = Уверен , что , уезжая из России , вы оставите здесь частичку своего сердца . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=10	
+2	,	,	PUNCT	_	_	10	punct	_	start_char=10|end_char=11	
+3	что	что	SCONJ	_	_	10	mark	_	start_char=12|end_char=15	
+4	,	,	PUNCT	_	_	3	punct	_	start_char=15|end_char=16	
+5	уезжая	уезжать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	start_char=17|end_char=23	
+6	из	из	ADP	_	_	7	case	_	start_char=24|end_char=26	
+7	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	start_char=27|end_char=33	
+8	,	,	PUNCT	_	_	5	punct	_	start_char=33|end_char=34	
+9	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	10	nsubj	_	start_char=35|end_char=37	
+10	оставите	оставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=38|end_char=46	
+11	здесь	здесь	ADV	_	Degree=Pos	10	advmod	_	start_char=47|end_char=52	
+12	частичку	частичка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=53|end_char=61	
+13	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	14	det	_	start_char=62|end_char=68	
+14	сердца	сердце	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=69|end_char=75	
+15	.	.	PUNCT	_	_	1	punct	_	start_char=75|end_char=76	
+
+#text = Но Россия всегда останется в вашем сердце . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Но	но	CCONJ	_	_	4	cc	_	start_char=77|end_char=79	
+2	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=80|end_char=86	
+3	всегда	всегда	ADV	_	Degree=Pos	4	advmod	_	start_char=87|end_char=93	
+4	останется	остаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=94|end_char=103	
+5	в	в	ADP	_	_	7	case	_	start_char=104|end_char=105	
+6	вашем	ваш	DET	_	Case=Loc|Gender=Neut|Number=Sing	7	det	_	start_char=106|end_char=111	
+7	сердце	сердце	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=112|end_char=118	
+8	.	.	PUNCT	_	_	4	punct	_	start_char=118|end_char=119	
+
+#text = Мы верим в вас . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=120|end_char=122	
+2	верим	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=123|end_char=128	
+3	в	в	ADP	_	_	4	case	_	start_char=129|end_char=130	
+4	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	2	obl	_	start_char=131|end_char=134	
+5	.	.	PUNCT	_	_	2	punct	_	start_char=134|end_char=135	
+
+#text = The future starts here and now . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин (по-английски)
+1	The	The	PROPN	_	Foreign=Yes	0	root	_	start_char=4|end_char=7	
+2	future	future	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=8|end_char=14	
+3	starts	starts	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=15|end_char=21	
+4	here	here	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=22|end_char=26	
+5	and	and	X	_	Foreign=Yes	1	flat:foreign	_	start_char=27|end_char=30	
+6	now	now	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=31|end_char=34	
+7	.	.	PUNCT	_	_	1	punct	_	start_char=34|end_char=35	
+
+#text = The future is you . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин (по-английски)
+1	The	The	PROPN	_	Foreign=Yes	0	root	_	start_char=36|end_char=39	
+2	future	future	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=40|end_char=46	
+3	is	is	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=47|end_char=49	
+4	you	you	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=50|end_char=53	
+5	.	.	PUNCT	_	_	1	punct	_	start_char=53|end_char=54	
+
+#text = All the best , dear friends . 
+#par_id = 5
+#sent_id = 3
+#speaker = В.Путин (по-английски)
+1	All	All	PROPN	_	Foreign=Yes	0	root	_	start_char=55|end_char=58	
+2	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=59|end_char=62	
+3	best	best	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=63|end_char=67	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=67|end_char=68	
+5	dear	dear	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=69|end_char=73	
+6	friends	friends	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=74|end_char=81	
+7	.	.	PUNCT	_	_	1	punct	_	start_char=81|end_char=82	
+
+#text = All the best . 
+#par_id = 5
+#sent_id = 4
+#speaker = В.Путин (по-английски)
+1	All	All	PROPN	_	Foreign=Yes	0	root	_	start_char=83|end_char=86	
+2	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=87|end_char=90	
+3	best	best	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=91|end_char=95	
+4	.	.	PUNCT	_	_	1	punct	_	start_char=95|end_char=96	
+
+#text = Thank you . 
+#par_id = 5
+#sent_id = 5
+#speaker = В.Путин (по-английски)
+1	Thank	Thank	PROPN	_	Foreign=Yes	0	root	_	start_char=97|end_char=102	
+2	you	you	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=103|end_char=106	
+3	.	.	PUNCT	_	_	1	punct	_	start_char=106|end_char=107	
+

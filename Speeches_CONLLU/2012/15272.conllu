@@ -1,0 +1,529 @@
+#text = Дорогие наши ветераны ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=4|end_char=11	
+2	наши	наш	DET	_	Case=Nom|Number=Plur	3	det	_	start_char=12|end_char=16	
+3	ветераны	ветеран	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=17|end_char=25	
+4	!	!	PUNCT	_	_	3	punct	_	start_char=25|end_char=26	
+
+#text = Уважаемые коллеги , друзья ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=27|end_char=36	
+2	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=37|end_char=44	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=44|end_char=45	
+4	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=46|end_char=52	
+5	!	!	PUNCT	_	_	2	punct	_	start_char=52|end_char=53	
+
+#text = Сегодня все мы испытываем одинаковые чувства . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	4	advmod	_	start_char=4|end_char=11	
+2	все	весь	DET	_	Case=Nom|Number=Plur	3	det	_	start_char=12|end_char=15	
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	start_char=16|end_char=18	
+4	испытываем	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=29	
+5	одинаковые	одинаковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=30|end_char=40	
+6	чувства	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=41|end_char=48	
+7	.	.	PUNCT	_	_	4	punct	_	start_char=48|end_char=49	
+
+#text = Нас переполняет гордость за свою страну , разгромившую нацизм , за наш великий народ , победивший в битве , равной которой не знала история . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	2	obj	_	start_char=4|end_char=7	
+2	переполняет	переполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=19	
+3	гордость	гордость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=20|end_char=28	
+4	за	за	ADP	_	_	6	case	_	start_char=29|end_char=31	
+5	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	det	_	start_char=32|end_char=36	
+6	страну	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=37|end_char=43	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=43|end_char=44	
+8	разгромившую	разгромить	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl	_	start_char=45|end_char=57	
+9	нацизм	нацизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=58|end_char=64	
+10	,	,	PUNCT	_	_	14	punct	_	start_char=64|end_char=65	
+11	за	за	ADP	_	_	14	case	_	start_char=66|end_char=68	
+12	наш	наш	DET	_	Case=Acc|Gender=Masc|Number=Sing	14	det	_	start_char=69|end_char=72	
+13	великий	великий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=73|end_char=80	
+14	народ	народ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	start_char=81|end_char=86	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=86|end_char=87	
+16	победивший	победить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	acl	_	start_char=88|end_char=98	
+17	в	в	ADP	_	_	18	case	_	start_char=99|end_char=100	
+18	битве	битва	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	start_char=101|end_char=106	
+19	,	,	PUNCT	_	_	23	punct	_	start_char=106|end_char=107	
+20	равной	равный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=108|end_char=114	
+21	которой	который	PRON	_	Case=Gen	23	obl	_	start_char=115|end_char=122	
+22	не	не	PART	_	_	23	advmod	_	start_char=123|end_char=125	
+23	знала	знать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	start_char=126|end_char=131	
+24	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	start_char=132|end_char=139	
+25	.	.	PUNCT	_	_	2	punct	_	start_char=139|end_char=140	
+
+#text = И мы скорбим о миллионах погибших в той беспощадной войне , о тех , кто навечно остался на полях сражений и под руинами городов , на пепелищах тысяч сёл и деревень . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	3	cc	_	start_char=4|end_char=5	
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	start_char=6|end_char=8	
+3	скорбим	скорбать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=9|end_char=16	
+4	о	о	ADP	_	_	5	case	_	start_char=17|end_char=18	
+5	миллионах	миллион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	start_char=19|end_char=28	
+6	погибших	погибнуть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	nmod	_	start_char=29|end_char=37	
+7	в	в	ADP	_	_	10	case	_	start_char=38|end_char=39	
+8	той	тот	DET	_	Case=Loc|Gender=Fem|Number=Sing	10	det	_	start_char=40|end_char=43	
+9	беспощадной	беспощадный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=44|end_char=55	
+10	войне	война	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	start_char=56|end_char=61	
+11	,	,	PUNCT	_	_	13	punct	_	start_char=61|end_char=62	
+12	о	о	ADP	_	_	13	case	_	start_char=63|end_char=64	
+13	тех	тот	DET	_	Case=Loc|Number=Plur	5	det	_	start_char=65|end_char=68	
+14	,	,	PUNCT	_	_	17	punct	_	start_char=68|end_char=69	
+15	кто	кто	PRON	_	Case=Nom	17	nsubj	_	start_char=70|end_char=73	
+16	навечно	навечно	ADV	_	Degree=Pos	17	advmod	_	start_char=74|end_char=81	
+17	остался	остаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	start_char=82|end_char=89	
+18	на	на	ADP	_	_	19	case	_	start_char=90|end_char=92	
+19	полях	поле	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	17	obl	_	start_char=93|end_char=98	
+20	сражений	сражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	start_char=99|end_char=107	
+21	и	и	CCONJ	_	_	23	cc	_	start_char=108|end_char=109	
+22	под	под	ADP	_	_	23	case	_	start_char=110|end_char=113	
+23	руинами	руин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	19	conj	_	start_char=114|end_char=121	
+24	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	start_char=122|end_char=129	
+25	,	,	PUNCT	_	_	27	punct	_	start_char=129|end_char=130	
+26	на	на	ADP	_	_	27	case	_	start_char=131|end_char=133	
+27	пепелищах	пепелища	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	19	conj	_	start_char=134|end_char=143	
+28	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	start_char=144|end_char=149	
+29	сёл	село	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	start_char=150|end_char=153	
+30	и	и	CCONJ	_	_	31	cc	_	start_char=154|end_char=155	
+31	деревень	деревня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	conj	_	start_char=156|end_char=164	
+32	.	.	PUNCT	_	_	3	punct	_	start_char=164|end_char=165	
+
+#text = Мы всегда будем помнить , какой ценой завоёвана Победа . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	start_char=4|end_char=6	
+2	всегда	всегда	ADV	_	Degree=Pos	4	advmod	_	start_char=7|end_char=13	
+3	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=14|end_char=19	
+4	помнить	помнить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=20|end_char=27	
+5	,	,	PUNCT	_	_	8	punct	_	start_char=27|end_char=28	
+6	какой	какой	DET	_	Case=Ins|Gender=Fem|Number=Sing	7	det	_	start_char=29|end_char=34	
+7	ценой	цена	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	start_char=35|end_char=40	
+8	завоёвана	завоевать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	ccomp	_	start_char=41|end_char=50	
+9	Победа	Победа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	start_char=51|end_char=57	
+10	.	.	PUNCT	_	_	4	punct	_	start_char=57|end_char=58	
+
+#text = Не забудем преступных злодеяний врага , вероломно напавшего на нашу Родину . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Не	не	PART	_	_	2	advmod	_	start_char=59|end_char=61	
+2	забудем	забудить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=62|end_char=69	
+3	преступных	преступный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	start_char=70|end_char=80	
+4	злодеяний	злодеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	start_char=81|end_char=90	
+5	врага	враг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=91|end_char=96	
+6	,	,	PUNCT	_	_	8	punct	_	start_char=96|end_char=97	
+7	вероломно	вероломно	ADV	_	Degree=Pos	8	advmod	_	start_char=98|end_char=107	
+8	напавшего	напасть	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=108|end_char=117	
+9	на	на	ADP	_	_	11	case	_	start_char=118|end_char=120	
+10	нашу	наш	DET	_	Case=Acc|Gender=Fem|Number=Sing	11	det	_	start_char=121|end_char=125	
+11	Родину	Родина	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=126|end_char=132	
+12	.	.	PUNCT	_	_	2	punct	_	start_char=132|end_char=133	
+
+#text = Сейчас везде , в России , в странах Содружества , в дальнем зарубежье отмечают наш общий праздник . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Сейчас	сейчас	ADV	_	Degree=Pos	14	advmod	_	start_char=4|end_char=10	
+2	везде	везде	ADV	_	Degree=Pos	14	advmod	_	start_char=11|end_char=16	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=16|end_char=17	
+4	в	в	ADP	_	_	5	case	_	start_char=18|end_char=19	
+5	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	start_char=20|end_char=26	
+6	,	,	PUNCT	_	_	8	punct	_	start_char=26|end_char=27	
+7	в	в	ADP	_	_	8	case	_	start_char=28|end_char=29	
+8	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	conj	_	start_char=30|end_char=37	
+9	Содружества	Содружество	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=38|end_char=49	
+10	,	,	PUNCT	_	_	13	punct	_	start_char=49|end_char=50	
+11	в	в	ADP	_	_	13	case	_	start_char=51|end_char=52	
+12	дальнем	дальний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=53|end_char=60	
+13	зарубежье	зарубежье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	conj	_	start_char=61|end_char=70	
+14	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=71|end_char=79	
+15	наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	17	det	_	start_char=80|end_char=83	
+16	общий	общий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=84|end_char=89	
+17	праздник	праздник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=90|end_char=98	
+18	.	.	PUNCT	_	_	14	punct	_	start_char=98|end_char=99	
+
+#text = И в каждой семье есть и свои герои , и свои воспоминания . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	5	cc	_	start_char=100|end_char=101	
+2	в	в	ADP	_	_	4	case	_	start_char=102|end_char=103	
+3	каждой	каждый	DET	_	Case=Loc|Gender=Fem|Number=Sing	4	det	_	start_char=104|end_char=110	
+4	семье	семья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=111|end_char=116	
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=117|end_char=121	
+6	и	и	PART	_	_	7	advmod	_	start_char=122|end_char=123	
+7	свои	свой	DET	_	Case=Nom|Number=Plur	8	det	_	start_char=124|end_char=128	
+8	герои	герой	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=129|end_char=134	
+9	,	,	PUNCT	_	_	12	punct	_	start_char=134|end_char=135	
+10	и	и	CCONJ	_	_	12	cc	_	start_char=136|end_char=137	
+11	свои	свой	DET	_	Case=Nom|Number=Plur	12	det	_	start_char=138|end_char=142	
+12	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	conj	_	start_char=143|end_char=155	
+13	.	.	PUNCT	_	_	5	punct	_	start_char=155|end_char=156	
+
+#text = Такой этот день – День Победы ! 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	start_char=4|end_char=9	
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	start_char=10|end_char=14	
+3	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=15|end_char=19	
+4	–	–	PUNCT	_	_	5	punct	_	start_char=20|end_char=21	
+5	День	День	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	start_char=22|end_char=26	
+6	Победы	Победа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=27|end_char=33	
+7	!	!	PUNCT	_	_	3	punct	_	start_char=33|end_char=34	
+
+#text = Самый правдивый и самый народный . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	Самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=35|end_char=40	
+2	правдивый	правдивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=41|end_char=50	
+3	и	и	CCONJ	_	_	5	cc	_	start_char=51|end_char=52	
+4	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=53|end_char=58	
+5	народный	народный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	start_char=59|end_char=67	
+6	.	.	PUNCT	_	_	2	punct	_	start_char=67|end_char=68	
+
+#text = День благодарности и поклонения нашим дорогим ветеранам . 
+#par_id = 7
+#sent_id = 3
+#speaker = В.Путин
+1	День	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=69|end_char=73	
+2	благодарности	благодарность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=74|end_char=87	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=88|end_char=89	
+4	поклонения	поклонение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	start_char=90|end_char=100	
+5	нашим	наш	DET	_	Case=Dat|Number=Plur	7	det	_	start_char=101|end_char=106	
+6	дорогим	дорогой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	start_char=107|end_char=114	
+7	ветеранам	ветеран	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	start_char=115|end_char=124	
+8	.	.	PUNCT	_	_	1	punct	_	start_char=124|end_char=125	
+
+#text = 9 Мая – это , уважаемые ветераны , прежде всего ваш день . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	9	9	NUM	_	_	7	nummod	_	start_char=4|end_char=5	
+2	Мая	Май	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=9	
+3	–	–	PUNCT	_	_	1	punct	_	start_char=10|end_char=11	
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=12|end_char=15	
+5	,	,	PUNCT	_	_	4	punct	_	start_char=15|end_char=16	
+6	уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	start_char=17|end_char=26	
+7	ветераны	ветеран	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=27|end_char=35	
+8	,	,	PUNCT	_	_	12	punct	_	start_char=35|end_char=36	
+9	прежде	прежде	ADP	_	_	12	advmod	_	start_char=37|end_char=43	
+10	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	fixed	_	start_char=44|end_char=49	
+11	ваш	ваш	DET	_	Case=Nom|Gender=Masc|Number=Sing	12	det	_	start_char=50|end_char=53	
+12	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	start_char=54|end_char=58	
+13	.	.	PUNCT	_	_	7	punct	_	start_char=58|end_char=59	
+
+#text = И мы искренне рады сегодня быть рядом с вами . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=60|end_char=61	
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	start_char=62|end_char=64	
+3	искренне	искренне	ADV	_	Degree=Pos	4	advmod	_	start_char=65|end_char=73	
+4	рады	рад	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=74|end_char=78	
+5	сегодня	сегодня	ADV	_	Degree=Pos	4	advmod	_	start_char=79|end_char=86	
+6	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	cop	_	start_char=87|end_char=91	
+7	рядом	рядом	ADV	_	Degree=Pos	4	advmod	_	start_char=92|end_char=97	
+8	с	с	ADP	_	_	9	case	_	start_char=98|end_char=99	
+9	вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2	7	obl	_	start_char=100|end_char=104	
+10	.	.	PUNCT	_	_	4	punct	_	start_char=104|end_char=105	
+
+#text = Позвольте ещё раз сердечно поздравить вас , отдать дань глубокого уважения той невиданной силе духа , с которой вы воевали , трудились в тылу , переносили потери и испытания , и не сломались , не дрогнули , не отступили . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Позвольте	позволить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=13	
+2	ещё	еще	ADV	_	Degree=Pos	3	obl	_	start_char=14|end_char=17	
+3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=18|end_char=21	
+4	сердечно	сердечно	ADV	_	Degree=Pos	5	advmod	_	start_char=22|end_char=30	
+5	поздравить	поздравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=31|end_char=41	
+6	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	5	obj	_	start_char=42|end_char=45	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=45|end_char=46	
+8	отдать	отдать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	start_char=47|end_char=53	
+9	дань	дань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=54|end_char=58	
+10	глубокого	глубокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=59|end_char=68	
+11	уважения	уважение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=69|end_char=77	
+12	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	det	_	start_char=78|end_char=81	
+13	невиданной	невиданный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=82|end_char=92	
+14	силе	сила	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	start_char=93|end_char=97	
+15	духа	дух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=98|end_char=102	
+16	,	,	PUNCT	_	_	20	punct	_	start_char=102|end_char=103	
+17	с	с	ADP	_	_	18	case	_	start_char=104|end_char=105	
+18	которой	который	PRON	_	Case=Gen	20	obl	_	start_char=106|end_char=113	
+19	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	20	nsubj	_	start_char=114|end_char=116	
+20	воевали	воевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=117|end_char=124	
+21	,	,	PUNCT	_	_	22	punct	_	start_char=124|end_char=125	
+22	трудились	трудиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	20	conj	_	start_char=126|end_char=135	
+23	в	в	ADP	_	_	24	case	_	start_char=136|end_char=137	
+24	тылу	тыл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	start_char=138|end_char=142	
+25	,	,	PUNCT	_	_	26	punct	_	start_char=142|end_char=143	
+26	переносили	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	start_char=144|end_char=154	
+27	потери	потеря	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	start_char=155|end_char=161	
+28	и	и	CCONJ	_	_	29	cc	_	start_char=162|end_char=163	
+29	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	27	conj	_	start_char=164|end_char=173	
+30	,	,	PUNCT	_	_	33	punct	_	start_char=173|end_char=174	
+31	и	и	CCONJ	_	_	33	cc	_	start_char=175|end_char=176	
+32	не	не	PART	_	_	33	advmod	_	start_char=177|end_char=179	
+33	сломались	ломаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	20	conj	_	start_char=180|end_char=189	
+34	,	,	PUNCT	_	_	36	punct	_	start_char=189|end_char=190	
+35	не	не	PART	_	_	36	advmod	_	start_char=191|end_char=193	
+36	дрогнули	дрогнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	start_char=194|end_char=202	
+37	,	,	PUNCT	_	_	39	punct	_	start_char=202|end_char=203	
+38	не	не	PART	_	_	39	advmod	_	start_char=204|end_char=206	
+39	отступили	отступить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	start_char=207|end_char=216	
+40	.	.	PUNCT	_	_	1	punct	_	start_char=216|end_char=217	
+
+#text = Ваша судьба – пример для всех поколений нашей большой , многонациональной страны . 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	Ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	судьба	судьба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=9|end_char=15	
+3	–	–	PUNCT	_	_	2	punct	_	start_char=16|end_char=17	
+4	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=18|end_char=24	
+5	для	для	ADP	_	_	7	case	_	start_char=25|end_char=28	
+6	всех	весь	DET	_	Case=Gen|Number=Plur	7	det	_	start_char=29|end_char=33	
+7	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	start_char=34|end_char=43	
+8	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	12	det	_	start_char=44|end_char=49	
+9	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=50|end_char=57	
+10	,	,	PUNCT	_	_	11	punct	_	start_char=57|end_char=58	
+11	многонациональной	многонациональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	start_char=59|end_char=76	
+12	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=77|end_char=83	
+13	.	.	PUNCT	_	_	4	punct	_	start_char=83|end_char=84	
+
+#text = А ваше бескорыстное братство стало нашим бесценным наследием . 
+#par_id = 10
+#sent_id = 2
+#speaker = В.Путин
+1	А	а	CCONJ	_	_	5	cc	_	start_char=85|end_char=86	
+2	ваше	ваш	DET	_	Case=Nom|Gender=Neut|Number=Sing	4	det	_	start_char=87|end_char=91	
+3	бескорыстное	бескорыстный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=92|end_char=104	
+4	братство	братство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=105|end_char=113	
+5	стало	стать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=114|end_char=119	
+6	нашим	наш	DET	_	Case=Ins|Gender=Neut|Number=Sing	8	det	_	start_char=120|end_char=125	
+7	бесценным	бесценный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=126|end_char=135	
+8	наследием	наследие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	start_char=136|end_char=145	
+9	.	.	PUNCT	_	_	5	punct	_	start_char=145|end_char=146	
+
+#text = Мы снова и снова говорим вам спасибо за то , что можем спокойно трудиться , созидать и мечтать , за то , что родились наши дети и внуки . 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	start_char=4|end_char=6	
+2	снова	снова	ADV	_	Degree=Pos	5	advmod	_	start_char=7|end_char=12	
+3	и	и	PART	_	_	4	cc	_	start_char=13|end_char=14	
+4	снова	снова	ADV	_	Degree=Pos	2	conj	_	start_char=15|end_char=20	
+5	говорим	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=28	
+6	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	5	iobj	_	start_char=29|end_char=32	
+7	спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=33|end_char=40	
+8	за	за	ADP	_	_	9	case	_	start_char=41|end_char=43	
+9	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=44|end_char=46	
+10	,	,	PUNCT	_	_	12	punct	_	start_char=46|end_char=47	
+11	что	что	SCONJ	_	_	12	mark	_	start_char=48|end_char=51	
+12	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	_	start_char=52|end_char=57	
+13	спокойно	спокойно	ADV	_	Degree=Pos	14	advmod	_	start_char=58|end_char=66	
+14	трудиться	трудиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	xcomp	_	start_char=67|end_char=76	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=76|end_char=77	
+16	созидать	созидать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	conj	_	start_char=78|end_char=86	
+17	и	и	CCONJ	_	_	18	cc	_	start_char=87|end_char=88	
+18	мечтать	мечтать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	conj	_	start_char=89|end_char=96	
+19	,	,	PUNCT	_	_	21	punct	_	start_char=96|end_char=97	
+20	за	за	ADP	_	_	21	case	_	start_char=98|end_char=100	
+21	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	conj	_	start_char=101|end_char=103	
+22	,	,	PUNCT	_	_	24	punct	_	start_char=103|end_char=104	
+23	что	что	SCONJ	_	_	24	mark	_	start_char=105|end_char=108	
+24	родились	рождаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	21	acl	_	start_char=109|end_char=117	
+25	наши	наш	DET	_	Case=Nom|Number=Plur	26	det	_	start_char=118|end_char=122	
+26	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	start_char=123|end_char=127	
+27	и	и	CCONJ	_	_	28	cc	_	start_char=128|end_char=129	
+28	внуки	внук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	conj	_	start_char=130|end_char=135	
+29	.	.	PUNCT	_	_	5	punct	_	start_char=135|end_char=136	
+
+#text = И мы сделаем всё возможное , чтобы и они бережно хранили память о подвигах героев Великой Оте­чественной войны , знали её уроки во имя безопасной , спокойной и мирной жизни , осознавали свою ответственность за судьбу России и вносили свой вклад в развитие традиций сплочённости и подлинного патриотизма . 
+#par_id = 12
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	3	cc	_	start_char=4|end_char=5	
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	start_char=6|end_char=8	
+3	сделаем	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=9|end_char=16	
+4	всё	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=17|end_char=20	
+5	возможное	возможный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=21|end_char=30	
+6	,	,	PUNCT	_	_	11	punct	_	start_char=30|end_char=31	
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	start_char=32|end_char=37	
+8	и	и	PART	_	_	9	advmod	_	start_char=38|end_char=39	
+9	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	start_char=40|end_char=43	
+10	бережно	бережно	ADV	_	Degree=Pos	11	advmod	_	start_char=44|end_char=51	
+11	хранили	хранить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=52|end_char=59	
+12	память	память	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=60|end_char=66	
+13	о	о	ADP	_	_	14	case	_	start_char=67|end_char=68	
+14	подвигах	подвиг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	start_char=69|end_char=77	
+15	героев	герой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=78|end_char=84	
+16	Великой	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=85|end_char=92	
+17	Оте­чественной	Оте­чественной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=93|end_char=107	
+18	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=108|end_char=113	
+19	,	,	PUNCT	_	_	20	punct	_	start_char=113|end_char=114	
+20	знали	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	start_char=115|end_char=120	
+21	её	ее	DET	_	_	22	det	_	start_char=121|end_char=123	
+22	уроки	урок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	start_char=124|end_char=129	
+23	во	в	ADP	_	_	24	case	_	start_char=130|end_char=132	
+24	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obl	_	start_char=133|end_char=136	
+25	безопасной	безопасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=137|end_char=147	
+26	,	,	PUNCT	_	_	27	punct	_	start_char=147|end_char=148	
+27	спокойной	спокойный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	start_char=149|end_char=158	
+28	и	и	CCONJ	_	_	29	cc	_	start_char=159|end_char=160	
+29	мирной	мирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	start_char=161|end_char=167	
+30	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=168|end_char=173	
+31	,	,	PUNCT	_	_	32	punct	_	start_char=173|end_char=174	
+32	осознавали	осознавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	start_char=175|end_char=185	
+33	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	34	det	_	start_char=186|end_char=190	
+34	ответственность	ответственность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	start_char=191|end_char=206	
+35	за	за	ADP	_	_	36	case	_	start_char=207|end_char=209	
+36	судьбу	судьба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	start_char=210|end_char=216	
+37	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	start_char=217|end_char=223	
+38	и	и	CCONJ	_	_	39	cc	_	start_char=224|end_char=225	
+39	вносили	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	start_char=226|end_char=233	
+40	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	41	det	_	start_char=234|end_char=238	
+41	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obj	_	start_char=239|end_char=244	
+42	в	в	ADP	_	_	43	case	_	start_char=245|end_char=246	
+43	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	nmod	_	start_char=247|end_char=255	
+44	традиций	традиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	43	nmod	_	start_char=256|end_char=264	
+45	сплочённости	сплоченность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	start_char=265|end_char=277	
+46	и	и	CCONJ	_	_	48	cc	_	start_char=278|end_char=279	
+47	подлинного	подлинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	48	amod	_	start_char=280|end_char=290	
+48	патриотизма	патриотизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	conj	_	start_char=291|end_char=302	
+49	.	.	PUNCT	_	_	3	punct	_	start_char=302|end_char=303	
+
+#text = Мы никогда не изменим вашим заветам – любить , беречь и защищать Россию , не изменим священной правде о войне . 
+#par_id = 13
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	start_char=4|end_char=6	
+2	никогда	никогда	ADV	_	Degree=Pos	4	advmod	_	start_char=7|end_char=14	
+3	не	не	PART	_	_	4	advmod	_	start_char=15|end_char=17	
+4	изменим	изменить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=25	
+5	вашим	ваш	DET	_	Case=Dat|Number=Plur	6	det	_	start_char=26|end_char=31	
+6	заветам	завет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	iobj	_	start_char=32|end_char=39	
+7	–	–	PUNCT	_	_	8	punct	_	start_char=40|end_char=41	
+8	любить	любить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	start_char=42|end_char=48	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=48|end_char=49	
+10	беречь	беречь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	conj	_	start_char=50|end_char=56	
+11	и	и	CCONJ	_	_	12	cc	_	start_char=57|end_char=58	
+12	защищать	защищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	conj	_	start_char=59|end_char=67	
+13	Россию	Россия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=68|end_char=74	
+14	,	,	PUNCT	_	_	16	punct	_	start_char=74|end_char=75	
+15	не	не	PART	_	_	16	advmod	_	start_char=76|end_char=78	
+16	изменим	изменить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	start_char=79|end_char=86	
+17	священной	священный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=87|end_char=96	
+18	правде	правда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	iobj	_	start_char=97|end_char=103	
+19	о	о	ADP	_	_	20	case	_	start_char=104|end_char=105	
+20	войне	война	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	start_char=106|end_char=111	
+21	.	.	PUNCT	_	_	4	punct	_	start_char=111|end_char=112	
+
+#text = И сколько бы лет ни отделяло нас от победного мая 1945 года , он навсегда останется символом справедливости и торжества самой жизни . 
+#par_id = 14
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	16	cc	_	start_char=4|end_char=5	
+2	сколько	сколько	NUM	_	_	6	mark	_	start_char=6|end_char=13	
+3	бы	бы	AUX	_	_	6	aux	_	start_char=14|end_char=16	
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=17|end_char=20	
+5	ни	ни	PART	_	_	6	advmod	_	start_char=21|end_char=23	
+6	отделяло	отделять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	_	start_char=24|end_char=32	
+7	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	6	obj	_	start_char=33|end_char=36	
+8	от	от	ADP	_	_	9	case	_	start_char=37|end_char=39	
+9	победного	победный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	start_char=40|end_char=49	
+10	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=50|end_char=53	
+11	1945	1945	NUM	_	_	12	nummod	_	start_char=54|end_char=58	
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=59|end_char=63	
+13	,	,	PUNCT	_	_	6	punct	_	start_char=63|end_char=64	
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	start_char=65|end_char=67	
+15	навсегда	навсегда	ADV	_	Degree=Pos	16	advmod	_	start_char=68|end_char=76	
+16	останется	остаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=77|end_char=86	
+17	символом	символ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	start_char=87|end_char=95	
+18	справедливости	справедливость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=96|end_char=110	
+19	и	и	CCONJ	_	_	20	cc	_	start_char=111|end_char=112	
+20	торжества	торжество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	start_char=113|end_char=122	
+21	самой	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=123|end_char=128	
+22	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=129|end_char=134	
+23	.	.	PUNCT	_	_	16	punct	_	start_char=134|end_char=135	
+
+#text = Позвольте мне предложить тост , поднять наши бокалы : 
+#par_id = 15
+#sent_id = 1
+#speaker = В.Путин
+1	Позвольте	позволить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=13	
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	1	iobj	_	start_char=14|end_char=17	
+3	предложить	предложить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=18|end_char=28	
+4	тост	тост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=29|end_char=33	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=33|end_char=34	
+6	поднять	поднять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	start_char=35|end_char=42	
+7	наши	наш	DET	_	Case=Acc|Number=Plur	8	det	_	start_char=43|end_char=47	
+8	бокалы	бокал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=48|end_char=54	
+9	:	:	PUNCT	_	_	1	punct	_	start_char=54|end_char=55	
+
+#text = За День Великой Победы и за всех , кто отстоял свободу и независимость нашей страны ! 
+#par_id = 16
+#sent_id = 1
+#speaker = В.Путин
+1	За	за	ADP	_	_	2	case	_	start_char=4|end_char=6	
+2	День	День	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	start_char=7|end_char=11	
+3	Великой	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=12|end_char=19	
+4	Победы	Победа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=20|end_char=26	
+5	и	и	CCONJ	_	_	7	cc	_	start_char=27|end_char=28	
+6	за	за	ADP	_	_	7	case	_	start_char=29|end_char=31	
+7	всех	весь	DET	_	Case=Acc|Number=Plur	2	det	_	start_char=32|end_char=36	
+8	,	,	PUNCT	_	_	10	punct	_	start_char=36|end_char=37	
+9	кто	кто	PRON	_	Case=Nom	10	nsubj	_	start_char=38|end_char=41	
+10	отстоял	отстоять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=42|end_char=49	
+11	свободу	свобода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=50|end_char=57	
+12	и	и	CCONJ	_	_	13	cc	_	start_char=58|end_char=59	
+13	независимость	независимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	start_char=60|end_char=73	
+14	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	15	det	_	start_char=74|end_char=79	
+15	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=80|end_char=86	
+16	!	!	PUNCT	_	_	2	punct	_	start_char=86|end_char=87	
+
+#text = За процветание нашего Отечества и за граждан России ! 
+#par_id = 17
+#sent_id = 1
+#speaker = В.Путин
+1	За	за	ADP	_	_	2	case	_	start_char=4|end_char=6	
+2	процветание	процветание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=7|end_char=18	
+3	нашего	наш	DET	_	Case=Gen|Gender=Neut|Number=Sing	4	det	_	start_char=19|end_char=25	
+4	Отечества	Отечество	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=26|end_char=35	
+5	и	и	CCONJ	_	_	7	cc	_	start_char=36|end_char=37	
+6	за	за	ADP	_	_	7	case	_	start_char=38|end_char=40	
+7	граждан	гражданин	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	conj	_	start_char=41|end_char=48	
+8	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=49|end_char=55	
+9	!	!	PUNCT	_	_	2	punct	_	start_char=55|end_char=56	
+
+#text = С праздником вас , дорогие друзья ! 
+#par_id = 18
+#sent_id = 1
+#speaker = В.Путин
+1	С	с	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	праздником	праздник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=16	
+3	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	2	nmod	_	start_char=17|end_char=20	
+4	,	,	PUNCT	_	_	6	punct	_	start_char=20|end_char=21	
+5	дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=22|end_char=29	
+6	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=30|end_char=36	
+7	!	!	PUNCT	_	_	2	punct	_	start_char=36|end_char=37	
+
+#text = С Днём Победы ! 
+#par_id = 19
+#sent_id = 1
+#speaker = В.Путин
+1	С	с	ADP	_	_	2	case	_	start_char=4|end_char=5	
+2	Днём	Днём	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=10	
+3	Победы	Победа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=11|end_char=17	
+4	!	!	PUNCT	_	_	2	punct	_	start_char=17|end_char=18	
+

@@ -1,0 +1,262 @@
+#text = Дамы и господа ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=4|end_char=8	
+2	и	и	CCONJ	_	_	3	cc	_	start_char=9|end_char=10	
+3	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=11|end_char=18	
+4	!	!	PUNCT	_	_	1	punct	_	start_char=18|end_char=19	
+
+#text = Дорогие друзья ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=20|end_char=27	
+2	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=28|end_char=34	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=34|end_char=35	
+
+#text = Сердечно приветствую участников и гостей Дрезденского оперного бала , в том числе многочисленных поклонников классической музыки , которые смогут посмотреть трансляцию бала в России , Германии , других странах . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Сердечно	сердечно	ADV	_	Degree=Pos	2	advmod	_	start_char=4|end_char=12	
+2	приветствую	приветствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=13|end_char=24	
+3	участников	участник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=25|end_char=35	
+4	и	и	CCONJ	_	_	5	cc	_	start_char=36|end_char=37	
+5	гостей	гость	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	start_char=38|end_char=44	
+6	Дрезденского	дрезденский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=45|end_char=57	
+7	оперного	оперный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=58|end_char=66	
+8	бала	бал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=67|end_char=71	
+9	,	,	PUNCT	_	_	14	punct	_	start_char=71|end_char=72	
+10	в	в	ADP	_	_	12	case	_	start_char=73|end_char=74	
+11	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	12	det	_	start_char=75|end_char=78	
+12	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	start_char=79|end_char=84	
+13	многочисленных	многочисленный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=85|end_char=99	
+14	поклонников	поклонник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	start_char=100|end_char=111	
+15	классической	классический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=112|end_char=124	
+16	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=125|end_char=131	
+17	,	,	PUNCT	_	_	19	punct	_	start_char=131|end_char=132	
+18	которые	который	PRON	_	Case=Nom	19	nsubj	_	start_char=133|end_char=140	
+19	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	acl:relcl	_	start_char=141|end_char=147	
+20	посмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=148|end_char=158	
+21	трансляцию	трансляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=159|end_char=169	
+22	бала	бал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=170|end_char=174	
+23	в	в	ADP	_	_	24	case	_	start_char=175|end_char=176	
+24	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	start_char=177|end_char=183	
+25	,	,	PUNCT	_	_	26	punct	_	start_char=183|end_char=184	
+26	Германии	Германия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	conj	_	start_char=185|end_char=193	
+27	,	,	PUNCT	_	_	29	punct	_	start_char=193|end_char=194	
+28	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	start_char=195|end_char=201	
+29	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	24	conj	_	start_char=202|end_char=209	
+30	.	.	PUNCT	_	_	2	punct	_	start_char=209|end_char=210	
+
+#text = Этот грандиозный музыкальный праздник впервые проходит за пределами Германии . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	start_char=4|end_char=8	
+2	грандиозный	грандиозный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=9|end_char=20	
+3	музыкальный	музыкальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=21|end_char=32	
+4	праздник	праздник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=33|end_char=41	
+5	впервые	впервые	ADV	_	Degree=Pos	6	advmod	_	start_char=42|end_char=49	
+6	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=50|end_char=58	
+7	за	за	ADP	_	_	8	case	_	start_char=59|end_char=61	
+8	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	start_char=62|end_char=71	
+9	Германии	Германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=72|end_char=80	
+10	.	.	PUNCT	_	_	6	punct	_	start_char=80|end_char=81	
+
+#text = Мы искренне рады , что знаменитый Дрезденский оперный бал приехал из Дрездена именно к нам – в Россию , в Санкт-Петербург . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	start_char=82|end_char=84	
+2	искренне	искренне	ADV	_	Degree=Pos	3	obl	_	start_char=85|end_char=93	
+3	рады	рад	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=94|end_char=98	
+4	,	,	PUNCT	_	_	10	punct	_	start_char=98|end_char=99	
+5	что	что	SCONJ	_	_	10	mark	_	start_char=100|end_char=103	
+6	знаменитый	знаменитый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=104|end_char=114	
+7	Дрезденский	дрезденский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=115|end_char=126	
+8	оперный	оперный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=127|end_char=134	
+9	бал	бал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=135|end_char=138	
+10	приехал	приехать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=139|end_char=146	
+11	из	из	ADP	_	_	12	case	_	start_char=147|end_char=149	
+12	Дрездена	Дрезден	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	start_char=150|end_char=158	
+13	именно	именно	PART	_	_	15	advmod	_	start_char=159|end_char=165	
+14	к	к	ADP	_	_	15	case	_	start_char=166|end_char=167	
+15	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	10	obl	_	start_char=168|end_char=171	
+16	–	–	PUNCT	_	_	18	punct	_	start_char=172|end_char=173	
+17	в	в	ADP	_	_	18	case	_	start_char=174|end_char=175	
+18	Россию	Россия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	start_char=176|end_char=182	
+19	,	,	PUNCT	_	_	21	punct	_	start_char=182|end_char=183	
+20	в	в	ADP	_	_	21	case	_	start_char=184|end_char=185	
+21	Санкт-Петербург	Санкт-Петербург	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	start_char=186|end_char=201	
+22	.	.	PUNCT	_	_	3	punct	_	start_char=201|end_char=202	
+
+#text = Уже многие годы эти города объединяют крепкие побратимские связи , большой опыт гуманитарного взаимодействия и народной дипломатии . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Уже	уже	ADV	_	Degree=Pos	2	obl	_	start_char=4|end_char=7	
+2	многие	много	NUM	_	_	3	amod	_	start_char=8|end_char=14	
+3	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	start_char=15|end_char=19	
+4	эти	этот	DET	_	Case=Nom|Number=Plur	5	det	_	start_char=20|end_char=23	
+5	города	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=24|end_char=30	
+6	объединяют	объединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=31|end_char=41	
+7	крепкие	крепкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	start_char=42|end_char=49	
+8	побратимские	побратимский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	start_char=50|end_char=62	
+9	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=63|end_char=68	
+10	,	,	PUNCT	_	_	12	punct	_	start_char=68|end_char=69	
+11	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=70|end_char=77	
+12	опыт	опыт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	start_char=78|end_char=82	
+13	гуманитарного	гуманитарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=83|end_char=96	
+14	взаимодействия	взаимодействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=97|end_char=111	
+15	и	и	CCONJ	_	_	17	cc	_	start_char=112|end_char=113	
+16	народной	народный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=114|end_char=122	
+17	дипломатии	дипломатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	start_char=123|end_char=133	
+18	.	.	PUNCT	_	_	6	punct	_	start_char=133|end_char=134	
+
+#text = И сегодняшнее торжество отвечает духу дружбы и доверия , связывающему народы России , Германии да и всей Европы . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	4	cc	_	start_char=135|end_char=136	
+2	сегодняшнее	сегодняшний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=137|end_char=148	
+3	торжество	торжество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=149|end_char=158	
+4	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=159|end_char=167	
+5	духу	дух	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	start_char=168|end_char=172	
+6	дружбы	дружба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=173|end_char=179	
+7	и	и	CCONJ	_	_	8	cc	_	start_char=180|end_char=181	
+8	доверия	доверие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	start_char=182|end_char=189	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=189|end_char=190	
+10	связывающему	связывать	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	start_char=191|end_char=203	
+11	народы	народ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	start_char=204|end_char=210	
+12	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=211|end_char=217	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=217|end_char=218	
+14	Германии	Германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	start_char=219|end_char=227	
+15	да	да	CCONJ	_	_	18	cc	_	start_char=228|end_char=230	
+16	и	и	CCONJ	_	_	18	cc	_	start_char=231|end_char=232	
+17	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	18	det	_	start_char=233|end_char=237	
+18	Европы	Европа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	start_char=238|end_char=244	
+19	.	.	PUNCT	_	_	4	punct	_	start_char=244|end_char=245	
+
+#text = Наша страна открыта для сотрудничества в самых разных сферах . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	страна	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	start_char=9|end_char=15	
+3	открыта	открыть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=16|end_char=23	
+4	для	для	ADP	_	_	5	case	_	start_char=24|end_char=27	
+5	сотрудничества	сотрудничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=28|end_char=42	
+6	в	в	ADP	_	_	9	case	_	start_char=43|end_char=44	
+7	самых	самый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	start_char=45|end_char=50	
+8	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	start_char=51|end_char=57	
+9	сферах	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	start_char=58|end_char=64	
+10	.	.	PUNCT	_	_	3	punct	_	start_char=64|end_char=65	
+
+#text = И культуре , искусству принадлежит особая , вдохновляющая роль в укреплении взаимопонимания между людьми . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	5	cc	_	start_char=66|end_char=67	
+2	культуре	культура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	iobj	_	start_char=68|end_char=76	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=76|end_char=77	
+4	искусству	искусство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	conj	_	start_char=78|end_char=87	
+5	принадлежит	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=88|end_char=99	
+6	особая	особый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	acl	_	start_char=100|end_char=106	
+7	,	,	PUNCT	_	_	8	punct	_	start_char=106|end_char=107	
+8	вдохновляющая	вдохновлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	start_char=108|end_char=121	
+9	роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=122|end_char=126	
+10	в	в	ADP	_	_	11	case	_	start_char=127|end_char=128	
+11	укреплении	укрепление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	start_char=129|end_char=139	
+12	взаимопонимания	взаимопонимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=140|end_char=155	
+13	между	между	ADP	_	_	14	case	_	start_char=156|end_char=161	
+14	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	start_char=162|end_char=168	
+15	.	.	PUNCT	_	_	5	punct	_	start_char=168|end_char=169	
+
+#text = Мы с добрым сердцем встречаем звёзд мировой оперной сцены , известных артистов , музыкантов , дирижёров , деятелей культуры , представителей спорта , деловых и политических кругов . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	start_char=4|end_char=6	
+2	с	с	ADP	_	_	4	case	_	start_char=7|end_char=8	
+3	добрым	добрый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=9|end_char=15	
+4	сердцем	сердце	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	start_char=16|end_char=23	
+5	встречаем	встречать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=24|end_char=33	
+6	звёзд	звёзд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=34|end_char=39	
+7	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=40|end_char=47	
+8	оперной	оперный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=48|end_char=55	
+9	сцены	сцена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=56|end_char=61	
+10	,	,	PUNCT	_	_	12	punct	_	start_char=61|end_char=62	
+11	известных	известный	ADJ	_	Animacy=Anim|Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=63|end_char=72	
+12	артистов	артист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	start_char=73|end_char=81	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=81|end_char=82	
+14	музыкантов	музыкант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	start_char=83|end_char=93	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=93|end_char=94	
+16	дирижёров	дирижер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	start_char=95|end_char=104	
+17	,	,	PUNCT	_	_	18	punct	_	start_char=104|end_char=105	
+18	деятелей	деятель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	start_char=106|end_char=114	
+19	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=115|end_char=123	
+20	,	,	PUNCT	_	_	21	punct	_	start_char=123|end_char=124	
+21	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	start_char=125|end_char=139	
+22	спорта	спорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=140|end_char=146	
+23	,	,	PUNCT	_	_	27	punct	_	start_char=146|end_char=147	
+24	деловых	деловой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	start_char=148|end_char=155	
+25	и	и	CCONJ	_	_	26	cc	_	start_char=156|end_char=157	
+26	политических	политический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	conj	_	start_char=158|end_char=170	
+27	кругов	круг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	start_char=171|end_char=177	
+28	.	.	PUNCT	_	_	5	punct	_	start_char=177|end_char=178	
+
+#text = Уверен , что первый Дрезденский бал в Санкт-Петербурге пройдёт с огромным успехом и станет традиционным , полным ярких культурных событий , благотворительных и просветительских начинаний . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=10	
+2	,	,	PUNCT	_	_	9	punct	_	start_char=10|end_char=11	
+3	что	что	SCONJ	_	_	9	mark	_	start_char=12|end_char=15	
+4	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=16|end_char=22	
+5	Дрезденский	дрезденский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=23|end_char=34	
+6	бал	бал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=35|end_char=38	
+7	в	в	ADP	_	_	8	case	_	start_char=39|end_char=40	
+8	Санкт-Петербурге	Санкт-Петербург	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=41|end_char=57	
+9	пройдёт	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=58|end_char=65	
+10	с	с	ADP	_	_	12	case	_	start_char=66|end_char=67	
+11	огромным	огромный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=68|end_char=76	
+12	успехом	успех	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=77|end_char=84	
+13	и	и	CCONJ	_	_	14	cc	_	start_char=85|end_char=86	
+14	станет	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	9	conj	_	start_char=87|end_char=93	
+15	традиционным	традиционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=94|end_char=106	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=106|end_char=107	
+17	полным	полный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	start_char=108|end_char=114	
+18	ярких	яркий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=115|end_char=120	
+19	культурных	культурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=121|end_char=131	
+20	событий	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	obl	_	start_char=132|end_char=139	
+21	,	,	PUNCT	_	_	25	punct	_	start_char=139|end_char=140	
+22	благотворительных	благотворительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	start_char=141|end_char=158	
+23	и	и	CCONJ	_	_	24	cc	_	start_char=159|end_char=160	
+24	просветительских	просветительский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	conj	_	start_char=161|end_char=177	
+25	начинаний	начинание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	conj	_	start_char=178|end_char=187	
+26	.	.	PUNCT	_	_	1	punct	_	start_char=187|end_char=188	
+
+#text = Желаю приятных , волнующих , радостных впечатлений . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=9	
+2	приятных	приятный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	acl	_	start_char=10|end_char=18	
+3	,	,	PUNCT	_	_	4	punct	_	start_char=18|end_char=19	
+4	волнующих	волновать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	start_char=20|end_char=29	
+5	,	,	PUNCT	_	_	6	punct	_	start_char=29|end_char=30	
+6	радостных	радостный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	conj	_	start_char=31|end_char=40	
+7	впечатлений	впечатление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	obl	_	start_char=41|end_char=52	
+8	.	.	PUNCT	_	_	1	punct	_	start_char=52|end_char=53	
+
+#text = В добрый час ! 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=54|end_char=55	
+2	добрый	добрый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=56|end_char=62	
+3	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	start_char=63|end_char=66	
+4	!	!	PUNCT	_	_	3	punct	_	start_char=66|end_char=67	
+

@@ -1,0 +1,601 @@
+#text = Уважаемые коллеги ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	start_char=4|end_char=13	
+2	коллеги	коллега	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=14|end_char=21	
+3	!	!	PUNCT	_	_	2	punct	_	start_char=21|end_char=22	
+
+#text = Дорогие иностранные гости , друзья ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=23|end_char=30	
+2	иностранные	иностранный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=31|end_char=42	
+3	гости	гость	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=43|end_char=48	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=48|end_char=49	
+5	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	start_char=50|end_char=56	
+6	!	!	PUNCT	_	_	3	punct	_	start_char=56|end_char=57	
+
+#text = Сегодня мы присутствуем при очень важном событии , и это событие является важным не только для российской энергетики , оно является важным для всей европейской энергетики . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=4|end_char=11	
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	start_char=12|end_char=14	
+3	присутствуем	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=15|end_char=27	
+4	при	при	ADP	_	_	7	case	_	start_char=28|end_char=31	
+5	очень	очень	ADV	_	Degree=Pos	6	obl	_	start_char=32|end_char=37	
+6	важном	важный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=38|end_char=44	
+7	событии	событие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	start_char=45|end_char=52	
+8	,	,	PUNCT	_	_	12	punct	_	start_char=52|end_char=53	
+9	и	и	CCONJ	_	_	12	cc	_	start_char=54|end_char=55	
+10	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	11	det	_	start_char=56|end_char=59	
+11	событие	событие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=60|end_char=67	
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=68|end_char=76	
+13	важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	obl	_	start_char=77|end_char=83	
+14	не	не	PART	_	_	15	advmod	_	start_char=84|end_char=86	
+15	только	только	PART	_	_	18	advmod	_	start_char=87|end_char=93	
+16	для	для	ADP	_	_	18	case	_	start_char=94|end_char=97	
+17	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=98|end_char=108	
+18	энергетики	энергетика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=109|end_char=119	
+19	,	,	PUNCT	_	_	21	punct	_	start_char=119|end_char=120	
+20	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	21	nsubj	_	start_char=121|end_char=124	
+21	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=125|end_char=133	
+22	важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	obl	_	start_char=134|end_char=140	
+23	для	для	ADP	_	_	26	case	_	start_char=141|end_char=144	
+24	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	26	det	_	start_char=145|end_char=149	
+25	европейской	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=150|end_char=161	
+26	энергетики	энергетика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	start_char=162|end_char=172	
+27	.	.	PUNCT	_	_	3	punct	_	start_char=172|end_char=173	
+
+#text = Мы сегодня приступаем к практической реализации одного из крупнейших инфраструктурных проектов – строительству газотранспортной системы по дну Чёрного моря . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	start_char=4|end_char=6	
+2	сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=7|end_char=14	
+3	приступаем	приступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=15|end_char=25	
+4	к	к	ADP	_	_	6	case	_	start_char=26|end_char=27	
+5	практической	практический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=28|end_char=40	
+6	реализации	реализация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=41|end_char=51	
+7	одного	один	NUM	_	Case=Gen|Gender=Masc	6	nummod	_	start_char=52|end_char=58	
+8	из	из	ADP	_	_	11	case	_	start_char=59|end_char=61	
+9	крупнейших	крупный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	11	amod	_	start_char=62|end_char=72	
+10	инфраструктурных	инфраструктурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=73|end_char=89	
+11	проектов	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=90|end_char=98	
+12	–	–	PUNCT	_	_	13	punct	_	start_char=99|end_char=100	
+13	строительству	строительство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	parataxis	_	start_char=101|end_char=114	
+14	газотранспортной	газотранспортный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=115|end_char=131	
+15	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=132|end_char=139	
+16	по	по	ADP	_	_	17	case	_	start_char=140|end_char=142	
+17	дну	дно	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	start_char=143|end_char=146	
+18	Чёрного	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=147|end_char=154	
+19	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	start_char=155|end_char=159	
+20	.	.	PUNCT	_	_	3	punct	_	start_char=159|end_char=160	
+
+#text = Наряду с « Северным потоком » ( с такой же системой по дну Балтики ) « Южный поток » создаст условия для надёжного , безусловного снабжения российским газом наших основных потребителей в Европе , в данном случае – в Южной Европе . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Наряду	наряду	ADV	_	Degree=Pos	20	advmod	_	start_char=161|end_char=167	
+2	с	с	ADP	_	_	5	case	_	start_char=168|end_char=169	
+3	«	"	PUNCT	_	_	5	punct	_	start_char=170|end_char=171	
+4	Северным	Северный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=171|end_char=179	
+5	потоком	поток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	start_char=180|end_char=187	
+6	»	"	PUNCT	_	_	5	punct	_	start_char=187|end_char=188	
+7	(	(	PUNCT	_	_	11	punct	_	start_char=189|end_char=190	
+8	с	с	ADP	_	_	11	case	_	start_char=190|end_char=191	
+9	такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	11	det	_	start_char=192|end_char=197	
+10	же	же	PART	_	_	9	advmod	_	start_char=198|end_char=200	
+11	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	parataxis	_	start_char=201|end_char=209	
+12	по	по	ADP	_	_	13	case	_	start_char=210|end_char=212	
+13	дну	дно	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=213|end_char=216	
+14	Балтики	Балтика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=217|end_char=224	
+15	)	)	PUNCT	_	_	11	punct	_	start_char=224|end_char=225	
+16	«	"	PUNCT	_	_	18	punct	_	start_char=226|end_char=227	
+17	Южный	Южный	PROPN	_	_	18	amod	_	start_char=227|end_char=232	
+18	поток	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=233|end_char=238	
+19	»	"	PUNCT	_	_	18	punct	_	start_char=238|end_char=239	
+20	создаст	создать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=240|end_char=247	
+21	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	start_char=248|end_char=255	
+22	для	для	ADP	_	_	26	case	_	start_char=256|end_char=259	
+23	надёжного	надежный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	start_char=260|end_char=269	
+24	,	,	PUNCT	_	_	25	punct	_	start_char=269|end_char=270	
+25	безусловного	безусловный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	conj	_	start_char=271|end_char=283	
+26	снабжения	снабжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	start_char=284|end_char=293	
+27	российским	российский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=294|end_char=304	
+28	газом	газ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	start_char=305|end_char=310	
+29	наших	наш	DET	_	Case=Gen|Number=Plur	31	det	_	start_char=311|end_char=316	
+30	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	start_char=317|end_char=325	
+31	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	start_char=326|end_char=338	
+32	в	в	ADP	_	_	33	case	_	start_char=339|end_char=340	
+33	Европе	Европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	start_char=341|end_char=347	
+34	,	,	PUNCT	_	_	41	punct	_	start_char=347|end_char=348	
+35	в	в	ADP	_	_	37	case	_	start_char=349|end_char=350	
+36	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	start_char=351|end_char=357	
+37	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	41	parataxis	_	start_char=358|end_char=364	
+38	–	–	PUNCT	_	_	37	punct	_	start_char=365|end_char=366	
+39	в	в	ADP	_	_	41	case	_	start_char=367|end_char=368	
+40	Южной	Южный	PROPN	_	_	41	amod	_	start_char=369|end_char=374	
+41	Европе	Европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	conj	_	start_char=375|end_char=381	
+42	.	.	PUNCT	_	_	20	punct	_	start_char=381|end_char=382	
+
+#text = Этот проект , безусловно , стал международным проектом : в нём задействованы многие европейские страны . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=9|end_char=15	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=15|end_char=16	
+4	безусловно	безусловно	ADV	_	Degree=Pos	6	parataxis	_	start_char=17|end_char=27	
+5	,	,	PUNCT	_	_	4	punct	_	start_char=27|end_char=28	
+6	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=29|end_char=33	
+7	международным	международный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=34|end_char=47	
+8	проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=48|end_char=56	
+9	:	:	PUNCT	_	_	12	punct	_	start_char=56|end_char=57	
+10	в	в	ADP	_	_	11	case	_	start_char=58|end_char=59	
+11	нём	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	12	obl	_	start_char=60|end_char=63	
+12	задействованы	задействовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	parataxis	_	start_char=64|end_char=77	
+13	многие	много	NUM	_	_	15	amod	_	start_char=78|end_char=84	
+14	европейские	европейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	start_char=85|end_char=96	
+15	страны	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	start_char=97|end_char=103	
+16	.	.	PUNCT	_	_	6	punct	_	start_char=103|end_char=104	
+
+#text = Достаточно сказать , что на первом этапе газоснабжение будет осуществляться как минимум в шести государствах : это и Болгария , и Сербия , и Венгрия , и Словения , и Италия , и Хорватия . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	Достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=105|end_char=115	
+2	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=116|end_char=123	
+3	,	,	PUNCT	_	_	10	punct	_	start_char=123|end_char=124	
+4	что	что	SCONJ	_	_	10	mark	_	start_char=125|end_char=128	
+5	на	на	ADP	_	_	7	case	_	start_char=129|end_char=131	
+6	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=132|end_char=138	
+7	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	start_char=139|end_char=144	
+8	газоснабжение	газоснабжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=145|end_char=158	
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	start_char=159|end_char=164	
+10	осуществляться	осуществляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	ccomp	_	start_char=165|end_char=179	
+11	как	как	SCONJ	_	_	15	advmod	_	start_char=180|end_char=183	
+12	минимум	минимум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	fixed	_	start_char=184|end_char=191	
+13	в	в	ADP	_	_	15	case	_	start_char=192|end_char=193	
+14	шести	шесть	NUM	_	Case=Loc	15	nummod	_	start_char=194|end_char=199	
+15	государствах	государство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	obl	_	start_char=200|end_char=212	
+16	:	:	PUNCT	_	_	19	punct	_	start_char=212|end_char=213	
+17	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	start_char=214|end_char=217	
+18	и	и	PART	_	_	19	cc	_	start_char=218|end_char=219	
+19	Болгария	Болгария	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	parataxis	_	start_char=220|end_char=228	
+20	,	,	PUNCT	_	_	22	punct	_	start_char=228|end_char=229	
+21	и	и	CCONJ	_	_	22	cc	_	start_char=230|end_char=231	
+22	Сербия	Сербия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	start_char=232|end_char=238	
+23	,	,	PUNCT	_	_	25	punct	_	start_char=238|end_char=239	
+24	и	и	CCONJ	_	_	25	cc	_	start_char=240|end_char=241	
+25	Венгрия	Венгрия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	start_char=242|end_char=249	
+26	,	,	PUNCT	_	_	28	punct	_	start_char=249|end_char=250	
+27	и	и	CCONJ	_	_	28	cc	_	start_char=251|end_char=252	
+28	Словения	Словения	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	start_char=253|end_char=261	
+29	,	,	PUNCT	_	_	31	punct	_	start_char=261|end_char=262	
+30	и	и	CCONJ	_	_	31	cc	_	start_char=263|end_char=264	
+31	Италия	Италия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	start_char=265|end_char=271	
+32	,	,	PUNCT	_	_	34	punct	_	start_char=271|end_char=272	
+33	и	и	CCONJ	_	_	34	cc	_	start_char=273|end_char=274	
+34	Хорватия	Хорватия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	start_char=275|end_char=283	
+35	.	.	PUNCT	_	_	1	punct	_	start_char=283|end_char=284	
+
+#text = В реализации проекта принимают участие наши крупнейшие партнёры из Западной Европы : Франции , Федеративной Республики Германия , Италии . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	В	в	ADP	_	_	2	case	_	start_char=285|end_char=286	
+2	реализации	реализация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=287|end_char=297	
+3	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=298|end_char=305	
+4	принимают	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=306|end_char=315	
+5	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=316|end_char=323	
+6	наши	наш	DET	_	Case=Nom|Number=Plur	8	det	_	start_char=324|end_char=328	
+7	крупнейшие	крупный	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	8	amod	_	start_char=329|end_char=339	
+8	партнёры	партнер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=340|end_char=348	
+9	из	из	ADP	_	_	11	case	_	start_char=349|end_char=351	
+10	Западной	Западный	PROPN	_	_	11	amod	_	start_char=352|end_char=360	
+11	Европы	Европа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=361|end_char=367	
+12	:	:	PUNCT	_	_	13	punct	_	start_char=367|end_char=368	
+13	Франции	Франция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	parataxis	_	start_char=369|end_char=376	
+14	,	,	PUNCT	_	_	16	punct	_	start_char=376|end_char=377	
+15	Федеративной	федеративный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=378|end_char=390	
+16	Республики	Республика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	start_char=391|end_char=401	
+17	Германия	Германия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	start_char=402|end_char=410	
+18	,	,	PUNCT	_	_	19	punct	_	start_char=410|end_char=411	
+19	Италии	Италия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	start_char=412|end_char=418	
+20	.	.	PUNCT	_	_	4	punct	_	start_char=418|end_char=419	
+
+#text = Этот проект получил политическую поддержку во всех странах - партнёрах , подписаны все межправительственные соглашения , приняты все инвестиционные решения . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	start_char=4|end_char=8	
+2	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=9|end_char=15	
+3	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=23	
+4	политическую	политический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=24|end_char=36	
+5	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=37|end_char=46	
+6	во	в	ADP	_	_	8	case	_	start_char=47|end_char=49	
+7	всех	весь	DET	_	Case=Loc|Number=Plur	8	det	_	start_char=50|end_char=54	
+8	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	start_char=55|end_char=62	
+9	-	-	PUNCT	_	_	10	punct	_	start_char=62|end_char=63	
+10	партнёрах	партнер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	appos	_	start_char=63|end_char=72	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=72|end_char=73	
+12	подписаны	подписать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=74|end_char=83	
+13	все	весь	DET	_	Case=Nom|Number=Plur	15	det	_	start_char=84|end_char=87	
+14	межправительственные	межправительственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	start_char=88|end_char=108	
+15	соглашения	соглашение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj:pass	_	start_char=109|end_char=119	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=119|end_char=120	
+17	приняты	принять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=121|end_char=128	
+18	все	весь	DET	_	Case=Nom|Number=Plur	20	det	_	start_char=129|end_char=132	
+19	инвестиционные	инвестиционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	start_char=133|end_char=147	
+20	решения	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj:pass	_	start_char=148|end_char=155	
+21	.	.	PUNCT	_	_	3	punct	_	start_char=155|end_char=156	
+
+#text = 63 миллиарда кубических метров газа – это большой объём . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	63	63	NUM	_	_	2	nummod	_	start_char=4|end_char=6	
+2	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nummod:gov	_	start_char=7|end_char=16	
+3	кубических	кубический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	start_char=17|end_char=27	
+4	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nsubj	_	start_char=28|end_char=34	
+5	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=35|end_char=39	
+6	–	–	PUNCT	_	_	4	punct	_	start_char=40|end_char=41	
+7	это	это	PRON	_	_	9	cop	_	start_char=42|end_char=45	
+8	большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=46|end_char=53	
+9	объём	объём	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=54|end_char=59	
+10	.	.	PUNCT	_	_	9	punct	_	start_char=59|end_char=60	
+
+#text = Для того чтобы его обеспечить , Россия уже начала работу на своей собственной территории . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	Для	для	ADP	_	_	2	case	_	start_char=61|end_char=64	
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	start_char=65|end_char=69	
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	start_char=70|end_char=75	
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	start_char=76|end_char=79	
+5	обеспечить	обеспечить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=80|end_char=90	
+6	,	,	PUNCT	_	_	2	punct	_	start_char=90|end_char=91	
+7	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=92|end_char=98	
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	start_char=99|end_char=102	
+9	начала	начать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=103|end_char=109	
+10	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=110|end_char=116	
+11	на	на	ADP	_	_	14	case	_	start_char=117|end_char=119	
+12	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	14	det	_	start_char=120|end_char=125	
+13	собственной	собственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=126|end_char=137	
+14	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	start_char=138|end_char=148	
+15	.	.	PUNCT	_	_	9	punct	_	start_char=148|end_char=149	
+
+#text = Мы увеличим и расширим возможности для выхода к Чёрному морю на расстояние двух с половиной тысяч километров , построив дополнительно 10 перекачивающих станций . 
+#par_id = 6
+#sent_id = 3
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=150|end_char=152	
+2	увеличим	увеличить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=153|end_char=161	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=162|end_char=163	
+4	расширим	расширить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	start_char=164|end_char=172	
+5	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=173|end_char=184	
+6	для	для	ADP	_	_	7	case	_	start_char=185|end_char=188	
+7	выхода	выход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=189|end_char=195	
+8	к	к	ADP	_	_	10	case	_	start_char=196|end_char=197	
+9	Чёрному	черный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=198|end_char=205	
+10	морю	море	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=206|end_char=210	
+11	на	на	ADP	_	_	12	case	_	start_char=211|end_char=213	
+12	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=214|end_char=224	
+13	двух	два	NUM	_	Case=Gen	16	nummod	_	start_char=225|end_char=229	
+14	с	с	ADP	_	_	15	case	_	start_char=230|end_char=231	
+15	половиной	половина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	start_char=232|end_char=241	
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=242|end_char=247	
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=248|end_char=258	
+18	,	,	PUNCT	_	_	19	punct	_	start_char=258|end_char=259	
+19	построив	строить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	4	advcl	_	start_char=260|end_char=268	
+20	дополнительно	дополнительно	ADV	_	Degree=Pos	19	advmod	_	start_char=269|end_char=282	
+21	10	10	NUM	_	_	23	nummod	_	start_char=283|end_char=285	
+22	перекачивающих	перекачивать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	start_char=286|end_char=300	
+23	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	start_char=301|end_char=308	
+24	.	.	PUNCT	_	_	2	punct	_	start_char=308|end_char=309	
+
+#text = Работа началась уже в 2010 году . 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=4|end_char=10	
+2	началась	начаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=11|end_char=19	
+3	уже	уже	ADV	_	Degree=Pos	6	obl	_	start_char=20|end_char=23	
+4	в	в	ADP	_	_	6	case	_	start_char=24|end_char=25	
+5	2010	2010	NUM	_	_	6	nummod	_	start_char=26|end_char=30	
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=31|end_char=35	
+7	.	.	PUNCT	_	_	2	punct	_	start_char=35|end_char=36	
+
+#text = И я хочу поблагодарить всех наших партнёров за понимание важности этой совместной работы . 
+#par_id = 7
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	3	cc	_	start_char=37|end_char=38	
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	start_char=39|end_char=40	
+3	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=45	
+4	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=46|end_char=59	
+5	всех	весь	DET	_	Case=Acc|Number=Plur	7	det	_	start_char=60|end_char=64	
+6	наших	наш	DET	_	Case=Acc|Number=Plur	7	det	_	start_char=65|end_char=70	
+7	партнёров	партнер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=71|end_char=80	
+8	за	за	ADP	_	_	9	case	_	start_char=81|end_char=83	
+9	понимание	понимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=84|end_char=93	
+10	важности	важность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=94|end_char=102	
+11	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	det	_	start_char=103|end_char=107	
+12	совместной	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=108|end_char=118	
+13	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=119|end_char=125	
+14	.	.	PUNCT	_	_	3	punct	_	start_char=125|end_char=126	
+
+#text = Уверен , что она будет успешной . 
+#par_id = 7
+#sent_id = 3
+#speaker = В.Путин
+1	Уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=127|end_char=133	
+2	,	,	PUNCT	_	_	6	punct	_	start_char=133|end_char=134	
+3	что	что	SCONJ	_	_	6	mark	_	start_char=135|end_char=138	
+4	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	start_char=139|end_char=142	
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=143|end_char=148	
+6	успешной	успешный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	ccomp	_	start_char=149|end_char=157	
+7	.	.	PUNCT	_	_	1	punct	_	start_char=157|end_char=158	
+
+#text = Мы можем приступить к реализации этого крупномасштабного проекта , и сегодня будем присутствовать при сварке первого стыка газопроводной системы « Южный поток » . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=4|end_char=6	
+2	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=12	
+3	приступить	приступить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=13|end_char=23	
+4	к	к	ADP	_	_	5	case	_	start_char=24|end_char=25	
+5	реализации	реализация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=26|end_char=36	
+6	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	det	_	start_char=37|end_char=42	
+7	крупномасштабного	крупномасштабный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=43|end_char=60	
+8	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=61|end_char=68	
+9	,	,	PUNCT	_	_	13	punct	_	start_char=68|end_char=69	
+10	и	и	CCONJ	_	_	13	cc	_	start_char=70|end_char=71	
+11	сегодня	сегодня	ADV	_	Degree=Pos	13	advmod	_	start_char=72|end_char=79	
+12	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=80|end_char=85	
+13	присутствовать	присутствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	start_char=86|end_char=100	
+14	при	при	ADP	_	_	15	case	_	start_char=101|end_char=104	
+15	сварке	сварка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	start_char=105|end_char=111	
+16	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=112|end_char=119	
+17	стыка	стык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=120|end_char=125	
+18	газопроводной	газопроводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=126|end_char=139	
+19	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=140|end_char=147	
+20	«	"	PUNCT	_	_	22	punct	_	start_char=148|end_char=149	
+21	Южный	Южный	PROPN	_	_	22	amod	_	start_char=149|end_char=154	
+22	поток	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	start_char=155|end_char=160	
+23	»	"	PUNCT	_	_	22	punct	_	start_char=160|end_char=161	
+24	.	.	PUNCT	_	_	2	punct	_	start_char=161|end_char=162	
+
+#text = Давайте начнём . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	Давайте	давать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=11	
+2	начнём	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=12|end_char=18	
+3	.	.	PUNCT	_	_	1	punct	_	start_char=18|end_char=19	
+
+#text = Во‑первых , я хочу обратиться к рабочим , которые сделали первый стык , поблагодарить и поздравить с началом работы . 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	Во‑первых	Во‑первых	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=4|end_char=13	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=13|end_char=14	
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=15|end_char=16	
+4	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=21	
+5	обратиться	обратиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	start_char=22|end_char=32	
+6	к	к	ADP	_	_	7	case	_	start_char=33|end_char=34	
+7	рабочим	рабочий	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=35|end_char=42	
+8	,	,	PUNCT	_	_	10	punct	_	start_char=42|end_char=43	
+9	которые	который	PRON	_	Case=Nom	10	nsubj	_	start_char=44|end_char=51	
+10	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=52|end_char=59	
+11	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=60|end_char=66	
+12	стык	стык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=67|end_char=71	
+13	,	,	PUNCT	_	_	14	punct	_	start_char=71|end_char=72	
+14	поблагодарить	благодарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	start_char=73|end_char=86	
+15	и	и	CCONJ	_	_	16	cc	_	start_char=87|end_char=88	
+16	поздравить	поздравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	start_char=89|end_char=99	
+17	с	с	ADP	_	_	18	case	_	start_char=100|end_char=101	
+18	началом	начало	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	start_char=102|end_char=109	
+19	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=110|end_char=116	
+20	.	.	PUNCT	_	_	4	punct	_	start_char=116|end_char=117	
+
+#text = Во‑вторых , хочу отметить , что реализация этого проекта , так же как и реализация проекта « Северный поток » , будет проведена по самым современным стандартам . 
+#par_id = 10
+#sent_id = 2
+#speaker = В.Путин
+1	Во‑вторых	Во‑вторых	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=118|end_char=127	
+2	,	,	PUNCT	_	_	1	punct	_	start_char=127|end_char=128	
+3	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=129|end_char=133	
+4	отметить	отметить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=134|end_char=142	
+5	,	,	PUNCT	_	_	23	punct	_	start_char=142|end_char=143	
+6	что	что	SCONJ	_	_	23	mark	_	start_char=144|end_char=147	
+7	реализация	реализация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	start_char=148|end_char=158	
+8	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	det	_	start_char=159|end_char=164	
+9	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=165|end_char=172	
+10	,	,	PUNCT	_	_	15	punct	_	start_char=172|end_char=173	
+11	так	так	ADV	_	Degree=Pos	15	cc	_	start_char=174|end_char=177	
+12	же	же	PART	_	_	11	fixed	_	start_char=178|end_char=180	
+13	как	как	SCONJ	_	_	11	fixed	_	start_char=181|end_char=184	
+14	и	и	PART	_	_	15	advmod	_	start_char=185|end_char=186	
+15	реализация	реализация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	acl	_	start_char=187|end_char=197	
+16	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=198|end_char=205	
+17	«	"	PUNCT	_	_	19	punct	_	start_char=206|end_char=207	
+18	Северный	Северный	PROPN	_	_	19	amod	_	start_char=207|end_char=215	
+19	поток	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	start_char=216|end_char=221	
+20	»	"	PUNCT	_	_	19	punct	_	start_char=221|end_char=222	
+21	,	,	PUNCT	_	_	7	punct	_	start_char=222|end_char=223	
+22	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux:pass	_	start_char=224|end_char=229	
+23	проведена	провести	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	ccomp	_	start_char=230|end_char=239	
+24	по	по	ADP	_	_	27	case	_	start_char=240|end_char=242	
+25	самым	самый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	26	amod	_	start_char=243|end_char=248	
+26	современным	современный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	27	amod	_	start_char=249|end_char=260	
+27	стандартам	стандарт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	23	obl	_	start_char=261|end_char=271	
+28	.	.	PUNCT	_	_	3	punct	_	start_char=271|end_char=272	
+
+#text = Мы уже провели тщательное изучение акватории Чёрного моря , где пройдёт эта трубопроводная система , и могу заверить всех участников проекта , что это будет проект , реализованный по самым высоким экологическим стандартам . 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	start_char=4|end_char=6	
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	start_char=7|end_char=10	
+3	провели	провести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=18	
+4	тщательное	тщательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=19|end_char=29	
+5	изучение	изучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=30|end_char=38	
+6	акватории	акватория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=39|end_char=48	
+7	Чёрного	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=49|end_char=56	
+8	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=57|end_char=61	
+9	,	,	PUNCT	_	_	11	punct	_	start_char=61|end_char=62	
+10	где	где	ADV	_	Degree=Pos	11	advmod	_	start_char=63|end_char=66	
+11	пройдёт	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=67|end_char=74	
+12	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	14	det	_	start_char=75|end_char=78	
+13	трубопроводная	трубопроводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=79|end_char=93	
+14	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=94|end_char=101	
+15	,	,	PUNCT	_	_	17	punct	_	start_char=101|end_char=102	
+16	и	и	CCONJ	_	_	17	cc	_	start_char=103|end_char=104	
+17	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=105|end_char=109	
+18	заверить	заверить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	start_char=110|end_char=118	
+19	всех	весь	DET	_	Case=Acc|Number=Plur	20	det	_	start_char=119|end_char=123	
+20	участников	участник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=124|end_char=134	
+21	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=135|end_char=142	
+22	,	,	PUNCT	_	_	26	punct	_	start_char=142|end_char=143	
+23	что	что	SCONJ	_	_	26	mark	_	start_char=144|end_char=147	
+24	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	start_char=148|end_char=151	
+25	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	_	start_char=152|end_char=157	
+26	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	ccomp	_	start_char=158|end_char=164	
+27	,	,	PUNCT	_	_	28	punct	_	start_char=164|end_char=165	
+28	реализованный	реализовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	acl	_	start_char=166|end_char=179	
+29	по	по	ADP	_	_	33	case	_	start_char=180|end_char=182	
+30	самым	самый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	31	amod	_	start_char=183|end_char=188	
+31	высоким	высокий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	33	amod	_	start_char=189|end_char=196	
+32	экологическим	экологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	33	amod	_	start_char=197|end_char=210	
+33	стандартам	стандарт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	28	obl	_	start_char=211|end_char=221	
+34	.	.	PUNCT	_	_	3	punct	_	start_char=221|end_char=222	
+
+#text = Напомню , что по проекту « Северный поток » у нас ( если мне не изменяет память ) стоит около тысячи датчиков на всём протяжении маршрута , которые в режиме реального времени сбрасывают информацию на соответствующую спутниковую систему , а она распределяет эту информацию по всем заинтересованным странам по ходу движения этого газопровода . 
+#par_id = 12
+#sent_id = 1
+#speaker = В.Путин
+1	Напомню	напомнить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=11	
+2	,	,	PUNCT	_	_	19	punct	_	start_char=11|end_char=12	
+3	что	что	SCONJ	_	_	19	mark	_	start_char=13|end_char=16	
+4	по	по	ADP	_	_	5	case	_	start_char=17|end_char=19	
+5	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=20|end_char=27	
+6	«	"	PUNCT	_	_	8	punct	_	start_char=28|end_char=29	
+7	Северный	Северный	PROPN	_	_	8	amod	_	start_char=29|end_char=37	
+8	поток	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=38|end_char=43	
+9	»	"	PUNCT	_	_	8	punct	_	start_char=43|end_char=44	
+10	у	у	ADP	_	_	11	case	_	start_char=45|end_char=46	
+11	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	19	obl	_	start_char=47|end_char=50	
+12	(	(	PUNCT	_	_	16	punct	_	start_char=51|end_char=52	
+13	если	если	SCONJ	_	_	16	mark	_	start_char=52|end_char=56	
+14	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	16	iobj	_	start_char=57|end_char=60	
+15	не	не	PART	_	_	16	advmod	_	start_char=61|end_char=63	
+16	изменяет	изменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	start_char=64|end_char=72	
+17	память	память	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=73|end_char=79	
+18	)	)	PUNCT	_	_	16	punct	_	start_char=79|end_char=80	
+19	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=81|end_char=86	
+20	около	около	ADP	_	_	22	case	_	start_char=87|end_char=92	
+21	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	start_char=93|end_char=99	
+22	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nsubj	_	start_char=100|end_char=108	
+23	на	на	ADP	_	_	25	case	_	start_char=109|end_char=111	
+24	всём	весь	DET	_	Case=Loc|Gender=Neut|Number=Sing	25	det	_	start_char=112|end_char=116	
+25	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	start_char=117|end_char=127	
+26	маршрута	маршрут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	start_char=128|end_char=136	
+27	,	,	PUNCT	_	_	33	punct	_	start_char=136|end_char=137	
+28	которые	который	PRON	_	Case=Nom	33	nsubj	_	start_char=138|end_char=145	
+29	в	в	ADP	_	_	30	case	_	start_char=146|end_char=147	
+30	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	start_char=148|end_char=154	
+31	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	start_char=155|end_char=164	
+32	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	start_char=165|end_char=172	
+33	сбрасывают	сбрасывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	start_char=173|end_char=183	
+34	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	start_char=184|end_char=194	
+35	на	на	ADP	_	_	38	case	_	start_char=195|end_char=197	
+36	соответствующую	соответствующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=198|end_char=213	
+37	спутниковую	спутниковый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=214|end_char=225	
+38	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	start_char=226|end_char=233	
+39	,	,	PUNCT	_	_	42	punct	_	start_char=233|end_char=234	
+40	а	а	CCONJ	_	_	42	cc	_	start_char=235|end_char=236	
+41	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	42	nsubj	_	start_char=237|end_char=240	
+42	распределяет	распределять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	conj	_	start_char=241|end_char=253	
+43	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	44	det	_	start_char=254|end_char=257	
+44	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	42	obj	_	start_char=258|end_char=268	
+45	по	по	ADP	_	_	48	case	_	start_char=269|end_char=271	
+46	всем	весь	DET	_	Case=Dat|Number=Plur	48	det	_	start_char=272|end_char=276	
+47	заинтересованным	заинтересованный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	48	amod	_	start_char=277|end_char=293	
+48	странам	страна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	42	obl	_	start_char=294|end_char=301	
+49	по	по	ADP	_	_	50	case	_	start_char=302|end_char=304	
+50	ходу	ход	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	42	obl	_	start_char=305|end_char=309	
+51	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	50	nmod	_	start_char=310|end_char=318	
+52	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	53	det	_	start_char=319|end_char=324	
+53	газопровода	газопровод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	start_char=325|end_char=336	
+54	.	.	PUNCT	_	_	1	punct	_	start_char=336|end_char=337	
+
+#text = Так же сделаем и здесь . 
+#par_id = 12
+#sent_id = 2
+#speaker = В.Путин
+1	Так	так	ADV	_	Degree=Pos	3	advmod	_	start_char=338|end_char=341	
+2	же	же	PART	_	_	1	advmod	_	start_char=342|end_char=344	
+3	сделаем	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=345|end_char=352	
+4	и	и	PART	_	_	5	advmod	_	start_char=353|end_char=354	
+5	здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	start_char=355|end_char=360	
+6	.	.	PUNCT	_	_	3	punct	_	start_char=360|end_char=361	
+
+#text = Не сомневаюсь , что не только никакого ущерба не будет экологии Чёрного моря , а наоборот – изучение , исследование Чёрного моря , так же как это было на Балтике , помогут сохранять его чистоту и экологическую безопасность . 
+#par_id = 13
+#sent_id = 1
+#speaker = В.Путин
+1	Не	не	PART	_	_	2	advmod	_	start_char=4|end_char=6	
+2	сомневаюсь	сомневаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=7|end_char=17	
+3	,	,	PUNCT	_	_	10	punct	_	start_char=17|end_char=18	
+4	что	что	SCONJ	_	_	10	mark	_	start_char=19|end_char=22	
+5	не	не	PART	_	_	6	advmod	_	start_char=23|end_char=25	
+6	только	только	PART	_	_	7	advmod	_	start_char=26|end_char=32	
+7	никакого	никакой	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	det	_	start_char=33|end_char=41	
+8	ущерба	ущерб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	start_char=42|end_char=48	
+9	не	не	PART	_	_	10	advmod	_	start_char=49|end_char=51	
+10	будет	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=52|end_char=57	
+11	экологии	экология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nsubj	_	start_char=58|end_char=66	
+12	Чёрного	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=67|end_char=74	
+13	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=75|end_char=79	
+14	,	,	PUNCT	_	_	32	punct	_	start_char=79|end_char=80	
+15	а	а	CCONJ	_	_	32	cc	_	start_char=81|end_char=82	
+16	наоборот	наоборот	ADV	_	Degree=Pos	32	parataxis	_	start_char=83|end_char=91	
+17	–	–	PUNCT	_	_	16	punct	_	start_char=92|end_char=93	
+18	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	start_char=94|end_char=102	
+19	,	,	PUNCT	_	_	20	punct	_	start_char=102|end_char=103	
+20	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	conj	_	start_char=104|end_char=116	
+21	Чёрного	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	start_char=117|end_char=124	
+22	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	start_char=125|end_char=129	
+23	,	,	PUNCT	_	_	30	punct	_	start_char=129|end_char=130	
+24	так	так	ADV	_	Degree=Pos	30	cc	_	start_char=131|end_char=134	
+25	же	же	PART	_	_	24	fixed	_	start_char=135|end_char=137	
+26	как	как	SCONJ	_	_	24	fixed	_	start_char=138|end_char=141	
+27	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	start_char=142|end_char=145	
+28	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	cop	_	start_char=146|end_char=150	
+29	на	на	ADP	_	_	30	case	_	start_char=151|end_char=153	
+30	Балтике	Балтика	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	advcl	_	start_char=154|end_char=161	
+31	,	,	PUNCT	_	_	18	punct	_	start_char=161|end_char=162	
+32	помогут	помочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	conj	_	start_char=163|end_char=170	
+33	сохранять	сохранять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	xcomp	_	start_char=171|end_char=180	
+34	его	его	DET	_	_	35	det	_	start_char=181|end_char=184	
+35	чистоту	чистота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	start_char=185|end_char=192	
+36	и	и	CCONJ	_	_	38	cc	_	start_char=193|end_char=194	
+37	экологическую	экологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=195|end_char=208	
+38	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	conj	_	start_char=209|end_char=221	
+39	.	.	PUNCT	_	_	2	punct	_	start_char=221|end_char=222	
+
+#text = Поздравляю всех с началом работы . 
+#par_id = 14
+#sent_id = 1
+#speaker = В.Путин
+1	Поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=14	
+2	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	1	obj	_	start_char=15|end_char=19	
+3	с	с	ADP	_	_	4	case	_	start_char=20|end_char=21	
+4	началом	начало	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	start_char=22|end_char=29	
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=30|end_char=36	
+6	.	.	PUNCT	_	_	1	punct	_	start_char=36|end_char=37	
+

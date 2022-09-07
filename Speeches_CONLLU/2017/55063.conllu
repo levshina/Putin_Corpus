@@ -1,0 +1,472 @@
+#text = Добрый день , уважаемые друзья ! 
+#par_id = 1
+#sent_id = 1
+#speaker = В.Путин
+1	Добрый	добрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=4|end_char=10	
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15	
+3	,	,	PUNCT	_	_	5	punct	_	start_char=15|end_char=16	
+4	уважаемые	уважать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	start_char=17|end_char=26	
+5	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=27|end_char=33	
+6	!	!	PUNCT	_	_	2	punct	_	start_char=33|end_char=34	
+
+#text = Дамы и господа ! 
+#par_id = 1
+#sent_id = 2
+#speaker = В.Путин
+1	Дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=35|end_char=39	
+2	и	и	CCONJ	_	_	3	cc	_	start_char=40|end_char=41	
+3	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=42|end_char=49	
+4	!	!	PUNCT	_	_	1	punct	_	start_char=49|end_char=50	
+
+#text = Рад приветствовать всех вас на открытии традиционного Международного авиационно - космического салона . 
+#par_id = 2
+#sent_id = 1
+#speaker = В.Путин
+1	Рад	рад	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=7	
+2	приветствовать	приветствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=8|end_char=22	
+3	всех	весь	DET	_	Case=Acc|Number=Plur	4	det	_	start_char=23|end_char=27	
+4	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	2	obj	_	start_char=28|end_char=31	
+5	на	на	ADP	_	_	6	case	_	start_char=32|end_char=34	
+6	открытии	открытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	start_char=35|end_char=43	
+7	традиционного	традиционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=44|end_char=57	
+8	Международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=58|end_char=72	
+9	авиационно	авиационный	ADJ	_	Degree=Pos	11	compound	_	start_char=73|end_char=83	
+10	-	-	PUNCT	_	_	9	punct	_	start_char=83|end_char=84	
+11	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=84|end_char=96	
+12	салона	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=97|end_char=103	
+13	.	.	PUNCT	_	_	1	punct	_	start_char=103|end_char=104	
+
+#text = В этом году у МАКСа юбилей . 
+#par_id = 3
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	3	case	_	start_char=4|end_char=5	
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	det	_	start_char=6|end_char=10	
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	start_char=11|end_char=15	
+4	у	у	ADP	_	_	5	case	_	start_char=16|end_char=17	
+5	МАКСа	МАКС	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	root	_	start_char=18|end_char=23	
+6	юбилей	юбилей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=24|end_char=30	
+7	.	.	PUNCT	_	_	5	punct	_	start_char=30|end_char=31	
+
+#text = Он начал свою работу ещё в далёком 1992 году , и в этом году он отмечает своё 25-летие . 
+#par_id = 3
+#sent_id = 2
+#speaker = В.Путин
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	start_char=32|end_char=34	
+2	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=35|end_char=40	
+3	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	start_char=41|end_char=45	
+4	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=46|end_char=52	
+5	ещё	еще	ADV	_	Degree=Pos	9	obl	_	start_char=53|end_char=56	
+6	в	в	ADP	_	_	9	case	_	start_char=57|end_char=58	
+7	далёком	далекий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=59|end_char=66	
+8	1992	1992	NUM	_	_	9	nummod	_	start_char=67|end_char=71	
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=72|end_char=76	
+10	,	,	PUNCT	_	_	16	punct	_	start_char=76|end_char=77	
+11	и	и	CCONJ	_	_	16	cc	_	start_char=78|end_char=79	
+12	в	в	ADP	_	_	14	case	_	start_char=80|end_char=81	
+13	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	14	det	_	start_char=82|end_char=86	
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	start_char=87|end_char=91	
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	start_char=92|end_char=94	
+16	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=95|end_char=103	
+17	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	18	det	_	start_char=104|end_char=108	
+18	25-летие	25-летие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=109|end_char=117	
+19	.	.	PUNCT	_	_	2	punct	_	start_char=117|end_char=118	
+
+#text = Мы знаем , что это признание – а , безусловно , признание состоялось – пришло не сразу . 
+#par_id = 3
+#sent_id = 3
+#speaker = В.Путин
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	start_char=119|end_char=121	
+2	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=122|end_char=127	
+3	,	,	PUNCT	_	_	15	punct	_	start_char=127|end_char=128	
+4	что	что	SCONJ	_	_	15	mark	_	start_char=129|end_char=132	
+5	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	det	_	start_char=133|end_char=136	
+6	признание	признание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=137|end_char=146	
+7	–	–	PUNCT	_	_	13	punct	_	start_char=147|end_char=148	
+8	а	а	CCONJ	_	_	13	cc	_	start_char=149|end_char=150	
+9	,	,	PUNCT	_	_	8	punct	_	start_char=150|end_char=151	
+10	безусловно	безусловно	ADV	_	Degree=Pos	13	parataxis	_	start_char=152|end_char=162	
+11	,	,	PUNCT	_	_	10	punct	_	start_char=162|end_char=163	
+12	признание	признание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	start_char=164|end_char=173	
+13	состоялось	состояться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	ccomp	_	start_char=174|end_char=184	
+14	–	–	PUNCT	_	_	15	punct	_	start_char=185|end_char=186	
+15	пришло	прийти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=187|end_char=193	
+16	не	не	PART	_	_	17	advmod	_	start_char=194|end_char=196	
+17	сразу	сразу	ADV	_	Degree=Pos	15	advmod	_	start_char=197|end_char=202	
+18	.	.	PUNCT	_	_	2	punct	_	start_char=202|end_char=203	
+
+#text = В результате настойчивости , таланта его организаторов , всемерной поддержки государства МАКС действительно вышел на высокий уровень , стал ожидаемым событием для любителей аэрокосмической техники . 
+#par_id = 3
+#sent_id = 4
+#speaker = В.Путин
+1	В	в	ADP	_	_	2	case	_	start_char=204|end_char=205	
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	start_char=206|end_char=216	
+3	настойчивости	настойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=217|end_char=230	
+4	,	,	PUNCT	_	_	5	punct	_	start_char=230|end_char=231	
+5	таланта	талант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	start_char=232|end_char=239	
+6	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	7	nmod	_	start_char=240|end_char=243	
+7	организаторов	организатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=244|end_char=257	
+8	,	,	PUNCT	_	_	10	punct	_	start_char=257|end_char=258	
+9	всемерной	всемерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=259|end_char=268	
+10	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	start_char=269|end_char=278	
+11	государства	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=279|end_char=290	
+12	МАКС	МАКС	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=291|end_char=295	
+13	действительно	действительно	ADV	_	Degree=Pos	14	advmod	_	start_char=296|end_char=309	
+14	вышел	выйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=310|end_char=315	
+15	на	на	ADP	_	_	17	case	_	start_char=316|end_char=318	
+16	высокий	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=319|end_char=326	
+17	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=327|end_char=334	
+18	,	,	PUNCT	_	_	19	punct	_	start_char=334|end_char=335	
+19	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	conj	_	start_char=336|end_char=340	
+20	ожидаемым	ожидать	VERB	_	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	21	amod	_	start_char=341|end_char=350	
+21	событием	событие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	start_char=351|end_char=359	
+22	для	для	ADP	_	_	23	case	_	start_char=360|end_char=363	
+23	любителей	любитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=364|end_char=373	
+24	аэрокосмической	аэрокосмический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=374|end_char=389	
+25	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	start_char=390|end_char=397	
+26	.	.	PUNCT	_	_	14	punct	_	start_char=397|end_char=398	
+
+#text = Развитие авиации и освоение космоса всегда интересовали российское общество . 
+#par_id = 4
+#sent_id = 1
+#speaker = В.Путин
+1	Развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=4|end_char=12	
+2	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=13|end_char=20	
+3	и	и	CCONJ	_	_	4	cc	_	start_char=21|end_char=22	
+4	освоение	освоение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=23|end_char=31	
+5	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=32|end_char=39	
+6	всегда	всегда	ADV	_	Degree=Pos	7	advmod	_	start_char=40|end_char=46	
+7	интересовали	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=47|end_char=59	
+8	российское	российский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=60|end_char=70	
+9	общество	общество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=71|end_char=79	
+10	.	.	PUNCT	_	_	7	punct	_	start_char=79|end_char=80	
+
+#text = И сразу можно сказать – это значимая часть нашей общей культуры , а история отечественной космонавтики и авиастроения – предмет общенациональной гордости , и по праву , как и величайшие достижения таких выдающихся конструкторов , как Королёв , Поликарпов , Сухой , Туполев , Ильюшин . 
+#par_id = 4
+#sent_id = 2
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	3	cc	_	start_char=81|end_char=82	
+2	сразу	сразу	ADV	_	Degree=Pos	3	advmod	_	start_char=83|end_char=88	
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	start_char=89|end_char=94	
+4	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=95|end_char=102	
+5	–	–	PUNCT	_	_	8	punct	_	start_char=103|end_char=104	
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=105|end_char=108	
+7	значимая	значимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=109|end_char=117	
+8	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	obl	_	start_char=118|end_char=123	
+9	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	det	_	start_char=124|end_char=129	
+10	общей	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=130|end_char=135	
+11	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=136|end_char=144	
+12	,	,	PUNCT	_	_	20	punct	_	start_char=144|end_char=145	
+13	а	а	CCONJ	_	_	20	cc	_	start_char=146|end_char=147	
+14	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	start_char=148|end_char=155	
+15	отечественной	отечественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=156|end_char=169	
+16	космонавтики	космонавтика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=170|end_char=182	
+17	и	и	CCONJ	_	_	18	cc	_	start_char=183|end_char=184	
+18	авиастроения	авиастроение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	conj	_	start_char=185|end_char=197	
+19	–	–	PUNCT	_	_	20	punct	_	start_char=198|end_char=199	
+20	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	start_char=200|end_char=207	
+21	общенациональной	общенациональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=208|end_char=224	
+22	гордости	гордость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=225|end_char=233	
+23	,	,	PUNCT	_	_	26	punct	_	start_char=233|end_char=234	
+24	и	и	CCONJ	_	_	26	cc	_	start_char=235|end_char=236	
+25	по	по	ADP	_	_	26	case	_	start_char=237|end_char=239	
+26	праву	право	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	start_char=240|end_char=245	
+27	,	,	PUNCT	_	_	31	punct	_	start_char=245|end_char=246	
+28	как	как	SCONJ	_	_	31	mark	_	start_char=247|end_char=250	
+29	и	и	PART	_	_	31	advmod	_	start_char=251|end_char=252	
+30	величайшие	величайший	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	31	amod	_	start_char=253|end_char=263	
+31	достижения	достижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	26	acl	_	start_char=264|end_char=274	
+32	таких	такой	DET	_	Case=Gen|Number=Plur	34	det	_	start_char=275|end_char=280	
+33	выдающихся	выдающийся	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	start_char=281|end_char=291	
+34	конструкторов	конструктор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	start_char=292|end_char=305	
+35	,	,	PUNCT	_	_	37	punct	_	start_char=305|end_char=306	
+36	как	как	SCONJ	_	_	37	mark	_	start_char=307|end_char=310	
+37	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	obl	_	start_char=311|end_char=318	
+38	,	,	PUNCT	_	_	39	punct	_	start_char=318|end_char=319	
+39	Поликарпов	Поликарпов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	conj	_	start_char=320|end_char=330	
+40	,	,	PUNCT	_	_	41	punct	_	start_char=330|end_char=331	
+41	Сухой	Суха	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	conj	_	start_char=332|end_char=337	
+42	,	,	PUNCT	_	_	43	punct	_	start_char=337|end_char=338	
+43	Туполев	Туполев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	conj	_	start_char=339|end_char=346	
+44	,	,	PUNCT	_	_	45	punct	_	start_char=346|end_char=347	
+45	Ильюшин	Ильюшин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	conj	_	start_char=348|end_char=355	
+46	.	.	PUNCT	_	_	3	punct	_	start_char=355|end_char=356	
+
+#text = Наша сегодняшняя задача – продолжать заложенные ими традиции . 
+#par_id = 4
+#sent_id = 3
+#speaker = В.Путин
+1	Наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	det	_	start_char=357|end_char=361	
+2	сегодняшняя	сегодняшний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=362|end_char=373	
+3	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=374|end_char=380	
+4	–	–	PUNCT	_	_	5	punct	_	start_char=381|end_char=382	
+5	продолжать	продолжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=383|end_char=393	
+6	заложенные	заложить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=394|end_char=404	
+7	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	6	obl	_	start_char=405|end_char=408	
+8	традиции	традиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=409|end_char=417	
+9	.	.	PUNCT	_	_	3	punct	_	start_char=417|end_char=418	
+
+#text = В ближайшие несколько дней здесь , в подмосковном Жуковском , будет развёрнута обширная экспозиция . 
+#par_id = 5
+#sent_id = 1
+#speaker = В.Путин
+1	В	в	ADP	_	_	4	case	_	start_char=4|end_char=5	
+2	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=6|end_char=15	
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	start_char=16|end_char=25	
+4	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	start_char=26|end_char=30	
+5	здесь	здесь	ADV	_	Degree=Pos	12	advmod	_	start_char=31|end_char=36	
+6	,	,	PUNCT	_	_	9	punct	_	start_char=36|end_char=37	
+7	в	в	ADP	_	_	9	case	_	start_char=38|end_char=39	
+8	подмосковном	подмосковный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=40|end_char=52	
+9	Жуковском	Жуковский	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	start_char=53|end_char=62	
+10	,	,	PUNCT	_	_	5	punct	_	start_char=62|end_char=63	
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=64|end_char=69	
+12	развёрнута	развернуть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=70|end_char=80	
+13	обширная	обширный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=81|end_char=89	
+14	экспозиция	экспозиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	start_char=90|end_char=100	
+15	.	.	PUNCT	_	_	12	punct	_	start_char=100|end_char=101	
+
+#text = Свои разработки представят ведущие российские и иностранные компании , пройдут конференции и семинары по актуальным вопросам развития отрасли , запланирован целый ряд переговоров и подписание крупных контрактов . 
+#par_id = 5
+#sent_id = 2
+#speaker = В.Путин
+1	Свои	свой	DET	_	Case=Acc|Number=Plur	2	det	_	start_char=102|end_char=106	
+2	разработки	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=107|end_char=117	
+3	представят	представить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=118|end_char=128	
+4	ведущие	ведущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=129|end_char=136	
+5	российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=137|end_char=147	
+6	и	и	CCONJ	_	_	7	cc	_	start_char=148|end_char=149	
+7	иностранные	иностранный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	conj	_	start_char=150|end_char=161	
+8	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=162|end_char=170	
+9	,	,	PUNCT	_	_	10	punct	_	start_char=170|end_char=171	
+10	пройдут	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	start_char=172|end_char=179	
+11	конференции	конференция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=180|end_char=191	
+12	и	и	CCONJ	_	_	13	cc	_	start_char=192|end_char=193	
+13	семинары	семинар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	conj	_	start_char=194|end_char=202	
+14	по	по	ADP	_	_	16	case	_	start_char=203|end_char=205	
+15	актуальным	актуальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	16	amod	_	start_char=206|end_char=216	
+16	вопросам	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	start_char=217|end_char=225	
+17	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	start_char=226|end_char=234	
+18	отрасли	отрасль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=235|end_char=242	
+19	,	,	PUNCT	_	_	20	punct	_	start_char=242|end_char=243	
+20	запланирован	планировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=244|end_char=256	
+21	целый	целый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=257|end_char=262	
+22	ряд	ряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	_	start_char=263|end_char=266	
+23	переговоров	переговоры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	start_char=267|end_char=278	
+24	и	и	CCONJ	_	_	25	cc	_	start_char=279|end_char=280	
+25	подписание	подписание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	conj	_	start_char=281|end_char=291	
+26	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	start_char=292|end_char=299	
+27	контрактов	контракт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	start_char=300|end_char=310	
+28	.	.	PUNCT	_	_	3	punct	_	start_char=310|end_char=311	
+
+#text = Рассчитываем , что всё это будет способствовать укреплению производственной кооперации , росту международного сотрудничества , продвижению российской продукции на внутреннем и зарубежном рынках . 
+#par_id = 6
+#sent_id = 1
+#speaker = В.Путин
+1	Рассчитываем	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=16	
+2	,	,	PUNCT	_	_	7	punct	_	start_char=16|end_char=17	
+3	что	что	SCONJ	_	_	7	mark	_	start_char=18|end_char=21	
+4	всё	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	5	det	_	start_char=22|end_char=25	
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=26|end_char=29	
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=30|end_char=35	
+7	способствовать	способствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	ccomp	_	start_char=36|end_char=50	
+8	укреплению	укрепление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	iobj	_	start_char=51|end_char=61	
+9	производственной	производственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=62|end_char=78	
+10	кооперации	кооперация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=79|end_char=89	
+11	,	,	PUNCT	_	_	12	punct	_	start_char=89|end_char=90	
+12	росту	рост	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	conj	_	start_char=91|end_char=96	
+13	международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=97|end_char=111	
+14	сотрудничества	сотрудничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=112|end_char=126	
+15	,	,	PUNCT	_	_	16	punct	_	start_char=126|end_char=127	
+16	продвижению	продвижение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	conj	_	start_char=128|end_char=139	
+17	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=140|end_char=150	
+18	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=151|end_char=160	
+19	на	на	ADP	_	_	23	case	_	start_char=161|end_char=163	
+20	внутреннем	внутренний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=164|end_char=174	
+21	и	и	CCONJ	_	_	22	cc	_	start_char=175|end_char=176	
+22	зарубежном	зарубежный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	start_char=177|end_char=187	
+23	рынках	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	start_char=188|end_char=194	
+24	.	.	PUNCT	_	_	1	punct	_	start_char=194|end_char=195	
+
+#text = У нас есть что предложить . 
+#par_id = 6
+#sent_id = 2
+#speaker = В.Путин
+1	У	у	ADP	_	_	2	case	_	start_char=196|end_char=197	
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	3	obl	_	start_char=198|end_char=201	
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=202|end_char=206	
+4	что	что	PRON	_	Case=Acc	5	obj	_	start_char=207|end_char=210	
+5	предложить	предложить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=211|end_char=221	
+6	.	.	PUNCT	_	_	3	punct	_	start_char=221|end_char=222	
+
+#text = За последние годы аэрокосмическому комплексу была оказана весомая государственная поддержка : проведена серьёзная модернизация мощностей , реализуются проекты по созданию новой , конкурентоспособной гражданской техники , в их числе вертолёт Ка - 62 и магистральный лайнер МС - 21. 
+#par_id = 7
+#sent_id = 1
+#speaker = В.Путин
+1	За	за	ADP	_	_	3	case	_	start_char=4|end_char=6	
+2	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=7|end_char=16	
+3	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	start_char=17|end_char=21	
+4	аэрокосмическому	аэрокосмический	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=22|end_char=38	
+5	комплексу	комплекс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	start_char=39|end_char=48	
+6	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	start_char=49|end_char=53	
+7	оказана	оказать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=54|end_char=61	
+8	весомая	весомый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=62|end_char=69	
+9	государственная	государственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=70|end_char=85	
+10	поддержка	поддержка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	start_char=86|end_char=95	
+11	:	:	PUNCT	_	_	12	punct	_	start_char=95|end_char=96	
+12	проведена	провести	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	parataxis	_	start_char=97|end_char=106	
+13	серьёзная	серьезный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=107|end_char=116	
+14	модернизация	модернизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	start_char=117|end_char=129	
+15	мощностей	мощность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	start_char=130|end_char=139	
+16	,	,	PUNCT	_	_	17	punct	_	start_char=139|end_char=140	
+17	реализуются	реализоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	start_char=141|end_char=152	
+18	проекты	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=153|end_char=160	
+19	по	по	ADP	_	_	20	case	_	start_char=161|end_char=163	
+20	созданию	создание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	start_char=164|end_char=172	
+21	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=173|end_char=178	
+22	,	,	PUNCT	_	_	23	punct	_	start_char=178|end_char=179	
+23	конкурентоспособной	конкурентоспособный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	conj	_	start_char=180|end_char=199	
+24	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=200|end_char=211	
+25	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=212|end_char=219	
+26	,	,	PUNCT	_	_	30	punct	_	start_char=219|end_char=220	
+27	в	в	ADP	_	_	29	case	_	start_char=221|end_char=222	
+28	их	их	DET	_	_	29	det	_	start_char=223|end_char=225	
+29	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	nmod	_	start_char=226|end_char=231	
+30	вертолёт	вертолёт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	start_char=232|end_char=240	
+31	Ка	Ка	PROPN	_	Animacy=Inan|Case=Nom|Number=Sing	30	appos	_	start_char=241|end_char=243	
+32	-	-	PUNCT	_	_	33	punct	_	start_char=243|end_char=244	
+33	62	62	NUM	_	_	31	nummod	_	start_char=244|end_char=246	
+34	и	и	CCONJ	_	_	36	cc	_	start_char=247|end_char=248	
+35	магистральный	магистральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	start_char=249|end_char=262	
+36	лайнер	лайнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	conj	_	start_char=263|end_char=269	
+37	МС	МС	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	appos	_	start_char=270|end_char=272	
+38	-	-	PUNCT	_	_	39	punct	_	start_char=272|end_char=273	
+39	21.	21.	NUM	_	_	37	nummod	_	start_char=273|end_char=276	
+
+#text = Отмечу также , что у нас по-прежнему сильные позиции в военном авиастроении и ракетно-космической сфере . 
+#par_id = 8
+#sent_id = 1
+#speaker = В.Путин
+1	Отмечу	отметить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=10	
+2	также	также	ADV	_	Degree=Pos	1	advmod	_	start_char=11|end_char=16	
+3	,	,	PUNCT	_	_	6	punct	_	start_char=16|end_char=17	
+4	что	что	SCONJ	_	_	6	mark	_	start_char=18|end_char=21	
+5	у	у	ADP	_	_	6	case	_	start_char=22|end_char=23	
+6	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	1	ccomp	_	start_char=24|end_char=27	
+7	по-прежнему	по-прежнему	ADV	_	Degree=Pos	8	obl	_	start_char=28|end_char=39	
+8	сильные	сильный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=40|end_char=47	
+9	позиции	позиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=48|end_char=55	
+10	в	в	ADP	_	_	12	case	_	start_char=56|end_char=57	
+11	военном	военный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=58|end_char=65	
+12	авиастроении	авиастроение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	start_char=66|end_char=78	
+13	и	и	CCONJ	_	_	15	cc	_	start_char=79|end_char=80	
+14	ракетно-космической	ракетно-космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=81|end_char=100	
+15	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	conj	_	start_char=101|end_char=106	
+16	.	.	PUNCT	_	_	1	punct	_	start_char=106|end_char=107	
+
+#text = Потенциал этих отраслей будет укрепляться и в дальнейшем . 
+#par_id = 8
+#sent_id = 2
+#speaker = В.Путин
+1	Потенциал	потенциал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=108|end_char=117	
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	det	_	start_char=118|end_char=122	
+3	отраслей	отрасль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	start_char=123|end_char=131	
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=132|end_char=137	
+5	укрепляться	укрепляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	start_char=138|end_char=149	
+6	и	и	PART	_	_	8	advmod	_	start_char=150|end_char=151	
+7	в	в	ADP	_	_	8	case	_	start_char=152|end_char=153	
+8	дальнейшем	дальнейший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=154|end_char=164	
+9	.	.	PUNCT	_	_	5	punct	_	start_char=164|end_char=165	
+
+#text = И конечно , несколько слов об одной из самых зрелищных традиций МАКСА – насыщенной лётной программе . 
+#par_id = 9
+#sent_id = 1
+#speaker = В.Путин
+1	И	и	CCONJ	_	_	5	cc	_	start_char=4|end_char=5	
+2	конечно	конечно	ADV	_	Degree=Pos	5	parataxis	_	start_char=6|end_char=13	
+3	,	,	PUNCT	_	_	2	punct	_	start_char=13|end_char=14	
+4	несколько	несколько	NUM	_	Case=Nom	5	nummod:gov	_	start_char=15|end_char=24	
+5	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	root	_	start_char=25|end_char=29	
+6	об	о	ADP	_	_	7	case	_	start_char=30|end_char=32	
+7	одной	один	NUM	_	Case=Loc|Gender=Fem	5	nummod	_	start_char=33|end_char=38	
+8	из	из	ADP	_	_	11	case	_	start_char=39|end_char=41	
+9	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=42|end_char=47	
+10	зрелищных	зрелищный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=48|end_char=57	
+11	традиций	традиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=58|end_char=66	
+12	МАКСА	МАКСА	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=67|end_char=72	
+13	–	–	PUNCT	_	_	16	case	_	start_char=73|end_char=74	
+14	насыщенной	насытить	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	start_char=75|end_char=85	
+15	лётной	летный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=86|end_char=92	
+16	программе	программа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	start_char=93|end_char=102	
+17	.	.	PUNCT	_	_	5	punct	_	start_char=102|end_char=103	
+
+#text = В ней участвуют лучшие пилотажные группы страны и мира , чьё мастерство вызывает уважение и , без всякого преувеличения , восхищение . 
+#par_id = 9
+#sent_id = 2
+#speaker = В.Путин
+1	В	в	ADP	_	_	2	case	_	start_char=104|end_char=105	
+2	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	3	obl	_	start_char=106|end_char=109	
+3	участвуют	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=110|end_char=119	
+4	лучшие	лучший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=120|end_char=126	
+5	пилотажные	пилотажный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=127|end_char=137	
+6	группы	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=138|end_char=144	
+7	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=145|end_char=151	
+8	и	и	CCONJ	_	_	9	cc	_	start_char=152|end_char=153	
+9	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	start_char=154|end_char=158	
+10	,	,	PUNCT	_	_	13	punct	_	start_char=158|end_char=159	
+11	чьё	чей	DET	_	Case=Nom|Gender=Neut|Number=Sing	12	det	_	start_char=160|end_char=163	
+12	мастерство	мастерство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=164|end_char=174	
+13	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=175|end_char=183	
+14	уважение	уважение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=184|end_char=192	
+15	и	и	CCONJ	_	_	21	cc	_	start_char=193|end_char=194	
+16	,	,	PUNCT	_	_	15	punct	_	start_char=194|end_char=195	
+17	без	без	ADP	_	_	19	case	_	start_char=196|end_char=199	
+18	всякого	всякий	DET	_	Case=Gen|Gender=Neut|Number=Sing	19	det	_	start_char=200|end_char=207	
+19	преувеличения	преувеличение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	parataxis	_	start_char=208|end_char=221	
+20	,	,	PUNCT	_	_	19	punct	_	start_char=221|end_char=222	
+21	восхищение	восхищение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	start_char=223|end_char=233	
+22	.	.	PUNCT	_	_	3	punct	_	start_char=233|end_char=234	
+
+#text = Поздравляю Международный авиационно - космический салон с юбилеем . 
+#par_id = 10
+#sent_id = 1
+#speaker = В.Путин
+1	Поздравляю	поздравлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=14	
+2	Международный	международный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=15|end_char=28	
+3	авиационно	авиационный	ADJ	_	Degree=Pos	5	compound	_	start_char=29|end_char=39	
+4	-	-	PUNCT	_	_	3	punct	_	start_char=39|end_char=40	
+5	космический	космический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=40|end_char=51	
+6	салон	салон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=52|end_char=57	
+7	с	с	ADP	_	_	8	case	_	start_char=58|end_char=59	
+8	юбилеем	юбилей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	start_char=60|end_char=67	
+9	.	.	PUNCT	_	_	1	punct	_	start_char=67|end_char=68	
+
+#text = Желаю участникам плодотворной работы , а гостям – хорошей погоды и ярких впечатлений . 
+#par_id = 10
+#sent_id = 2
+#speaker = В.Путин
+1	Желаю	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=69|end_char=74	
+2	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	start_char=75|end_char=85	
+3	плодотворной	плодотворный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=86|end_char=98	
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=99|end_char=105	
+5	,	,	PUNCT	_	_	7	punct	_	start_char=105|end_char=106	
+6	а	а	CCONJ	_	_	7	cc	_	start_char=107|end_char=108	
+7	гостям	гость	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	conj	_	start_char=109|end_char=115	
+8	–	–	PUNCT	_	_	10	punct	_	start_char=116|end_char=117	
+9	хорошей	хороший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=118|end_char=125	
+10	погоды	погода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=126|end_char=132	
+11	и	и	CCONJ	_	_	13	cc	_	start_char=133|end_char=134	
+12	ярких	яркий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=135|end_char=140	
+13	впечатлений	впечатление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	conj	_	start_char=141|end_char=152	
+14	.	.	PUNCT	_	_	1	punct	_	start_char=152|end_char=153	
+
+#text = Благодарю вас за внимание . 
+#par_id = 11
+#sent_id = 1
+#speaker = В.Путин
+1	Благодарю	благодать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=13	
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	1	obj	_	start_char=14|end_char=17	
+3	за	за	ADP	_	_	4	case	_	start_char=18|end_char=20	
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=21|end_char=29	
+5	.	.	PUNCT	_	_	1	punct	_	start_char=29|end_char=30	
+
